@@ -1,0 +1,29 @@
+import { Component, OnInit } from '@angular/core';
+import {ActivatedRoute} from "@angular/router";
+import {Observable} from "rxjs/Observable";
+import {Athlete} from "../shared/model/athlete";
+import {ResultsService} from "../shared/results/results.service";
+import {Post} from "../shared/model/result";
+import {ResultsPaginationService} from "../shared/results/results-pagination.service";
+
+@Component({
+  selector: 'app-athlete-profile',
+  templateUrl: './athlete-profile.component.html',
+  styleUrls: ['./athlete-profile.component.css'],
+  providers: [ResultsPaginationService]
+})
+export class AthleteProfileComponent implements OnInit {
+
+  public athlete$: Observable<Athlete>;
+  public results$: Observable<Post[]> = this.resultsPaginationService.results$;
+  private athletename: string;
+  constructor(private route: ActivatedRoute,
+              private resultsService: ResultsService,
+              private resultsPaginationService: ResultsPaginationService) { }
+
+  ngOnInit() {
+   this.athlete$ = this.route.params
+      .switchMap(params => this.resultsService.findAthleteByAthletename(params['athletes']))
+      .publishReplay().refCount();
+  }
+}
