@@ -11,10 +11,6 @@ export class AuthService {
     this.athlete = afAuth.authState;
   }
 
-  loginWithGoogle() {
-    this.afAuth.auth.signInWithPopup(new firebase.auth.GoogleAuthProvider());
-  }
-
   login(email, password): Observable<any> {
     return Observable.fromPromise(
       this.afAuth.auth.signInWithEmailAndPassword(email, password)
