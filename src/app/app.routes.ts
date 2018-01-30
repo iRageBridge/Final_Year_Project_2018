@@ -4,16 +4,17 @@ import { AthleteProfileComponent } from "./athlete-profile/athlete-profile.compo
 import { LoginComponent } from './login/login.component';
 
 export const ROUTES: Route[] =[
-    {path: 'results', 
-    children: [
-        {path: '', component: ResultsContainerComponent},
-      ]
+    {
+      path: 'results', 
+      children: [{
+        path: '', component: ResultsContainerComponent
+        },]
     },
     {
-        path: 'athletes',
-        children: [
-        {path: ':name', component: AthleteProfileComponent},
-      ]
+      path: 'athletes',
+      children: [{
+        path: ':name', component: AthleteProfileComponent
+      },]
     },
     {path: 'login', component: LoginComponent},
     {path: '', redirectTo: 'results', pathMatch: 'full'}

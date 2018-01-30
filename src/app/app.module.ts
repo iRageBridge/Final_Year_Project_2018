@@ -16,6 +16,7 @@ import { ROUTES } from "./app.routes";
 import { AthleteProfileComponent } from './athlete-profile/athlete-profile.component';
 import { LoginComponent } from './login/login.component';
 import { AuthService } from "./shared/auth/auth.service";
+import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { AuthService } from "./shared/auth/auth.service";
   ],
   entryComponents: [SinglePostComponent],
   imports: [
+    InfiniteScrollModule,
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
