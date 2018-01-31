@@ -1,7 +1,7 @@
 <div>
-    <h1> IrishPF Database</h1>
-    <h3>Athlete Search:</h3>
-    <input type="text" (keyup)="search($event)" id="search" placeholder="Search for..." required>
+    <h1>IrishPF Database</h1>
+    <h3><input type="text" (keyup)="search($event)" id="search" placeholder="Search Athletes..." required>
+    </h3>
 </div>
 <div *ngFor="let result of results">
     <h4><a [href]="'/athletes/' + result.name.replace(' ', '').toLowerCase()">{{result?.name}}</a></h4>
@@ -14,8 +14,6 @@
 <div *ngIf="results?.length < 1">
     <hr/>
     <p>
-        No results found.
+        Loading Results...
     </p>
 </div>
-
-<!--<app-single-post [resultsList]="results$"></app-single-post>-->

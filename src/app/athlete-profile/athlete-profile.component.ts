@@ -4,20 +4,16 @@ import {Observable} from "rxjs/Observable";
 import {Athlete} from "../shared/model/athlete";
 import {ResultsService} from "../shared/results/results.service";
 import {Result} from "../shared/model/result";
-import {ResultsPaginationService} from "../shared/results/results-pagination.service";
 
 @Component({
   selector: 'app-athlete-profile',
   templateUrl: './athlete-profile.component.html',
   styleUrls: ['./athlete-profile.component.css'],
-  providers: [ResultsPaginationService]
 })
 export class AthleteProfileComponent implements OnInit {
   public athlete$: Observable<Athlete>;
-  public results$: Observable<Result[]> = this.resultsPaginationService.results$;
   constructor(private route: ActivatedRoute,
-              private resultsService: ResultsService,
-              private resultsPaginationService: ResultsPaginationService) { }
+              private resultsService: ResultsService){}
 
   ngOnInit() {
    this.athlete$ = this.route.params

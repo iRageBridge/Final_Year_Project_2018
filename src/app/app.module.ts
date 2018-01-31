@@ -5,7 +5,6 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { ResultsContainerComponent } from './results-container/results-container.component';
 import { NavigationComponent } from './navigation/navigation.component';
-import { SingleResultComponent } from './results-container/single-result/single-result.component';
 import { ResultsService } from './shared/results/results.service';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database-deprecated';
@@ -24,11 +23,10 @@ import { BehaviorSubject } from "rxjs/BehaviorSubject";
     AppComponent,
     ResultsContainerComponent,
     NavigationComponent,
-    SingleResultComponent,
     AthleteProfileComponent,
     LoginComponent
   ],
-  entryComponents: [SingleResultComponent],
+  entryComponents: [ResultsContainerComponent],
   imports: [
     InfiniteScrollModule,
     BrowserModule,

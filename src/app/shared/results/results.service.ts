@@ -12,11 +12,6 @@ import "rxjs/add/observable/zip";
 @Injectable()
 export class ResultsService {
   constructor(private af: AngularFireDatabase) { }
-  
-  /*getAllResults(query: FirebaseListFactoryOpts ={}): Observable<Result[]>{
-     return this.af.list('/results', query)
-      .map(Result.fromJsonList)
-  }*/
 
   getAllResults(start,end):FirebaseListObservable<any>{
     return this.af.list('/results',{
@@ -54,7 +49,7 @@ export class ResultsService {
     .flatMap(fbObj => Observable.combineLatest(fbObj));
   }
 
-  getResultsByAthleteKey(athleteKey:string, limit = 20){
+  getResultsByAthleteKey(athleteKey:string, limit = 5){
     const firstPageResultKeys$ = this.findResultKeysPerAthlete(athleteKey, {query: {
       limitToFirst: 3
     }});
