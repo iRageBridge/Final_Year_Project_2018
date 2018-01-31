@@ -28,7 +28,7 @@ export class ResultsService {
     });
   }
 
-  findPostByKey(key): Observable<Result>{
+  findResultByKey(key): Observable<Result>{
     return this.af.object(`/results/${key}`);
   }
 
@@ -42,22 +42,22 @@ export class ResultsService {
       .do(athlete=>console.log('athlete: ', athlete));
   }
 
-  findPostKeysPerAthlete(athleteKey:string,
+  findResultKeysPerAthlete(athleteKey:string,
                       query: FirebaseListFactoryOpts): Observable<string[]> {
     return this.af.list(`resultsPerAthlete/${athleteKey}`, query)
     .map(postKeysPerAthlete => postKeysPerAthlete.map(post => post.key$));
   }
 
-  findResultsForPostKeys(postKeys$: Observable<string[]>):Observable<Result[]> {
+  findResultsForResultKeys(postKeys$: Observable<string[]>):Observable<Result[]> {
     return postKeys$
-    .map(postKeys$ => postKeys$.map(key => this.findPostByKey(key)))
+    .map(postKeys$ => postKeys$.map(key => this.findResultByKey(key)))
     .flatMap(fbObj => Observable.combineLatest(fbObj));
   }
 
   getResultsByAthleteKey(athleteKey:string, limit = 20){
-    const firstPagePostKeys$ = this.findPostKeysPerAthlete(athleteKey, {query: {
+    const firstPageResultKeys$ = this.findResultKeysPerAthlete(athleteKey, {query: {
       limitToFirst: 3
     }});
-    return this.findResultsForPostKeys(firstPagePostKeys$);
+    return this.findResultsForResultKeys(firstPageResultKeys$);
   }
 }

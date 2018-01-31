@@ -11,29 +11,29 @@ import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 })
 export class ResultsContainerComponent implements OnInit {
   
-  athletes;
+  results;
   startAt: BehaviorSubject<string|null> = new BehaviorSubject("");
   endAt: BehaviorSubject<string|null> = new BehaviorSubject("\uf8ff");
-
+  
   lastKeypress: number = 0;
 
-  private resultsLimit = 20;
-  results$;
+  //results$;
   constructor(private resultsService: ResultsService) { }
 
   ngOnInit() {
     /*this.results$ = this.resultsService.getAllResults()
       .publishReplay().refCount();*/
-      
+
       this.resultsService.getAllResults(this.startAt, this.endAt)
-                          .subscribe(results => this.athletes = results)
+                          .subscribe(results => this.results = results)
   }
 
-  search($event){
-    if($event.timeStamp - this.lastKeypress > 200){
-      let q = $event.target.value
+  search($event) {
+    if ($event.timeStamp - this.lastKeypress > 200) {
+      const q = $event.target.value
       this.startAt.next(q)
       this.endAt.next(q+"\uf8ff")
+      console.log(q);
     }
     this.lastKeypress = $event.timeStamp
   }

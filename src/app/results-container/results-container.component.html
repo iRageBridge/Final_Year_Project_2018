@@ -1,13 +1,17 @@
 <div>
-    <input type="text" (keydown)="search($event)" id="search" placeholder="Search for..." required>
+    <h1> IrishPF Database</h1>
+    <h3>Athlete Search:</h3>
+    <input type="text" (keyup)="search($event)" id="search" placeholder="Search for..." required>
 </div>
-<div *ngFor="let athlete of athletes">
-    <h4>{{athlete?.name}}</h4>
-    Squat: {{athlete?.squat}}kg | Bench: {{athlete?.bench}}kg | Deadlift: {{athlete?.deadlift}}kg | Total: {{athlete?.total}}kg | Bodyweight{{athlete?.bodyweight}}kg | Wilks: {{athlete?.wilks}} |  
+<div *ngFor="let result of results">
+    <h4><a [href]="'/athletes/' + result.name.replace(' ', '').toLowerCase()">{{result?.name}}</a></h4>
+    <p>
+        Squat: {{result?.squat}}kg | Bench: {{result?.bench}}kg | Deadlift: {{result?.deadlift}}kg | Total: {{result?.total}}kg | Bodyweight: {{result?.bodyweight}}kg | Wilks: {{result.wilks}} 
+    </p>
     <hr/>
 </div>
 
-<div *ngIf="athletes?.length < 1">
+<div *ngIf="results?.length < 1">
     <hr/>
     <p>
         No results found.
