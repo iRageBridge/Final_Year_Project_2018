@@ -17,6 +17,7 @@ import { AthleteProfileComponent } from './athlete-profile/athlete-profile.compo
 import { LoginComponent } from './login/login.component';
 import { AuthService } from "./shared/auth/auth.service";
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
+import { BehaviorSubject } from "rxjs/BehaviorSubject";
 
 @NgModule({
   declarations: [

@@ -5,30 +5,27 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 import { Result } from '../../shared/model/result';
 import { FirebaseListFactoryOpts } from 'angularfire2/database-deprecated/interfaces';
 import { Athlete } from '../model/athlete';
+import { BehaviorSubject } from "rxjs/BehaviorSubject";
+import "rxjs/add/operator/switchMap";
+import "rxjs/add/observable/zip";
 
 @Injectable()
 export class ResultsService {
   constructor(private af: AngularFireDatabase) { }
   
-  getAllResults(query: FirebaseListFactoryOpts ={}): Observable<Result[]>{
+  /*getAllResults(query: FirebaseListFactoryOpts ={}): Observable<Result[]>{
      return this.af.list('/results', query)
       .map(Result.fromJsonList)
-  }
+  }*/
 
-  loadNextPage(startAt: string, limit = 20){
-    return this.getAllResults({query: {
-      orderByKey: true,
-      limitToFirst: 20,
-      startAt
-    }})
-  }
-
-  loadPreviousPage(startAt: string, limit = 20){
-    return this.getAllResults({query: {
-      orderByKey: true,
-      limitToFirst: 20,
-      startAt
-    }})
+  getAllResults(start,end):FirebaseListObservable<any>{
+    return this.af.list('/results',{
+      query: {
+        orderByChild: 'name',
+        startAt: start,
+        endAt: end
+      }
+    });
   }
 
   findPostByKey(key): Observable<Result>{

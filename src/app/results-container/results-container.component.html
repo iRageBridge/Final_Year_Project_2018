@@ -1,8 +1,17 @@
 <div>
-    <form class="form-wrapper">
-        <input type="text" id="search" placeholder="Search for..." required>
-        <input type="submit" value="go" id="submit">
-    </form>
+    <input type="text" (keydown)="search($event)" id="search" placeholder="Search for..." required>
+</div>
+<div *ngFor="let athlete of athletes">
+    <h4>{{athlete?.name}}</h4>
+    Squat: {{athlete?.squat}}kg | Bench: {{athlete?.bench}}kg | Deadlift: {{athlete?.deadlift}}kg | Total: {{athlete?.total}}kg | Bodyweight{{athlete?.bodyweight}}kg | Wilks: {{athlete?.wilks}} |  
+    <hr/>
 </div>
 
-<app-single-post [resultsList]="results$"></app-single-post>
+<div *ngIf="athletes?.length < 1">
+    <hr/>
+    <p>
+        No results found.
+    </p>
+</div>
+
+<!--<app-single-post [resultsList]="results$"></app-single-post>-->
