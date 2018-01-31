@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterContentInit, ViewChild, ViewContainerRef, ComponentFactoryResolver } from '@angular/core';
-import { SinglePostComponent } from './single-result/single-result.component';
+import { SingleResultComponent } from './single-result/single-result.component';
 import { ResultsService } from '../shared/results/results.service';
 
 @Component({
@@ -14,9 +14,7 @@ export class ResultsContainerComponent implements OnInit {
   constructor(private postService: ResultsService) { }
 
   ngOnInit() {
-    this.results$ = this.postService.getAllResults({query: {
-      limitToFirst: this.resultsLimit
-    }})
+    this.results$ = this.postService.getAllResults()
       .publishReplay().refCount();
   }
 

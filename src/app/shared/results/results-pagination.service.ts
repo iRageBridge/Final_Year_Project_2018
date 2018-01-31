@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import {ResultsService} from "./results.service";
 import {Observable} from "rxjs/Observable";
-import { Post } from "../model/result";
+import { Result } from "../model/result";
 import {BehaviorSubject} from "rxjs/BehaviorSubject";
 
 /*
@@ -39,11 +39,11 @@ export class ResultsPaginationService {
 
   private resultsLimit = 3;
   private athleteKey: string;
-  private lastPostKey: string;
-  private firstPostKey: string;
+  private lastResultKey: string;
+  private firstResultKey: string;
 
   private resultsSubject = new BehaviorSubject([INIT_POST]);
-  public results$: Observable<Post[]> = this.resultsSubject.asObservable();
+  public results$: Observable<Result[]> = this.resultsSubject.asObservable();
 
   constructor(private resultsService: ResultsService) { }
 }

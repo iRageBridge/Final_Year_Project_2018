@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { ResultsContainerComponent } from './results-container/results-container.component';
 import { NavigationComponent } from './navigation/navigation.component';
-import { SinglePostComponent } from './results-container/single-result/single-result.component';
+import { SingleResultComponent } from './results-container/single-result/single-result.component';
 import { ResultsService } from './shared/results/results.service';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database-deprecated';
@@ -23,11 +23,11 @@ import { InfiniteScrollModule } from 'ngx-infinite-scroll';
     AppComponent,
     ResultsContainerComponent,
     NavigationComponent,
-    SinglePostComponent,
+    SingleResultComponent,
     AthleteProfileComponent,
     LoginComponent
   ],
-  entryComponents: [SinglePostComponent],
+  entryComponents: [SingleResultComponent],
   imports: [
     InfiniteScrollModule,
     BrowserModule,

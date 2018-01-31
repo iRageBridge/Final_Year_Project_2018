@@ -2,18 +2,17 @@ import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database-deprecated';
-import { Post } from '../../shared/model/result';
+import { Result } from '../../shared/model/result';
 import { FirebaseListFactoryOpts } from 'angularfire2/database-deprecated/interfaces';
 import { Athlete } from '../model/athlete';
 
 @Injectable()
 export class ResultsService {
   constructor(private af: AngularFireDatabase) { }
-
-
-  getAllResults(query: FirebaseListFactoryOpts ={}): Observable<Post[]>{
+  
+  getAllResults(query: FirebaseListFactoryOpts ={}): Observable<Result[]>{
      return this.af.list('/results', query)
-      .map(Post.fromJsonList)
+      .map(Result.fromJsonList)
   }
 
   loadNextPage(startAt: string, limit = 20){
@@ -32,7 +31,7 @@ export class ResultsService {
     }})
   }
 
-  findPostByKey(key): Observable<Post>{
+  findPostByKey(key): Observable<Result>{
     return this.af.object(`/results/${key}`);
   }
 
@@ -52,7 +51,7 @@ export class ResultsService {
     .map(postKeysPerAthlete => postKeysPerAthlete.map(post => post.key$));
   }
 
-  findResultsForPostKeys(postKeys$: Observable<string[]>):Observable<Post[]> {
+  findResultsForPostKeys(postKeys$: Observable<string[]>):Observable<Result[]> {
     return postKeys$
     .map(postKeys$ => postKeys$.map(key => this.findPostByKey(key)))
     .flatMap(fbObj => Observable.combineLatest(fbObj));

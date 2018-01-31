@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SinglePostComponent } from './single-post.component';
+import { SingleResultComponent } from './single-result.component';
 
-describe('SinglePostComponent', () => {
-  let component: SinglePostComponent;
-  let fixture: ComponentFixture<SinglePostComponent>;
+describe('SingleResultComponent', () => {
+  let component: SingleResultComponent;
+  let fixture: ComponentFixture<SingleResultComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SinglePostComponent ]
+      declarations: [ SingleResultComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SinglePostComponent);
+    fixture = TestBed.createComponent(SingleResultComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -3,7 +3,7 @@ import {ActivatedRoute} from "@angular/router";
 import {Observable} from "rxjs/Observable";
 import {Athlete} from "../shared/model/athlete";
 import {ResultsService} from "../shared/results/results.service";
-import {Post} from "../shared/model/result";
+import {Result} from "../shared/model/result";
 import {ResultsPaginationService} from "../shared/results/results-pagination.service";
 
 @Component({
@@ -15,7 +15,7 @@ import {ResultsPaginationService} from "../shared/results/results-pagination.ser
 export class AthleteProfileComponent implements OnInit {
 
   public athlete$: Observable<Athlete>;
-  public results$: Observable<Post[]> = this.resultsPaginationService.results$;
+  public results$: Observable<Result[]> = this.resultsPaginationService.results$;
   private athletename: string;
   constructor(private route: ActivatedRoute,
               private resultsService: ResultsService,

@@ -1,6 +1,8 @@
 <div>
-    <button (click) = "prevResults()">Previous Page</button>
-    <button (click) = "nextResults()">Next Page</button>
+    <form class="form-wrapper">
+        <input type="text" id="search" placeholder="Search for..." required>
+        <input type="submit" value="go" id="submit">
+    </form>
 </div>
 
 <app-single-post [resultsList]="results$"></app-single-post>

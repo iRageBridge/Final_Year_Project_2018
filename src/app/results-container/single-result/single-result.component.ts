@@ -1,14 +1,14 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Post } from '../../shared/model/result';
+import { Result } from '../../shared/model/result';
 
 @Component({
   selector: 'app-single-post',
   templateUrl: './single-result.component.html',
   styleUrls: ['./single-result.component.css']
 })
-export class SinglePostComponent implements OnInit {
+export class SingleResultComponent implements OnInit {
 
-  @Input() resultsList: Post[];
+  @Input() resultsList: Result[];
   constructor() { }
 
   ngOnInit() {
