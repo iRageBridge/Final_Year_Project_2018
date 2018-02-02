@@ -13,7 +13,7 @@ export const ROUTES: Route[] =[
     {
       path: 'athletes',
       children: [{
-        path: ':name', component: AthleteProfileComponent
+        path: ':id', component: AthleteProfileComponent
       },]
     },
     {path: 'login', component: LoginComponent},

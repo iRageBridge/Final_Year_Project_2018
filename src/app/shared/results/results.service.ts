@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
+import { ActivatedRoute, Params } from "@angular/router";
 import { Observable } from 'rxjs/Observable';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database-deprecated';
 import { Result } from '../../shared/model/result';
 import { FirebaseListFactoryOpts } from 'angularfire2/database-deprecated/interfaces';
-import { Athlete } from '../model/athlete';
 import { BehaviorSubject } from "rxjs/BehaviorSubject";
 import "rxjs/add/operator/switchMap";
 import "rxjs/add/observable/zip";
@@ -18,41 +18,17 @@ export class ResultsService {
       query: {
         orderByChild: 'name',
         startAt: start,
-        endAt: end
+        endAt: end,
       }
-    });
+    })
   }
 
-  findResultByKey(key): Observable<Result>{
-    return this.af.object(`/results/${key}`);
-  }
-
-  findAthleteByAthletename(athletename: string):Observable<Athlete>{
-    return this.af.list('athletes', {
+  findAthleteById(uid):FirebaseListObservable<any>{
+    return this.af.list('/results',{
       query: {
-        orderByChild: 'name',
-        equalTo: athletename
+        orderByChild: 'id',
+        equalTo: uid
       }
-    }).map(res=>Athlete.fromArray(res[0]))
-      .do(athlete=>console.log('athlete: ', athlete));
-  }
-
-  findResultKeysPerAthlete(athleteKey:string,
-                      query: FirebaseListFactoryOpts): Observable<string[]> {
-    return this.af.list(`resultsPerAthlete/${athleteKey}`, query)
-    .map(postKeysPerAthlete => postKeysPerAthlete.map(post => post.key$));
-  }
-
-  findResultsForResultKeys(postKeys$: Observable<string[]>):Observable<Result[]> {
-    return postKeys$
-    .map(postKeys$ => postKeys$.map(key => this.findResultByKey(key)))
-    .flatMap(fbObj => Observable.combineLatest(fbObj));
-  }
-
-  getResultsByAthleteKey(athleteKey:string, limit = 5){
-    const firstPageResultKeys$ = this.findResultKeysPerAthlete(athleteKey, {query: {
-      limitToFirst: 3
-    }});
-    return this.findResultsForResultKeys(firstPageResultKeys$);
+    })
   }
 }

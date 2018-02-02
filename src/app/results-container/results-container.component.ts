@@ -27,6 +27,5 @@ export class ResultsContainerComponent implements OnInit {
     const q = $event.target.value
     this.startAt.next(q)
     this.endAt.next(q+"\uf8ff")
-    console.log(q);
   }
 }
