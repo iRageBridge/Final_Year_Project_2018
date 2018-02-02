@@ -25,12 +25,12 @@ export class AuthService implements CanActivate{
     return this.admin.map(admin => admin && admin.uid !== undefined);
   }
 
-  canActivate():Observable<boolean>{
-    console.log(this.isAuthenticated());
+  canActivate():Observable<boolean> | boolean{
     let isAuth = this.isAuthenticated();
     if(!isAuth){
       alert("You must be an admin to view this page!");
       this.router.navigate(['/login']);
+      return false;
     }
     return isAuth;
   }
