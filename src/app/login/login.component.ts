@@ -11,7 +11,7 @@ import {Router} from "@angular/router";
 export class LoginComponent implements OnInit {
 
   public form: FormGroup;
-  public athlete$ = this.authService.athlete;
+  public athlete$ = this.authService.admin;
 
   constructor(private formBuilder: FormBuilder,
               private authService: AuthService,
@@ -27,11 +27,10 @@ export class LoginComponent implements OnInit {
 
   login() {
     const inputValue = this.form.value;
-    console.log(inputValue.email, inputValue.password);
 
     this.authService.login(inputValue.email, inputValue.password)
       .subscribe(
-        success => this.router.navigate(['/results']),
+        success => this.router.navigate(['/admin']),
         error => alert(error)
       );
   }

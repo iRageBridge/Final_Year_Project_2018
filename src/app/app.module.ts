@@ -17,6 +17,7 @@ import { LoginComponent } from './login/login.component';
 import { AuthService } from "./shared/auth/auth.service";
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { BehaviorSubject } from "rxjs/BehaviorSubject";
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BehaviorSubject } from "rxjs/BehaviorSubject";
     ResultsContainerComponent,
     NavigationComponent,
     AthleteProfileComponent,
-    LoginComponent
+    LoginComponent,
+    AdminComponent
   ],
   entryComponents: [ResultsContainerComponent],
   imports: [

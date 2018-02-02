@@ -13,7 +13,8 @@ export class NavigationComponent implements OnInit {
   constructor(private authService: AuthService, private router: Router) {
     authService.isAuthenticated()
       .subscribe(
-        success => this.isLoggedIn = success
+        success => this.isLoggedIn = success,
+        error => this.router.navigate['/login']
       );
   }
 
