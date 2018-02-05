@@ -2,6 +2,7 @@ import { Component, OnInit, AfterContentInit, ViewChild, ViewContainerRef, Compo
 import { ResultsService } from '../shared/results/results.service';
 import { Subject } from 'rxjs/Subject';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+import { AuthService} from '../shared/auth/auth.service';
 
 @Component({
   selector: 'app-results-container',
@@ -10,13 +11,19 @@ import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 })
 export class ResultsContainerComponent implements OnInit {
   
+  public isLoggedIn;
   results = [];
   startAt: BehaviorSubject<string|null> = new BehaviorSubject("");
   endAt: BehaviorSubject<string|null> = new BehaviorSubject("\uf8ff");
   
   lastKeypress: number = 0;
 
-  constructor(private resultsService: ResultsService) { }
+  constructor(private authService: AuthService, private resultsService: ResultsService) {
+    authService.isAuthenticated()
+    .subscribe(
+      success => this.isLoggedIn = success,
+    );
+  }
 
   ngOnInit() {
       this.resultsService.getAllResults(this.startAt, this.endAt)

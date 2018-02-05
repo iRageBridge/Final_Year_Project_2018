@@ -6,7 +6,7 @@
 <div *ngFor="let result of results">
     <h4><a [href]="'/athletes/' + result.id">{{result.name}}</a></h4>
     <p>
-        Squat: {{result?.squat}}kg | Bench: {{result?.bench}}kg | Deadlift: {{result?.deadlift}}kg | Total: {{result?.total}}kg | Bodyweight: {{result?.bodyweight}}kg | Wilks: {{result.wilks}} 
+        <input *ngIf="isLoggedIn" type="checkbox"> Squat: {{result?.squat}}kg | Bench: {{result?.bench}}kg | Deadlift: {{result?.deadlift}}kg | Total: {{result?.total}}kg | Bodyweight: {{result?.bodyweight}}kg | Wilks: {{result.wilks}} 
     </p>
     <hr/>
 </div>
