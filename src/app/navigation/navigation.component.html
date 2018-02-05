@@ -1,5 +1,5 @@
 <div class="topnav" id="myTopnav">
     <a routerLink="/results" routerLinkActive = "active">Home</a>
-    <a routerLink="/login" routerLinkActive = "active" *ngIf="!isLoggedIn">Admin Login</a>
-    <a routerLink="/login" (click)="logout()" routerLinkActive = "active" *ngIf="isLoggedIn">Logout</a>
+    <a class="admin" routerLink="/login" routerLinkActive = "active" *ngIf="!isLoggedIn">Admin Login</a>
+    <a class="admin" routerLink="/login" (click)="logout()" routerLinkActive = "active" *ngIf="isLoggedIn">Logout</a>
 </div>

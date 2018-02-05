@@ -21,3 +21,7 @@
     background-color: #4CAF50;
     color: white;
 }
+
+.topnav .admin{
+    float: right;
+}
