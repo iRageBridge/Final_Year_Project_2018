@@ -13,13 +13,17 @@ import "rxjs/add/observable/zip";
 export class ResultsService {
   constructor(private af: AngularFireDatabase) { }
 
-  getAllResults(start,end):FirebaseListObservable<any>{
-    return this.af.list('/results',{
-      query: {
+  getAllResults(start,end/*, batch, lastKey?*/){
+      let query =  {
         orderByChild: 'name',
+        //orderByKey: true,
+        limitToFirst: 20,
         startAt: start,
         endAt: end,
       }
+      //if(lastKey) query['startAt'] = lastKey
+      return this.af.list('/results',{
+        query
     })
   }
 
