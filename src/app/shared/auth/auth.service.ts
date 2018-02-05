@@ -5,6 +5,9 @@ import {Observable} from "rxjs/Observable";
 import { CanActivate } from '@angular/router/src/interfaces';
 import {Router} from "@angular/router";
 import { ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router/src/router_state';
+import 'rxjs/add/operator/do';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/take';
 
 @Injectable()
 export class AuthService implements CanActivate{
@@ -25,14 +28,16 @@ export class AuthService implements CanActivate{
     return this.admin.map(admin => admin && admin.uid !== undefined);
   }
 
-  canActivate():Observable<boolean> | boolean{
-    let isAuth = this.isAuthenticated();
-    if(!isAuth){
-      alert("You must be an admin to view this page!");
-      this.router.navigate(['/login']);
-      return false;
-    }
-    return isAuth;
+  canActivate():Observable<boolean>{
+    return this.admin
+      .take (1)
+      .map(authState => !!authState)
+      .do(authenticated => {
+        if(!authenticated) {
+          alert("You need to be an admin to view this page!");
+          this.router.navigate(['login'])
+        }
+      });
   }
 
   logout() {
