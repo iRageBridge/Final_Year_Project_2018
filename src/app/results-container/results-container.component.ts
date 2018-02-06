@@ -14,16 +14,13 @@ import * as _ from 'lodash'
 export class ResultsContainerComponent implements OnInit {
   
   batch = 20;
-  lastKey = '';
   finished = false;
 
   public isLoggedIn;
-  results = [] //new BehaviorSubject([]);
+  results = [];
   startAt: BehaviorSubject<string|null> = new BehaviorSubject("");
   endAt: BehaviorSubject<string|null> = new BehaviorSubject("\uf8ff");
   
-  lastKeypress: number = 0;
-
   constructor(private authService: AuthService, private resultsService: ResultsService) {
     authService.isAuthenticated()
     .subscribe(
@@ -47,8 +44,8 @@ export class ResultsContainerComponent implements OnInit {
   }
 
   search($event) {
-    const q = $event.target.value
-    this.startAt.next(q)
-    this.endAt.next(q+"\uf8ff")
+    const q = $event.target.value.toLowerCase()
+    this.startAt.next(q);
+    this.endAt.next(q+"\uf8ff");
   }
 }

@@ -12,25 +12,12 @@
 </div>
 
 <div>
-    <button (click)="loadMore()">Load More Posts</button>
+    <button *ngIf="results.length % 20 == 0" (click)="loadMore()">Load More Results</button>
 </div>
 
 <div *ngIf="results.length < 1">
     <hr/>
     <p>
-        Loading Results...
+        No Results Found.
     </p>
 </div>
-
-<!--<div
-  infiniteScroll
-  [infiniteScrollDistance]="2"
-  [infiniteScrollThrottle]="1000"
-  (scrolled)="onScroll()">
-</div>
-<div *ngIf="!finished">
- Loading more results...
-</div>
-<div *ngIf="finished">
-  End of database... That's all folks!
-</div>-->
