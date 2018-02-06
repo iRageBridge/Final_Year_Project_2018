@@ -14,8 +14,6 @@ export class ResultsService {
   constructor(private af: AngularFireDatabase) { }
 
   getAllResults(start,end, batch){
-    //start.toLowerCase();
-    //end.toLowerCase();
       let query =  {
         orderByChild: 'nameLower',
         limitToFirst: batch,
@@ -27,10 +25,10 @@ export class ResultsService {
     })
   }
 
-  findAthleteById(uid):FirebaseListObservable<any>{
+  findAthleteById(uid, filter):FirebaseListObservable<any>{
     return this.af.list('/results',{
       query: {
-        orderByChild: 'id',
+        orderByChild: filter,
         equalTo: uid
       }
     })
