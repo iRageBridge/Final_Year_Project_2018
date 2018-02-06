@@ -32,31 +32,19 @@ export class ResultsContainerComponent implements OnInit {
   }
 
   ngOnInit() {
-    //this.getResults();
-      this.resultsService.getAllResults(this.startAt, this.endAt)
+    this.batch = 20;
+    this.getResults();  
+  }
+
+  getResults(){
+    this.resultsService.getAllResults(this.startAt, this.endAt, this.batch)
                           .subscribe(results => this.results = results)
   }
 
-  /*onScroll(){
-    this.getResults()
+  loadMore(){
+    this.batch +=20;
+    this.getResults();
   }
-
-  private getResults(key?){
-    if (this.finished) return
-    this.resultsService
-      .getAllResults(this.startAt, this.endAt, this.batch+1, this.lastKey)
-      .do(results =>{
-        this.lastKey = _.last(results)[66]
-        const newResults = _.slice(results, 0, this.batch)
-        const currentResults = this.results.getValue()
-        if(this.lastKey == _.last(newResults)['55']){
-          this.finished = true
-        }
-        this.results.next(_.concat(currentResults, newResults))
-      })
-      .take(1)
-      .subscribe(results => this.results = results)
-  }*/
 
   search($event) {
     const q = $event.target.value
