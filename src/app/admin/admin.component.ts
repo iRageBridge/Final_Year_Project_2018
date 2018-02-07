@@ -26,11 +26,23 @@ export class AdminComponent implements OnInit {
     alert("Result Uploaded");
   }
 
-  onFileSelect(event){
-    let name = event.target.files[0].name;
+  onFileSelect(e: Event){
+    /*let name = event.target.files[0].name;
     let newName = name.substring(name.lastIndexOf["/"]+1)
     this.json = require('../../../data/'+newName);
-    console.log(newName);
+    console.log(newName);*/
+    var target: HTMLInputElement = e.target as HTMLInputElement;
+    for (var i=0; i<target.files.length; i++){
+      this.upload(target.files[i]);
+    }
+  }
+
+  upload(file:File){
+    var formData:FormData = new FormData();
+    formData.append("file", file, file.name);
+    var xhr = new XMLHttpRequest();
+    xhr.open("PUT", "data", true);
+    xhr.send(formData);
   }
 
   uploadFile(){
