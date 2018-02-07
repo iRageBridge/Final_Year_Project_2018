@@ -18,6 +18,7 @@ import { AuthService } from "./shared/auth/auth.service";
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { BehaviorSubject } from "rxjs/BehaviorSubject";
 import { AdminComponent } from './admin/admin.component';
+import { UploadService } from './shared/upload/upload.service'
 
 @NgModule({
   declarations: [
@@ -40,7 +41,7 @@ import { AdminComponent } from './admin/admin.component';
     AngularFireAuthModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [ResultsService, AuthService],
+  providers: [ResultsService, AuthService, UploadService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -9,7 +9,16 @@
     <input type="text" name="bodyweight" [(ngModel)]="bodyweight" placeholder="Bodyweight" id="bodyweight"><br/><br/>
     <input type="text" name="wilks" [(ngModel)]="wilks" placeholder="Wilks" id="wilks"><br/><br/>
     <input type="text" name="comp" [(ngModel)]="comp" placeholder="Competition" id="comp"><br/><br/>
-    <input type="text" name="id" [(ngModel)]="id" id="id" placeholder="id"><br/><br/>
-    <button id="Upload" name="upload"(click)="uploadResults(key, name, squat, bench, deadlift, total, bodyweight, wilks, comp, id)">Upload</button>
+    <input type="hidden" name="id" [(ngModel)]="id" id="id" placeholder="id">
+    <button id="Upload" name="upload"(click)="uploadResults(name, squat, bench, deadlift, total, bodyweight, wilks, comp, id)">Upload</button>
   </form>
 </div>
+<!--<div style="float:right;"> 
+  <input #file type="file" (change)="onFileUpload(file)"/><br/>
+  <button id ="upload" name="upload" (click)="getFile(file)">Upload File</button>
+</div>-->
+
+<label>
+  <input type="file" (change)="detectFiles($event)">
+</label>
+<button [disabled]="!selectedFiles" (click)="uploadSingle()">Upload</button>

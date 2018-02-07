@@ -2,4 +2,5 @@
     <a routerLink="/results" routerLinkActive = "active">Home</a>
     <a class="admin" routerLink="/login" routerLinkActive = "active" *ngIf="!isLoggedIn">Admin Login</a>
     <a class="admin" routerLink="/login" (click)="logout()" routerLinkActive = "active" *ngIf="isLoggedIn">Logout</a>
+    <a class="admin" routerLink="/admin" routerLinkActive = "active" *ngIf="isLoggedIn">Upload Results</a>
 </div>
