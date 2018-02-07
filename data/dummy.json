@@ -17,7 +17,7 @@
         "location": "Cork",
         "year": 2017,
         "comps": 1,
-        "nameLower": "áine mccarthy"
+        "nameLower": "dummy-1"
       },
       {
         "name": "dummy-2",
@@ -37,7 +37,7 @@
         "location": "Belfast",
         "year": 2015,
         "comps": 1,
-        "nameLower": "aaron small"
+        "nameLower": "dummy-2"
       },
       {
         "name": "dummy-3",
@@ -57,6 +57,6 @@
         "location": "Limerick",
         "year": 2017,
         "comps": 4,
-        "nameLower": "abigail cronin"
+        "nameLower": "dummy-3"
       }
 ]

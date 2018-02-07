@@ -13,12 +13,13 @@
     <button id="Upload" name="upload"(click)="uploadResults(name, squat, bench, deadlift, total, bodyweight, wilks, comp, id)">Upload</button>
   </form>
 </div>
-<!--<div style="float:right;"> 
-  <input #file type="file" (change)="onFileUpload(file)"/><br/>
-  <button id ="upload" name="upload" (click)="getFile(file)">Upload File</button>
-</div>-->
+<div style="float:right;"> 
+  <input #file type="file" accept=".json" (change)="onFileSelect($event)"/><br/>
+  <button id ="upload" name="upload" (click)="uploadFile(file)">Upload File</button>
+</div>
 
-<label>
+<!--<label>
   <input type="file" (change)="detectFiles($event)">
 </label>
 <button [disabled]="!selectedFiles" (click)="uploadSingle()">Upload</button>
+-->

@@ -15,20 +15,10 @@ export class AdminComponent implements OnInit {
   selectedFiles: FileList;
   currentUpload: Upload;
 
+  private json;
   private results:FirebaseListObservable<any[]>;
-  private json = require('../../../data/dummy.json');
   constructor(private af: AngularFireDatabase, private upSvc: UploadService) {
     this.results = this.af.list('/results');
-  }
-
-  detectFiles(event){
-    this.selectedFiles = event.target.files;
-  }
-
-  uploadSingle(){
-    let file = this.selectedFiles.item(0);
-    this.currentUpload = new Upload(file);
-    this.upSvc.pushUpload(this.currentUpload);
   }
 
   ngOnInit() {
@@ -38,15 +28,18 @@ export class AdminComponent implements OnInit {
     this.results.push({nameLower:name, name: name, squat: squat, bench: bench, deadlift:deadlift, total:total, bodyweight:bodyweight, wilks:wilks, comp:comp, id:id});
     alert("Result Uploaded");
   }
-/*
-  onFileUpload(file: HTMLInputElement){
-    let name = file.value;
-    console.log(name);
+
+  onFileSelect(event){
+    let name = event.target.files[0].name;
+    let newName = name.substring(name.lastIndexOf["/"]+1)
+    this.json = require('../../../data/'+newName);
+    console.log(newName);
   }
 
-  getFile(){
+  uploadFile(){
     for(var i = 0; i < this.json.length; i++){
       this.results.push(this.json[i]);
     }
-  }*/
+    alert("Results uploaded!")
+  }
 }
