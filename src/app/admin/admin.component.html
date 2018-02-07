@@ -1,3 +1,15 @@
-<p>
-  admin works!
-</p>
+<div>
+  <h1>Upload Results:</h1>
+  <form>
+    <input type="text" name="name" [(ngModel)]="name" placeholder="Name" id="name"><br/><br/>
+    <input type="text" name="squat" [(ngModel)]="squat" placeholder="Squat" id="squat"><br/><br/>
+    <input type="text" name="bench" [(ngModel)]="bench" placeholder="Bench" id="bench"><br/><br/>
+    <input type="text" name="deadlift" [(ngModel)]="deadlift" placeholder="Deadlift" id="deadlift"><br/><br/>
+    <input type="text" name="total" [(ngModel)]="total" placeholder="Total" id="total"><br/><br/>
+    <input type="text" name="bodyweight" [(ngModel)]="bodyweight" placeholder="Bodyweight" id="bodyweight"><br/><br/>
+    <input type="text" name="wilks" [(ngModel)]="wilks" placeholder="Wilks" id="wilks"><br/><br/>
+    <input type="text" name="comp" [(ngModel)]="comp" placeholder="Competition" id="comp"><br/><br/>
+    <input type="text" name="id" [(ngModel)]="id" id="id" placeholder="id"><br/><br/>
+    <button id="Upload" name="upload"(click)="uploadResults(key, name, squat, bench, deadlift, total, bodyweight, wilks, comp, id)">Upload</button>
+  </form>
+</div>
