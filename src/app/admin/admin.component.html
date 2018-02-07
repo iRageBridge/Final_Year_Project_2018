@@ -17,9 +17,3 @@
   <input #file type="file" accept=".json" (change)="onFileSelect($event)"/><br/>
   <button id ="upload" name="upload" (click)="uploadFile(file)">Upload File</button>
 </div>
-
-<!--<label>
-  <input type="file" (change)="detectFiles($event)">
-</label>
-<button [disabled]="!selectedFiles" (click)="uploadSingle()">Upload</button>
--->
