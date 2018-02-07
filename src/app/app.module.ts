@@ -18,7 +18,7 @@ import { AuthService } from "./shared/auth/auth.service";
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { BehaviorSubject } from "rxjs/BehaviorSubject";
 import { AdminComponent } from './admin/admin.component';
-
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,7 +40,7 @@ import { AdminComponent } from './admin/admin.component';
     AngularFireAuthModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [ResultsService, AuthService],
+  providers: [ResultsService, AuthService/*, {provider:HashLocationStrategy, useClass:LocationStrategy}*/],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
