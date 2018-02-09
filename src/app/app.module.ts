@@ -18,6 +18,7 @@ import { AuthService } from "./shared/auth/auth.service";
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { BehaviorSubject } from "rxjs/BehaviorSubject";
 import { AdminComponent } from './admin/admin.component';
+import { Angular2TokenService } from  'angular2-token';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,7 @@ import { AdminComponent } from './admin/admin.component';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
     AngularFireAuthModule,
-    RouterModule.forRoot(ROUTES)
+    RouterModule.forRoot(ROUTES),
   ],
   providers: [ResultsService, AuthService],
   bootstrap: [AppComponent]
