@@ -28,8 +28,8 @@ export class AdminComponent implements OnInit {
     this.selectedNameIds = this.af.list('/results', {
       query: {
         orderByChild: 'id',
-        where: ('name' == this.name)
-      }  
+        limitToFirst: 1,
+      }
     })
   }
 
@@ -37,8 +37,8 @@ export class AdminComponent implements OnInit {
     console.log(this.selectedNameIds);
   }
 
-  uploadResults(name, squat, bench, deadlift, total, bodyweight, wilks, comp){
-    this.results.push({nameLower:name.toLowerCase(), name: name, squat: squat, bench: bench, deadlift:deadlift, total:total, bodyweight:bodyweight, wilks:wilks, comp:comp, id:'1'});
+  uploadResults(name, squat, bench, deadlift, total, bodyweight, wilks, comp, id, place){
+    this.results.push({nameLower:name.toLowerCase(), name: name, squat: squat, bench: bench, deadlift:deadlift, total:total, bodyweight:bodyweight, wilks:wilks, comp:comp, id:id, placing: place});
     alert("Result Uploaded");
   }
 

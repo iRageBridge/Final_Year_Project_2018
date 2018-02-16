@@ -24,10 +24,10 @@ export class ResultsService {
     })
   }
 
-  findAthleteById(uid, filter):FirebaseListObservable<any>{
+  findAthleteById(uid){
     return this.af.list('/results',{
       query: {
-        orderByChild: filter,
+        orderByChild: "id",
         equalTo: uid
       }
     })

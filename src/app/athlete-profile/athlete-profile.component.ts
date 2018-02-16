@@ -10,14 +10,13 @@ import { Result } from "../shared/model/result";
   styleUrls: ['./athlete-profile.component.css'],
 })
 export class AthleteProfileComponent implements OnInit {
-  public filter:string = 'id';
   public results = [];
   constructor(private route: ActivatedRoute,
               private resultsService: ResultsService){}
 
   ngOnInit() {
     let url:any = this.route.snapshot.params;
-    this.resultsService.findAthleteById(+url.id, this.filter)
+    this.resultsService.findAthleteById(+url.id)
                        .subscribe(results => this.results = results)
                        
   }

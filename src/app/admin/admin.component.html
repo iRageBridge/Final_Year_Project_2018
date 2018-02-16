@@ -11,7 +11,9 @@
     <input type="text" name="bodyweight" [(ngModel)]="bodyweight" placeholder="Bodyweight" id="bodyweight"><br/><br/>
     <input type="text" name="wilks" [(ngModel)]="wilks" placeholder="Wilks" id="wilks"><br/><br/>
     <input type="text" name="comp" [(ngModel)]="comp" placeholder="Competition" id="comp"><br/><br/>
-    <button id="Upload" name="upload"(click)="uploadResults(name, squat, bench, deadlift, total, bodyweight, wilks, comp)">Upload</button>
+    <input type="number" name="id" [(ngModel)]="id" placeholder="ID" id="id"><br/><br/>
+    <input type="number" name="place" [(ngModel)]="place" placeholder="Placing" id="place"><br/><br/>
+    <button id="Upload" name="upload"(click)="uploadResults(name, squat, bench, deadlift, total, bodyweight, wilks, comp, id, place)">Upload</button>
   </form>
 </div>
 <div style="float:right;"> 
