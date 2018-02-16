@@ -1,4 +1,6 @@
 <div>
+  <div>
+  </div>
   <h1>Upload Results:</h1>
   <form>
     <input type="text" name="name" [(ngModel)]="name" placeholder="Name" id="name"><br/><br/>
@@ -9,14 +11,15 @@
     <input type="text" name="bodyweight" [(ngModel)]="bodyweight" placeholder="Bodyweight" id="bodyweight"><br/><br/>
     <input type="text" name="wilks" [(ngModel)]="wilks" placeholder="Wilks" id="wilks"><br/><br/>
     <input type="text" name="comp" [(ngModel)]="comp" placeholder="Competition" id="comp"><br/><br/>
-    <input type="hidden" name="id" [(ngModel)]="id" id="id" placeholder="id">
-    <button id="Upload" name="upload"(click)="uploadResults(name, squat, bench, deadlift, total, bodyweight, wilks, comp, id)">Upload</button>
+    <button id="Upload" name="upload"(click)="uploadResults(name, squat, bench, deadlift, total, bodyweight, wilks, comp)">Upload</button>
   </form>
 </div>
 <div style="float:right;"> 
   <form action = "upload.php" name="uploadForm" method="POST" enctype="multipart/form-data" id="form">
-    <input #file type="file" accept=".json" (change)="handleFileInput($event.target.files)"/><br/>
-    <!--<input type="submit" id ="upload" name="upload" id="upload" (click)="uploadFile()"/>-->
+    <!--<input #file type="file" accept=".json" (change)="handleFileInput($event.target.files)"/><br/>
+    <input type="submit" id ="upload" name="upload" id="upload" (click)="uploadFile()"/>-->
+    <button pButton type="button" label="Start Upload" (click)="startUpload()"></button>
+    <p-fileUpload #fileInput name="myFile" url="/assets/uploads/"></p-fileUpload>
   </form>
 </div>
 

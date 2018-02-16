@@ -3,39 +3,55 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 import { FirebaseListFactoryOpts } from 'angularfire2/database-deprecated/interfaces';
 import * as _ from "lodash";
 import { error } from 'util';
-import { Angular2TokenService } from 'angular2-token';
+import { ViewChild } from '@angular/core';
+import { FileUploadModule, FileUpload } from 'primeng/primeng';
+import { ResultsService } from "../shared/results/results.service";
+
 @Component({
   selector: 'app-admin',
   templateUrl: './admin.component.html',
   styleUrls: ['./admin.component.css']
 })
 export class AdminComponent implements OnInit {
-
+  @ViewChild('fileInput') fileInput: FileUpload;
   selectedFiles: FileList;
 
-  private fileToUpload: File = null;
+  private name;
+  private selectedNameIds:FirebaseListObservable<any[]>;
   private json;
-  private id;
   private fileName;
   private results:FirebaseListObservable<any[]>;
-  constructor(private af: AngularFireDatabase, private tokenService: Angular2TokenService) {
+
+  constructor(private af: AngularFireDatabase,
+              private resultsService: ResultsService) {
     this.results = this.af.list('/results');
+    this.selectedNameIds = this.af.list('/results', {
+      query: {
+        orderByChild: 'id',
+        where: ('name' == this.name)
+      }  
+    })
   }
 
   ngOnInit() {
+    console.log(this.selectedNameIds);
   }
 
-  uploadResults(name, squat, bench, deadlift, total, bodyweight, wilks, comp, id){
-    this.results.push({nameLower:name, name: name, squat: squat, bench: bench, deadlift:deadlift, total:total, bodyweight:bodyweight, wilks:wilks, comp:comp, id:id});
+  uploadResults(name, squat, bench, deadlift, total, bodyweight, wilks, comp){
+    this.results.push({nameLower:name.toLowerCase(), name: name, squat: squat, bench: bench, deadlift:deadlift, total:total, bodyweight:bodyweight, wilks:wilks, comp:comp, id:'1'});
     alert("Result Uploaded");
   }
 
-  /*onFileSelect(file: HTMLInputElement){
+  onFileSelect(file: HTMLInputElement){
     let name = file.value;
     let fileName = name.replace(/^.*[\\\/]/, '');
     console.log(fileName);
     this.fileName = fileName;
-  }*/
+  }
+
+  startUpload(){
+    this.fileInput.upload();
+  }
 
   //onFileSelect(file:File){
     //var formData:FormData = new FormData();
@@ -56,8 +72,4 @@ export class AdminComponent implements OnInit {
       alert("Error uploading results");
     }
   }*/
-
-  handleFileInput(files:FileList){
-    this.fileToUpload = files.item[0];
-  }
 }

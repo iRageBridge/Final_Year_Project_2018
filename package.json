@@ -30,6 +30,7 @@
     "firebase": "4.8.0",
     "ng2-uploader": "^2.0.0",
     "ngx-infinite-scroll": "^0.8.2",
+    "primeng": "^5.2.0",
     "rxjs": "^5.5.2",
     "zone.js": "^0.8.14"
   },

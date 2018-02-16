@@ -14,14 +14,13 @@ export class ResultsService {
   constructor(private af: AngularFireDatabase) { }
 
   getAllResults(start,end, batch){
-      let query =  {
+    return this.af.list('/results',{
+      query: {
         orderByChild: 'nameLower',
         limitToFirst: batch,
         startAt: start,
         endAt: end,
       }
-      return this.af.list('/results',{
-        query
     })
   }
 
@@ -31,6 +30,15 @@ export class ResultsService {
         orderByChild: filter,
         equalTo: uid
       }
+    })
+  }
+
+  getAthleteId(name){
+    return this.af.list('/results', {
+      query: {
+        orderByChild: 'id',
+        //once: 'name' == name
+      }  
     })
   }
 }

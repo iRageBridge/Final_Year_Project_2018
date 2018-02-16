@@ -19,6 +19,7 @@ import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { BehaviorSubject } from "rxjs/BehaviorSubject";
 import { AdminComponent } from './admin/admin.component';
 import { Angular2TokenService } from  'angular2-token';
+import { FileUploadModule } from 'primeng/primeng';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,8 @@ import { Angular2TokenService } from  'angular2-token';
     AngularFireDatabaseModule,
     AngularFireAuthModule,
     RouterModule.forRoot(ROUTES),
+    FileUploadModule
+    
   ],
   providers: [ResultsService, AuthService],
   bootstrap: [AppComponent]
