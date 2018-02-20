@@ -4,8 +4,9 @@ import { FirebaseListFactoryOpts } from 'angularfire2/database-deprecated/interf
 import * as _ from "lodash";
 import { error } from 'util';
 import { ViewChild } from '@angular/core';
-import { FileUploadModule, FileUpload } from 'primeng/primeng';
+import { FileUpload } from 'primeng/primeng';
 import { ResultsService } from "../shared/results/results.service";
+import { FileUploader } from 'ng2-file-upload';
 
 @Component({
   selector: 'app-admin',
@@ -21,9 +22,19 @@ export class AdminComponent implements OnInit {
   private json;
   private fileName;
   private results:FirebaseListObservable<any[]>;
-
+  private uploader: FileUploader;
   constructor(private af: AngularFireDatabase,
               private resultsService: ResultsService) {
+    this.uploader = new FileUploader({url:"\\irishpfdatabase\\uploads"});
+    this.uploader.onErrorItem = item => {
+      console.error("Failed to upload");
+    }
+    this.uploader.onCompleteItem = (item,response) => {
+      console.info("Successfully uploaded");
+    }
+
+    this.uploader.onAfterAddingFile = fileItem => this.uploader.uploadAll();
+
     this.results = this.af.list('/results');
     this.selectedNameIds = this.af.list('/results', {
       query: {
@@ -49,20 +60,20 @@ export class AdminComponent implements OnInit {
     this.fileName = fileName;
   }
 
-  startUpload(){
+  /*startUpload(){
     this.fileInput.upload();
   }
 
-  //onFileSelect(file:File){
-    //var formData:FormData = new FormData();
-    //formData.append("file", file, file.name);
-    //console.log(file.name);
-    //var xhr = new XMLHttpRequest();
-    //xhr.open("PUT", "/uploads", true);
-    //xhr.send(formData);
-  //}
+  onFileSelect(file:File){
+    var formData:FormData = new FormData();
+    formData.append("file", file, file.name);
+    console.log(file.name);
+    var xhr = new XMLHttpRequest();
+    xhr.open("PUT", "/uploads", true);
+    xhr.send(formData);
+  }*/
 
-  /*uploadFile(){
+  uploadFile(){
     this.json = require("./uploads/"+this.fileName);
     for(var i = 0; i < this.json.length; i++){
       this.results.push(this.json[i]);
@@ -71,5 +82,5 @@ export class AdminComponent implements OnInit {
     if(error){
       alert("Error uploading results");
     }
-  }*/
+  }
 }

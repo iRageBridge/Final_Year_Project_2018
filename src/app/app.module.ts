@@ -19,7 +19,8 @@ import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { BehaviorSubject } from "rxjs/BehaviorSubject";
 import { AdminComponent } from './admin/admin.component';
 import { Angular2TokenService } from  'angular2-token';
-import { FileUploadModule } from 'primeng/primeng';
+//import { FileUploadModule } from 'primeng/primeng';
+import { FileUploadModule } from 'ng2-file-upload';
 
 @NgModule({
   declarations: [

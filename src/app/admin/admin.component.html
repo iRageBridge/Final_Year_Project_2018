@@ -17,11 +17,13 @@
   </form>
 </div>
 <div style="float:right;"> 
-  <form action = "upload.php" name="uploadForm" method="POST" enctype="multipart/form-data" id="form">
-    <!--<input #file type="file" accept=".json" (change)="handleFileInput($event.target.files)"/><br/>
-    <input type="submit" id ="upload" name="upload" id="upload" (click)="uploadFile()"/>-->
-    <button pButton type="button" label="Start Upload" (click)="startUpload()"></button>
-    <p-fileUpload #fileInput name="myFile" url="/assets/uploads/"></p-fileUpload>
-  </form>
+  <button mat-button onClick="document.getElementById('fileInput').click()">
+    Select and upload file
+  </button>
+  <input type="file" id="fileInput" ng2FileSelect [uploader]="uploader" style="display:none">
+  <!--<form action = "upload.php" name="uploadForm" method="POST" enctype="multipart/form-data" id="form">
+    <input #file type="file" accept=".json" (change)="onFileSelect(file)"/><br/>
+    <input type="submit" id ="upload" name="upload" id="upload" (click)="uploadFile()"/>
+  </form>-->
 </div>
 
