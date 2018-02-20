@@ -18,12 +18,12 @@
 </div>
 <div style="float:right;"> 
   <button mat-button onClick="document.getElementById('fileInput').click()">
-    Select and upload file
+    Select file
   </button>
   <input type="file" id="fileInput" ng2FileSelect [uploader]="uploader" style="display:none">
   <!--<form action = "upload.php" name="uploadForm" method="POST" enctype="multipart/form-data" id="form">
-    <input #file type="file" accept=".json" (change)="onFileSelect(file)"/><br/>
-    <input type="submit" id ="upload" name="upload" id="upload" (click)="uploadFile()"/>
-  </form>-->
+    <input #file type="file" accept=".json" (change)="onFileSelect(file)"/><br/>-->
+    <input type="submit" id ="upload" name="upload" id="upload" (click)="uploadFile()" value="Upload"/>
+  <!--</form>-->
 </div>
 
