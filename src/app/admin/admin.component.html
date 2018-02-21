@@ -13,17 +13,24 @@
     <input type="text" name="comp" [(ngModel)]="comp" placeholder="Competition" id="comp"><br/><br/>
     <input type="number" name="id" [(ngModel)]="id" placeholder="ID" id="id"><br/><br/>
     <input type="number" name="place" [(ngModel)]="place" placeholder="Placing" id="place"><br/><br/>
-    <button id="Upload" name="upload"(click)="uploadResults(name, squat, bench, deadlift, total, bodyweight, wilks, comp, id, place)">Upload</button>
+    <button id="Upload" name="upload"(click)="uploadResult(name, squat, bench, deadlift, total, bodyweight, wilks, comp, id, place)">Upload</button>
   </form>
 </div>
 <div style="float:right;"> 
-  <button mat-button onClick="document.getElementById('fileInput').click()">
+
+  <label>
+    <input type="file" (change)="detectFiles($event)">
+  </label>
+  <button [disabled]="!selectedFiles" (click)="uploadSingle()">
+    Upload File
+  </button>
+  <!--<button mat-button onClick="document.getElementById('fileInput').click()">
     Select file
   </button>
-  <input type="file" id="fileInput" ng2FileSelect [uploader]="uploader" style="display:none">
-  <!--<form action = "upload.php" name="uploadForm" method="POST" enctype="multipart/form-data" id="form">
+  <input #file accept=".json" type="file" id="fileInput" ng2FileSelect [uploader]="uploader" (change)="onFileSelect(file)" style="display:none">
+  <form action = "upload.php" name="uploadForm" method="POST" enctype="multipart/form-data" id="form">
     <input #file type="file" accept=".json" (change)="onFileSelect(file)"/><br/>-->
-    <input type="submit" id ="upload" name="upload" id="upload" (click)="uploadFile()" value="Upload"/>
+    <input type="submit" id ="upload" name="upload" id="upload" (click)="uploadResults()" value="Upload"/>
   <!--</form>-->
 </div>
 

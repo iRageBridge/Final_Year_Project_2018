@@ -21,6 +21,7 @@ import { AdminComponent } from './admin/admin.component';
 import { Angular2TokenService } from  'angular2-token';
 //import { FileUploadModule } from 'primeng/primeng';
 import { FileUploadModule } from 'ng2-file-upload';
+import { UploadService } from './shared/upload/upload.service';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,7 @@ import { FileUploadModule } from 'ng2-file-upload';
     FileUploadModule
     
   ],
-  providers: [ResultsService, AuthService],
+  providers: [ResultsService, AuthService, UploadService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

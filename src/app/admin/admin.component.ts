@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database-deprecated';
 import { FirebaseListFactoryOpts } from 'angularfire2/database-deprecated/interfaces';
 import * as _ from "lodash";
-import { error } from 'util';
-import { ViewChild } from '@angular/core';
-import { FileUpload } from 'primeng/primeng';
 import { ResultsService } from "../shared/results/results.service";
-import { FileUploader } from 'ng2-file-upload';
+import * as firebase from 'firebase/app';
+import { UploadService } from '../shared/upload/upload.service';
+import { Upload } from '../shared/upload/upload';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-admin',
@@ -14,26 +14,17 @@ import { FileUploader } from 'ng2-file-upload';
   styleUrls: ['./admin.component.css']
 })
 export class AdminComponent implements OnInit {
-  @ViewChild('fileInput') fileInput: FileUpload;
-  selectedFiles: FileList;
 
-  private name;
   private selectedNameIds:FirebaseListObservable<any[]>;
   private json;
   private fileName;
   private results:FirebaseListObservable<any[]>;
-  private uploader: FileUploader;
-  constructor(private af: AngularFireDatabase,
-              private resultsService: ResultsService) {
-    this.uploader = new FileUploader({url:"\\irishpfdatabase\\uploads"});
-    this.uploader.onErrorItem = item => {
-      console.error("Failed to upload");
-    }
-    this.uploader.onCompleteItem = (item,response) => {
-      console.info("Successfully uploaded");
-    }
 
-    this.uploader.onAfterAddingFile = fileItem => this.uploader.uploadAll();
+  private currentUpload: Upload;
+  private selectedFiles: FileList;
+  constructor(private af: AngularFireDatabase,
+              private resultsService: ResultsService,
+              private upSvc: UploadService) {
 
     this.results = this.af.list('/results');
     this.selectedNameIds = this.af.list('/results', {
@@ -44,23 +35,31 @@ export class AdminComponent implements OnInit {
     })
   }
 
-  ngOnInit() {
-    console.log(this.selectedNameIds);
+  detectFiles(event){
+    this.selectedFiles = event.target.files;
   }
 
-  uploadResults(name, squat, bench, deadlift, total, bodyweight, wilks, comp, id, place){
+  ngOnInit() { }
+
+  uploadResult(name, squat, bench, deadlift, total, bodyweight, wilks, comp, id, place){
     this.results.push({nameLower:name.toLowerCase(), name: name, squat: squat, bench: bench, deadlift:deadlift, total:total, bodyweight:bodyweight, wilks:wilks, comp:comp, id:id, placing: place});
     alert("Result Uploaded");
   }
 
-  onFileSelect(file: HTMLInputElement){
+  uploadSingle(){
+    let file = this.selectedFiles.item(0);
+    this.currentUpload = new Upload(file);
+    this.upSvc.pushUpload(this.currentUpload);
+  }
+
+  /*onFileSelect(file: HTMLInputElement){
     let name = file.value;
     let fileName = name.replace(/^.*[\\\/]/, '');
     console.log(fileName);
     this.fileName = fileName;
   }
 
-  /*startUpload(){
+  startUpload(){
     this.fileInput.upload();
   }
 
@@ -71,16 +70,14 @@ export class AdminComponent implements OnInit {
     var xhr = new XMLHttpRequest();
     xhr.open("PUT", "/uploads", true);
     xhr.send(formData);
-  }*/
-
-  uploadFile(){
-    this.json = require("./uploads/"+this.fileName);
+  }
+*/
+  uploadResults(){
+    this.json = $.getJSON("https://firebasestorage.googleapis.com/v0/b/irishpf-database.appspot.com/o/uploads%2Ftest2.json?alt=media&token=4b737c67-e755-41cc-8fab-179969d6169e", function(data){
+      console.log(data);
+    });
     for(var i = 0; i < this.json.length; i++){
       this.results.push(this.json[i]);
-    }
-    alert("Results uploaded!")
-    if(error){
-      alert("Error uploading results");
     }
   }
 }
