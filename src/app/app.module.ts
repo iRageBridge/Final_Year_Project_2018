@@ -15,12 +15,9 @@ import { ROUTES } from "./app.routes";
 import { AthleteProfileComponent } from './athlete-profile/athlete-profile.component';
 import { LoginComponent } from './login/login.component';
 import { AuthService } from "./shared/auth/auth.service";
-import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { BehaviorSubject } from "rxjs/BehaviorSubject";
 import { AdminComponent } from './admin/admin.component';
 import { Angular2TokenService } from  'angular2-token';
-//import { FileUploadModule } from 'primeng/primeng';
-import { FileUploadModule } from 'ng2-file-upload';
 import { UploadService } from './shared/upload/upload.service';
 
 @NgModule({
@@ -34,7 +31,6 @@ import { UploadService } from './shared/upload/upload.service';
   ],
   entryComponents: [ResultsContainerComponent],
   imports: [
-    InfiniteScrollModule,
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
@@ -42,8 +38,7 @@ import { UploadService } from './shared/upload/upload.service';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
     AngularFireAuthModule,
-    RouterModule.forRoot(ROUTES),
-    FileUploadModule
+    RouterModule.forRoot(ROUTES)
     
   ],
   providers: [ResultsService, AuthService, UploadService],

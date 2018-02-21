@@ -17,20 +17,18 @@
   </form>
 </div>
 <div style="float:right;"> 
-
+  <div *ngIf="currentUpload">
+    <div class="progress">
+      <div class="progress-bar progress-bar-animated" [ngStyle]="{ 'width': currentUpload?.progress + '%' }"></div>
+    </div>
+    Progress: {{currentUpload?.name}} | {{currentUpload?.progress}}% Complete
+  </div>
+      
   <label>
-    <input type="file" (change)="detectFiles($event)">
+    <input type="file" accept=".json" (change)="detectFiles($event)">
   </label>
-  <button [disabled]="!selectedFiles" (click)="uploadSingle()">
-    Upload File
+  <button [disabled]="!selectedFiles" (click)="uploadResults()">
+    Push to Database
   </button>
-  <!--<button mat-button onClick="document.getElementById('fileInput').click()">
-    Select file
-  </button>
-  <input #file accept=".json" type="file" id="fileInput" ng2FileSelect [uploader]="uploader" (change)="onFileSelect(file)" style="display:none">
-  <form action = "upload.php" name="uploadForm" method="POST" enctype="multipart/form-data" id="form">
-    <input #file type="file" accept=".json" (change)="onFileSelect(file)"/><br/>-->
-    <input type="submit" id ="upload" name="upload" id="upload" (click)="uploadResults()" value="Upload"/>
-  <!--</form>-->
 </div>
 
