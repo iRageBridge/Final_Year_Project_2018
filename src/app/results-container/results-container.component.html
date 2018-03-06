@@ -1,12 +1,13 @@
 <div>
     <h1>IrishPF Database</h1>
-    <h3><input type="text" (keyup)="search($event)" id="search" placeholder="Search Athlete Results..." required>
+    <h3><input type="text" (keyup)="search($event)" id="search" placeholder="Search Athletes..." required>
     </h3>
 </div>
 <div *ngFor="let result of results">
     <h4><a [routerLink]="'/athletes/' + result.id">{{result.name}}</a></h4>
+    <h6 style="color: #93C54B">Best Result:</h6>
     <p>
-        <input *ngIf="isLoggedIn" type="checkbox"> Squat: {{result?.squat}}kg | Bench: {{result?.bench}}kg | Deadlift: {{result?.deadlift}}kg | Total: {{result?.total}}kg | Bodyweight: {{result?.bodyweight}}kg | Wilks: {{result.wilks}} 
+        <button (click)="openPopup(result.id)">Stats</button><input *ngIf="isLoggedIn" type="checkbox"> Squat: {{result?.squat}}kg | Bench: {{result?.bench}}kg | Deadlift: {{result?.deadlift}}kg | Total: {{result?.total}}kg | Bodyweight: {{result?.bodyweight}}kg | Wilks: {{result.wilks}} 
     </p>
     <hr/>
 </div>
@@ -21,3 +22,5 @@
         No Results Found.
     </p>
 </div>
+
+<ng2-popup #popup></ng2-popup>
