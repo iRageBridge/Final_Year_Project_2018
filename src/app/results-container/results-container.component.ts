@@ -68,7 +68,6 @@ export class ResultsContainerComponent implements OnInit {
   }
 
   resultTicked(id,e){
-    console.log(this.resultsToCompare);
     if(e.target.checked){
       this.numChecked++;
       if(this.resultsToCompare.length == 2){
@@ -88,6 +87,7 @@ export class ResultsContainerComponent implements OnInit {
         }
       }
     }
+    console.log(this.resultsToCompare);
     console.log("resultToCompare: "+this.resultsToCompare.length)
   }
 
