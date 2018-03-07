@@ -17,6 +17,7 @@ export class ResultsContainerComponent implements OnInit {
   batch = 20;
   finished = false;
   closeResult:string;
+  numChecked = 0;
 
   public isLoggedIn;
   athletes = [];
@@ -37,6 +38,12 @@ export class ResultsContainerComponent implements OnInit {
     this.batch = 20;
     this.getAthletes();  
     this.getResults();
+  }
+
+  resetBoxes(){
+    this.athletes.forEach((item) => {
+      item.checked = false;
+    })
   }
 
   getAthletes(){
@@ -61,7 +68,9 @@ export class ResultsContainerComponent implements OnInit {
   }
 
   resultTicked(id,e){
+    console.log(this.numChecked);
     if(e.target.checked){
+      this.numChecked++;
       console.log("Checked: " +id);
       if(this.resultsToCompare.length >= 2){
         this.resultsToCompare.shift();
@@ -74,6 +83,7 @@ export class ResultsContainerComponent implements OnInit {
       }
     }
     else{
+      this.numChecked--;
       console.log("Unchecked: "+id)
       let index = this.resultsToCompare.indexOf(id);
       if (index !== -1) this.resultsToCompare.splice(index, 1);
