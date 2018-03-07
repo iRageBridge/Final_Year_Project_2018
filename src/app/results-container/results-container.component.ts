@@ -68,27 +68,27 @@ export class ResultsContainerComponent implements OnInit {
   }
 
   resultTicked(id,e){
-    console.log(this.numChecked);
+    console.log(this.resultsToCompare);
     if(e.target.checked){
       this.numChecked++;
-      console.log("Checked: " +id);
-      if(this.resultsToCompare.length >= 2){
+      if(this.resultsToCompare.length == 2){
         this.resultsToCompare.shift();
         this.resultsToCompare.push(id);
-        console.log(this.resultsToCompare);
       }
       else{
         this.resultsToCompare.push(id);
-        console.log(this.resultsToCompare);
       }
     }
     else{
       this.numChecked--;
-      console.log("Unchecked: "+id)
       let index = this.resultsToCompare.indexOf(id);
-      if (index !== -1) this.resultsToCompare.splice(index, 1);
-      console.log(this.resultsToCompare);
+      if (index != -1){
+        if(this.numChecked < 2){
+          this.resultsToCompare.splice(index, 1);
+        }
+      }
     }
+    console.log("resultToCompare: "+this.resultsToCompare.length)
   }
 
   openPopup(content) {
