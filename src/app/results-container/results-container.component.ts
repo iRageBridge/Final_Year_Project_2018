@@ -4,6 +4,7 @@ import { Subject } from 'rxjs/Subject';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import { AuthService} from '../shared/auth/auth.service';
 import { Result } from "../shared/model/result";
+import { Athlete } from "../shared/model/athlete";
 import * as _ from 'lodash'
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 
@@ -20,6 +21,8 @@ export class ResultsContainerComponent implements OnInit {
   public isLoggedIn;
   athletes = [];
   results=[];
+  resultsToCompare=[];
+
   startAt: BehaviorSubject<string|null> = new BehaviorSubject("");
   endAt: BehaviorSubject<string|null> = new BehaviorSubject("\uf8ff");
   
@@ -57,7 +60,28 @@ export class ResultsContainerComponent implements OnInit {
     this.endAt.next(q+"\uf8ff");
   }
 
-  openPopup(content, id) {
+  resultTicked(id,e){
+    if(e.target.checked){
+      console.log("Checked: " +id);
+      if(this.resultsToCompare.length >= 2){
+        this.resultsToCompare.shift();
+        this.resultsToCompare.push(id);
+        console.log(this.resultsToCompare);
+      }
+      else{
+        this.resultsToCompare.push(id);
+        console.log(this.resultsToCompare);
+      }
+    }
+    else{
+      console.log("Unchecked: "+id)
+      let index = this.resultsToCompare.indexOf(id);
+      if (index !== -1) this.resultsToCompare.splice(index, 1);
+      console.log(this.resultsToCompare);
+    }
+  }
+
+  openPopup(content) {
     this.modalService.open(content).result.then((result) => {
       this.closeResult = `Closed with: ${result}`;
     }, (reason) => {

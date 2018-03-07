@@ -1,27 +1,45 @@
 <div>
     <h1>IrishPF Database</h1>
-    <h3><input type="text" (keyup)="search($event)" id="search" placeholder="Search Athletes..." required>
-    </h3>
+    <h3><input type="text" (keyup)="search($event)" id="search" placeholder="Search Athletes..." required></h3>
 </div>
+<input type="button" onclick="document.getElementById('primaryButton').click()" value="Compare"/>
 <div *ngFor="let athlete of athletes">
+    <button  style="visibility:hidden; width:1px; height:0px" id="primaryButton" (click)="openPopup(content)" *ngIf="resultsToCompare[0] == athlete.id && resultsToCompare.length == 2">Compare</button>
     <h4><a [routerLink]="'/athletes/' + athlete.id">{{athlete.name}}</a></h4>
     <h6 style="color: #93C54B">Best Result:</h6>
     <p>
-        <button (click)="openPopup(content,athlete.id)">Stats</button><input *ngIf="isLoggedIn" type="checkbox"> Squat: {{athlete?.squat}}kg | Bench: {{athlete?.bench}}kg | Deadlift: {{athlete?.deadlift}}kg | Total: {{athlete?.total}}kg | Bodyweight: {{athlete?.bodyweight}}kg | Wilks: {{athlete.wilks}}  
-        <ng-template #content let-c="close" let-d="dismiss">
-            <div class="modal-header">
-                <h4 class="modal-title">ID: {{athlete.id}}</h4>
-                <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div *ngFor="let result of results">
-                    <p *ngIf="result.id == athlete.id">{{result.wilks}}</p>
+        <input *ngIf="isLoggedIn" type="checkbox" (change)="resultTicked(athlete.id,$event)"> Squat: {{athlete?.squat}}kg | Bench: {{athlete?.bench}}kg | Deadlift: {{athlete?.deadlift}}kg | Total: {{athlete?.total}}kg | Bodyweight: {{athlete?.bodyweight}}kg | Wilks: {{athlete.wilks}}  
+        <ng-template #content let-c="close" let-d="dismiss" ngFor="let resultToCompare of resultsToCompare">
+            <div *ngIf="athlete.id == resultsToCompare[0] || athlete.id == resultsToCompare[1]">
+                    <div class="modal-header">
+                        <div *ngFor="let athlete of athletes">
+                            <h4 class="modal-title" *ngIf="athlete.id == resultsToCompare[0]">{{athlete.name}}'s History:</h4>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div *ngFor="let result of results">
+                            <p *ngIf="result.id == resultsToCompare[0]">{{result.wilks}}</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer" *ngIf="resultsToCompare.length == 1">
+                        <button type="button" class="btn btn-outline-dark" (click)="c('Close click')">Close</button>
+                    </div>
                 </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-outline-dark" (click)="c('Close click')">Close</button>
+
+            <div *ngIf="resultsToCompare.length == 2">
+                <div class="modal-header">
+                    <div *ngFor="let athlete of athletes">
+                        <h4 class="modal-title" *ngIf="athlete.id == resultsToCompare[1]">{{athlete.name}}'s History:</h4>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div *ngFor="let result of results">
+                        <p *ngIf="result.id == resultsToCompare[1]">{{result.wilks}}</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" (click)="c('Close click')">Close</button>
+                </div>
             </div>
         </ng-template>
     </p>

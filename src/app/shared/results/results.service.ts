@@ -4,6 +4,7 @@ import { ActivatedRoute, Params } from "@angular/router";
 import { Observable } from 'rxjs/Observable';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database-deprecated';
 import { Result } from '../../shared/model/result';
+import { Athlete } from '../../shared/model/athlete';
 import { FirebaseListFactoryOpts } from 'angularfire2/database-deprecated/interfaces';
 import { BehaviorSubject } from "rxjs/BehaviorSubject";
 import "rxjs/add/operator/switchMap";
