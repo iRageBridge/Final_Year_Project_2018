@@ -20,7 +20,7 @@ import { AdminComponent } from './admin/admin.component';
 import { Angular2TokenService } from  'angular2-token';
 import { UploadService } from './shared/upload/upload.service';
 import { ChartsModule } from 'ng2-charts';
-import { Ng2PopupModule } from 'ng2-popup';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -33,7 +33,7 @@ import { Ng2PopupModule } from 'ng2-popup';
   ],
   entryComponents: [ResultsContainerComponent],
   imports: [
-    Ng2PopupModule,
+    NgbModule.forRoot(),
     BrowserModule,
     ChartsModule,
     FormsModule,
@@ -43,7 +43,6 @@ import { Ng2PopupModule } from 'ng2-popup';
     AngularFireDatabaseModule,
     AngularFireAuthModule,
     RouterModule.forRoot(ROUTES)
-    
   ],
   providers: [ResultsService, AuthService, UploadService],
   bootstrap: [AppComponent]

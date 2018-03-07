@@ -14,6 +14,16 @@ export class ResultsService {
   constructor(private af: AngularFireDatabase) { }
 
   getAllResults(start,end, batch){
+    return this.af.list('/results',{
+      query: {
+        orderByChild: 'nameLower',
+        startAt: start,
+        endAt: end,
+      }
+    })
+  }
+
+  getAllAthletes(start,end, batch){
     return this.af.list('/athletes',{
       query: {
         orderByChild: 'nameLower',

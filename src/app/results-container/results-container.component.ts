@@ -5,8 +5,7 @@ import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import { AuthService} from '../shared/auth/auth.service';
 import { Result } from "../shared/model/result";
 import * as _ from 'lodash'
-import { Ng2MessagePopupComponent, Ng2PopupComponent } from 'ng2-popup';
-import { Ng2PopupModule } from 'ng2-popup';
+import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-results-container',
@@ -14,16 +13,17 @@ import { Ng2PopupModule } from 'ng2-popup';
   styleUrls: ['./results-container.component.css']
 })
 export class ResultsContainerComponent implements OnInit {
-  @ViewChild(Ng2PopupComponent) popup:Ng2PopupComponent;
   batch = 20;
   finished = false;
+  closeResult:string;
 
   public isLoggedIn;
-  results = [];
+  athletes = [];
+  results=[];
   startAt: BehaviorSubject<string|null> = new BehaviorSubject("");
   endAt: BehaviorSubject<string|null> = new BehaviorSubject("\uf8ff");
   
-  constructor(private authService: AuthService, private resultsService: ResultsService) {
+  constructor(private modalService:NgbModal, private authService: AuthService, private resultsService: ResultsService) {
     authService.isAuthenticated()
     .subscribe(
       success => this.isLoggedIn = success,
@@ -32,7 +32,13 @@ export class ResultsContainerComponent implements OnInit {
 
   ngOnInit() {
     this.batch = 20;
-    this.getResults();  
+    this.getAthletes();  
+    this.getResults();
+  }
+
+  getAthletes(){
+    this.resultsService.getAllAthletes(this.startAt, this.endAt, this.batch)
+                          .subscribe(athletes => this.athletes = athletes)
   }
 
   getResults(){
@@ -42,7 +48,7 @@ export class ResultsContainerComponent implements OnInit {
 
   loadMore(){
     this.batch +=20;
-    this.getResults();
+    this.getAthletes();
   }
 
   search($event) {
@@ -51,10 +57,21 @@ export class ResultsContainerComponent implements OnInit {
     this.endAt.next(q+"\uf8ff");
   }
 
-  openPopup(id:number){
-    this.popup.open(Ng2MessagePopupComponent,{
-      title:"My ID: "+id,
-      message:"My Message"
+  openPopup(content, id) {
+    this.modalService.open(content).result.then((result) => {
+      this.closeResult = `Closed with: ${result}`;
+    }, (reason) => {
+      this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
     });
+  }
+
+  getDismissReason(reason: any): string {
+    if (reason === ModalDismissReasons.ESC) {
+      return 'by pressing ESC';
+    } else if (reason === ModalDismissReasons.BACKDROP_CLICK) {
+      return 'by clicking on a backdrop';
+    } else {
+      return  `with: ${reason}`;
+    }
   }
 }
