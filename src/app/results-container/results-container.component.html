@@ -3,7 +3,7 @@
     <h3><input type="text" (keyup)="search($event)" id="search" placeholder="Search Athletes..." required></h3>
 </div>
 <div *ngIf="chart">
-    <h2>{{athleteNames[0]}} vs {{athleteNames[1]}} (Wilks)</h2>
+    <h2>{{athleteNames[0]}}, {{athleteNames[1]}}, {{athleteNames[2]}}, {{athleteNames[3]}}, {{athleteNames[4]}} (Wilks)</h2>
     <canvas #canvas id="canvas">{{chart}}</canvas>
 </div>
 <!-- <input type="button" [disabled]="numChecked != 2" onclick="document.getElementById('primaryButton').click()" value="Compare"/> -->

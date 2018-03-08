@@ -25,6 +25,9 @@ export class ResultsContainerComponent implements OnInit {
   resultsToCompare=[];
   athleteWilks1=[];
   athleteWilks2=[];
+  athleteWilks3=[];
+  athleteWilks4=[];
+  athleteWilks5=[];
   athleteNames=[];
   chart = [];
   startAt: BehaviorSubject<string|null> = new BehaviorSubject("");
@@ -67,7 +70,7 @@ export class ResultsContainerComponent implements OnInit {
   resultTicked(id,e){
     if(e.target.checked){
       this.numChecked++;
-      if(this.resultsToCompare.length == 2){
+      if(this.resultsToCompare.length == 5){
         this.resultsToCompare.shift();
         this.resultsToCompare.push(id);
       }
@@ -79,7 +82,7 @@ export class ResultsContainerComponent implements OnInit {
       this.numChecked--;
       let index = this.resultsToCompare.indexOf(id);
       if (index != -1){
-        if(this.numChecked < 2){
+        if(this.numChecked < 5){
           this.resultsToCompare.splice(index, 1);
         }
       }
@@ -104,6 +107,18 @@ export class ResultsContainerComponent implements OnInit {
         this.athleteNames[1] = this.results[i].name;
         this.athleteWilks2.push(this.results[i].wilks);
       }
+      if(this.results[i].id == this.resultsToCompare[2]){
+        this.athleteNames[2] = this.results[i].name;
+        this.athleteWilks1.push(this.results[i].wilks);
+      }
+      if(this.results[i].id == this.resultsToCompare[3]){
+        this.athleteNames[3] = this.results[i].name;
+        this.athleteWilks2.push(this.results[i].wilks);
+      }
+      if(this.results[i].id == this.resultsToCompare[4]){
+        this.athleteNames[4] = this.results[i].name;
+        this.athleteWilks2.push(this.results[i].wilks);
+      }
     }
     this.chart = new Chart('canvas', {
       type: 'line',
@@ -124,8 +139,33 @@ export class ResultsContainerComponent implements OnInit {
           lineTension:0.2,
           borderColor:"blue",
           borderWidth:1
-        }]
-      },
+        },
+        {
+          label: this.athleteNames[2],
+          data: this.athleteWilks3,
+          fill:false,
+          lineTension:0.2,
+          borderColor:"orange",
+          borderWidth:1
+        },
+        {
+          label: this.athleteNames[3],
+          data: this.athleteWilks4,
+          fill:false,
+          lineTension:0.2,
+          borderColor:"red",
+          borderWidth:1
+        },
+        {
+          label: this.athleteNames[4],
+          data: this.athleteWilks5,
+          fill:false,
+          lineTension:0.2,
+          borderColor:"yellow",
+          borderWidth:1
+        },]
+      }
+    
       /*options:{
         legent:{
           display:false
