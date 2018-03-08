@@ -35,6 +35,15 @@ export class ResultsService {
     })
   }
 
+  getAthleteWilks(id){
+    return this.af.list('/results',{
+      query: {
+        orderByChild: 'id',
+        equalTo: id
+      }
+    })
+  }
+
   findAthleteById(uid){
     return this.af.list('/results',{
       query: {

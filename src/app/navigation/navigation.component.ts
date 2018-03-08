@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { AuthService} from '../shared/auth/auth.service';
 import { Router } from '@angular/router';
 
@@ -25,5 +25,4 @@ export class NavigationComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

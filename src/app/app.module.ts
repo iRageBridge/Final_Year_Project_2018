@@ -21,6 +21,7 @@ import { Angular2TokenService } from  'angular2-token';
 import { UploadService } from './shared/upload/upload.service';
 import { ChartsModule } from 'ng2-charts';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import Chart from 'chart.js';
 
 @NgModule({
   declarations: [

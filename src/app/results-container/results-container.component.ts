@@ -7,6 +7,7 @@ import { Result } from "../shared/model/result";
 import { Athlete } from "../shared/model/athlete";
 import * as _ from 'lodash'
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
+import * as Chart from 'chart.js';
 
 @Component({
   selector: 'app-results-container',
@@ -17,13 +18,15 @@ export class ResultsContainerComponent implements OnInit {
   batch = 20;
   finished = false;
   closeResult:string;
-  numChecked = 0;
-
-  public isLoggedIn;
+  numChecked = 0; 
+  isLoggedIn;
   athletes = [];
   results=[];
   resultsToCompare=[];
-
+  athleteWilks1=[];
+  athleteWilks2=[];
+  athleteNames=[];
+  chart = [];
   startAt: BehaviorSubject<string|null> = new BehaviorSubject("");
   endAt: BehaviorSubject<string|null> = new BehaviorSubject("\uf8ff");
   
@@ -38,12 +41,6 @@ export class ResultsContainerComponent implements OnInit {
     this.batch = 20;
     this.getAthletes();  
     this.getResults();
-  }
-
-  resetBoxes(){
-    this.athletes.forEach((item) => {
-      item.checked = false;
-    })
   }
 
   getAthletes(){
@@ -91,7 +88,61 @@ export class ResultsContainerComponent implements OnInit {
     console.log("resultToCompare: "+this.resultsToCompare.length)
   }
 
-  openPopup(content) {
+  getChart(){
+    for(let i  = 0; i <= 2; i++){
+      this.getChart2();
+    }
+  }
+
+  getChart2(){
+    for (let i = 0; i < this.results.length; i++){
+      if(this.results[i].id == this.resultsToCompare[0]){
+        this.athleteNames[0] = this.results[i].name;
+        this.athleteWilks1.push(this.results[i].wilks);
+      }
+      if(this.results[i].id == this.resultsToCompare[1]){
+        this.athleteNames[1] = this.results[i].name;
+        this.athleteWilks2.push(this.results[i].wilks);
+      }
+    }
+    this.chart = new Chart('canvas', {
+      type: 'line',
+      data:{
+        labels: [1,2,3,4],
+        datasets:[{
+          label: this.athleteNames[0],
+          data: this.athleteWilks1,
+          fill:false,
+          lineTension:0.2,
+          borderColor:"green",
+          borderWidth:1
+        },
+        {
+          label: this.athleteNames[1],
+          data: this.athleteWilks2,
+          fill:false,
+          lineTension:0.2,
+          borderColor:"blue",
+          borderWidth:1
+        }]
+      },
+      /*options:{
+        legent:{
+          display:false
+        },
+        scales:{
+          xAxes: [{
+            display:true
+          }],
+          yAxes: [{
+            display:true
+          }]
+        }
+      }*/
+    });
+  }
+  
+  /*openPopup(content) {
     this.modalService.open(content).result.then((result) => {
       this.closeResult = `Closed with: ${result}`;
     }, (reason) => {
@@ -107,5 +158,5 @@ export class ResultsContainerComponent implements OnInit {
     } else {
       return  `with: ${reason}`;
     }
-  }
+  }*/
 }

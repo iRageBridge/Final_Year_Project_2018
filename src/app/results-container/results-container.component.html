@@ -2,9 +2,13 @@
     <h1>IrishPF Database</h1>
     <h3><input type="text" (keyup)="search($event)" id="search" placeholder="Search Athletes..." required></h3>
 </div>
-<input type="button" [disabled]="numChecked != 2" onclick="document.getElementById('primaryButton').click()" (click)="resetBoxes()" value="Compare"/>
+<div *ngIf="chart">
+    <h2>{{athleteNames[0]}} vs {{athleteNames[1]}} (Wilks)</h2>
+    <canvas #canvas id="canvas">{{chart}}</canvas>
+</div>
+<!-- <input type="button" [disabled]="numChecked != 2" onclick="document.getElementById('primaryButton').click()" value="Compare"/> -->
 <div *ngFor="let athlete of athletes">
-    <h4><a [routerLink]="'/athletes/' + athlete.id">{{athlete.name}}</a><button  style="visibility:hidden; width:1px; height:0px" id="primaryButton" (click)="openPopup(content)">Compare</button></h4>
+    <h4><a [routerLink]="'/athletes/' + athlete.id">{{athlete.name}}</a><button  style="visibility:hidden; width:1px; height:0px" id="primaryButton" (click)="getChart()">Compare</button></h4>
     <h6 style="color: #93C54B">Best Result:</h6>
     <p>
         <input *ngIf="isLoggedIn" type="checkbox" (change)="resultTicked(athlete.id,$event)"> Squat: {{athlete?.squat}}kg | Bench: {{athlete?.bench}}kg | Deadlift: {{athlete?.deadlift}}kg | Total: {{athlete?.total}}kg | Bodyweight: {{athlete?.bodyweight}}kg | Wilks: {{athlete.wilks}}  
@@ -24,7 +28,7 @@
                     <button type="button" class="btn btn-succcess-dark" (click)="c('Close click')">Close</button>
                 </div>
             </div>
-
+            
             <div *ngIf="resultsToCompare.length == 2">
                 <div class="modal-header">
                     <div *ngFor="let athlete of athletes">
