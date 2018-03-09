@@ -1,7 +1,7 @@
-import { Component, OnInit, AfterContentInit, ViewChild, ViewContainerRef, ComponentFactoryResolver, AfterViewInit } from '@angular/core';
+import { Component, OnInit, AfterContentInit, ViewChild, ViewContainerRef, ComponentFactoryResolver, AfterViewInit, Inject, Input, ElementRef, NgModule } from '@angular/core';
 import { ResultsService } from '../shared/results/results.service';
 import { Subject } from 'rxjs/Subject';
-import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+import { BehaviorSubject } from 'rxjs/BehaviorSubject'; 
 import { AuthService} from '../shared/auth/auth.service';
 import { Result } from "../shared/model/result";
 import { Athlete } from "../shared/model/athlete";
@@ -12,8 +12,9 @@ import * as Chart from 'chart.js';
 @Component({
   selector: 'app-results-container',
   templateUrl: './results-container.component.html',
-  styleUrls: ['./results-container.component.css']
+  styleUrls: ['./results-container.component.less']
 })
+
 export class ResultsContainerComponent implements OnInit {
   batch = 20;
   finished = false;
@@ -30,10 +31,14 @@ export class ResultsContainerComponent implements OnInit {
   athleteWilks5=[];
   athleteNames=[];
   chart = [];
+  chart2=[];
   startAt: BehaviorSubject<string|null> = new BehaviorSubject("");
   endAt: BehaviorSubject<string|null> = new BehaviorSubject("\uf8ff");
-  
-  constructor(private modalService:NgbModal, private authService: AuthService, private resultsService: ResultsService) {
+
+  constructor(private modalService:NgbModal,
+              private authService: AuthService,
+              private resultsService: ResultsService) {
+
     authService.isAuthenticated()
     .subscribe(
       success => this.isLoggedIn = success,
@@ -87,8 +92,6 @@ export class ResultsContainerComponent implements OnInit {
         }
       }
     }
-    console.log(this.resultsToCompare);
-    console.log("resultToCompare: "+this.resultsToCompare.length)
   }
 
   getChart(){
@@ -98,6 +101,12 @@ export class ResultsContainerComponent implements OnInit {
   }
 
   getChart2(){
+    
+    this.athleteWilks1 = [];
+    this.athleteWilks2 = [];
+    this.athleteWilks3 = [];
+    this.athleteWilks4 = [];
+    this.athleteWilks5 = [];
     for (let i = 0; i < this.results.length; i++){
       if(this.results[i].id == this.resultsToCompare[0]){
         this.athleteNames[0] = this.results[i].name;
@@ -109,25 +118,26 @@ export class ResultsContainerComponent implements OnInit {
       }
       if(this.results[i].id == this.resultsToCompare[2]){
         this.athleteNames[2] = this.results[i].name;
-        this.athleteWilks1.push(this.results[i].wilks);
+        this.athleteWilks3.push(this.results[i].wilks);
       }
       if(this.results[i].id == this.resultsToCompare[3]){
         this.athleteNames[3] = this.results[i].name;
-        this.athleteWilks2.push(this.results[i].wilks);
+        this.athleteWilks4.push(this.results[i].wilks);
       }
       if(this.results[i].id == this.resultsToCompare[4]){
         this.athleteNames[4] = this.results[i].name;
-        this.athleteWilks2.push(this.results[i].wilks);
+        this.athleteWilks5.push(this.results[i].wilks);
       }
     }
+    
     this.chart = new Chart('canvas', {
       type: 'line',
       data:{
-        labels: [1,2,3,4],
+        labels: [1,2,3,4,5,6],
         datasets:[{
           label: this.athleteNames[0],
           data: this.athleteWilks1,
-          fill:false,
+          fill: false,
           lineTension:0.2,
           borderColor:"green",
           borderWidth:1
@@ -135,7 +145,7 @@ export class ResultsContainerComponent implements OnInit {
         {
           label: this.athleteNames[1],
           data: this.athleteWilks2,
-          fill:false,
+          fill: false,
           lineTension:0.2,
           borderColor:"blue",
           borderWidth:1
@@ -161,33 +171,27 @@ export class ResultsContainerComponent implements OnInit {
           data: this.athleteWilks5,
           fill:false,
           lineTension:0.2,
-          borderColor:"yellow",
+          borderColor:"purple",
           borderWidth:1
         },]
       }
-    
-      /*options:{
-        legent:{
-          display:false
-        },
-        scales:{
-          xAxes: [{
-            display:true
-          }],
-          yAxes: [{
-            display:true
-          }]
-        }
-      }*/
     });
   }
-  
-  /*openPopup(content) {
-    this.modalService.open(content).result.then((result) => {
+
+  openPopup(content) {
+    this.modalService.open(content,{
+        size:'lg',
+        windowClass: 'modal-xxl'
+      }).result.then((result) => {
       this.closeResult = `Closed with: ${result}`;
     }, (reason) => {
       this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
     });
+    setTimeout(this.delayPopup,200);
+  }
+
+  delayPopup(){
+    
   }
 
   getDismissReason(reason: any): string {
@@ -198,5 +202,5 @@ export class ResultsContainerComponent implements OnInit {
     } else {
       return  `with: ${reason}`;
     }
-  }*/
+  }
 }
