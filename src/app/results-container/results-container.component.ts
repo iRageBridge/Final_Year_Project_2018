@@ -29,7 +29,7 @@ export class ResultsContainerComponent implements OnInit {
   athleteWilks3=[];
   athleteWilks4=[];
   athleteWilks5=[];
-  athleteNames=[];
+  athleteNames;
   chart = [];
   chart2=[];
   startAt: BehaviorSubject<string|null> = new BehaviorSubject("");
@@ -46,6 +46,7 @@ export class ResultsContainerComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.athleteNames = [];
     this.batch = 20;
     this.getAthletes();  
     this.getResults();
@@ -95,13 +96,6 @@ export class ResultsContainerComponent implements OnInit {
   }
 
   getChart(){
-    for(let i  = 0; i <= 2; i++){
-      this.getChart2();
-    }
-  }
-
-  getChart2(){
-    
     this.athleteWilks1 = [];
     this.athleteWilks2 = [];
     this.athleteWilks3 = [];
@@ -129,7 +123,7 @@ export class ResultsContainerComponent implements OnInit {
         this.athleteWilks5.push(this.results[i].wilks);
       }
     }
-    
+    console.log(this.athleteNames)
     this.chart = new Chart('canvas', {
       type: 'line',
       data:{
@@ -182,25 +176,6 @@ export class ResultsContainerComponent implements OnInit {
     this.modalService.open(content,{
         size:'lg',
         windowClass: 'modal-xxl'
-      }).result.then((result) => {
-      this.closeResult = `Closed with: ${result}`;
-    }, (reason) => {
-      this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
-    });
-    setTimeout(this.delayPopup,200);
-  }
-
-  delayPopup(){
-    
-  }
-
-  getDismissReason(reason: any): string {
-    if (reason === ModalDismissReasons.ESC) {
-      return 'by pressing ESC';
-    } else if (reason === ModalDismissReasons.BACKDROP_CLICK) {
-      return 'by clicking on a backdrop';
-    } else {
-      return  `with: ${reason}`;
+      });
     }
-  }
 }

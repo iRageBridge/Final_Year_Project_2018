@@ -17,11 +17,6 @@ export class AthleteProfileComponent implements OnInit {
   ngOnInit() {
     let url:any = this.route.snapshot.params;
     this.resultsService.findAthleteById(+url.id)
-                       .subscribe(results => this.results = results)
-                       
-  }
-
-  changeFilter(){
-    //this.filter = 'competition';
+                       .subscribe(results => this.results = results)                       
   }
 }

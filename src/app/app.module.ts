@@ -22,6 +22,7 @@ import { UploadService } from './shared/upload/upload.service';
 import { ChartsModule } from 'ng2-charts';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import Chart from 'chart.js';
+import { CompetitionComponent } from './competition/competition.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import Chart from 'chart.js';
     NavigationComponent,
     AthleteProfileComponent,
     LoginComponent,
-    AdminComponent
+    AdminComponent,
+    CompetitionComponent
   ],
   entryComponents: [ResultsContainerComponent],
   imports: [

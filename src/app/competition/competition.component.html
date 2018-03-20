@@ -1,0 +1,121 @@
+<div *ngFor="let result of results; let i=index">
+  <div *ngIf="i==0">
+    <h1>{{result.comp}} Results</h1>
+  </div>
+</div>
+<hr/>
+
+<div>
+  <div *ngFor=" let result of results;  let i=index">
+    <div *ngIf="i==0">
+      <h3>47kg</h3>
+    </div> 
+    <div *ngIf="result.weight_class == '47'">
+      <div *ngFor="let athlete of athletes">
+        <div *ngIf="athlete.name == result.name">
+          <a [routerLink]="'/athletes/' + athlete.id">{{result.name}}</a> | Total: {{result.total}}
+        </div>
+      </div>
+    </div>
+  </div>  
+  <hr/> 
+</div>
+
+<div>
+  <div *ngFor=" let result of results;  let i=index">
+    <div *ngIf="i==0">
+      <h3>52kg</h3>
+    </div> 
+    <div *ngIf="result.weight_class == '52'">
+      <div *ngFor="let athlete of athletes">
+        <div *ngIf="athlete.name == result.name">
+          <a [routerLink]="'/athletes/' + athlete.id">{{result.name}}</a> | Total: {{result.total}}
+        </div>
+      </div>
+    </div>
+  </div>  
+  <hr/> 
+</div>
+
+<div>
+  <div *ngFor=" let result of results;  let i=index">
+    <div *ngIf="i==0">
+      <h3>57kg</h3>
+    </div> 
+    <div *ngIf="result.weight_class == '57'">
+      <div *ngFor="let athlete of athletes">
+        <div *ngIf="athlete.name == result.name">
+          <a [routerLink]="'/athletes/' + athlete.id">{{result.name}}</a> | Total: {{result.total}}
+        </div>
+      </div>
+    </div>
+  </div>  
+  <hr/> 
+</div>
+  
+<div>
+  <div *ngFor=" let result of results;  let i=index">
+    <div *ngIf="i==0">
+      <h3>63kg</h3>
+    </div> 
+    <div *ngIf="result.weight_class == '63'">
+      <div *ngFor="let athlete of athletes">
+        <div *ngIf="athlete.name == result.name">
+          <a [routerLink]="'/athletes/' + athlete.id">{{result.name}}</a> | Total: {{result.total}}
+        </div>
+      </div>
+    </div>
+  </div>  
+  <hr/> 
+</div>
+
+<div>
+  <div *ngFor=" let result of results;  let i=index">
+    <div *ngIf="i==0">
+      <h3>72kg</h3>
+    </div> 
+    <div *ngIf="result.weight_class == '72'">
+      <div *ngFor="let athlete of athletes">
+        <div *ngIf="athlete.name == result.name">
+          <a [routerLink]="'/athletes/' + athlete.id">{{result.name}}</a> | Total: {{result.total}}
+        </div>
+      </div>
+    </div>
+  </div>  
+  <hr/> 
+</div>
+  
+<div>
+  <div *ngFor=" let result of results;  let i=index">
+    <div *ngIf="i==0">
+      <h3>84kg</h3>
+    </div> 
+    <div *ngIf="result.weight_class == '84'">
+      <div *ngFor="let athlete of athletes">
+        <div *ngIf="athlete.name == result.name">
+          <a [routerLink]="'/athletes/' + athlete.id">{{result.name}}</a> | Total: {{result.total}}
+        </div>
+      </div>
+    </div>
+  </div>  
+  <hr/> 
+</div>
+  
+<div>
+  <div *ngFor=" let result of results;  let i=index">
+    <div *ngIf="i==0">
+      <h3>84kg+</h3>
+    </div> 
+    <div *ngIf="result.weight_class == '84+'">
+      <div *ngFor="let athlete of athletes">
+        <div *ngIf="athlete.name == result.name">
+          <a [routerLink]="'/athletes/' + athlete.id">{{result.name}}</a> | Total: {{result.total}}
+        </div>
+      </div>
+    </div>
+  </div>  
+  <hr/>
+</div>
+    
+  
+  

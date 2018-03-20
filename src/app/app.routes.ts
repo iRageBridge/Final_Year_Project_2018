@@ -4,6 +4,7 @@ import { AthleteProfileComponent } from "./athlete-profile/athlete-profile.compo
 import { AdminComponent } from "./admin/admin.component";
 import { LoginComponent } from './login/login.component';
 import { AuthService } from "./shared/auth/auth.service";
+import  { CompetitionComponent } from './competition/competition.component';
 
 export const ROUTES: Route[] =[{
       path: 'results', 
@@ -19,6 +20,11 @@ export const ROUTES: Route[] =[{
       path: 'login', component: LoginComponent
     },{
       path: '', redirectTo: 'results', pathMatch: 'full'
+    },{
+      path: 'comp', 
+      children: [{
+        path:':compId',component: CompetitionComponent
+      },]
     },{
       path: 'admin', 
         canActivate: [ AuthService ],

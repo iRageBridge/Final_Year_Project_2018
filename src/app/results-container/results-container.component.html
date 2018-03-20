@@ -2,9 +2,7 @@
     <h1>IrishPF Database</h1>
     <h3><input type="text" (keyup)="search($event)" id="search" placeholder="Search Athletes..." required></h3>
 </div>
-<!-- <div *ngIf="showChart">
-    <canvas #canvas id="canvas">{{chart}}</canvas>
-</div> -->
+
 <input type="button" [disabled]="numChecked < 2 || numChecked > 5" onclick="document.getElementById('primaryButton').click()" value="Compare"/>
 <div *ngFor="let athlete of athletes">
     <h4><a [routerLink]="'/athletes/' + athlete.id">{{athlete.name}}</a><button  style="visibility:hidden; width:1px; height:0px" id="primaryButton" (click)="openPopup(content)" (click)="getChart()">Compare</button></h4>
