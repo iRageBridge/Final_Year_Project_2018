@@ -1,0 +1,26 @@
+<div *ngFor=" let result of results">
+  <table>
+    <colgroup>
+      <col class='nameCol'/>
+      <col class='regCol'/>
+      <col class='regCol'/> 
+      <col class='regCol'/>
+      <col class='regCol'/>
+      <col class='regCol'/>
+      <col class='regCol'/>
+      <col class='regCol'/>
+    </colgroup>  
+    <tbody>             
+      <tr>
+        <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
+        <td class= 'reg'>{{result.squat}}kg</td> 
+        <td class= 'reg'>{{result.bench}}kg</td>
+        <td class= 'reg'>{{result.deadlift}}kg</td>
+        <td class= 'reg'>{{result.total}}kg</td>
+        <td class= 'reg'>{{result.bodyweight}}kg</td>
+        <td class= 'reg'>{{result.wilks}}</td>
+        <td class= 'reg'>{{result.place}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

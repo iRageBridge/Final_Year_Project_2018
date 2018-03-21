@@ -1,0 +1,19 @@
+.name{
+    width: 400px !important;
+    margin: 6px;
+    padding: 6px;
+}
+
+.reg{
+    width: 120px !important;
+    margin: 6px;
+    padding: 6px;
+}
+
+.nameCol{
+    width: 30%;
+}
+
+regCol{
+    width: 10%;
+}
