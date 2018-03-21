@@ -18,11 +18,10 @@ regCol{
     width: 10%;
 }
 
-td{
-    border: 1px grey;
+table{
+    border: 1px lightgray;
 }
 
 h3{
     text-align: center;
-    float:left;
 }

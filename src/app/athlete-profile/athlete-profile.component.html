@@ -24,17 +24,21 @@
                     <col class='regCol'/>
                     <col class='regCol'/>
                     <col class='regCol'/>
+                    <col class='regCol'/>
+                    <col class='regCol'/>
                 </colgroup>
                 <tbody>
                     <tr>
                         <th class= 'comp'><a>Competition</a></th>
+                        <th class= 'reg'>Class</th>
+                        <th class= 'reg'>Bodyweight</th>
+                        <th class= 'reg'>Weight Class</th>
                         <th class= 'reg'>Squat</th>
                         <th class= 'reg'>Bench</th>
                         <th class= 'reg'>Deadlift</th>
                         <th class= 'reg'>Total</th>
-                        <th class= 'reg'>Bodyweight</th>
                         <th class= 'reg'>Wilks</th>
-                        <th class= 'reg'>Placing</th>
+                        <th class= 'reg'>Place</th>
                     </tr>       
                 </tbody>
             </table>
@@ -50,15 +54,19 @@
                         <col class='regCol'/>
                         <col class='regCol'/>
                         <col class='regCol'/>
+                        <col class='regCol'/>
+                        <col class='regCol'/>
                     </colgroup>  
                     <tbody>             
                         <tr>
                             <td class= 'comp'><a [routerLink]="'/comps/'+result.compId">{{result.comp}}</a></td>
+                            <td class= 'reg'>{{result.class}}</td> 
+                            <td class= 'reg'>{{result.bodyweight}}kg</td> 
+                            <td class= 'reg'>{{result.weight_class}}</td>
                             <td class= 'reg'>{{result.squat}}kg</td> 
                             <td class= 'reg'>{{result.bench}}kg</td>
                             <td class= 'reg'>{{result.deadlift}}kg</td>
                             <td class= 'reg'>{{result.total}}kg</td>
-                            <td class= 'reg'>{{result.bodyweight}}kg</td>
                             <td class= 'reg'>{{result.wilks}}</td>
                             <td class= 'reg'>{{result.place}}</td>
                         </tr>
