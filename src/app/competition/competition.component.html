@@ -8,41 +8,127 @@
 <h3>Female</h3>
 
 <table>
-    <colgroup>
-        <col class='nameCol'/>
-        <col class='regCol'/>
-        <col class='regCol'/>
-        <col class='regCol'/>
-        <col class='regCol'/>
-        <col class='regCol'/>
-        <col class='regCol'/>
-        <col class='regCol'/>
-    </colgroup>
-    <tbody>
-        <tr>
-            <th class= 'name'><a>Name</a></th>
-            <th class= 'reg'>Squat</th>
-            <th class= 'reg'>Bench</th>
-            <th class= 'reg'>Deadlift</th>
-            <th class= 'reg'>Total</th>
-            <th class= 'reg'>Bodyweight</th>
-            <th class= 'reg'>Wilks</th>
-            <th class= 'reg'>Place</th>
-        </tr>       
-    </tbody>
+  <colgroup>
+      <col class='nameCol'/>
+      <col class='regCol'/>
+      <col class='regCol'/>
+      <col class='regCol'/>
+      <col class='regCol'/>
+      <col class='regCol'/>
+      <col class='regCol'/>
+      <col class='regCol'/>
+      <col class='regCol'/>
+  </colgroup>
+  <tbody>
+      <tr>
+          <th class= 'name'><a>Name</a></th>
+          <th class= 'reg'>Class</th>
+          <th class= 'reg'>Bodyweight</th>
+          <th class= 'reg'>Weight Class</th>
+          <th class= 'reg'>Squat</th>
+          <th class= 'reg'>Bench</th>
+          <th class= 'reg'>Deadlift</th>
+          <th class= 'reg'>Total</th>
+          <th class= 'reg'>Wilks</th>
+          <th class= 'reg'>Place</th>
+      </tr>       
+  </tbody>
 </table>
 <hr/>
 <div>
   <div *ngFor=" let result of results; let athlete of athletes; let i=index">
     <div *ngIf="i==0">
       <h3>47kg</h3>
+      <hr/>
     </div> 
     <div *ngIf="result.weight_class == '47' || result.weight_class =='43'">
+      <table>
+        <colgroup>
+          <col class='nameCol'/>
+          <col class='regCol'/>
+          <col class='regCol'/>
+          <col class='regCol'/> 
+          <col class='regCol'/>
+          <col class='regCol'/>
+          <col class='regCol'/>
+          <col class='regCol'/>
+          <col class='regCol'/>
+          <col class='regCol'/>
+        </colgroup>  
+        <tbody>             
+          <tr>
+            <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
+            <td class= 'reg'>{{result.class}}</td>
+            <td class= 'reg'>{{result.bodyweight}}</td> 
+            <td class= 'reg'>{{result.weight_class}}</td>  
+            <td class= 'reg'>{{result.squat}}kg</td> 
+            <td class= 'reg'>{{result.bench}}kg</td>
+            <td class= 'reg'>{{result.deadlift}}kg</td>
+            <td class= 'reg'>{{result.total}}kg</td>
+            <td class= 'reg'>{{result.wilks}}</td>
+            <td class= 'reg'>{{result.place}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <hr/> 
+</div>
+
+<div>
+  <div *ngFor=" let result of results; let athlete of athletes; let i=index">
+    <div *ngIf="i==0">
+      <h3>52kg</h3>
+      <hr/>
+    </div> 
+    <div *ngIf="result.weight_class == '52'">
+      <table>
+          <colgroup>
+            <col class='nameCol'/>
+            <col class='regCol'/>
+            <col class='regCol'/>
+            <col class='regCol'/> 
+            <col class='regCol'/>
+            <col class='regCol'/>
+            <col class='regCol'/>
+            <col class='regCol'/>
+            <col class='regCol'/>
+            <col class='regCol'/>
+          </colgroup>  
+          <tbody>             
+            <tr>
+              <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
+              <td class= 'reg'>{{result.class}}</td>
+              <td class= 'reg'>{{result.bodyweight}}kg</td>
+              <td class= 'reg'>{{result.weight_class}}kg</td> 
+              <td class= 'reg'>{{result.squat}}kg</td> 
+              <td class= 'reg'>{{result.bench}}kg</td>
+              <td class= 'reg'>{{result.deadlift}}kg</td>
+              <td class= 'reg'>{{result.total}}kg</td>
+              <td class= 'reg'>{{result.wilks}}</td>
+              <td class= 'reg'>{{result.place}}</td>
+            </tr>
+          </tbody>
+      </table>
+    </div>
+  </div>
+  <hr/> 
+</div>
+
+<div>
+  <div *ngFor=" let result of results; let athlete of athletes; let i=index">
+    <div *ngIf="i==0">
+      <h3>57kg</h3>
+      <hr/>
+    </div> 
+    <div *ngIf="result.weight_class == '57'">
         <table>
             <colgroup>
               <col class='nameCol'/>
               <col class='regCol'/>
+              <col class='regCol'/>
               <col class='regCol'/> 
+              <col class='regCol'/>
               <col class='regCol'/>
               <col class='regCol'/>
               <col class='regCol'/>
@@ -52,497 +138,502 @@
             <tbody>             
               <tr>
                 <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
+                <td class= 'reg'>{{result.class}}</td>
+                <td class= 'reg'>{{result.bodyweight}}kg</td>
+                <td class= 'reg'>{{result.weight_class}}kg</td> 
                 <td class= 'reg'>{{result.squat}}kg</td> 
                 <td class= 'reg'>{{result.bench}}kg</td>
                 <td class= 'reg'>{{result.deadlift}}kg</td>
                 <td class= 'reg'>{{result.total}}kg</td>
-                <td class= 'reg'>{{result.bodyweight}}kg</td>
                 <td class= 'reg'>{{result.wilks}}</td>
                 <td class= 'reg'>{{result.place}}</td>
               </tr>
             </tbody>
-          </table>
+        </table>
     </div>
   </div>
   <hr/> 
 </div>
 
 <div>
-    <div *ngFor=" let result of results; let athlete of athletes; let i=index">
-      <div *ngIf="i==0">
-        <h3>52kg</h3>
-      </div> 
-      <div *ngIf="result.weight_class == '52'">
-          <table>
-              <colgroup>
-                <col class='nameCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/> 
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-              </colgroup>  
-              <tbody>             
-                <tr>
-                  <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
-                  <td class= 'reg'>{{result.squat}}kg</td> 
-                  <td class= 'reg'>{{result.bench}}kg</td>
-                  <td class= 'reg'>{{result.deadlift}}kg</td>
-                  <td class= 'reg'>{{result.total}}kg</td>
-                  <td class= 'reg'>{{result.bodyweight}}kg</td>
-                  <td class= 'reg'>{{result.wilks}}</td>
-                  <td class= 'reg'>{{result.place}}</td>
-                </tr>
-              </tbody>
-            </table>
-      </div>
+  <div *ngFor=" let result of results; let athlete of athletes; let i=index">
+    <div *ngIf="i==0">
+      <h3>63kg</h3>
+      <hr/>
+    </div> 
+    <div *ngIf="result.weight_class == '63'">
+        <table>
+            <colgroup>
+              <col class='nameCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/> 
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+            </colgroup>  
+            <tbody>             
+              <tr>
+                <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
+                <td class= 'reg'>{{result.class}}</td>
+                <td class= 'reg'>{{result.bodyweight}}kg</td>
+                <td class= 'reg'>{{result.weight_class}}kg</td> 
+                <td class= 'reg'>{{result.squat}}kg</td> 
+                <td class= 'reg'>{{result.bench}}kg</td>
+                <td class= 'reg'>{{result.deadlift}}kg</td>
+                <td class= 'reg'>{{result.total}}kg</td>
+                <td class= 'reg'>{{result.wilks}}</td>
+                <td class= 'reg'>{{result.place}}</td>
+              </tr>
+            </tbody>
+        </table>
     </div>
-    <hr/> 
   </div>
+  <hr/> 
+</div>
 
 <div>
-    <div *ngFor=" let result of results; let athlete of athletes; let i=index">
-      <div *ngIf="i==0">
-        <h3>57kg</h3>
-      </div> 
-      <div *ngIf="result.weight_class == '57'">
-          <table>
-              <colgroup>
-                <col class='nameCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/> 
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-              </colgroup>  
-              <tbody>             
-                <tr>
-                  <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
-                  <td class= 'reg'>{{result.squat}}kg</td> 
-                  <td class= 'reg'>{{result.bench}}kg</td>
-                  <td class= 'reg'>{{result.deadlift}}kg</td>
-                  <td class= 'reg'>{{result.total}}kg</td>
-                  <td class= 'reg'>{{result.bodyweight}}kg</td>
-                  <td class= 'reg'>{{result.wilks}}</td>
-                  <td class= 'reg'>{{result.place}}</td>
-                </tr>
-              </tbody>
-            </table>      </div>
+  <div *ngFor=" let result of results; let athlete of athletes; let i=index">
+    <div *ngIf="i==0">
+      <h3>72kg</h3>
+      <hr/>
+    </div> 
+    <div *ngIf="result.weight_class == '72'">
+        <table>
+            <colgroup>
+              <col class='nameCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/> 
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+            </colgroup>  
+            <tbody>             
+              <tr>
+                <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
+                <td class= 'reg'>{{result.class}}</td>
+                <td class= 'reg'>{{result.bodyweight}}kg</td>
+                <td class= 'reg'>{{result.weight_class}}kg</td> 
+                <td class= 'reg'>{{result.squat}}kg</td> 
+                <td class= 'reg'>{{result.bench}}kg</td>
+                <td class= 'reg'>{{result.deadlift}}kg</td>
+                <td class= 'reg'>{{result.total}}kg</td>
+                <td class= 'reg'>{{result.wilks}}</td>
+                <td class= 'reg'>{{result.place}}</td>
+              </tr>
+            </tbody>
+        </table>
     </div>
-    <hr/> 
   </div>
+  <hr/> 
+</div>
 
 <div>
-    <div *ngFor=" let result of results; let athlete of athletes; let i=index">
-      <div *ngIf="i==0">
-        <h3>63kg</h3>
-      </div> 
-      <div *ngIf="result.weight_class == '63'">
-          <table>
-              <colgroup>
-                <col class='nameCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/> 
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-              </colgroup>  
-              <tbody>             
-                <tr>
-                  <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
-                  <td class= 'reg'>{{result.squat}}kg</td> 
-                  <td class= 'reg'>{{result.bench}}kg</td>
-                  <td class= 'reg'>{{result.deadlift}}kg</td>
-                  <td class= 'reg'>{{result.total}}kg</td>
-                  <td class= 'reg'>{{result.bodyweight}}kg</td>
-                  <td class= 'reg'>{{result.wilks}}</td>
-                  <td class= 'reg'>{{result.place}}</td>
-                </tr>
-              </tbody>
-            </table>      </div>
+  <div *ngFor=" let result of results; let athlete of athletes; let i=index">
+    <div *ngIf="i==0">
+      <h3>84kg</h3>
+      <hr/>
+    </div> 
+    <div *ngIf="result.weight_class == '84'">
+        <table>
+            <colgroup>
+              <col class='nameCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/> 
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+            </colgroup>  
+            <tbody>             
+              <tr>
+                <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
+                <td class= 'reg'>{{result.class}}</td>
+                <td class= 'reg'>{{result.bodyweight}}kg</td>
+                <td class= 'reg'>{{result.weight_class}}kg</td> 
+                <td class= 'reg'>{{result.squat}}kg</td> 
+                <td class= 'reg'>{{result.bench}}kg</td>
+                <td class= 'reg'>{{result.deadlift}}kg</td>
+                <td class= 'reg'>{{result.total}}kg</td>
+                <td class= 'reg'>{{result.wilks}}</td>
+                <td class= 'reg'>{{result.place}}</td>
+              </tr>
+            </tbody>
+        </table>
     </div>
-    <hr/> 
   </div>
+  <hr/> 
+</div>
 
 <div>
-    <div *ngFor=" let result of results; let athlete of athletes; let i=index">
-      <div *ngIf="i==0">
-        <h3>72kg</h3>
-      </div> 
-      <div *ngIf="result.weight_class == '72'">
-          <table>
-              <colgroup>
-                <col class='nameCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/> 
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-              </colgroup>  
-              <tbody>             
-                <tr>
-                  <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
-                  <td class= 'reg'>{{result.squat}}kg</td> 
-                  <td class= 'reg'>{{result.bench}}kg</td>
-                  <td class= 'reg'>{{result.deadlift}}kg</td>
-                  <td class= 'reg'>{{result.total}}kg</td>
-                  <td class= 'reg'>{{result.bodyweight}}kg</td>
-                  <td class= 'reg'>{{result.wilks}}</td>
-                  <td class= 'reg'>{{result.place}}</td>
-                </tr>
-              </tbody>
-            </table>      </div>
+  <div *ngFor=" let result of results; let athlete of athletes; let i=index">
+    <div *ngIf="i==0">
+      <h3>84kg+</h3>
+      <hr/>
+    </div> 
+    <div *ngIf="result.weight_class == '84+'">
+        <table>
+            <colgroup>
+              <col class='nameCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/> 
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+            </colgroup>  
+            <tbody>             
+              <tr>
+                <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
+                <td class= 'reg'>{{result.class}}</td>
+                <td class= 'reg'>{{result.bodyweight}}kg</td>
+                <td class= 'reg'>{{result.weight_class}}kg</td> 
+                <td class= 'reg'>{{result.squat}}kg</td> 
+                <td class= 'reg'>{{result.bench}}kg</td>
+                <td class= 'reg'>{{result.deadlift}}kg</td>
+                <td class= 'reg'>{{result.total}}kg</td>
+                <td class= 'reg'>{{result.wilks}}</td>
+                <td class= 'reg'>{{result.place}}</td>
+              </tr>
+            </tbody>
+        </table>
     </div>
-    <hr/> 
   </div>
+  <hr/> 
+</div>
 
-<div>
-    <div *ngFor=" let result of results; let athlete of athletes; let i=index">
-      <div *ngIf="i==0">
-        <h3>84kg</h3>
-      </div> 
-      <div *ngIf="result.weight_class == '84'">
-          <table>
-              <colgroup>
-                <col class='nameCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/> 
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-              </colgroup>  
-              <tbody>             
-                <tr>
-                  <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
-                  <td class= 'reg'>{{result.squat}}kg</td> 
-                  <td class= 'reg'>{{result.bench}}kg</td>
-                  <td class= 'reg'>{{result.deadlift}}kg</td>
-                  <td class= 'reg'>{{result.total}}kg</td>
-                  <td class= 'reg'>{{result.bodyweight}}kg</td>
-                  <td class= 'reg'>{{result.wilks}}</td>
-                  <td class= 'reg'>{{result.place}}</td>
-                </tr>
-              </tbody>
-            </table>      </div>
-    </div>
-    <hr/> 
-  </div>
-
-<div>
-    <div *ngFor=" let result of results; let athlete of athletes; let i=index">
-      <div *ngIf="i==0">
-        <h3>84kg+</h3>
-      </div> 
-      <div *ngIf="result.weight_class == '84+'">
-          <table>
-              <colgroup>
-                <col class='nameCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/> 
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-              </colgroup>  
-              <tbody>             
-                <tr>
-                  <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
-                  <td class= 'reg'>{{result.squat}}kg</td> 
-                  <td class= 'reg'>{{result.bench}}kg</td>
-                  <td class= 'reg'>{{result.deadlift}}kg</td>
-                  <td class= 'reg'>{{result.total}}kg</td>
-                  <td class= 'reg'>{{result.bodyweight}}kg</td>
-                  <td class= 'reg'>{{result.wilks}}</td>
-                  <td class= 'reg'>{{result.place}}</td>
-                </tr>
-              </tbody>
-            </table>      </div>
-    </div>
-    <hr/> 
-  </div>
-
-  <h3>Male</h3>
+<h3>Male</h3>
 <hr/>
 
 <div>
-    <div *ngFor=" let result of results; let athlete of athletes; let i=index">
-      <div *ngIf="i==0">
-        <h3>59kg</h3>
-      </div> 
-      <div *ngIf="result.weight_class == '59' || result.weight_class == '53'">
-          <table>
-              <colgroup>
-                <col class='nameCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/> 
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-              </colgroup>  
-              <tbody>             
-                <tr>
-                  <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
-                  <td class= 'reg'>{{result.squat}}kg</td> 
-                  <td class= 'reg'>{{result.bench}}kg</td>
-                  <td class= 'reg'>{{result.deadlift}}kg</td>
-                  <td class= 'reg'>{{result.total}}kg</td>
-                  <td class= 'reg'>{{result.bodyweight}}kg</td>
-                  <td class= 'reg'>{{result.wilks}}</td>
-                  <td class= 'reg'>{{result.place}}</td>
-                </tr>
-              </tbody>
-            </table>      </div>
+  <div *ngFor=" let result of results; let athlete of athletes; let i=index">
+    <div *ngIf="i==0">
+      <h3>59kg</h3>
+      <hr/>
+    </div> 
+    <div *ngIf="result.weight_class == '59' || result.weight_class == '53'">
+        <table>
+            <colgroup>
+              <col class='nameCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/> 
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+            </colgroup>  
+            <tbody>             
+              <tr>
+                <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
+                <td class= 'reg'>{{result.class}}</td>
+                <td class= 'reg'>{{result.bodyweight}}kg</td>
+                <td class= 'reg'>{{result.weight_class}}kg</td> 
+                <td class= 'reg'>{{result.squat}}kg</td> 
+                <td class= 'reg'>{{result.bench}}kg</td>
+                <td class= 'reg'>{{result.deadlift}}kg</td>
+                <td class= 'reg'>{{result.total}}kg</td>
+                <td class= 'reg'>{{result.wilks}}</td>
+                <td class= 'reg'>{{result.place}}</td>
+              </tr>
+            </tbody>
+        </table>
     </div>
-    <hr/> 
   </div>
+  <hr/> 
+</div>
 
 <div>
-    <div *ngFor=" let result of results; let athlete of athletes; let i=index">
-      <div *ngIf="i==0">
-        <h3>66kg</h3>
-      </div> 
-      <div *ngIf="result.weight_class == '66'">
-          <table>
-              <colgroup>
-                <col class='nameCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/> 
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-              </colgroup>  
-              <tbody>             
-                <tr>
-                  <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
-                  <td class= 'reg'>{{result.squat}}kg</td> 
-                  <td class= 'reg'>{{result.bench}}kg</td>
-                  <td class= 'reg'>{{result.deadlift}}kg</td>
-                  <td class= 'reg'>{{result.total}}kg</td>
-                  <td class= 'reg'>{{result.bodyweight}}kg</td>
-                  <td class= 'reg'>{{result.wilks}}</td>
-                  <td class= 'reg'>{{result.place}}</td>
-                </tr>
-              </tbody>
-            </table>      </div>
+  <div *ngFor=" let result of results; let athlete of athletes; let i=index">
+    <div *ngIf="i==0">
+      <h3>66kg</h3>
+      <hr/>
+    </div> 
+    <div *ngIf="result.weight_class == '66'">
+        <table>
+            <colgroup>
+              <col class='nameCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/> 
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+            </colgroup>  
+            <tbody>             
+              <tr>
+                <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
+                <td class= 'reg'>{{result.class}}</td>
+                <td class= 'reg'>{{result.bodyweight}}kg</td>
+                <td class= 'reg'>{{result.weight_class}}kg</td> 
+                <td class= 'reg'>{{result.squat}}kg</td> 
+                <td class= 'reg'>{{result.bench}}kg</td>
+                <td class= 'reg'>{{result.deadlift}}kg</td>
+                <td class= 'reg'>{{result.total}}kg</td>
+                <td class= 'reg'>{{result.wilks}}</td>
+                <td class= 'reg'>{{result.place}}</td>
+              </tr>
+            </tbody>
+        </table> 
     </div>
-    <hr/> 
   </div>
+  <hr/> 
+</div>
 
 <div>
-    <div *ngFor=" let result of results; let athlete of athletes; let i=index">
-      <div *ngIf="i==0">
-        <h3>74kg</h3>
-      </div> 
-      <div *ngIf="result.weight_class == '74'">
-          <table>
-              <colgroup>
-                <col class='nameCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/> 
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-              </colgroup>  
-              <tbody>             
-                <tr>
-                  <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
-                  <td class= 'reg'>{{result.squat}}kg</td> 
-                  <td class= 'reg'>{{result.bench}}kg</td>
-                  <td class= 'reg'>{{result.deadlift}}kg</td>
-                  <td class= 'reg'>{{result.total}}kg</td>
-                  <td class= 'reg'>{{result.bodyweight}}kg</td>
-                  <td class= 'reg'>{{result.wilks}}</td>
-                  <td class= 'reg'>{{result.place}}</td>
-                </tr>
-              </tbody>
-            </table>      </div>
+  <div *ngFor=" let result of results; let athlete of athletes; let i=index">
+    <div *ngIf="i==0">
+      <h3>74kg</h3>
+      <hr/>
+    </div> 
+    <div *ngIf="result.weight_class == '74'">
+        <table>
+            <colgroup>
+              <col class='nameCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/> 
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+            </colgroup>  
+            <tbody>             
+              <tr>
+                <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
+                <td class= 'reg'>{{result.class}}</td>
+                <td class= 'reg'>{{result.bodyweight}}kg</td>
+                <td class= 'reg'>{{result.weight_class}}kg</td> 
+                <td class= 'reg'>{{result.squat}}kg</td> 
+                <td class= 'reg'>{{result.bench}}kg</td>
+                <td class= 'reg'>{{result.deadlift}}kg</td>
+                <td class= 'reg'>{{result.total}}kg</td>
+                <td class= 'reg'>{{result.wilks}}</td>
+                <td class= 'reg'>{{result.place}}</td>
+              </tr>
+            </tbody>
+        </table>
     </div>
-    <hr/> 
   </div>
+  <hr/> 
+</div>
 
 <div>
-    <div *ngFor=" let result of results; let athlete of athletes; let i=index">
-      <div *ngIf="i==0">
-        <h3>83kg</h3>
-      </div> 
-      <div *ngIf="result.weight_class == '83'">
-          <table>
-              <colgroup>
-                <col class='nameCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/> 
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-              </colgroup>  
-              <tbody>             
-                <tr>
-                  <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
-                  <td class= 'reg'>{{result.squat}}kg</td> 
-                  <td class= 'reg'>{{result.bench}}kg</td>
-                  <td class= 'reg'>{{result.deadlift}}kg</td>
-                  <td class= 'reg'>{{result.total}}kg</td>
-                  <td class= 'reg'>{{result.bodyweight}}kg</td>
-                  <td class= 'reg'>{{result.wilks}}</td>
-                  <td class= 'reg'>{{result.place}}</td>
-                </tr>
-              </tbody>
-            </table>      </div>
+  <div *ngFor=" let result of results; let athlete of athletes; let i=index">
+    <div *ngIf="i==0">
+      <h3>83kg</h3>
+      <hr/>
+    </div> 
+    <div *ngIf="result.weight_class == '83'">
+        <table>
+            <colgroup>
+              <col class='nameCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/> 
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+            </colgroup>  
+            <tbody>             
+              <tr>
+                <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
+                <td class= 'reg'>{{result.class}}</td>
+                <td class= 'reg'>{{result.bodyweight}}kg</td>
+                <td class= 'reg'>{{result.weight_class}}kg</td> 
+                <td class= 'reg'>{{result.squat}}kg</td> 
+                <td class= 'reg'>{{result.bench}}kg</td>
+                <td class= 'reg'>{{result.deadlift}}kg</td>
+                <td class= 'reg'>{{result.total}}kg</td>
+                <td class= 'reg'>{{result.wilks}}</td>
+                <td class= 'reg'>{{result.place}}</td>
+              </tr>
+            </tbody>
+        </table>
     </div>
-    <hr/> 
   </div>
+  <hr/> 
+</div>
 
 <div>
-    <div *ngFor=" let result of results; let athlete of athletes; let i=index">
-      <div *ngIf="i==0">
-        <h3>93kg</h3>
-      </div> 
-      <div *ngIf="result.weight_class == '93'">
-          <table>
-              <colgroup>
-                <col class='nameCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/> 
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-              </colgroup>  
-              <tbody>             
-                <tr>
-                  <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
-                  <td class= 'reg'>{{result.squat}}kg</td> 
-                  <td class= 'reg'>{{result.bench}}kg</td>
-                  <td class= 'reg'>{{result.deadlift}}kg</td>
-                  <td class= 'reg'>{{result.total}}kg</td>
-                  <td class= 'reg'>{{result.bodyweight}}kg</td>
-                  <td class= 'reg'>{{result.wilks}}</td>
-                  <td class= 'reg'>{{result.place}}</td>
-                </tr>
-              </tbody>
-            </table>      </div>
+  <div *ngFor=" let result of results; let athlete of athletes; let i=index">
+    <div *ngIf="i==0">
+      <h3>93kg</h3>
+      <hr/>
+    </div> 
+    <div *ngIf="result.weight_class == '93'">
+        <table>
+            <colgroup>
+              <col class='nameCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/> 
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+            </colgroup>  
+            <tbody>             
+              <tr>
+                <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
+                <td class= 'reg'>{{result.class}}</td>
+                <td class= 'reg'>{{result.bodyweight}}kg</td>
+                <td class= 'reg'>{{result.weight_class}}kg</td> 
+                <td class= 'reg'>{{result.squat}}kg</td> 
+                <td class= 'reg'>{{result.bench}}kg</td>
+                <td class= 'reg'>{{result.deadlift}}kg</td>
+                <td class= 'reg'>{{result.total}}kg</td>
+                <td class= 'reg'>{{result.wilks}}</td>
+                <td class= 'reg'>{{result.place}}</td>
+              </tr>
+            </tbody>
+        </table>
     </div>
-    <hr/> 
   </div>
+  <hr/> 
+</div>
 
 <div>
-    <div *ngFor=" let result of results; let athlete of athletes; let i=index">
-      <div *ngIf="i==0">
-        <h3>105kg</h3>
-      </div> 
-      <div *ngIf="result.weight_class == '105'">
-          <table>
-              <colgroup>
-                <col class='nameCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/> 
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-              </colgroup>  
-              <tbody>             
-                <tr>
-                  <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
-                  <td class= 'reg'>{{result.squat}}kg</td> 
-                  <td class= 'reg'>{{result.bench}}kg</td>
-                  <td class= 'reg'>{{result.deadlift}}kg</td>
-                  <td class= 'reg'>{{result.total}}kg</td>
-                  <td class= 'reg'>{{result.bodyweight}}kg</td>
-                  <td class= 'reg'>{{result.wilks}}</td>
-                  <td class= 'reg'>{{result.place}}</td>
-                </tr>
-              </tbody>
-            </table>      </div>
+  <div *ngFor=" let result of results; let athlete of athletes; let i=index">
+    <div *ngIf="i==0">
+      <h3>105kg</h3>
+      <hr/>
+    </div> 
+    <div *ngIf="result.weight_class == '105'">
+        <table>
+            <colgroup>
+              <col class='nameCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/> 
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+            </colgroup>  
+            <tbody>             
+              <tr>
+                <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
+                <td class= 'reg'>{{result.class}}</td>
+                <td class= 'reg'>{{result.bodyweight}}kg</td>
+                <td class= 'reg'>{{result.weight_class}}kg</td> 
+                <td class= 'reg'>{{result.squat}}kg</td> 
+                <td class= 'reg'>{{result.bench}}kg</td>
+                <td class= 'reg'>{{result.deadlift}}kg</td>
+                <td class= 'reg'>{{result.total}}kg</td>
+                <td class= 'reg'>{{result.wilks}}</td>
+                <td class= 'reg'>{{result.place}}</td>
+              </tr>
+            </tbody>
+        </table>
     </div>
-    <hr/> 
   </div>
+  <hr/> 
+</div>
 
 <div>
-    <div *ngFor=" let result of results; let athlete of athletes; let i=index">
-      <div *ngIf="i==0">
-        <h3>120kg</h3>
-      </div> 
-      <div *ngIf="result.weight_class == '120'">
-          <table>
-              <colgroup>
-                <col class='nameCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/> 
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-              </colgroup>  
-              <tbody>             
-                <tr>
-                  <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
-                  <td class= 'reg'>{{result.squat}}kg</td> 
-                  <td class= 'reg'>{{result.bench}}kg</td>
-                  <td class= 'reg'>{{result.deadlift}}kg</td>
-                  <td class= 'reg'>{{result.total}}kg</td>
-                  <td class= 'reg'>{{result.bodyweight}}kg</td>
-                  <td class= 'reg'>{{result.wilks}}</td>
-                  <td class= 'reg'>{{result.place}}</td>
-                </tr>
-              </tbody>
-            </table>      </div>
+  <div *ngFor=" let result of results; let athlete of athletes; let i=index">
+    <div *ngIf="i==0">
+      <h3>120kg</h3>
+      <hr/>
+    </div> 
+    <div *ngIf="result.weight_class == '120'">
+        <table>
+            <colgroup>
+              <col class='nameCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/> 
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+            </colgroup>  
+            <tbody>             
+              <tr>
+                <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
+                <td class= 'reg'>{{result.class}}</td>
+                <td class= 'reg'>{{result.bodyweight}}kg</td>
+                <td class= 'reg'>{{result.weight_class}}kg</td> 
+                <td class= 'reg'>{{result.squat}}kg</td> 
+                <td class= 'reg'>{{result.bench}}kg</td>
+                <td class= 'reg'>{{result.deadlift}}kg</td>
+                <td class= 'reg'>{{result.total}}kg</td>
+                <td class= 'reg'>{{result.wilks}}</td>
+                <td class= 'reg'>{{result.place}}</td>
+              </tr>
+            </tbody>
+        </table> 
     </div>
-    <hr/> 
   </div>
+  <hr/> 
+</div>
 
 <div>
-    <div *ngFor=" let result of results; let athlete of athletes; let i=index">
-      <div *ngIf="i==0">
-        <h3>120kg+</h3>
-      </div> 
-      <div *ngIf="result.weight_class == '120+'">
-          <table>
-              <colgroup>
-                <col class='nameCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/> 
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-                <col class='regCol'/>
-              </colgroup>  
-              <tbody>             
-                <tr>
-                  <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
-                  <td class= 'reg'>{{result.squat}}kg</td> 
-                  <td class= 'reg'>{{result.bench}}kg</td>
-                  <td class= 'reg'>{{result.deadlift}}kg</td>
-                  <td class= 'reg'>{{result.total}}kg</td>
-                  <td class= 'reg'>{{result.bodyweight}}kg</td>
-                  <td class= 'reg'>{{result.wilks}}</td>
-                  <td class= 'reg'>{{result.place}}</td>
-                </tr>
-              </tbody>
-            </table>      </div>
+  <div *ngFor=" let result of results; let athlete of athletes; let i=index">
+    <div *ngIf="i==0">
+      <h3>120kg+</h3>
+      <hr/>
+    </div> 
+    <div *ngIf="result.weight_class == '120+'">
+        <table>
+            <colgroup>
+              <col class='nameCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/> 
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+              <col class='regCol'/>
+            </colgroup>  
+            <tbody>             
+              <tr>
+                <td class= 'name'><a [routerLink]="'/athletes/'+result.id">{{result.name}}</a></td>
+                <td class= 'reg'>{{result.class}}</td>
+                <td class= 'reg'>{{result.bodyweight}}kg</td>
+                <td class= 'reg'>{{result.weight_class}}kg</td> 
+                <td class= 'reg'>{{result.squat}}kg</td> 
+                <td class= 'reg'>{{result.bench}}kg</td>
+                <td class= 'reg'>{{result.deadlift}}kg</td>
+                <td class= 'reg'>{{result.total}}kg</td>
+                <td class= 'reg'>{{result.wilks}}</td>
+                <td class= 'reg'>{{result.place}}</td>
+              </tr>
+            </tbody>
+        </table> 
     </div>
-    <hr/> 
   </div>
+  <hr/> 
+</div>

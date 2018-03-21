@@ -17,3 +17,12 @@
 regCol{
     width: 10%;
 }
+
+td{
+    border: 1px grey;
+}
+
+h3{
+    text-align: center;
+    float:left;
+}
