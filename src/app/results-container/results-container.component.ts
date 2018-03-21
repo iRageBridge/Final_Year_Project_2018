@@ -17,8 +17,6 @@ import * as Chart from 'chart.js';
 
 export class ResultsContainerComponent implements OnInit {
   batch = 20;
-  finished = false;
-  closeResult:string;
   numChecked = 0; 
   isLoggedIn;
   athletes = [];
@@ -30,8 +28,8 @@ export class ResultsContainerComponent implements OnInit {
   athleteWilks4=[];
   athleteWilks5=[];
   athleteNames;
+  datasets=[];
   chart = [];
-  chart2=[];
   startAt: BehaviorSubject<string|null> = new BehaviorSubject("");
   endAt: BehaviorSubject<string|null> = new BehaviorSubject("\uf8ff");
 
@@ -124,58 +122,70 @@ export class ResultsContainerComponent implements OnInit {
       }
     }
     console.log(this.athleteNames)
+    this.datasets.push({
+      label: this.athleteNames[0],
+      data: this.athleteWilks1,
+      fill: false,
+      lineTension:0.2,
+      borderColor:"green",
+      borderWidth:1
+    },
+    {
+      label: this.athleteNames[1],
+      data: this.athleteWilks2,
+      fill: false,
+      lineTension:0.2,
+      borderColor:"blue",
+      borderWidth:1
+    })
+
+    if(this.resultsToCompare.length >= 3){
+      this.datasets.push(
+      {
+        label: this.athleteNames[2],
+        data: this.athleteWilks3,
+        fill:false,
+        lineTension:0.2,
+        borderColor:"orange",
+        borderWidth:1
+      })
+    }
+    if(this.resultsToCompare.length >= 4){
+      this.datasets.push(
+      {
+        label: this.athleteNames[3],
+        data: this.athleteWilks4,
+        fill:false,
+        lineTension:0.2,
+        borderColor:"red",
+        borderWidth:1
+      })
+    }
+    if(this.resultsToCompare.length == 5){
+      this.datasets.push(
+      {
+        label: this.athleteNames[4],
+        data: this.athleteWilks5,
+        fill:false,
+        lineTension:0.2,
+        borderColor:"purple",
+        borderWidth:1
+      })
+    }
     this.chart = new Chart('canvas', {
       type: 'line',
       data:{
-        labels: [1,2,3,4,5,6],
-        datasets:[{
-          label: this.athleteNames[0],
-          data: this.athleteWilks1,
-          fill: false,
-          lineTension:0.2,
-          borderColor:"green",
-          borderWidth:1
-        },
-        {
-          label: this.athleteNames[1],
-          data: this.athleteWilks2,
-          fill: false,
-          lineTension:0.2,
-          borderColor:"blue",
-          borderWidth:1
-        },
-        {
-          label: this.athleteNames[2],
-          data: this.athleteWilks3,
-          fill:false,
-          lineTension:0.2,
-          borderColor:"orange",
-          borderWidth:1
-        },
-        {
-          label: this.athleteNames[3],
-          data: this.athleteWilks4,
-          fill:false,
-          lineTension:0.2,
-          borderColor:"red",
-          borderWidth:1
-        },
-        {
-          label: this.athleteNames[4],
-          data: this.athleteWilks5,
-          fill:false,
-          lineTension:0.2,
-          borderColor:"purple",
-          borderWidth:1
-        },]
+        labels: [1,2,3,4,5,6,7],
+        datasets:this.datasets
       }
     });
   }
 
   openPopup(content) {
+    console.log(this.datasets.length)
     this.modalService.open(content,{
-        size:'lg',
-        windowClass: 'modal-xxl'
-      });
+      size:'lg',
+      windowClass: 'modal-xxl'
+    }).result.then(() => { console.log('When user closes'); }, () => { this.resultsToCompare=[]; this.datasets=[]; this.athleteNames = [];this.numChecked =0 ;this.loadMore();});
     }
-}
+  }

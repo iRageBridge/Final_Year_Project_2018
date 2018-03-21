@@ -23,6 +23,7 @@ import { ChartsModule } from 'ng2-charts';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import Chart from 'chart.js';
 import { CompetitionComponent } from './competition/competition.component';
+import { CompetitionContainerComponent } from './competition-container/competition-container.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { CompetitionComponent } from './competition/competition.component';
     AthleteProfileComponent,
     LoginComponent,
     AdminComponent,
-    CompetitionComponent
+    CompetitionComponent,
+    CompetitionContainerComponent
   ],
   entryComponents: [ResultsContainerComponent],
   imports: [

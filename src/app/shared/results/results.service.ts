@@ -4,6 +4,7 @@ import { ActivatedRoute, Params } from "@angular/router";
 import { Observable } from 'rxjs/Observable';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database-deprecated';
 import { Result } from '../../shared/model/result';
+import { Comp } from '../../shared/model/comp';
 import { Athlete } from '../../shared/model/athlete';
 import { FirebaseListFactoryOpts } from 'angularfire2/database-deprecated/interfaces';
 import { BehaviorSubject } from "rxjs/BehaviorSubject";
@@ -24,6 +25,14 @@ export class ResultsService {
     })
   }
 
+  getAllComps(){
+    return this.af.list('/comps',{
+      query: {
+        orderByChild: 'compId'
+      }
+    })
+  }
+
   getComps(id){
     return this.af.list('/results',{
       query: {
@@ -34,11 +43,7 @@ export class ResultsService {
   }
 
   getCompAthletes(){
-    return this.af.list('/athletes')/*,{
-      query: {
-        orderByChild: 'id'
-      }
-    })*/
+    return this.af.list('/athletes')
   }
 
   getAllAthletes(start,end, batch){
@@ -52,29 +57,12 @@ export class ResultsService {
     })
   }
 
-  getAthleteWilks(id){
-    return this.af.list('/results',{
-      query: {
-        orderByChild: 'id',
-        equalTo: id
-      }
-    })
-  }
-
   findAthleteById(uid){
     return this.af.list('/results',{
       query: {
         orderByChild: "id",
         equalTo: uid
       }
-    })
-  }
-
-  getAthleteId(name){
-    return this.af.list('/results', {
-      query: {
-        orderByChild: 'id',
-      }  
     })
   }
 }

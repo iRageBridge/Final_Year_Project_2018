@@ -19,6 +19,7 @@ export class AdminComponent implements OnInit {
   private json:Object;
   private fileName;
   private results:FirebaseListObservable<any[]>;
+  private athletes:FirebaseListObservable<any[]>;
   private currentUpload: Upload;
   private selectedFiles: FileList;
   constructor(private af: AngularFireDatabase,
@@ -26,6 +27,7 @@ export class AdminComponent implements OnInit {
               private upSvc: UploadService) {
 
     this.results = this.af.list('/results');
+    this.athletes = this.af.list('/athletes');
     this.selectedNameIds = this.af.list('/results', {
       query: {
         orderByChild: 'id',
@@ -44,6 +46,7 @@ export class AdminComponent implements OnInit {
   }
 
   uploadResult(name, squat, bench, deadlift, total, bodyweight, wilks, comp, id, place){
+    this.athletes.push({nameLower:name.toLowerCase(), name: name, squat: squat, bench: bench, deadlift:deadlift, total:total, bodyweight:bodyweight, wilks:wilks, comp:comp, id:id, placing: place});
     this.results.push({nameLower:name.toLowerCase(), name: name, squat: squat, bench: bench, deadlift:deadlift, total:total, bodyweight:bodyweight, wilks:wilks, comp:comp, id:id, placing: place});
     alert("Result Uploaded");
   }

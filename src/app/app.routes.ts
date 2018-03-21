@@ -5,6 +5,7 @@ import { AdminComponent } from "./admin/admin.component";
 import { LoginComponent } from './login/login.component';
 import { AuthService } from "./shared/auth/auth.service";
 import  { CompetitionComponent } from './competition/competition.component';
+import { CompetitionContainerComponent } from "./competition-container/competition-container.component";
 
 export const ROUTES: Route[] =[{
       path: 'results', 
@@ -19,9 +20,11 @@ export const ROUTES: Route[] =[{
     },{
       path: 'login', component: LoginComponent
     },{
+      path: 'comps', component: CompetitionContainerComponent
+    },{
       path: '', redirectTo: 'results', pathMatch: 'full'
     },{
-      path: 'comp', 
+      path: 'comps', 
       children: [{
         path:':compId',component: CompetitionComponent
       },]
