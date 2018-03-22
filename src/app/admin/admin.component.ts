@@ -14,10 +14,9 @@ import { Result } from "../shared/model/result";
   styleUrls: ['./admin.component.css']
 })
 export class AdminComponent implements OnInit {
-
   private selectedNameIds:FirebaseListObservable<any[]>;
-  private json:Object;
-  private fileName;
+  private name;
+  private nameToCompare;
   private results:FirebaseListObservable<any[]>;
   private comps: FirebaseListObservable<any[]>;
   private athletes:FirebaseListObservable<any[]>;
@@ -30,15 +29,9 @@ export class AdminComponent implements OnInit {
     this.results = this.af.list('/results');
     this.athletes = this.af.list('/athletes');
     this.comps = this.af.list('/comps');
-    this.selectedNameIds = this.af.list('/results', {
-      query: {
-        orderByChild: 'id',
-        limitToFirst: 1,
-      }
-    })
   }
 
-  ngOnInit() {  }
+  ngOnInit() {}
 
   detectFiles(event){
     this.selectedFiles = event.target.files;
@@ -48,8 +41,16 @@ export class AdminComponent implements OnInit {
   }
 
   uploadResult(name, theClass, bodyweight, weightClass, squat, bench, deadlift, total, wilks, comp, id, compId,resultId, place){
-    this.athletes.push({nameLower:name.toLowerCase(), name: name, class:theClass, bodyweight:bodyweight, weight_class:weightClass, squat: squat, bench: bench, deadlift:deadlift, total:total, wilks:wilks, comp:comp, id:id, compId:compId, place: place});
-    this.results.push({nameLower:name.toLowerCase(), name: name, class:theClass, bodyweight:bodyweight, weight_class:weightClass, squat: squat, bench: bench, deadlift:deadlift, total:total, wilks:wilks, comp:comp, id:id, compId:compId, resultId:resultId, place: place});
+    this.nameToCompare = this.af.list('/athletes',{
+      query: {
+        orderByChild: name,
+        equalTo: this.name
+      }
+    })
+    const resultSend = this.af.object(`/results/${resultId}`);
+    const athleteSend = this.af.object(`/athletes/${id}`);
+    resultSend.set({nameLower:name.toLowerCase(), name: name, class:theClass, bodyweight:bodyweight, weight_class:weightClass, squat: squat, bench: bench, deadlift:deadlift, total:total, wilks:wilks, comp:comp, id:id, compId:compId, resultId:resultId, place: place});
+    athleteSend.set({nameLower:name.toLowerCase(), name: name, class:theClass, bodyweight:bodyweight, weight_class:weightClass, squat: squat, bench: bench, deadlift:deadlift, total:total, wilks:wilks, comp:comp, id:id, compId:compId, place: place});
     alert("Result Uploaded");
   }
 

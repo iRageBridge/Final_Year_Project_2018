@@ -76,4 +76,10 @@ export class ResultsService {
     .remove()
     .then(() => alert("Result deleted"));
   }
+
+  deleteAthlete(id){
+    this.af.object(`athletes/${id}`)
+    .remove()
+    .then(() => alert("Athlete Deleted"));
+  }
 }

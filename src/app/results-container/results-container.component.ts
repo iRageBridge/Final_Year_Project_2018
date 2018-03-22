@@ -71,6 +71,10 @@ export class ResultsContainerComponent implements OnInit {
     this.endAt.next(q+"\uf8ff");
   }
 
+  deleteAthlete(id){
+    this.resultsService.deleteAthlete(id);
+  }
+
   resultTicked(id,e){
     if(e.target.checked){
       this.numChecked++;
