@@ -25,6 +25,11 @@ export class ResultsService {
     })
   }
 
+  getResults(){
+    console.log(this.af.list('/results'));
+    return this.af.list('/results');
+  }
+
   getAllComps(){
     return this.af.list('/comps',{
       query: {
@@ -64,5 +69,11 @@ export class ResultsService {
         equalTo: uid
       }
     })
+  }
+
+  deleteResult(id){
+    this.af.object(`results/${id}`)
+    .remove()
+    .then(() => alert("Result deleted"));
   }
 }

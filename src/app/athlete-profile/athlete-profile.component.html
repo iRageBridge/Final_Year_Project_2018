@@ -26,6 +26,7 @@
                     <col class='regCol'/>
                     <col class='regCol'/>
                     <col class='regCol'/>
+                    <col *ngIf="loggedIn" class='regCol'/>
                 </colgroup>
                 <tbody>
                     <tr>
@@ -39,6 +40,7 @@
                         <th class= 'reg'>Total</th>
                         <th class= 'reg'>Wilks</th>
                         <th class= 'reg'>Place</th>
+                        <th *ngIf="loggedIn" class= 'reg'>Delete?</th>
                     </tr>       
                 </tbody>
             </table>
@@ -56,8 +58,9 @@
                         <col class='regCol'/>
                         <col class='regCol'/>
                         <col class='regCol'/>
+                        <col *ngIf="loggedIn"class='regCol'/>
                     </colgroup>  
-                    <tbody>             
+                    <tbody>
                         <tr>
                             <td class= 'comp'><a [routerLink]="'/comps/'+result.compId">{{result.comp}}</a></td>
                             <td class= 'reg'>{{result.class}}</td> 
@@ -69,6 +72,7 @@
                             <td class= 'reg'>{{result.total}}kg</td>
                             <td class= 'reg'>{{result.wilks}}</td>
                             <td class= 'reg'>{{result.place}}</td>
+                            <td *ngIf="loggedIn" class= 'reg'><button (click)="deleteResult(result.resultId)">Delete</button> </td>
                         </tr>
                     </tbody>
                 </div>

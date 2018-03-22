@@ -1,19 +1,24 @@
 <div>
+    {{(athletes | async)?.length-1}}
   <div>
   </div>
   <h1>Upload Results:</h1>
   <form>
     <input type="text" name="name" [(ngModel)]="name" placeholder="Name" id="name"><br/><br/>
+    <input type="text" name="theClass" [(ngModel)]="theClass" placeholder="Class" id="theClass"><br/><br/>
+    <input type="text" name="bodyweight" [(ngModel)]="bodyweight" placeholder="Bodyweight" id="bodyweight"><br/><br/>
+    <input type="text" name="weightClass" [(ngModel)]="weightClass" placeholder="Weight Class" id="weightClass"><br/><br/>
     <input type="text" name="squat" [(ngModel)]="squat" placeholder="Squat" id="squat"><br/><br/>
     <input type="text" name="bench" [(ngModel)]="bench" placeholder="Bench" id="bench"><br/><br/>
     <input type="text" name="deadlift" [(ngModel)]="deadlift" placeholder="Deadlift" id="deadlift"><br/><br/>
     <input type="text" name="total" [(ngModel)]="total" placeholder="Total" id="total"><br/><br/>
-    <input type="text" name="bodyweight" [(ngModel)]="bodyweight" placeholder="Bodyweight" id="bodyweight"><br/><br/>
     <input type="text" name="wilks" [(ngModel)]="wilks" placeholder="Wilks" id="wilks"><br/><br/>
     <input type="text" name="comp" [(ngModel)]="comp" placeholder="Competition" id="comp"><br/><br/>
-    <input type="number" name="id" [(ngModel)]="id" placeholder="ID" id="id"><br/><br/>
+    <input type="number" name="id" [(ngModel)]="id" placeholder="Athlete ID" id="id" value="{{(athletes | async)?.length+2}}"><br/><br/>
+    <input type="number" name="compId" [(ngModel)]="compId" placeholder="Comp ID" id="compId" value="{{(comps | async)?.length+2}}"><br/><br/>
+    <input type="number" name="resultId" [(ngModel)]="resultId" placeholder="Result ID" id="resultId" value="{{(results | async)?.length+3}}"><br/><br/>
     <input type="number" name="place" [(ngModel)]="place" placeholder="Placing" id="place"><br/><br/>
-    <button id="Upload" name="upload"(click)="uploadResult(name, squat, bench, deadlift, total, bodyweight, wilks, comp, id, place)">Upload</button>
+    <button id="Upload" name="upload"(click)="uploadResult(name, theClass, bodyweight, weightClass, squat, bench, deadlift, total, wilks, comp, id, compId, resultId, place)">Upload</button>
   </form>
 </div>
 <div style="float:right;"> 

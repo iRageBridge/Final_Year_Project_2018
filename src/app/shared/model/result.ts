@@ -4,8 +4,8 @@ static fromJsonList(array): Result[]{
     return array.map(Result.fromArray);
 }
 
-static fromArray({$key, bench, bodyweight, comp, deadlift, gender, id, location, name, place, raw_eq, squat, total, w_class, wilks, year, nameLower, date, compId}):Result{
-    return new Result($key, bench, bodyweight, comp, deadlift, gender, id, location, name, place, raw_eq, squat, total, w_class, wilks, year, nameLower, date, compId);
+static fromArray({$key, bench, bodyweight, comp, deadlift, gender, id, location, name, place, raw_eq, squat, total, w_class, wilks, year, nameLower, date, compId, resultId}):Result{
+    return new Result($key, bench, bodyweight, comp, deadlift, gender, id, location, name, place, raw_eq, squat, total, w_class, wilks, year, nameLower, date, compId, resultId);
 }
 
     constructor(
@@ -27,6 +27,7 @@ static fromArray({$key, bench, bodyweight, comp, deadlift, gender, id, location,
         public year: string,
         public nameLower: string,
         public date:Date,
-        public compId:Number
+        public compId:Number,
+        public resultId:Number
     ){}
 }

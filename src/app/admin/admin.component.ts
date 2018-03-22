@@ -19,6 +19,7 @@ export class AdminComponent implements OnInit {
   private json:Object;
   private fileName;
   private results:FirebaseListObservable<any[]>;
+  private comps: FirebaseListObservable<any[]>;
   private athletes:FirebaseListObservable<any[]>;
   private currentUpload: Upload;
   private selectedFiles: FileList;
@@ -28,6 +29,7 @@ export class AdminComponent implements OnInit {
 
     this.results = this.af.list('/results');
     this.athletes = this.af.list('/athletes');
+    this.comps = this.af.list('/comps');
     this.selectedNameIds = this.af.list('/results', {
       query: {
         orderByChild: 'id',
@@ -36,7 +38,7 @@ export class AdminComponent implements OnInit {
     })
   }
 
-  ngOnInit() { }
+  ngOnInit() {  }
 
   detectFiles(event){
     this.selectedFiles = event.target.files;
@@ -45,9 +47,9 @@ export class AdminComponent implements OnInit {
     this.upSvc.pushUpload(this.currentUpload);
   }
 
-  uploadResult(name, squat, bench, deadlift, total, bodyweight, wilks, comp, id, place){
-    this.athletes.push({nameLower:name.toLowerCase(), name: name, squat: squat, bench: bench, deadlift:deadlift, total:total, bodyweight:bodyweight, wilks:wilks, comp:comp, id:id, placing: place});
-    this.results.push({nameLower:name.toLowerCase(), name: name, squat: squat, bench: bench, deadlift:deadlift, total:total, bodyweight:bodyweight, wilks:wilks, comp:comp, id:id, placing: place});
+  uploadResult(name, theClass, bodyweight, weightClass, squat, bench, deadlift, total, wilks, comp, id, compId,resultId, place){
+    this.athletes.push({nameLower:name.toLowerCase(), name: name, class:theClass, bodyweight:bodyweight, weight_class:weightClass, squat: squat, bench: bench, deadlift:deadlift, total:total, wilks:wilks, comp:comp, id:id, compId:compId, place: place});
+    this.results.push({nameLower:name.toLowerCase(), name: name, class:theClass, bodyweight:bodyweight, weight_class:weightClass, squat: squat, bench: bench, deadlift:deadlift, total:total, wilks:wilks, comp:comp, id:id, compId:compId, resultId:resultId, place: place});
     alert("Result Uploaded");
   }
 
