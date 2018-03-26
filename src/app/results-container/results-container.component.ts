@@ -12,7 +12,7 @@ import * as Chart from 'chart.js';
 @Component({
   selector: 'app-results-container',
   templateUrl: './results-container.component.html',
-  styleUrls: ['./results-container.component.less']
+  styleUrls: ['./results-container.component.css']
 })
 
 export class ResultsContainerComponent implements OnInit {
@@ -132,7 +132,6 @@ export class ResultsContainerComponent implements OnInit {
         this.athleteWilks5.push(this.comparisonResults[i].wilks);
       }
     }
-    console.log(this.athleteNames)
     this.datasets.push({
       label: this.athleteNames[0],
       data: this.athleteWilks1,
@@ -196,6 +195,6 @@ export class ResultsContainerComponent implements OnInit {
     this.modalService.open(content,{
       size:'lg',
       windowClass: 'modal-xxl'
-    }).result.then(() => { console.log('When user closes'); }, () => { this.resultsToCompare=[]; this.datasets=[]; this.athleteNames = [];this.numChecked =0 ;this.loadMore();});
+    }).result.then(() => {}, () => { this.resultsToCompare=[]; this.datasets=[]; this.athleteNames = [];this.numChecked =0 ;this.loadMore();});
     }
   }

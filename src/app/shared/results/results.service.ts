@@ -26,7 +26,6 @@ export class ResultsService {
   }
 
   getResults(){
-    console.log(this.af.list('/results'));
     return this.af.list('/results');
   }
 
@@ -49,6 +48,15 @@ export class ResultsService {
 
   getCompAthletes(){
     return this.af.list('/athletes')
+  }
+
+  getAthletesInComp(comp){
+    return this.af.list('/results',{
+      query:{
+        orderByChild: 'compId',
+        equalTo: comp
+      }
+    })
   }
 
   getAllAthletes(start,end, batch){

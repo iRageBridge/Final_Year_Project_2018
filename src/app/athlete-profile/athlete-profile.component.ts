@@ -44,9 +44,6 @@ export class AthleteProfileComponent implements OnInit {
       this.athleteWilks.push(this.results[i].wilks)
       this.labels.push(this.results[i].date);
     }
-    console.log(this.athleteName)
-    console.log(this.labels)
-
     this.chart = new Chart('canvas', {
       type: 'line',
       data:{

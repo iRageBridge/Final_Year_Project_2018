@@ -1,0 +1,24 @@
+.vertical{
+    border-left: 2px solid #009f40;
+    height: 800px;
+    width: 5px;
+    float: left;
+    margin-left: 70px;
+}
+
+#upload{
+    float:right;
+    margin-top:10px;
+}
+
+.fileUpload{
+    width: 46%;
+    float:right;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.resultUpload{
+    width: 43%;
+    float: left;
+}

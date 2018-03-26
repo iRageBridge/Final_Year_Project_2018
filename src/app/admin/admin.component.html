@@ -1,35 +1,120 @@
-<div>
-  <h1>Upload Results:</h1>
-  <form style="width:50%;margin:0px;">
-    <input type="text" name="name" [(ngModel)]="name" placeholder="Name" id="name"><br/><br/>
-    <input type="text" name="theClass" [(ngModel)]="theClass" placeholder="Class" id="theClass"><br/><br/>
-    <input type="text" name="bodyweight" [(ngModel)]="bodyweight" placeholder="Bodyweight" id="bodyweight"><br/><br/>
-    <input type="text" name="weightClass" [(ngModel)]="weightClass" placeholder="Weight Class" id="weightClass"><br/><br/>
-    <input type="text" name="squat" [(ngModel)]="squat" placeholder="Squat" id="squat"><br/><br/>
-    <input type="text" name="bench" [(ngModel)]="bench" placeholder="Bench" id="bench"><br/><br/>
-    <input type="text" name="deadlift" [(ngModel)]="deadlift" placeholder="Deadlift" id="deadlift"><br/><br/>
-    <input type="text" name="total" [(ngModel)]="total" placeholder="Total" id="total"><br/><br/>
-    <input type="text" name="wilks" [(ngModel)]="wilks" placeholder="Wilks" id="wilks"><br/><br/>
-    <input type="text" name="comp" [(ngModel)]="comp" placeholder="Competition" id="comp"><br/><br/>
-    <input type="number" name="id" [(ngModel)]="id" placeholder="Athlete ID" id="id" value="{{(athletes | async)?.length}}"><br/><br/>
-    <input type="number" name="compId" [(ngModel)]="compId" placeholder="Comp ID" id="compId" value="{{(comps | async)?.length}}"><br/><br/>
-    <input type="number" name="resultId" [(ngModel)]="resultId" placeholder="Result ID" id="resultId" value="{{(results | async)?.length}}"><br/><br/>
-    <input type="number" name="place" [(ngModel)]="place" placeholder="Placing" id="place"><br/><br/>
-    <button id="Upload" name="upload"(click)="uploadResult(name, theClass, bodyweight, weightClass, squat, bench, deadlift, total, wilks, comp, id, compId, resultId, place)">Upload</button>
-  </form>
+<div class="resultUpload">
+  <h2>Upload Result (Single):</h2>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+    </div>
+    <input type="text"name="name" [(ngModel)]="name" id="name" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-default">Class</span>
+    </div>
+    <input type="text" name="theClass" [(ngModel)]="theClass" id="theClass" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-default">Bodyweight</span>
+    </div>
+    <input type="text" name="bodyweight" [(ngModel)]="bodyweight" id="bodyweight" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-default">Weight Class</span>
+    </div>
+    <input type="text" name="weightClass" [(ngModel)]="weightClass" id="weightClass" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+  </div>
+  
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-default">Squat</span>
+    </div>
+    <input type="text" type="text" name="squat" [(ngModel)]="squat" id="squat" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+  </div>
+  
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-default">Bench</span>
+    </div>
+    <input type="text" name="bench" [(ngModel)]="bench" id="bench" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+  </div>
+  
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-default">Deadlift</span>
+    </div>
+    <input type="text" name="deadlift" [(ngModel)]="deadlift" id="deadlift" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+  </div>
+  
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-default">Total</span>
+    </div>
+    <input type="text" name="total" [(ngModel)]="total" id="total" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+  </div>
+  
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-default">Wilks</span>
+    </div>
+    <input type="text" name="wilks" [(ngModel)]="wilks" id="wilks" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-default">Competition</span>
+    </div>
+    <input type="text" name="comp" [(ngModel)]="comp" id="comp" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-default">Placing</span>
+    </div>
+    <input type="number" name="place" [(ngModel)]="place" id="place" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+  </div>
+
+  <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-default">Athlete ID</span>
+      </div>
+      <input type="number" name="id" [(ngModel)]="id" id="id" value="{{(athletes | async)?.length}}" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+    </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-default">Competition ID</span>
+    </div>
+    <input type="number" name="compId" [(ngModel)]="compId" id="compId" value="{{(comps | async)?.length}}" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+       <span class="input-group-text" id="inputGroup-sizing-default">Result ID</span>
+     </div>
+     <input type="number" name="resultId" [(ngModel)]="resultId" id="resultId" value="{{(results | async)?.length}}" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+  </div>
+  <button class="btn btn-success" id="Upload" name="upload"(click)="uploadResult(name, theClass, bodyweight, weightClass, squat, bench, deadlift, total, wilks, comp, place, id, compId, resultId)">Upload</button>
 </div>
-<div style="float:left;"> 
+<div class="vertical"></div>
+<h2>Upload Results.json file (Bulk):</h2>
+<div class="fileUpload"> 
   <div *ngIf="currentUpload">
     <div class="progress">
       <div class="progress-bar progress-bar-animated" [ngStyle]="{ 'width': currentUpload?.progress + '%' }"></div>
     </div>
-    Progress: {{currentUpload?.name}} | {{currentUpload?.progress}}% Complete
-  </div>
-      
-  <label>
-    <input type="file" accept=".json" (change)="detectFiles($event)">
-  </label>
-  <button [disabled]="!selectedFiles" (click)="uploadResults()">
-    Push to Database
-  </button>
+      Progress: {{currentUpload?.name}} | {{currentUpload?.progress}}% Complete
+  </div>  
+
+  <div class="custom-file">
+      <input type="file" accept=".json" (change)="detectFiles($event)" class="custom-file-input" id="customFile">
+      <label class="custom-file-label" for="customFile">Choose File:</label>
+  </div><br/>
+  <button id="upload" class="btn btn-success"[disabled]="!selectedFiles" (click)="uploadResults()">
+      Push to Database
+    </button>
 </div>
