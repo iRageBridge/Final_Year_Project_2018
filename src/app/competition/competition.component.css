@@ -22,6 +22,10 @@ table{
     border: 1px lightgray;
 }
 
+a{
+    font-size: 130%;
+}
 h3{
+    float:left;
     text-align: center;
 }

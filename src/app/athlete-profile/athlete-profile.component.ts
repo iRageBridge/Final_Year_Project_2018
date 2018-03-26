@@ -4,6 +4,7 @@ import { Observable } from "rxjs/Observable";
 import { ResultsService } from "../shared/results/results.service";
 import { Result } from "../shared/model/result";
 import { AuthService } from '../shared/auth/auth.service';
+import * as Chart from 'chart.js';
 
 @Component({
   selector: 'app-athlete-profile',
@@ -11,8 +12,13 @@ import { AuthService } from '../shared/auth/auth.service';
   styleUrls: ['./athlete-profile.component.css'],
 })
 export class AthleteProfileComponent implements OnInit {
-  public results = [];
+  results = [];
+  chart = [];
+  labels = [];
+  athleteName;
+  athleteWilks=[];
   loggedIn;
+
   constructor(private route: ActivatedRoute,
               private resultsService: ResultsService,
               private authService: AuthService){ 
@@ -29,7 +35,33 @@ export class AthleteProfileComponent implements OnInit {
   }
 
   deleteResult(id){
-    //alert(id)
     this.resultsService.deleteResult(id)
+  }
+
+  getChart(){
+    this.athleteName = this.results[0].name;
+    for(let i = 0; i < this.results.length; i++){
+      this.athleteWilks.push(this.results[i].wilks)
+      this.labels.push(this.results[i].date);
+    }
+    console.log(this.athleteName)
+    console.log(this.labels)
+
+    this.chart = new Chart('canvas', {
+      type: 'line',
+      data:{
+        labels: this.labels,
+        datasets:[
+          {
+            label: this.athleteName,
+            data: this.athleteWilks,
+            fill:false,
+            lineTension:0.2,
+            borderColor:"green",
+            borderWidth:1
+          }
+        ]
+      }
+    });
   }
 }

@@ -20,6 +20,7 @@ export class ResultsContainerComponent implements OnInit {
   numChecked = 0; 
   isLoggedIn;
   athletes = [];
+  comparisonResults = [];
   results=[];
   resultsToCompare=[];
   athleteWilks1=[];
@@ -48,11 +49,17 @@ export class ResultsContainerComponent implements OnInit {
     this.batch = 20;
     this.getAthletes();  
     this.getResults();
+    this.getComparisonResults();
   }
 
   getAthletes(){
     this.resultsService.getAllAthletes(this.startAt, this.endAt, this.batch)
                           .subscribe(athletes => this.athletes = athletes)
+  }
+
+  getComparisonResults(){
+    this.resultsService.getResults()
+                       .subscribe(results =>this.comparisonResults = results)
   }
 
   getResults(){
@@ -103,26 +110,26 @@ export class ResultsContainerComponent implements OnInit {
     this.athleteWilks3 = [];
     this.athleteWilks4 = [];
     this.athleteWilks5 = [];
-    for (let i = 0; i < this.results.length; i++){
-      if(this.results[i].id == this.resultsToCompare[0]){
-        this.athleteNames[0] = this.results[i].name;
-        this.athleteWilks1.push(this.results[i].wilks);
+    for (let i = 0; i < this.comparisonResults.length; i++){
+      if(this.comparisonResults[i].id == this.resultsToCompare[0]){
+        this.athleteNames[0] = this.comparisonResults[i].name;
+        this.athleteWilks1.push(this.comparisonResults[i].wilks);
       }
-      if(this.results[i].id == this.resultsToCompare[1]){
-        this.athleteNames[1] = this.results[i].name;
-        this.athleteWilks2.push(this.results[i].wilks);
+      if(this.comparisonResults[i].id == this.resultsToCompare[1]){
+        this.athleteNames[1] = this.comparisonResults[i].name;
+        this.athleteWilks2.push(this.comparisonResults[i].wilks);
       }
-      if(this.results[i].id == this.resultsToCompare[2]){
-        this.athleteNames[2] = this.results[i].name;
-        this.athleteWilks3.push(this.results[i].wilks);
+      if(this.comparisonResults[i].id == this.resultsToCompare[2]){
+        this.athleteNames[2] = this.comparisonResults[i].name;
+        this.athleteWilks3.push(this.comparisonResults[i].wilks);
       }
-      if(this.results[i].id == this.resultsToCompare[3]){
-        this.athleteNames[3] = this.results[i].name;
-        this.athleteWilks4.push(this.results[i].wilks);
+      if(this.comparisonResults[i].id == this.resultsToCompare[3]){
+        this.athleteNames[3] = this.comparisonResults[i].name;
+        this.athleteWilks4.push(this.comparisonResults[i].wilks);
       }
-      if(this.results[i].id == this.resultsToCompare[4]){
-        this.athleteNames[4] = this.results[i].name;
-        this.athleteWilks5.push(this.results[i].wilks);
+      if(this.comparisonResults[i].id == this.resultsToCompare[4]){
+        this.athleteNames[4] = this.comparisonResults[i].name;
+        this.athleteWilks5.push(this.comparisonResults[i].wilks);
       }
     }
     console.log(this.athleteNames)
@@ -186,7 +193,6 @@ export class ResultsContainerComponent implements OnInit {
   }
 
   openPopup(content) {
-    console.log(this.datasets.length)
     this.modalService.open(content,{
       size:'lg',
       windowClass: 'modal-xxl'

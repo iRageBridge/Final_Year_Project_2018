@@ -55,11 +55,13 @@ export class AdminComponent implements OnInit {
   }
 
   uploadResults(){
+
     let url = this.currentUpload.url;
     fetch(url).then(res=>res.json()).then((out) => {
       console.log('Results: ', out);
       for(var i = 0; i < out.length; i++){
         this.results.push(out[i]);
+        this.athletes.push(out[i])
       }
       alert("Results Uploaded");
     }).catch(err => {throw err });

@@ -14,7 +14,7 @@
             </div>
             
             <hr/>
-            <table>
+            <table class="tabe table-dark">
                 <colgroup>
                     <col class='compCol'/>
                     <col class='regCol'/>
@@ -45,7 +45,7 @@
                 </tbody>
             </table>
             <hr/>
-            <table>
+            <table class="table table-striped">
                 <div *ngFor="let result of results">   
                     <colgroup>
                         <col class='compCol'/>
@@ -80,9 +80,11 @@
             <hr/>
         </div>
     </div>
+    <button (click)="getChart()">Chart</button>
 </div>
 <ng-template #athleteLoading>
     <div>
         Fetching athlete...
     </div>
 </ng-template>
+<canvas #canvas id="canvas">{{chart}}</canvas>
