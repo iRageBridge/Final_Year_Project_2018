@@ -1,3 +1,4 @@
+//Athlete data interface
 export class Athlete{
 
 static fromJsonList(array): Athlete[]{

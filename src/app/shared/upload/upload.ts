@@ -1,3 +1,4 @@
+//Upload interface
 export class Upload {
 
     $key: string;

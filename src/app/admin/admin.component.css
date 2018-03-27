@@ -1,3 +1,5 @@
+/*Vertical line on admin page*/
+
 .vertical{
     border-left: 2px solid #009f40;
     height: 800px;
@@ -5,19 +7,19 @@
     float: left;
     margin-left: 70px;
 }
-
+/*upload button*/
 #upload{
     float:right;
     margin-top:10px;
 }
-
+/*file upload section*/
 .fileUpload{
     width: 46%;
     float:right;
     margin-top: 70px;
     margin-left: 40px;
 }
-
+/*Single result upload section*/
 .resultUpload{
     width: 43%;
     float: left;
