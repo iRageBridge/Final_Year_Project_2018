@@ -41,6 +41,7 @@ export class AuthService implements CanActivate{
   }
   //log out admin
   logout() {
+    alert("Admin logged out")
     this._afAuth.auth.signOut();
   }
 }
