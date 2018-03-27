@@ -24,10 +24,9 @@ export class LoginComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  //Checks credentials, logs in if valid, error message if not.
   login() {
     const inputValue = this.form.value;
-
     this.authService.login(inputValue.email, inputValue.password)
       .subscribe(
         success => this.router.navigate(['/admin']),

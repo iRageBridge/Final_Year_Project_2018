@@ -17,17 +17,17 @@ export class AuthService implements CanActivate{
               private router: Router) {
     this.admin = afAuth.authState;
   }
-  
+  //Admin login
   login(email, password): Observable<any> {
     return Observable.fromPromise(
       this.afAuth.auth.signInWithEmailAndPassword(email, password)
     );
   }
-
+  //Checks to see if user has admin ability 
   isAuthenticated(): Observable<boolean>{
     return this.admin.map(admin => admin && admin.uid !== undefined);
   }
-
+  //Blocks certain routes from non-admins
   canActivate():Observable<boolean>{
     return this.admin
       .take (1)
@@ -39,7 +39,7 @@ export class AuthService implements CanActivate{
         }
       });
   }
-
+  //log out admin
   logout() {
     this.afAuth.auth.signOut();
   }

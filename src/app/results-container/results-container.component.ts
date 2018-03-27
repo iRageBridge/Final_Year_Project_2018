@@ -48,40 +48,36 @@ export class ResultsContainerComponent implements OnInit {
     this.athleteNames = [];
     this.batch = 20;
     this.getAthletes();  
-    this.getResults();
+    //this.getResults();
     this.getComparisonResults();
   }
-
+  //Get first 20 all athletes from database
   getAthletes(){
     this.resultsService.getAllAthletes(this.startAt, this.endAt, this.batch)
                           .subscribe(athletes => this.athletes = athletes)
   }
-
+  //Get ALL athletes from database. Needed to combat issue of comparison names being deleted from comparison array
   getComparisonResults(){
     this.resultsService.getResults()
                        .subscribe(results =>this.comparisonResults = results)
   }
 
-  getResults(){
-    this.resultsService.getAllResults(this.startAt, this.endAt, this.batch)
-                          .subscribe(results => this.results = results)
-  }
-
+  //Load next 20 athletes
   loadMore(){
     this.batch +=20;
     this.getAthletes();
   }
-
+  //Changes search parameters based on letters typed into search bar
   search($event) {
     const q = $event.target.value.toLowerCase()
     this.startAt.next(q);
     this.endAt.next(q+"\uf8ff");
   }
-
+  //delete selected athlete from database
   deleteAthlete(id){
     this.resultsService.deleteAthlete(id);
   }
-
+  //Checks to see if an athlete has been selected for comparison and adds to comparison array
   resultTicked(id,e){
     if(e.target.checked){
       this.numChecked++;
@@ -103,7 +99,7 @@ export class ResultsContainerComponent implements OnInit {
       }
     }
   }
-
+  //Loads the chart into the modal window, only loads selected athletes
   getChart(){
     this.athleteWilks1 = [];
     this.athleteWilks2 = [];
@@ -190,7 +186,7 @@ export class ResultsContainerComponent implements OnInit {
       }
     });
   }
-
+  //opens modal window
   openPopup(content) {
     this.modalService.open(content,{
       size:'lg',

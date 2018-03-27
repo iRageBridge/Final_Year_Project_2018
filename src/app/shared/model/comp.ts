@@ -1,3 +1,4 @@
+//Competition data interface
 export class Comp{
 
     static fromJsonList(array): Comp[]{

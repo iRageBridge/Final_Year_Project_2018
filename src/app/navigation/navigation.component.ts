@@ -10,6 +10,7 @@ import { Router } from '@angular/router';
 export class NavigationComponent implements OnInit {
 
   public isLoggedIn;
+  
   constructor(private authService: AuthService, private router: Router) {
     authService.isAuthenticated()
       .subscribe(
@@ -17,7 +18,7 @@ export class NavigationComponent implements OnInit {
         error => this.router.navigate['/login']
       );
   }
-
+  //Logs user out on button click
   logout(){
     this.authService.logout();
     this.router.navigate (['/login']);

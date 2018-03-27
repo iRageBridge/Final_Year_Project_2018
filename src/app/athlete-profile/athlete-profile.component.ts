@@ -26,19 +26,21 @@ export class AthleteProfileComponent implements OnInit {
     .subscribe(
       success => this.loggedIn = success,
     );
-              }
+  }
     
   ngOnInit() {
+    //Gets the current id parameter from url and passes it to findAthletes function on the service
     let url:any = this.route.snapshot.params;
     this.resultsService.findAthleteById(+url.id)
-                       .subscribe(results => this.results = results) 
+                       .subscribe(results => this.results = results)
+                       //Delays trigger of chart button until after data has loaded
                        setTimeout(function(){document.getElementById("chart").click()},2000)                    
   }
-
+  //deletes selected result from database
   deleteResult(id){
     this.resultsService.deleteResult(id)
   }
-
+  //Loads the data chart
   getChart(){
     this.athleteName = this.results[0].name;
     for(let i = 0; i < this.results.length; i++){

@@ -2,19 +2,21 @@
     <h1>IrishPF Database</h1>
     <h3><input type="text" (keyup)="search($event)" id="search" placeholder="Search Athletes..." required></h3>
 </div>
-
+<!-- Loads fiorst 20 athletes with their best result to date, hyperlinked name and delete button if logged in as admin -->
 <button style="margin-right: 15px;"type="button" class="btn btn-success" [disabled]="numChecked < 2 || numChecked > 5" onclick="document.getElementById('primaryButton').click()">Compare</button>(Select between 2 and 5 Athletes to compare)
 <div *ngFor="let athlete of athletes">
     <h4><a [routerLink]="'/athletes/' + athlete.id">{{athlete.name}} </a><input class="big-checkbox"type="checkbox" (change)="resultTicked(athlete.id,$event)"> <button  style="visibility:hidden; width:1px; height:0px" id="primaryButton" (click)="openPopup(content)" (click)="getChart()">Compare</button></h4>
     <h6 style="color: #93C54B">Best Result:</h6>
     <p>
         Squat: {{athlete?.squat}}kg | Bench: {{athlete?.bench}}kg | Deadlift: {{athlete?.deadlift}}kg | Total: {{athlete?.total}}kg | Bodyweight: {{athlete?.bodyweight}}kg | Wilks: {{athlete.wilks}} <button class="btn btn-danger" *ngIf="isLoggedIn"(click)="deleteAthlete(athlete.id)">Delete Athlete</button>
+        <!-- Modal body, shown when compare button is clicked -->
         <ng-template #content let-c="close" let-d="dismiss" width="700px" height="500px">
             <div class="modal-header">
                 <h1>Athlete Comparison (Wilks over Time)</h1>
             </div>
             <div class="modal-body">
                 <div>
+                    <!-- Chart to be populated with comparison data -->
                     <canvas #canvas id="canvas">{{chart}}</canvas>
                 </div>
             </div>
@@ -25,7 +27,7 @@
     </p>
     <hr/>
 </div>
-
+<!-- load next 20 results -->
 <div>
     <button type="button" class="btn btn-success"*ngIf="athletes.length % 20 == 0" (click)="loadMore()">Load More athletes</button>
 </div>

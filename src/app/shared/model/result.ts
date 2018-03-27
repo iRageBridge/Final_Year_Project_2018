@@ -1,3 +1,4 @@
+//Result data interface
 export class Result{
 
 static fromJsonList(array): Result[]{

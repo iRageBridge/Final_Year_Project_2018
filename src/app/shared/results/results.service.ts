@@ -14,21 +14,11 @@ import "rxjs/add/observable/zip";
 @Injectable()
 export class ResultsService {
   constructor(private af: AngularFireDatabase) { }
-
-  getAllResults(start,end, batch?){
-    return this.af.list('/results',{
-      query: {
-        orderByChild: 'nameLower',
-        startAt: start,
-        endAt: end,
-      }
-    })
-  }
-
+  //Gets all results
   getResults(){
     return this.af.list('/results');
   }
-
+  //Gets all competitions
   getAllComps(){
     return this.af.list('/comps',{
       query: {
@@ -36,7 +26,7 @@ export class ResultsService {
       }
     })
   }
-
+  //Gets competitions based on competition id
   getComps(id){
     return this.af.list('/results',{
       query: {
@@ -45,11 +35,11 @@ export class ResultsService {
       }
     })
   }
-
+  //Gets all athletes
   getCompAthletes(){
     return this.af.list('/athletes')
   }
-
+  //Gets all athletes in a certain competition
   getAthletesInComp(comp){
     return this.af.list('/results',{
       query:{
@@ -58,7 +48,7 @@ export class ResultsService {
       }
     })
   }
-
+  //Gets athletes based on search parameters.
   getAllAthletes(start,end, batch){
     return this.af.list('/athletes',{
       query: {
@@ -69,7 +59,7 @@ export class ResultsService {
       }
     })
   }
-
+  //Get all athletes with a certain id
   findAthleteById(uid){
     return this.af.list('/results',{
       query: {
@@ -78,19 +68,19 @@ export class ResultsService {
       }
     })
   }
-
+  //delete selected result
   deleteResult(id){
     this.af.object(`results/${id}`)
     .remove()
     .then(() => alert("Result deleted"));
   }
-
+  //delete selected athlete
   deleteAthlete(id){
     this.af.object(`athletes/${id}`)
     .remove()
     .then(() => alert("Athlete Deleted"));
   }
-
+  //delete selected competition
   deleteComp(id){
     this.af.object(`comps/${id}`)
     .remove()

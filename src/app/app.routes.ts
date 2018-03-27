@@ -6,7 +6,7 @@ import { LoginComponent } from './login/login.component';
 import { AuthService } from "./shared/auth/auth.service";
 import  { CompetitionComponent } from './competition/competition.component';
 import { CompetitionContainerComponent } from "./competition-container/competition-container.component";
-
+//Sets up routes, blocks admin routes for non-admins
 export const ROUTES: Route[] =[{
       path: 'results', 
       children: [{

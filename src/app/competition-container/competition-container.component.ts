@@ -11,16 +11,16 @@ export class CompetitionContainerComponent implements OnInit {
   results=[];
   constructor(private route: ActivatedRoute,
               private resultsService: ResultsService) { }
-
+  
   ngOnInit() {
     this.getAllComps();
   }
-
+  //Get all competitions from database
   getAllComps(){
     this.resultsService.getAllComps()
                        .subscribe(results => this.results = results)
   }
-
+  //Delete selected competition from database
   deleteComp(id){
     this.resultsService.deleteComp(id)
   }
