@@ -90,4 +90,10 @@ export class ResultsService {
     .remove()
     .then(() => alert("Athlete Deleted"));
   }
+
+  deleteComp(id){
+    this.af.object(`comps/${id}`)
+    .remove()
+    .then(()=> alert("Competition Deleted"))
+  }
 }

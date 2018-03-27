@@ -9,8 +9,6 @@ import { Component, OnInit, NgModule } from '@angular/core';
 })
 export class CompetitionContainerComponent implements OnInit {
   results=[];
-  comps=[];
-  compId=0;
   constructor(private route: ActivatedRoute,
               private resultsService: ResultsService) { }
 
@@ -19,8 +17,11 @@ export class CompetitionContainerComponent implements OnInit {
   }
 
   getAllComps(){
-    let url:any = this.route.snapshot.params;
     this.resultsService.getAllComps()
                        .subscribe(results => this.results = results)
+  }
+
+  deleteComp(id){
+    this.resultsService.deleteComp(id)
   }
 }
