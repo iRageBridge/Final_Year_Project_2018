@@ -15,7 +15,7 @@ import "rxjs/add/observable/zip";
 export class ResultsService {
   constructor(private af: AngularFireDatabase) { }
   //Gets all results
-  getResults(){
+  getAllResults(){
     return this.af.list('/results');
   }
   //Gets all competitions
@@ -27,7 +27,7 @@ export class ResultsService {
     })
   }
   //Gets competitions based on competition id
-  getComps(id){
+  getCompsByCompId(id){
     return this.af.list('/results',{
       query: {
         orderByChild: 'compId',
@@ -36,11 +36,11 @@ export class ResultsService {
     })
   }
   //Gets all athletes
-  getCompAthletes(){
+  getAllAthletes(){
     return this.af.list('/athletes')
   }
   //Gets all athletes in a certain competition
-  getAthletesInComp(comp){
+  getResultsInComp(comp){
     return this.af.list('/results',{
       query:{
         orderByChild: 'compId',
@@ -49,7 +49,7 @@ export class ResultsService {
     })
   }
   //Gets athletes based on search parameters.
-  getAllAthletes(start,end, batch){
+  getAthletesBySearch(start,end, batch){
     return this.af.list('/athletes',{
       query: {
         orderByChild: 'nameLower',
@@ -60,7 +60,7 @@ export class ResultsService {
     })
   }
   //Get all athletes with a certain id
-  findAthleteById(uid){
+  getAthleteById(uid){
     return this.af.list('/results',{
       query: {
         orderByChild: "id",

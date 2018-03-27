@@ -48,17 +48,16 @@ export class ResultsContainerComponent implements OnInit {
     this.athleteNames = [];
     this.batch = 20;
     this.getAthletes();  
-    //this.getResults();
     this.getComparisonResults();
   }
   //Get first 20 all athletes from database
   getAthletes(){
-    this.resultsService.getAllAthletes(this.startAt, this.endAt, this.batch)
+    this.resultsService.getAthletesBySearch(this.startAt, this.endAt, this.batch)
                           .subscribe(athletes => this.athletes = athletes)
   }
   //Get ALL athletes from database. Needed to combat issue of comparison names being deleted from comparison array
   getComparisonResults(){
-    this.resultsService.getResults()
+    this.resultsService.getAllResults()
                        .subscribe(results =>this.comparisonResults = results)
   }
 

@@ -31,9 +31,9 @@ export class CompetitionComponent implements OnInit {
               private resultsService: ResultsService) { }
 
   ngOnInit() {
-    this.getAllComps();
+    this.getComps();
     this.getAthletes();
-    this.getAthletesInComp();
+    this.getResultsInComp();
     setTimeout(function(){document.getElementById("show").click()},3000)
   }
   //Shows weight class heading, only for weight classes that have results
@@ -87,22 +87,22 @@ export class CompetitionComponent implements OnInit {
     }
   }
   //Gets all athletes that competed in the current competition
-  getAthletesInComp(){
+  getResultsInComp(){
     let url:any = this.route.snapshot.params;
-    return this.resultsService.getAthletesInComp(+url.compId)
+    return this.resultsService.getResultsInComp(+url.compId)
                               .subscribe(compAthletes => this.compAthletes = compAthletes)
                               
   }
   //Gets the info of the current competition
-  getAllComps(){
+  getComps(){
     let url:any = this.route.snapshot.params;
-    this.resultsService.getComps(+url.compId)
+    this.resultsService.getCompsByCompId(+url.compId)
                        .subscribe(results => this.results = results)
                        
   }
   //Get all athlete information, to be checked vs current competition
   getAthletes(){
-    this.resultsService.getCompAthletes()
+    this.resultsService.getAllAthletes()
                           .subscribe(athletes => this.athletes = athletes)
   }
 }

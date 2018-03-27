@@ -31,7 +31,7 @@ export class AthleteProfileComponent implements OnInit {
   ngOnInit() {
     //Gets the current id parameter from url and passes it to findAthletes function on the service
     let url:any = this.route.snapshot.params;
-    this.resultsService.findAthleteById(+url.id)
+    this.resultsService.getAthleteById(+url.id)
                        .subscribe(results => this.results = results)
                        //Delays trigger of chart button until after data has loaded
                        setTimeout(function(){document.getElementById("chart").click()},2000)                    
