@@ -9,14 +9,12 @@ import {Router} from "@angular/router";
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
+  private form: FormGroup;
 
-  public form: FormGroup;
-  public athlete$ = this.authService.admin;
-
-  constructor(private formBuilder: FormBuilder,
-              private authService: AuthService,
-              private router: Router) {
-    this.form = this.formBuilder.group({
+  constructor(private _formBuilder: FormBuilder,
+              private _authService: AuthService,
+              private _router: Router) {
+    this.form = this._formBuilder.group({
       email: ['', Validators.required],
       password: ['', Validators.required]
     });
@@ -28,9 +26,9 @@ export class LoginComponent implements OnInit {
   login() {
     const inputValue = this.form.value;
 
-    this.authService.login(inputValue.email, inputValue.password)
+    this._authService.login(inputValue.email, inputValue.password)
       .subscribe(
-        success => this.router.navigate(['/admin']),
+        success => this._router.navigate(['/']),
         error => alert(error)
       );
   }

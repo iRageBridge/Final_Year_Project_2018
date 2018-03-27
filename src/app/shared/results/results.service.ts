@@ -13,54 +13,44 @@ import "rxjs/add/observable/zip";
 
 @Injectable()
 export class ResultsService {
-  constructor(private af: AngularFireDatabase) { }
-
-  getAllResults(start,end, batch?){
-    return this.af.list('/results',{
-      query: {
-        orderByChild: 'nameLower',
-        startAt: start,
-        endAt: end,
-      }
-    })
+  constructor(private _af: AngularFireDatabase) { }
+  //Gets all results
+  getAllResults(){
+    return this._af.list('/results');
   }
-
-  getResults(){
-    return this.af.list('/results');
-  }
-
+  //Gets all competitions
   getAllComps(){
-    return this.af.list('/comps',{
+    return this._af.list('/comps',{
       query: {
         orderByChild: 'compId'
       }
     })
   }
-
-  getComps(id){
-    return this.af.list('/results',{
+  //Gets competitions based on competition id
+  getCompsByCompId(id){
+    return this._af.list('/results',{
       query: {
         orderByChild: 'compId',
         equalTo: id
       }
     })
   }
-
-  getCompAthletes(){
-    return this.af.list('/athletes')
+  //Gets all athletes
+  getAllAthletes(){
+    return this._af.list('/athletes')
   }
-
-  getAthletesInComp(comp){
-    return this.af.list('/results',{
+  //Gets all athletes in a certain competition
+  getResultsInComp(comp){
+    return this._af.list('/results',{
       query:{
         orderByChild: 'compId',
         equalTo: comp
       }
     })
   }
-
-  getAllAthletes(start,end, batch){
-    return this.af.list('/athletes',{
+  //Gets athletes based on search parameters.
+  getAthletesBySearch(start,end, batch){
+    return this._af.list('/athletes',{
       query: {
         orderByChild: 'nameLower',
         limitToFirst: batch,
@@ -69,30 +59,30 @@ export class ResultsService {
       }
     })
   }
-
-  findAthleteById(uid){
-    return this.af.list('/results',{
+  //Get all athletes with a certain id
+  getAthleteById(uid){
+    return this._af.list('/results',{
       query: {
         orderByChild: "id",
         equalTo: uid
       }
     })
   }
-
+  //delete selected result
   deleteResult(id){
-    this.af.object(`results/${id}`)
+    this._af.object(`results/${id}`)
     .remove()
     .then(() => alert("Result deleted"));
   }
-
+  //delete selected athlete
   deleteAthlete(id){
-    this.af.object(`athletes/${id}`)
+    this._af.object(`athletes/${id}`)
     .remove()
     .then(() => alert("Athlete Deleted"));
   }
-
+  //delete selected competition
   deleteComp(id){
-    this.af.object(`comps/${id}`)
+    this._af.object(`comps/${id}`)
     .remove()
     .then(()=> alert("Competition Deleted"))
   }

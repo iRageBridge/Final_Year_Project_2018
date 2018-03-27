@@ -14,41 +14,41 @@ import { Result } from "../shared/model/result";
   styleUrls: ['./admin.component.css']
 })
 export class AdminComponent implements OnInit {
-  private selectedNameIds:FirebaseListObservable<any[]>;
-  private name;
-  private nameToCompare;
-  private results:FirebaseListObservable<any[]>;
-  private comps: FirebaseListObservable<any[]>;
-  private athletes:FirebaseListObservable<any[]>;
-  private currentUpload: Upload;
-  private selectedFiles: FileList;
-  constructor(private af: AngularFireDatabase,
-              private resultsService: ResultsService,
-              private upSvc: UploadService) {
+  private _selectedNameIds:FirebaseListObservable<any[]>;
+  private _name;
+  private _nameToCompare;
+  private _results:FirebaseListObservable<any[]>;
+  private _comps: FirebaseListObservable<any[]>;
+  private _athletes:FirebaseListObservable<any[]>;
+  private _currentUpload: Upload;
+  private _selectedFiles: FileList;
+  constructor(private _af: AngularFireDatabase,
+              private _resultsService: ResultsService,
+              private _upSvc: UploadService) {
 
-    this.results = this.af.list('/results');
-    this.athletes = this.af.list('/athletes');
-    this.comps = this.af.list('/comps');
+    this._results = this._af.list('/results');
+    this._athletes = this._af.list('/athletes');
+    this._comps = this._af.list('/comps');
   }
 
   ngOnInit() {}
 
   detectFiles(event){
-    this.selectedFiles = event.target.files;
-    let file = this.selectedFiles.item(0);
-    this.currentUpload = new Upload(file);
-    this.upSvc.pushUpload(this.currentUpload);
+    this._selectedFiles = event.target.files;
+    let file = this._selectedFiles.item(0);
+    this._currentUpload = new Upload(file);
+    this._upSvc.pushUpload(this._currentUpload);
   }
 
   uploadResult(name, theClass, bodyweight, weightClass, squat, bench, deadlift, total, wilks, comp, id, compId,resultId, place){
-    this.nameToCompare = this.af.list('/athletes',{
+    this._nameToCompare = this._af.list('/athletes',{
       query: {
         orderByChild: name,
-        equalTo: this.name
+        equalTo: this._name
       }
     })
-    const resultSend = this.af.object(`/results/${resultId}`);
-    const athleteSend = this.af.object(`/athletes/${id}`);
+    const resultSend = this._af.object(`/results/${resultId}`);
+    const athleteSend = this._af.object(`/athletes/${id}`);
     resultSend.set({nameLower:name.toLowerCase(), name: name, class:theClass, bodyweight:bodyweight, weight_class:weightClass, squat: squat, bench: bench, deadlift:deadlift, total:total, wilks:wilks, comp:comp, id:id, compId:compId, resultId:resultId, place: place});
     athleteSend.set({nameLower:name.toLowerCase(), name: name, class:theClass, bodyweight:bodyweight, weight_class:weightClass, squat: squat, bench: bench, deadlift:deadlift, total:total, wilks:wilks, comp:comp, id:id, compId:compId, place: place});
     alert("Result Uploaded");
@@ -56,11 +56,11 @@ export class AdminComponent implements OnInit {
 
   uploadResults(){
 
-    let url = this.currentUpload.url;
+    let url = this._currentUpload.url;
     fetch(url).then(res=>res.json()).then((out) => {
       for(var i = 0; i < out.length; i++){
-        this.results.push(out[i]);
-        this.athletes.push(out[i])
+        this._results.push(out[i]);
+        this._athletes.push(out[i])
       }
       alert("Results Uploaded");
     }).catch(err => {throw err });

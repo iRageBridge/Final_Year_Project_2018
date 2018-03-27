@@ -12,47 +12,47 @@ import * as Chart from 'chart.js';
   styleUrls: ['./athlete-profile.component.css'],
 })
 export class AthleteProfileComponent implements OnInit {
-  results = [];
-  chart = [];
-  labels = [];
-  athleteName;
-  athleteWilks=[];
-  loggedIn;
+  private _results = [];
+  private _chart = [];
+  private _labels = [];
+  private _athleteName;
+  private _athleteWilks=[];
+  private _loggedIn;
 
-  constructor(private route: ActivatedRoute,
-              private resultsService: ResultsService,
-              private authService: AuthService){ 
-                authService.isAuthenticated()
+  constructor(private _route: ActivatedRoute,
+              private _resultsService: ResultsService,
+              private _authService: AuthService){ 
+                _authService.isAuthenticated()
     .subscribe(
-      success => this.loggedIn = success,
+      success => this._loggedIn = success,
     );
               }
     
   ngOnInit() {
-    let url:any = this.route.snapshot.params;
-    this.resultsService.findAthleteById(+url.id)
-                       .subscribe(results => this.results = results) 
+    let url:any = this._route.snapshot.params;
+    this._resultsService.getAthleteById(+url.id)
+                       .subscribe(results => this._results = results) 
                        setTimeout(function(){document.getElementById("chart").click()},2000)                    
   }
 
   deleteResult(id){
-    this.resultsService.deleteResult(id)
+    this._resultsService.deleteResult(id)
   }
 
   getChart(){
-    this.athleteName = this.results[0].name;
-    for(let i = 0; i < this.results.length; i++){
-      this.athleteWilks.push(this.results[i].wilks)
-      this.labels.push(this.results[i].date);
+    this._athleteName = this._results[0].name;
+    for(let i = 0; i < this._results.length; i++){
+      this._athleteWilks.push(this._results[i].wilks)
+      this._labels.push(this._results[i].date);
     }
-    this.chart = new Chart('canvas', {
+    this._chart = new Chart('canvas', {
       type: 'line',
       data:{
-        labels: this.labels,
+        labels: this._labels,
         datasets:[
           {
-            label: this.athleteName,
-            data: this.athleteWilks,
+            label: this._athleteName,
+            data: this._athleteWilks,
             fill:false,
             lineTension:0.2,
             borderColor:"green",

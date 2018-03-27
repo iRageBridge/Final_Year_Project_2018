@@ -1,5 +1,5 @@
 <h2>Athlete profile</h2>
-<div class="well well-sm" *ngIf="results else athleteLoading">
+<div class="well well-sm" *ngIf="_results else athleteLoading">
     <div class="row">
         <!--<div class="col-sm-4 col-md-2">-->
         <div>
@@ -7,14 +7,14 @@
         </div>
         <!--<div class="col-sm-8 col-md-10">-->
         <div>
-            <div *ngFor=" let result of results;  let i=index">
+            <div *ngFor=" let result of _results;  let i=index">
                 <div *ngIf="i<1">
                     <h4>{{result.name}}'s Results:</h4>
                 </div>
             </div>
             
             <hr/>
-            <table class="tabe table-dark">
+            <table class="table table-dark">
                 <colgroup>
                     <col class='compCol'/>
                     <col class='regCol'/>
@@ -26,7 +26,7 @@
                     <col class='regCol'/>
                     <col class='regCol'/>
                     <col class='regCol'/>
-                    <col *ngIf="loggedIn" class='regCol'/>
+                    <col *ngIf="_loggedIn" class='regCol'/>
                 </colgroup>
                 <tbody>
                     <tr>
@@ -40,13 +40,13 @@
                         <th class= 'reg'>Total</th>
                         <th class= 'reg'>Wilks</th>
                         <th class= 'reg'>Place</th>
-                        <th *ngIf="loggedIn" class= 'reg'>Delete?</th>
+                        <th *ngIf="_loggedIn" class= 'reg'>Delete?</th>
                     </tr>       
                 </tbody>
             </table>
             <hr/>
             <table class="table table-striped">
-                <div *ngFor="let result of results">   
+                <div *ngFor="let result of _results">   
                     <colgroup>
                         <col class='compCol'/>
                         <col class='regCol'/>
@@ -58,7 +58,7 @@
                         <col class='regCol'/>
                         <col class='regCol'/>
                         <col class='regCol'/>
-                        <col *ngIf="loggedIn"class='regCol'/>
+                        <col *ngIf="_loggedIn"class='regCol'/>
                     </colgroup>  
                     <tbody>
                         <tr>
@@ -72,7 +72,7 @@
                             <td class= 'reg'>{{result.total}}kg</td>
                             <td class= 'reg'>{{result.wilks}}</td>
                             <td class= 'reg'>{{result.place}}</td>
-                            <td *ngIf="loggedIn" class= 'reg'><button class="btn btn-danger" (click)="deleteResult(result.resultId)">Delete Result</button> </td>
+                            <td *ngIf="_loggedIn" class= 'reg'><button class="btn btn-danger" (click)="deleteResult(result.resultId)">Delete Result</button> </td>
                         </tr>
                     </tbody>
                 </div>

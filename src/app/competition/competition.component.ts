@@ -8,27 +8,27 @@ import { Component, OnInit, NgModule } from '@angular/core';
   styleUrls: ['./competition.component.css']
 })
 export class CompetitionComponent implements OnInit {
-  loaded = false;
-  results=[];
-  athletes=[];
-  compAthletes=[];
-  show47=false;
-  show52=false;
-  show57=false;
-  show63=false;
-  show72=false;
-  show84=false;
-  show84Plus=false;
-  show59=false;
-  show66=false;
-  show74=false;
-  show83=false;
-  show93=false;
-  show105=false;
-  show120=false;
-  show120Plus=false;
-  constructor(private route: ActivatedRoute,
-              private resultsService: ResultsService) { }
+  private _loaded = false;
+  private _results=[];
+  private _athletes=[];
+  private _compAthletes=[];
+  private _show47=false;
+  private _show52=false;
+  private _show57=false;
+  private _show63=false;
+  private _show72=false;
+  private _show84=false;
+  private _show84Plus=false;
+  private _show59=false;
+  private _show66=false;
+  private _show74=false;
+  private _show83=false;
+  private _show93=false;
+  private _show105=false;
+  private _show120=false;
+  private _show120Plus=false;
+  constructor(private _route: ActivatedRoute,
+              private _resultsService: ResultsService) { }
 
   ngOnInit() {
     this.getAllComps();
@@ -38,71 +38,71 @@ export class CompetitionComponent implements OnInit {
   }
 
   showResults(){
-    for(let i = 0; i < this.compAthletes.length; i++){
-      if(this.compAthletes[i].weight_class == 43 || this.compAthletes[i].weight_class == 47){
-        this.show47 = true;
+    for(let i = 0; i < this._compAthletes.length; i++){
+      if(this._compAthletes[i].weight_class == 43 || this._compAthletes[i].weight_class == 47){
+        this._show47 = true;
       }
-      if(this.compAthletes[i].weight_class == 52){
-        this.show52 = true;
+      if(this._compAthletes[i].weight_class == 52){
+        this._show52 = true;
       }
-      if(this.compAthletes[i].weight_class == 57){
-        this.show57 = true;
+      if(this._compAthletes[i].weight_class == 57){
+        this._show57 = true;
       }
-      if(this.compAthletes[i].weight_class == 63){
-        this.show63 = true;
+      if(this._compAthletes[i].weight_class == 63){
+        this._show63 = true;
       }
-      if(this.compAthletes[i].weight_class == 72){
-        this.show72 = true;
+      if(this._compAthletes[i].weight_class == 72){
+        this._show72 = true;
       }
-      if(this.compAthletes[i].weight_class == 84){
-        this.show84 = true;
+      if(this._compAthletes[i].weight_class == 84){
+        this._show84 = true;
       }
-      if(this.compAthletes[i].weight_class == '84+'){
-        this.show84Plus = true;
+      if(this._compAthletes[i].weight_class == '84+'){
+        this._show84Plus = true;
       }
-      if(this.compAthletes[i].weight_class == 59 || this.compAthletes[i].weight_class == 53){
-        this.show59 = true;
+      if(this._compAthletes[i].weight_class == 59 || this._compAthletes[i].weight_class == 53){
+        this._show59 = true;
       }
-      if(this.compAthletes[i].weight_class == 66){
-        this.show66 = true;
+      if(this._compAthletes[i].weight_class == 66){
+        this._show66 = true;
       }
-      if(this.compAthletes[i].weight_class == 74){
-        this.show74 = true;
+      if(this._compAthletes[i].weight_class == 74){
+        this._show74 = true;
       }
-      if(this.compAthletes[i].weight_class == 83){
-        this.show83 = true;
+      if(this._compAthletes[i].weight_class == 83){
+        this._show83 = true;
       }
-      if(this.compAthletes[i].weight_class == 93){
-        this.show93 = true;
+      if(this._compAthletes[i].weight_class == 93){
+        this._show93 = true;
       }
-      if(this.compAthletes[i].weight_class == 105){
-        this.show105 = true;
+      if(this._compAthletes[i].weight_class == 105){
+        this._show105 = true;
       }
-      if(this.compAthletes[i].weight_class == 120){
-        this.show120 = true;
+      if(this._compAthletes[i].weight_class == 120){
+        this._show120 = true;
       }
-      if(this.compAthletes[i].weight_class == '120+'){
-        this.show120Plus = true;
+      if(this._compAthletes[i].weight_class == '120+'){
+        this._show120Plus = true;
       }
     }
   }
 
   getAthletesInComp(){
-    let url:any = this.route.snapshot.params;
-    return this.resultsService.getAthletesInComp(+url.compId)
-                              .subscribe(compAthletes => this.compAthletes = compAthletes)
+    let url:any = this._route.snapshot.params;
+    return this._resultsService.getResultsInComp(+url.compId)
+                              .subscribe(compAthletes => this._compAthletes = compAthletes)
                               
   }
 
   getAllComps(){
-    let url:any = this.route.snapshot.params;
-    this.resultsService.getComps(+url.compId)
-                       .subscribe(results => this.results = results)
+    let url:any = this._route.snapshot.params;
+    this._resultsService.getCompsByCompId(+url.compId)
+                       .subscribe(results => this._results = results)
                        
   }
 
   getAthletes(){
-    this.resultsService.getCompAthletes()
-                          .subscribe(athletes => this.athletes = athletes)
+    this._resultsService.getAllAthletes()
+                          .subscribe(athletes => this._athletes = athletes)
   }
 }

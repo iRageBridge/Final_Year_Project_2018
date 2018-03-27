@@ -10,12 +10,11 @@ export class UploadService {
 
   constructor(private af: AngularFireDatabase) { }
 
-  private basePath:string = '/uploads';
-  uploads: FirebaseListObservable<Upload[]>;
+  private _basePath:string = '/uploads';
 
   pushUpload(upload:Upload){
     let storageRef = firebase.storage().ref();
-    let uploadTask = storageRef.child(`${this.basePath}/${upload.file.name}`).put(upload.file);
+    let uploadTask = storageRef.child(`${this._basePath}/${upload.file.name}`).put(upload.file);
 
     uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED,
       (snapshot) => {
@@ -33,6 +32,6 @@ export class UploadService {
   }
 
   private saveFileData(upload: Upload){
-    this.af.list(`${this.basePath}/`).push(upload);
+    this.af.list(`${this._basePath}/`).push(upload);
   }
 }

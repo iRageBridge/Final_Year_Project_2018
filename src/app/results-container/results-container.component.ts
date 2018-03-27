@@ -16,185 +16,179 @@ import * as Chart from 'chart.js';
 })
 
 export class ResultsContainerComponent implements OnInit {
-  batch = 20;
-  numChecked = 0; 
-  isLoggedIn;
-  athletes = [];
-  comparisonResults = [];
-  results=[];
-  resultsToCompare=[];
-  athleteWilks1=[];
-  athleteWilks2=[];
-  athleteWilks3=[];
-  athleteWilks4=[];
-  athleteWilks5=[];
-  athleteNames;
-  datasets=[];
-  chart = [];
-  startAt: BehaviorSubject<string|null> = new BehaviorSubject("");
-  endAt: BehaviorSubject<string|null> = new BehaviorSubject("\uf8ff");
+  private _batch = 20;
+  private _numChecked = 0; 
+  private _isLoggedIn;
+  private _athletes = [];
+  private _comparisonResults = [];
+  private _results=[];
+  private _resultsToCompare=[];
+  private _athleteWilks1=[];
+  private _athleteWilks2=[];
+  private _athleteWilks3=[];
+  private _athleteWilks4=[];
+  private _athleteWilks5=[];
+  private _athleteNames;
+  private _datasets=[];
+  private _chart = [];
+  private _startAt: BehaviorSubject<string|null> = new BehaviorSubject("");
+  private _endAt: BehaviorSubject<string|null> = new BehaviorSubject("\uf8ff");
 
-  constructor(private modalService:NgbModal,
-              private authService: AuthService,
-              private resultsService: ResultsService) {
+  constructor(private _modalService:NgbModal,
+              private _authService: AuthService,
+              private _resultsService: ResultsService) {
 
-    authService.isAuthenticated()
+    _authService.isAuthenticated()
     .subscribe(
-      success => this.isLoggedIn = success,
+      success => this._isLoggedIn = success,
     );
   }
 
   ngOnInit() {
-    this.athleteNames = [];
-    this.batch = 20;
+    this._athleteNames = [];
+    this._batch = 20;
     this.getAthletes();  
-    this.getResults();
     this.getComparisonResults();
   }
 
   getAthletes(){
-    this.resultsService.getAllAthletes(this.startAt, this.endAt, this.batch)
-                          .subscribe(athletes => this.athletes = athletes)
+    this._resultsService.getAthletesBySearch(this._startAt, this._endAt, this._batch)
+                          .subscribe(athletes => this._athletes = athletes)
   }
 
   getComparisonResults(){
-    this.resultsService.getResults()
-                       .subscribe(results =>this.comparisonResults = results)
-  }
-
-  getResults(){
-    this.resultsService.getAllResults(this.startAt, this.endAt, this.batch)
-                          .subscribe(results => this.results = results)
+    this._resultsService.getAllResults()
+                       .subscribe(results =>this._comparisonResults = results)
   }
 
   loadMore(){
-    this.batch +=20;
+    this._batch +=20;
     this.getAthletes();
   }
 
   search($event) {
     const q = $event.target.value.toLowerCase()
-    this.startAt.next(q);
-    this.endAt.next(q+"\uf8ff");
+    this._startAt.next(q);
+    this._endAt.next(q+"\uf8ff");
   }
 
   deleteAthlete(id){
-    this.resultsService.deleteAthlete(id);
+    this._resultsService.deleteAthlete(id);
   }
 
   resultTicked(id,e){
     if(e.target.checked){
-      this.numChecked++;
-      if(this.resultsToCompare.length == 5){
-        this.resultsToCompare.shift();
-        this.resultsToCompare.push(id);
+      this._numChecked++;
+      if(this._resultsToCompare.length == 5){
+        this._resultsToCompare.shift();
+        this._resultsToCompare.push(id);
       }
       else{
-        this.resultsToCompare.push(id);
+        this._resultsToCompare.push(id);
       }
     }
     else{
-      this.numChecked--;
-      let index = this.resultsToCompare.indexOf(id);
+      this._numChecked--;
+      let index = this._resultsToCompare.indexOf(id);
       if (index != -1){
-        if(this.numChecked < 5){
-          this.resultsToCompare.splice(index, 1);
+        if(this._numChecked < 5){
+          this._resultsToCompare.splice(index, 1);
         }
       }
     }
   }
 
   getChart(){
-    this.athleteWilks1 = [];
-    this.athleteWilks2 = [];
-    this.athleteWilks3 = [];
-    this.athleteWilks4 = [];
-    this.athleteWilks5 = [];
-    for (let i = 0; i < this.comparisonResults.length; i++){
-      if(this.comparisonResults[i].id == this.resultsToCompare[0]){
-        this.athleteNames[0] = this.comparisonResults[i].name;
-        this.athleteWilks1.push(this.comparisonResults[i].wilks);
+    this._athleteWilks1 = [];
+    this._athleteWilks2 = [];
+    this._athleteWilks3 = [];
+    this._athleteWilks4 = [];
+    this._athleteWilks5 = [];
+    for (let i = 0; i < this._comparisonResults.length; i++){
+      if(this._comparisonResults[i].id == this._resultsToCompare[0]){
+        this._athleteNames[0] = this._comparisonResults[i].name;
+        this._athleteWilks1.push(this._comparisonResults[i].wilks);
       }
-      if(this.comparisonResults[i].id == this.resultsToCompare[1]){
-        this.athleteNames[1] = this.comparisonResults[i].name;
-        this.athleteWilks2.push(this.comparisonResults[i].wilks);
+      if(this._comparisonResults[i].id == this._resultsToCompare[1]){
+        this._athleteNames[1] = this._comparisonResults[i].name;
+        this._athleteWilks2.push(this._comparisonResults[i].wilks);
       }
-      if(this.comparisonResults[i].id == this.resultsToCompare[2]){
-        this.athleteNames[2] = this.comparisonResults[i].name;
-        this.athleteWilks3.push(this.comparisonResults[i].wilks);
+      if(this._comparisonResults[i].id == this._resultsToCompare[2]){
+        this._athleteNames[2] = this._comparisonResults[i].name;
+        this._athleteWilks3.push(this._comparisonResults[i].wilks);
       }
-      if(this.comparisonResults[i].id == this.resultsToCompare[3]){
-        this.athleteNames[3] = this.comparisonResults[i].name;
-        this.athleteWilks4.push(this.comparisonResults[i].wilks);
+      if(this._comparisonResults[i].id == this._resultsToCompare[3]){
+        this._athleteNames[3] = this._comparisonResults[i].name;
+        this._athleteWilks4.push(this._comparisonResults[i].wilks);
       }
-      if(this.comparisonResults[i].id == this.resultsToCompare[4]){
-        this.athleteNames[4] = this.comparisonResults[i].name;
-        this.athleteWilks5.push(this.comparisonResults[i].wilks);
+      if(this._comparisonResults[i].id == this._resultsToCompare[4]){
+        this._athleteNames[4] = this._comparisonResults[i].name;
+        this._athleteWilks5.push(this._comparisonResults[i].wilks);
       }
     }
-    this.datasets.push({
-      label: this.athleteNames[0],
-      data: this.athleteWilks1,
+    this._datasets.push({
+      label: this._athleteNames[0],
+      data: this._athleteWilks1,
       fill: false,
       lineTension:0.2,
       borderColor:"green",
       borderWidth:1
     },
     {
-      label: this.athleteNames[1],
-      data: this.athleteWilks2,
+      label: this._athleteNames[1],
+      data: this._athleteWilks2,
       fill: false,
       lineTension:0.2,
       borderColor:"blue",
       borderWidth:1
     })
 
-    if(this.resultsToCompare.length >= 3){
-      this.datasets.push(
+    if(this._resultsToCompare.length >= 3){
+      this._datasets.push(
       {
-        label: this.athleteNames[2],
-        data: this.athleteWilks3,
+        label: this._athleteNames[2],
+        data: this._athleteWilks3,
         fill:false,
         lineTension:0.2,
         borderColor:"orange",
         borderWidth:1
       })
     }
-    if(this.resultsToCompare.length >= 4){
-      this.datasets.push(
+    if(this._resultsToCompare.length >= 4){
+      this._datasets.push(
       {
-        label: this.athleteNames[3],
-        data: this.athleteWilks4,
+        label: this._athleteNames[3],
+        data: this._athleteWilks4,
         fill:false,
         lineTension:0.2,
         borderColor:"red",
         borderWidth:1
       })
     }
-    if(this.resultsToCompare.length == 5){
-      this.datasets.push(
+    if(this._resultsToCompare.length == 5){
+      this._datasets.push(
       {
-        label: this.athleteNames[4],
-        data: this.athleteWilks5,
+        label: this._athleteNames[4],
+        data: this._athleteWilks5,
         fill:false,
         lineTension:0.2,
         borderColor:"purple",
         borderWidth:1
       })
     }
-    this.chart = new Chart('canvas', {
+    this._chart = new Chart('canvas', {
       type: 'line',
       data:{
         labels: [1,2,3,4,5,6,7],
-        datasets:this.datasets
+        datasets:this._datasets
       }
     });
   }
 
   openPopup(content) {
-    this.modalService.open(content,{
+    this._modalService.open(content,{
       size:'lg',
       windowClass: 'modal-xxl'
-    }).result.then(() => {}, () => { this.resultsToCompare=[]; this.datasets=[]; this.athleteNames = [];this.numChecked =0 ;this.loadMore();});
+    }).result.then(() => {}, () => { this._resultsToCompare=[]; this._datasets=[]; this._athleteNames = [];this._numChecked =0 ;this.loadMore();});
     }
   }

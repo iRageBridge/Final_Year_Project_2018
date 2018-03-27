@@ -9,18 +9,18 @@ import { Router } from '@angular/router';
 })
 export class NavigationComponent implements OnInit {
 
-  public isLoggedIn;
-  constructor(private authService: AuthService, private router: Router) {
-    authService.isAuthenticated()
+  private _isLoggedIn;
+  constructor(private _authService: AuthService, private _router: Router) {
+    _authService.isAuthenticated()
       .subscribe(
-        success => this.isLoggedIn = success,
-        error => this.router.navigate['/login']
+        success => this._isLoggedIn = success,
+        error => this._router.navigate['/login']
       );
   }
 
   logout(){
-    this.authService.logout();
-    this.router.navigate (['/login']);
+    let url = this._router.url
+    this._authService.logout();
   }
 
   ngOnInit() {

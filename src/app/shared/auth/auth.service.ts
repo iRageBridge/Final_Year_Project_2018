@@ -13,14 +13,14 @@ import 'rxjs/add/operator/take';
 export class AuthService implements CanActivate{
 
   public admin: Observable<firebase.User>;
-  constructor(private afAuth: AngularFireAuth,
-              private router: Router) {
-    this.admin = afAuth.authState;
+  constructor(private _afAuth: AngularFireAuth,
+              private _router: Router) {
+    this.admin = _afAuth.authState;
   }
   
   login(email, password): Observable<any> {
     return Observable.fromPromise(
-      this.afAuth.auth.signInWithEmailAndPassword(email, password)
+      this._afAuth.auth.signInWithEmailAndPassword(email, password)
     );
   }
 
@@ -35,12 +35,12 @@ export class AuthService implements CanActivate{
       .do(authenticated => {
         if(!authenticated) {
           alert("You need to be an admin to view this page!");
-          this.router.navigate(['login'])
+          this._router.navigate(['login'])
         }
       });
   }
 
   logout() {
-    this.afAuth.auth.signOut();
+    this._afAuth.auth.signOut();
   }
 }
