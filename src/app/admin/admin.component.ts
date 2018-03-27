@@ -32,14 +32,14 @@ export class AdminComponent implements OnInit {
   }
 
   ngOnInit() {}
-
+  //upload file to firebase storage when file is selected
   detectFiles(event){
     this._selectedFiles = event.target.files;
     let file = this._selectedFiles.item(0);
     this._currentUpload = new Upload(file);
     this._upSvc.pushUpload(this._currentUpload);
   }
-
+  //Uploads result to firebase from the admin form
   uploadResult(name, theClass, bodyweight, weightClass, squat, bench, deadlift, total, wilks, comp, id, compId,resultId, place){
     this._nameToCompare = this._af.list('/athletes',{
       query: {
@@ -53,7 +53,7 @@ export class AdminComponent implements OnInit {
     athleteSend.set({nameLower:name.toLowerCase(), name: name, class:theClass, bodyweight:bodyweight, weight_class:weightClass, squat: squat, bench: bench, deadlift:deadlift, total:total, wilks:wilks, comp:comp, id:id, compId:compId, place: place});
     alert("Result Uploaded");
   }
-
+  //gets url of uploaded file, parses through it and pushes results to database
   uploadResults(){
 
     let url = this._currentUpload.url;

@@ -23,12 +23,12 @@ export class CompetitionContainerComponent implements OnInit {
   ngOnInit() {
     this.getAllComps();
   }
-
+  //Get all competitions from database
   getAllComps(){
     this._resultsService.getAllComps()
                        .subscribe(results => this._results = results)
   }
-
+  //Delete selected competition from database
   deleteComp(id){
     this._resultsService.deleteComp(id)
   }

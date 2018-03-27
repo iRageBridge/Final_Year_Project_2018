@@ -1,18 +1,15 @@
 <h2>Athlete profile</h2>
 <div class="well well-sm" *ngIf="_results else athleteLoading">
     <div class="row">
-        <!--<div class="col-sm-4 col-md-2">-->
         <div>
             <img src="http://placehold.it/100x100" alt="" class="img-rounded img-responsive" /><br/>
         </div>
-        <!--<div class="col-sm-8 col-md-10">-->
         <div>
             <div *ngFor=" let result of _results;  let i=index">
                 <div *ngIf="i<1">
                     <h4>{{result.name}}'s Results:</h4>
                 </div>
             </div>
-            
             <hr/>
             <table class="table table-dark">
                 <colgroup>
@@ -45,6 +42,7 @@
                 </tbody>
             </table>
             <hr/>
+            <!-- Loads all retults for that athlete -->
             <table class="table table-striped">
                 <div *ngFor="let result of _results">   
                     <colgroup>
@@ -80,6 +78,7 @@
             <hr/>
         </div>
     </div>
+    <!-- triggers chart -->
     <button style="visibility:hidden" id="chart" (click)="getChart()">Chart</button>
     <h2>Progress (Wilks over Time)</h2>
     <canvas #canvas id="canvas">{{chart}}</canvas>

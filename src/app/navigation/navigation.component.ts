@@ -17,7 +17,7 @@ export class NavigationComponent implements OnInit {
         error => this._router.navigate['/login']
       );
   }
-
+  //Logs user out on button click
   logout(){
     let url = this._router.url
     this._authService.logout();

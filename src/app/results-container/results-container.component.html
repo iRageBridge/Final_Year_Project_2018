@@ -9,6 +9,7 @@
     <h6 style="color: #93C54B">Best Result:</h6>
     <p>
         Squat: {{athlete?.squat}}kg | Bench: {{athlete?.bench}}kg | Deadlift: {{athlete?.deadlift}}kg | Total: {{athlete?.total}}kg | Bodyweight: {{athlete?.bodyweight}}kg | Wilks: {{athlete.wilks}} <button class="btn btn-danger" *ngIf="isLoggedIn"(click)="deleteAthlete(athlete.id)">Delete Athlete</button>
+        <!-- Modal body, shown when compare button is clicked -->
         <ng-template #content let-c="close" let-d="dismiss" width="700px" height="500px">
             <div class="modal-header">
                 <h1>Athlete Comparison (Wilks over Time)</h1>
@@ -25,7 +26,7 @@
     </p>
     <hr/>
 </div>
-
+<!-- load next 20 results -->
 <div>
     <button type="button" class="btn btn-success"*ngIf="_athletes.length % 20 == 0" (click)="loadMore()">Load More athletes</button>
 </div>

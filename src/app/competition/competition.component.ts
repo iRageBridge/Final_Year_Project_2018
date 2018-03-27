@@ -36,7 +36,7 @@ export class CompetitionComponent implements OnInit {
     this.getAthletesInComp();
     setTimeout(function(){document.getElementById("show").click()},3000)
   }
-
+  //Shows weight class heading, only for weight classes that have results
   showResults(){
     for(let i = 0; i < this._compAthletes.length; i++){
       if(this._compAthletes[i].weight_class == 43 || this._compAthletes[i].weight_class == 47){
@@ -100,7 +100,7 @@ export class CompetitionComponent implements OnInit {
                        .subscribe(results => this._results = results)
                        
   }
-
+  //Get all athlete information, to be checked vs current competition
   getAthletes(){
     this._resultsService.getAllAthletes()
                           .subscribe(athletes => this._athletes = athletes)

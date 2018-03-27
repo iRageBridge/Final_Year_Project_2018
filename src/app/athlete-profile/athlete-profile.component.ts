@@ -26,7 +26,7 @@ export class AthleteProfileComponent implements OnInit {
     .subscribe(
       success => this._loggedIn = success,
     );
-              }
+  }
     
   ngOnInit() {
     let url:any = this._route.snapshot.params;
@@ -34,11 +34,11 @@ export class AthleteProfileComponent implements OnInit {
                        .subscribe(results => this._results = results) 
                        setTimeout(function(){document.getElementById("chart").click()},2000)                    
   }
-
+  //deletes selected result from database
   deleteResult(id){
     this._resultsService.deleteResult(id)
   }
-
+  //Loads the data chart
   getChart(){
     this._athleteName = this._results[0].name;
     for(let i = 0; i < this._results.length; i++){
