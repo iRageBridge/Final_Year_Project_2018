@@ -31,7 +31,8 @@ export class AthleteProfileComponent implements OnInit {
   ngOnInit() {
     let url:any = this.route.snapshot.params;
     this.resultsService.findAthleteById(+url.id)
-                       .subscribe(results => this.results = results)                       
+                       .subscribe(results => this.results = results) 
+                       setTimeout(function(){document.getElementById("chart").click()},2000)                    
   }
 
   deleteResult(id){

@@ -80,11 +80,11 @@
             <hr/>
         </div>
     </div>
-    <!-- <button (click)="getChart()">Chart</button> -->
+    <button style="visibility:hidden" id="chart" (click)="getChart()">Chart</button>
+    <canvas #canvas id="canvas">{{chart}}</canvas>
 </div>
 <ng-template #athleteLoading>
     <div>
         Fetching athlete...
     </div>
 </ng-template>
-<canvas #canvas id="canvas">{{chart}}</canvas>

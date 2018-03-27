@@ -8,7 +8,6 @@
     <h4><a [routerLink]="'/athletes/' + athlete.id">{{athlete.name}} </a><input class="big-checkbox"type="checkbox" (change)="resultTicked(athlete.id,$event)"> <button  style="visibility:hidden; width:1px; height:0px" id="primaryButton" (click)="openPopup(content)" (click)="getChart()">Compare</button></h4>
     <h6 style="color: #93C54B">Best Result:</h6>
     <p>
-        <!-- Compare: <input class="big-checkbox"type="checkbox" (change)="resultTicked(athlete.id,$event)">  -->
         Squat: {{athlete?.squat}}kg | Bench: {{athlete?.bench}}kg | Deadlift: {{athlete?.deadlift}}kg | Total: {{athlete?.total}}kg | Bodyweight: {{athlete?.bodyweight}}kg | Wilks: {{athlete.wilks}} <button class="btn btn-danger" *ngIf="isLoggedIn"(click)="deleteAthlete(athlete.id)">Delete Athlete</button>
         <ng-template #content let-c="close" let-d="dismiss" width="700px" height="500px">
             <div class="modal-header">
