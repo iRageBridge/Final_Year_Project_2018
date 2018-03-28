@@ -9,11 +9,11 @@ import { Router } from '@angular/router';
 })
 export class NavigationComponent implements OnInit {
 
-  private _isLoggedIn;
+  public loggedIn;
   constructor(private _authService: AuthService, private _router: Router) {
     _authService.isAuthenticated()
       .subscribe(
-        success => this._isLoggedIn = success,
+        success => this.loggedIn = success,
         error => this._router.navigate['/login']
       );
   }

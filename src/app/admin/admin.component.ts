@@ -15,36 +15,37 @@ import { Result } from "../shared/model/result";
 })
 export class AdminComponent implements OnInit {
   private _selectedNameIds:FirebaseListObservable<any[]>;
-  private _name;
+  public name;
+  public theClass;bodyweight;weightClass;squat;bench;deadlift;total;wilks;comp;place;id;compId;resultId
   private _nameToCompare;
-  private _results:FirebaseListObservable<any[]>;
-  private _comps: FirebaseListObservable<any[]>;
-  private _athletes:FirebaseListObservable<any[]>;
-  private _currentUpload: Upload;
-  private _selectedFiles: FileList;
+  public results:FirebaseListObservable<any[]>;
+  public comps: FirebaseListObservable<any[]>;
+  public athletes:FirebaseListObservable<any[]>;
+  public currentUpload: Upload;
+  public selectedFiles: FileList;
   constructor(private _af: AngularFireDatabase,
               private _resultsService: ResultsService,
               private _upSvc: UploadService) {
 
-    this._results = this._af.list('/results');
-    this._athletes = this._af.list('/athletes');
-    this._comps = this._af.list('/comps');
+    this.results = this._af.list('/results');
+    this.athletes = this._af.list('/athletes');
+    this.comps = this._af.list('/comps');
   }
 
   ngOnInit() {}
   //upload file to firebase storage when file is selected
   detectFiles(event){
-    this._selectedFiles = event.target.files;
-    let file = this._selectedFiles.item(0);
-    this._currentUpload = new Upload(file);
-    this._upSvc.pushUpload(this._currentUpload);
+    this.selectedFiles = event.target.files;
+    let file = this.selectedFiles.item(0);
+    this.currentUpload = new Upload(file);
+    this._upSvc.pushUpload(this.currentUpload);
   }
   //Uploads result to firebase from the admin form
   uploadResult(name, theClass, bodyweight, weightClass, squat, bench, deadlift, total, wilks, comp, id, compId,resultId, place){
     this._nameToCompare = this._af.list('/athletes',{
       query: {
         orderByChild: name,
-        equalTo: this._name
+        equalTo: this.name
       }
     })
     const resultSend = this._af.object(`/results/${resultId}`);
@@ -56,11 +57,11 @@ export class AdminComponent implements OnInit {
   //gets url of uploaded file, parses through it and pushes results to database
   uploadResults(){
 
-    let url = this._currentUpload.url;
+    let url = this.currentUpload.url;
     fetch(url).then(res=>res.json()).then((out) => {
       for(var i = 0; i < out.length; i++){
-        this._results.push(out[i]);
-        this._athletes.push(out[i])
+        this.results.push(out[i]);
+        this.athletes.push(out[i])
       }
       alert("Results Uploaded");
     }).catch(err => {throw err });

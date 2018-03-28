@@ -9,7 +9,7 @@ import { Component, OnInit, NgModule } from '@angular/core';
 })
 export class CompetitionComponent implements OnInit {
   private _loaded = false;
-  private _results=[];
+  public results=[];
   private _athletes=[];
   private _compAthletes=[];
   private _show47=false;
@@ -97,7 +97,7 @@ export class CompetitionComponent implements OnInit {
   getAllComps(){
     let url:any = this._route.snapshot.params;
     this._resultsService.getCompsByCompId(+url.compId)
-                       .subscribe(results => this._results = results)
+                       .subscribe(results => this.results = results)
                        
   }
   //Get all athlete information, to be checked vs current competition

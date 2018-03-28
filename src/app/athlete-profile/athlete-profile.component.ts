@@ -12,7 +12,7 @@ import * as Chart from 'chart.js';
   styleUrls: ['./athlete-profile.component.css'],
 })
 export class AthleteProfileComponent implements OnInit {
-  private _results = [];
+  public results = [];
   private _chart = [];
   private _labels = [];
   private _athleteName;
@@ -31,7 +31,7 @@ export class AthleteProfileComponent implements OnInit {
   ngOnInit() {
     let url:any = this._route.snapshot.params;
     this._resultsService.getAthleteById(+url.id)
-                       .subscribe(results => this._results = results) 
+                       .subscribe(results => this.results = results) 
                        setTimeout(function(){document.getElementById("chart").click()},2000)                    
   }
   //deletes selected result from database
@@ -40,10 +40,10 @@ export class AthleteProfileComponent implements OnInit {
   }
   //Loads the data chart
   getChart(){
-    this._athleteName = this._results[0].name;
-    for(let i = 0; i < this._results.length; i++){
-      this._athleteWilks.push(this._results[i].wilks)
-      this._labels.push(this._results[i].date);
+    this._athleteName = this.results[0].name;
+    for(let i = 0; i < this.results.length; i++){
+      this._athleteWilks.push(this.results[i].wilks)
+      this._labels.push(this.results[i].date);
     }
     this._chart = new Chart('canvas', {
       type: 'line',

@@ -16,12 +16,12 @@ import * as Chart from 'chart.js';
 })
 
 export class ResultsContainerComponent implements OnInit {
+  private _status;
   private _batch = 20;
-  private _numChecked = 0; 
-  private _isLoggedIn;
-  private _athletes = [];
+  public numChecked = 0; 
+  public isLoggedIn;
+  public athletes = [];
   private _comparisonResults = [];
-  private _results=[];
   private _resultsToCompare=[];
   private _athleteWilks1=[];
   private _athleteWilks2=[];
@@ -40,11 +40,12 @@ export class ResultsContainerComponent implements OnInit {
 
     _authService.isAuthenticated()
     .subscribe(
-      success => this._isLoggedIn = success,
+      success => this.isLoggedIn = success,
     );
   }
 
   ngOnInit() {
+    this._status="Loading Athletes..."
     this._athleteNames = [];
     this._batch = 20;
     this.getAthletes();  
@@ -53,7 +54,8 @@ export class ResultsContainerComponent implements OnInit {
   //Get first 20 all athletes from database
   getAthletes(){
     this._resultsService.getAthletesBySearch(this._startAt, this._endAt, this._batch)
-                          .subscribe(athletes => this._athletes = athletes)
+                          .subscribe(athletes => this.athletes = athletes)
+
   }
   //Get ALL athletes from database. Needed to combat issue of comparison names being deleted from comparison array
   getComparisonResults(){
@@ -67,6 +69,7 @@ export class ResultsContainerComponent implements OnInit {
   }
   //Changes search parameters based on letters typed into search bar
   search($event) {
+    this._status="No Athletes Found"
     const q = $event.target.value.toLowerCase()
     this._startAt.next(q);
     this._endAt.next(q+"\uf8ff");
@@ -78,7 +81,7 @@ export class ResultsContainerComponent implements OnInit {
   //Checks to see if an athlete has been selected for comparison and adds to comparison array
   resultTicked(id,e){
     if(e.target.checked){
-      this._numChecked++;
+      this.numChecked++;
       if(this._resultsToCompare.length == 5){
         this._resultsToCompare.shift();
         this._resultsToCompare.push(id);
@@ -88,10 +91,10 @@ export class ResultsContainerComponent implements OnInit {
       }
     }
     else{
-      this._numChecked--;
+      this.numChecked--;
       let index = this._resultsToCompare.indexOf(id);
       if (index != -1){
-        if(this._numChecked < 5){
+        if(this.numChecked < 5){
           this._resultsToCompare.splice(index, 1);
         }
       }
@@ -189,6 +192,6 @@ export class ResultsContainerComponent implements OnInit {
     this._modalService.open(content,{
       size:'lg',
       windowClass: 'modal-xxl'
-    }).result.then(() => {}, () => { this._resultsToCompare=[]; this._datasets=[]; this._athleteNames = [];this._numChecked =0 ;this.loadMore();});
+    }).result.then(() => {}, () => { this._resultsToCompare=[]; this._datasets=[]; this._athleteNames = [];this.numChecked =0 ;this.loadMore();});
     }
   }

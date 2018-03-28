@@ -3,8 +3,8 @@
     <h3><input type="text" (keyup)="search($event)" id="search" placeholder="Search Athletes..." required></h3>
 </div>
 
-<button style="margin-right: 15px;"type="button" class="btn btn-success" [disabled]="_numChecked < 2 || _numChecked > 5" onclick="document.getElementById('primaryButton').click()">Compare</button>(Select between 2 and 5 Athletes to compare)
-<div *ngFor="let athlete of _athletes">
+<button style="margin-right: 15px;"type="button" class="btn btn-success" [disabled]="numChecked < 2 || numChecked > 5" onclick="document.getElementById('primaryButton').click()">Compare</button>(Select between 2 and 5 Athletes to compare)
+<div *ngFor="let athlete of athletes">
     <h4><a [routerLink]="'/athletes/' + athlete.id">{{athlete.name}} </a><input class="big-checkbox"type="checkbox" (change)="resultTicked(athlete.id,$event)"> <button  style="visibility:hidden; width:1px; height:0px" id="primaryButton" (click)="openPopup(content)" (click)="getChart()">Compare</button></h4>
     <h6 style="color: #93C54B">Best Result:</h6>
     <p>
@@ -28,12 +28,12 @@
 </div>
 <!-- load next 20 results -->
 <div>
-    <button type="button" class="btn btn-success"*ngIf="_athletes.length % 20 == 0" (click)="loadMore()">Load More athletes</button>
+    <button type="button" class="btn btn-success" *ngIf="athletes.length % 20 == 0 && athletes.length > 0" (click)="loadMore()">Load More athletes</button>
 </div>
 
-<div *ngIf="_athletes.length < 1">
+<div *ngIf="athletes.length < 1">
     <hr/>
     <p>
-        Loading Athletes...
+        {{_status}}
     </p>
 </div>

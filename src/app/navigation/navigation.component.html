@@ -2,7 +2,7 @@
 <div class="topnav" id="myTopnav">
     <a routerLink="/results" routerLinkActive = "active">Home</a>
     <a routerLink="/comps" routerLinkActive = "active">Results</a>
-    <a class="admin" routerLink="/login" routerLinkActive = "active" *ngIf="!_isLoggedIn">Admin Login</a>
-    <a class="admin" routerlink="#" (click)="logout()" routerLinkActive = "active" *ngIf="_isLoggedIn">Logout</a>
-    <a class="admin" routerLink="/admin" routerLinkActive = "active" *ngIf="_isLoggedIn">Upload Results</a>
+    <a class="admin" routerLink="/login" routerLinkActive = "active" *ngIf="!loggedIn">Admin Login</a>
+    <a class="admin" routerlink="#" (click)="logout()" routerLinkActive = "active" *ngIf="loggedIn">Logout</a>
+    <a class="admin" routerLink="/admin" routerLinkActive = "active" *ngIf="loggedIn">Upload Results</a>
 </div>

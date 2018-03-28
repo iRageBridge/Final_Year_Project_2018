@@ -1,11 +1,11 @@
 <h2>Athlete profile</h2>
-<div class="well well-sm" *ngIf="_results else athleteLoading">
+<div class="well well-sm" *ngIf="results else athleteLoading">
     <div class="row">
         <div>
             <img src="http://placehold.it/100x100" alt="" class="img-rounded img-responsive" /><br/>
         </div>
         <div>
-            <div *ngFor=" let result of _results;  let i=index">
+            <div *ngFor=" let result of results;  let i=index">
                 <div *ngIf="i<1">
                     <h4>{{result.name}}'s Results:</h4>
                 </div>
@@ -44,7 +44,7 @@
             <hr/>
             <!-- Loads all retults for that athlete -->
             <table class="table table-striped">
-                <div *ngFor="let result of _results">   
+                <div *ngFor="let result of results">   
                     <colgroup>
                         <col class='compCol'/>
                         <col class='regCol'/>

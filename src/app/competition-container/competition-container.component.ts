@@ -9,7 +9,7 @@ import { AuthService } from '../shared/auth/auth.service';
   styleUrls: ['./competition-container.component.css']
 })
 export class CompetitionContainerComponent implements OnInit {
-  private _results=[];
+  public results=[];
   private _loggedIn;
   constructor(private _route: ActivatedRoute,
               private _resultsService: ResultsService,
@@ -26,7 +26,7 @@ export class CompetitionContainerComponent implements OnInit {
   //Get all competitions from database
   getAllComps(){
     this._resultsService.getAllComps()
-                       .subscribe(results => this._results = results)
+                       .subscribe(results => this.results = results)
   }
   //Delete selected competition from database
   deleteComp(id){

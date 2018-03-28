@@ -5,7 +5,7 @@
 
 
 export const environment = {
-  production: false,
+  production: true,
   firebase: {
       apiKey: "AIzaSyChEhv_139I3KimOvlxK-cLRDRb4rp4u5c",
       authDomain: "irishpf-database.firebaseapp.com",
