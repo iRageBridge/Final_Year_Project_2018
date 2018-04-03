@@ -17,7 +17,6 @@ export class AdminComponent implements OnInit {
   private _selectedNameIds:FirebaseListObservable<any[]>;
   public name;
   public theClass;bodyweight;weightClass;squat;bench;deadlift;total;wilks;comp;place;id;compId;resultId
-  private _nameToCompare;
   public results:FirebaseListObservable<any[]>;
   public comps: FirebaseListObservable<any[]>;
   public athletes:FirebaseListObservable<any[]>;
@@ -42,12 +41,6 @@ export class AdminComponent implements OnInit {
   }
   //Uploads result to firebase from the admin form
   uploadResult(name, theClass, bodyweight, weightClass, squat, bench, deadlift, total, wilks, comp, id, compId,resultId, place){
-    this._nameToCompare = this._af.list('/athletes',{
-      query: {
-        orderByChild: name,
-        equalTo: this.name
-      }
-    })
     const resultSend = this._af.object(`/results/${resultId}`);
     const athleteSend = this._af.object(`/athletes/${id}`);
     resultSend.set({nameLower:name.toLowerCase(), name: name, class:theClass, bodyweight:bodyweight, weight_class:weightClass, squat: squat, bench: bench, deadlift:deadlift, total:total, wilks:wilks, comp:comp, id:id, compId:compId, resultId:resultId, place: place});
@@ -56,7 +49,6 @@ export class AdminComponent implements OnInit {
   }
   //gets url of uploaded file, parses through it and pushes results to database
   uploadResults(){
-
     let url = this.currentUpload.url;
     fetch(url).then(res=>res.json()).then((out) => {
       for(var i = 0; i < out.length; i++){
