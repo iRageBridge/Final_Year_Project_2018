@@ -3,6 +3,6 @@
     <a routerLink="/results" routerLinkActive = "active">Home</a>
     <a routerLink="/comps" routerLinkActive = "active">Results</a>
     <a class="admin" routerLink="/login" routerLinkActive = "active" *ngIf="!loggedIn">Admin Login</a>
-    <a class="admin" routerlink="#" (click)="logout()" routerLinkActive = "active" *ngIf="loggedIn">Logout</a>
+    <a class="admin" id="logout" (click)="logout()" routerLinkActive = "active" *ngIf="loggedIn">Logout</a>
     <a class="admin" routerLink="/admin" routerLinkActive = "active" *ngIf="loggedIn">Upload Results</a>
 </div>

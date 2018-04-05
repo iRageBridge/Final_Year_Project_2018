@@ -33,3 +33,7 @@
     border-top: 1px solid #c0c0c0;
     padding: 0 8px;
 }
+
+#error{
+    color: red;
+}

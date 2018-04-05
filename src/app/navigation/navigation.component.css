@@ -29,3 +29,7 @@
 .topnav .admin{
     float: right;
 }
+
+#logout{
+    cursor: pointer;
+}
