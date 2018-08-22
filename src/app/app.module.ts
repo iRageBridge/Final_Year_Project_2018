@@ -24,6 +24,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import Chart from 'chart.js';
 import { CompetitionComponent } from './competition/competition.component';
 import { CompetitionContainerComponent } from './competition-container/competition-container.component';
+import { RankingComponent } from './ranking/ranking.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { CompetitionContainerComponent } from './competition-container/competiti
     LoginComponent,
     AdminComponent,
     CompetitionComponent,
-    CompetitionContainerComponent
+    CompetitionContainerComponent,
+    RankingComponent
   ],
   entryComponents: [ResultsContainerComponent],
   imports: [

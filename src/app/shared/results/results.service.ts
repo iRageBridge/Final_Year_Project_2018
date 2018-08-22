@@ -39,6 +39,15 @@ export class ResultsService {
   getAllAthletes(){
     return this._af.list('/athletes')
   }
+  //return rankings for passed in weight class
+  getAthletesByRanking(wClass){
+    return this._af.list('/athletes',{
+      query:{
+        orderByChild: 'weight_class',
+        equalTo: wClass
+      }
+    })
+  }
   //Gets all athletes in a certain competition
   getResultsInComp(comp){
     return this._af.list('/results',{

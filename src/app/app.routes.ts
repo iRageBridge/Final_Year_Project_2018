@@ -6,13 +6,18 @@ import { LoginComponent } from './login/login.component';
 import { AuthService } from "./shared/auth/auth.service";
 import  { CompetitionComponent } from './competition/competition.component';
 import { CompetitionContainerComponent } from "./competition-container/competition-container.component";
+import { RankingComponent } from "./ranking/ranking.component";
 //Sets up routes, blocks admin routes for non-admins
 export const ROUTES: Route[] =[{
       path: 'results', 
       children: [{
         path: '', component: ResultsContainerComponent
         },]
-    },{
+    },
+    {
+      path: 'rankings', component: RankingComponent
+    },
+    {
       path: 'athletes',
       children: [{
         path: ':id', component: AthleteProfileComponent
