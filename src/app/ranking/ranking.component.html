@@ -1,3 +1,14 @@
+<select name="classes" (change)="selectchange($event)">
+  <option value="59">-59kg</option>
+  <option value="66">-66kg</option>
+  <option value="74">-74kg</option>
+  <option value="83">-83kg</option>
+  <option value="93">-83kg</option>
+  <option value="105">-105kg</option>
+  <option value="120">-120kg</option>
+  <option value="120+">120kg+</option>
+</select>
+<div>Selected class: {{input}}</div>
 <div *ngFor="let athlete of athletes">
-    <h4>{{athletes.name}}'s Results:</h4>
+    <h4>{{athlete.name}} | {{athlete.total}}kg | {{athlete.wilks}} | {{athlete.comp}}</h4>
 </div>

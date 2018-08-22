@@ -41,6 +41,7 @@ export class ResultsService {
   }
   //return rankings for passed in weight class
   getAthletesByRanking(wClass){
+    alert(wClass)
     return this._af.list('/athletes',{
       query:{
         orderByChild: 'weight_class',

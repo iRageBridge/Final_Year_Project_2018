@@ -8,11 +8,20 @@ import { ResultsService } from '../shared/results/results.service';
 })
 export class RankingComponent implements OnInit {
   public athletes = [];
-
+  public input = 59;
   constructor(private _resultsService: ResultsService) { }
 
   ngOnInit() {
-    this._resultsService.getAthletesByRanking(83)
+    this.getRankings(this.input);
+  }
+
+  getRankings(arg){
+    this._resultsService.getAthletesByRanking(arg)
                         .subscribe(athletes => this.athletes = athletes) 
   }
+
+  selectchange(args){ 
+    this.input = args.target.value; 
+    this.getRankings(this.input);
+  } 
 }
