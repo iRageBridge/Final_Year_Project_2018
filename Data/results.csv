@@ -1,0 +1,1477 @@
+name,id,class,bodyweight,weight_class,squat,bench,deadlift,total,place,wilks,comp,location,year,nameLower,date,compId,resultId
+Barry Pigott,66,M-Sen-C,90.7,93,260,200,285,745,1,473.75,Inaugural Comp,Belfast,2015,barry pigott,30/05/2015,7,0
+Sean Crowe,580,M-Sen-C,118.8,120,225,137.5,305,667.5,1,384.67,Inaugural Comp,Belfast,2015,sean crowe,30/05/2015,7,1
+Arthur Lynch,60,M-U23-C,91.1,93,225,160,280,665,1,421.95,Inaugural Comp,Belfast,2015,arthur lynch,30/05/2015,7,2
+James Hanley,317,M-Sen-C,97,105,240,155,262.5,657.5,1,405.24,Inaugural Comp,Belfast,2015,james hanley,30/05/2015,7,3
+Conor Meyler,153,M-U23-C,111.8,120,222.5,135,245,602.5,1,352.85,Inaugural Comp,Belfast,2015,conor meyler,30/05/2015,7,4
+Adam Keane,6,M-U23-C,75.9,83,222.5,102.5,255,580,1,409.9,Inaugural Comp,Belfast,2015,adam keane,30/05/2015,7,5
+Nathanial Stewart,486,M-U23-C,104.3,105,210,100,270,580,1,347.4,Inaugural Comp,Belfast,2015,nathanial stewart,30/05/2015,7,6
+Michael Bruce,464,M-Sen-C,99.4,105,200,130,242.5,572.5,2,349.26,Inaugural Comp,Belfast,2015,michael bruce,30/05/2015,7,7
+Rob Burke,543,M-Sen-C,142.5,120+,205,125,240,570,1,317.69,Inaugural Comp,Belfast,2015,rob burke,30/05/2015,7,8
+Andrew Wilson,50,M-Sen-C,88.9,93,180,125,235,540,2,346.92,Inaugural Comp,Belfast,2015,andrew wilson,30/05/2015,7,9
+Daniel Mcalpaca,167,M-U23-C,91.3,93,175,105,250,530,2,335.93,Inaugural Comp,Belfast,2015,daniel mcalpaca,30/05/2015,7,10
+Dan Hurley,165,M-Sen-C,81.5,83,187.5,115,225,527.5,1,355.99,Inaugural Comp,Belfast,2015,dan hurley,30/05/2015,7,11
+Peter Lawrence,526,M-U23-C,91.3,93,160,120,210,490,3,310.57,Inaugural Comp,Belfast,2015,peter lawrence,30/05/2015,7,12
+Daniel McAuley,168,M-U23-C,71.7,74,160,107.5,185,452.5,1,333.03,Inaugural Comp,Belfast,2015,daniel mcauley,30/05/2015,7,13
+Noel Whelan,498,M-Sen-C,59.4,66,162.5,95,182.5,440,1,378.74,Inaugural Comp,Belfast,2015,noel whelan,30/05/2015,7,14
+Jamie Sullivan,325,M-U23-C,79.1,83,150,107.5,160,417.5,2,287.09,Inaugural Comp,Belfast,2015,jamie sullivan,30/05/2015,7,15
+Nicole Fraser,495,F-Sen-C,68.4,72,150,80,160,390,1,394.31,Inaugural Comp,Belfast,2015,nicole fraser,30/05/2015,7,16
+Lauren Rooney,402,F-Sen-C,83.6,84,137.5,67.5,162.5,367.5,1,328.5,Inaugural Comp,Belfast,2015,lauren rooney,30/05/2015,7,17
+Jack Caldwell,303,M-U18-C,65,66,130,75,150,355,1,282.3,Inaugural Comp,Belfast,2015,jack caldwell,30/05/2015,7,18
+Bronagh McPeake,80,F-U23-C,62.8,63,125,50,140,315,1,339.11,Inaugural Comp,Belfast,2015,bronagh mcpeake,30/05/2015,7,19
+Linh Nguyen,416,F-Sen-C,61.9,63,125,57.5,130,312.5,1,340.14,Inaugural Comp,Belfast,2015,linh nguyen,30/05/2015,7,20
+Hazel Hu,288,F-Sen-C,49.9,52,112.5,60,130,302.5,1,389.19,Inaugural Comp,Belfast,2015,hazel hu,30/05/2015,7,21
+Kathleen Scully,376,F-Sen-C,76,84,105,52.5,122.5,280,2,264,Inaugural Comp,Belfast,2015,kathleen scully,30/05/2015,7,22
+Kiera Hillary,388,F-Sen-C,51.1,52,95,45,130,270,2,341.15,Inaugural Comp,Belfast,2015,kiera hillary,30/05/2015,7,23
+Bernice Flynn,73,F-Sen-C,66.1,72,75,57.5,115,247.5,2,256.47,Inaugural Comp,Belfast,2015,bernice flynn,30/05/2015,7,24
+Claire McConnell,126,F-Sen-C,54.6,57,70,42.5,82.5,195,1,234.03,Inaugural Comp,Belfast,2015,claire mcconnell,30/05/2015,7,25
+Jodie McLoughlin,347,F-Sen-C,55.5,57,0,52.5,100,0,DQ,0,Inaugural Comp,Belfast,2015,jodie mcloughlin,30/05/2015,7,27
+Medb Murtagh,461,F-U23-C,51.1,52,0,57.5,130,0,DQ,0,Inaugural Comp,Belfast,2015,medb murtagh,30/05/2015,7,26
+Jacek Stanek,299,M-Sen-C,141.5,120+,325,207.5,317.5,850,1,474.24,Open Championships,Dublin,2015,jacek stanek,08/08/2015,18,28
+Pawel Stachurski,521,M-Sen-C,113.2,120,230,192.5,280,702.5,1,409.95,Open Championships,Dublin,2015,pawel stachurski,08/08/2015,18,29
+Cillian Hurley,121,M-Sen-C,98.6,105,245,150,285,680,1,416.22,Open Championships,Dublin,2015,cillian hurley,08/08/2015,18,30
+Mark Murphy,449,M-Sen-C,104.6,105,237.5,182.5,240,660,2,394.92,Open Championships,Dublin,2015,mark murphy,08/08/2015,18,31
+Sean Ryan,589,M-Sen-C,82.2,83,232.5,145,260,637.5,1,428,Open Championships,Dublin,2015,sean ryan,08/08/2015,18,32
+Connor Meyler,142,M-U23-C,115.6,120,230,135,247.5,612.5,1,355.4,Open Championships,Dublin,2015,connor meyler,08/08/2015,18,33
+Graham Norton,282,M-U23-C,91.2,93,210,140,235,585,1,370.99,Open Championships,Dublin,2015,graham norton,08/08/2015,18,34
+Sam McLoughlin,559,M-Sen-C,114.4,120,170,147.5,240,557.5,2,324.39,Open Championships,Dublin,2015,sam mcloughlin,08/08/2015,18,35
+Adam Keane,6,M-U23-C,73.6,74,215,100,237.5,552.5,1,398.96,Open Championships,Dublin,2015,adam keane,08/08/2015,18,36
+Lorcan Everard,419,M-U18-C,73,74,205,110,225,540,1,392.23,Open Championships,Dublin,2015,lorcan everard,08/08/2015,18,37
+Jonny Gardner,361,M-Sen-C,82.2,83,185,125,222.5,532.5,2,357.51,Open Championships,Dublin,2015,jonny gardner,08/08/2015,18,38
+David McQuillan,197,M-Sen-C,64.6,66,190,120,210,520,1,415.65,Open Championships,Dublin,2015,david mcquillan,08/08/2015,18,39
+Daragh King,176,M-U23-C,97.2,105,185,125,200,510,1,314.05,Open Championships,Dublin,2015,daragh king,08/08/2015,18,40
+Darren Fehilly,183,M-U18-C,73.6,74,190,100,212.5,502.5,2,362.85,Open Championships,Dublin,2015,darren fehilly,08/08/2015,18,41
+Simon Standbridge,608,M-U23-C,88,93,197.5,92.5,210,500,2,322.95,Open Championships,Dublin,2015,simon standbridge,08/08/2015,18,42
+Peter Lawrence,526,M-U23-C,91.8,93,162.5,125,212.5,500,3,316.06,Open Championships,Dublin,2015,peter lawrence,08/08/2015,18,43
+Deividas Barisas,206,M-U23-C,65,66,177.5,105,215,497.5,1,395.61,Open Championships,Dublin,2015,deividas barisas,08/08/2015,18,44
+Jack Ryan,308,M-U23-C,82.4,83,190,92.5,212.5,495,1,331.84,Open Championships,Dublin,2015,jack ryan,08/08/2015,18,45
+Louis Warren,424,M-Sen-C,69.8,74,162.5,115,207.5,485,1,364.25,Open Championships,Dublin,2015,louis warren,08/08/2015,18,46
+Andrew Richardson,47,M-U23-C,100.2,105,180,100,200,480,2,291.89,Open Championships,Dublin,2015,andrew richardson,08/08/2015,18,47
+Daniel McAuley,168,M-U23-C,72.4,74,165,112.5,195,472.5,2,345.27,Open Championships,Dublin,2015,daniel mcauley,08/08/2015,18,48
+Michael Worthington,473,M-M1-C,90.2,93,155,105,200,460,1,293.33,Open Championships,Dublin,2015,michael worthington,08/08/2015,18,49
+Michael Parry-Jones,471,M-Sen-C,92.6,93,165,100,190,455,1,286.41,Open Championships,Dublin,2015,michael parry-jones,08/08/2015,18,50
+Sean Palmer,588,M-U23-C,84.8,93,167.5,102.5,182.5,452.5,4,298.3,Open Championships,Dublin,2015,sean palmer,08/08/2015,18,51
+Noel Whelan,498,M-Sen-C,58.6,59,165,100,175,440,1,383.54,Open Championships,Dublin,2015,noel whelan,08/08/2015,18,52
+Jonathan Fox,360,M-Sen-C,73.6,74,140,105,185,430,2,310.5,Open Championships,Dublin,2015,jonathan fox,08/08/2015,18,53
+Paul McClaren,514,M-M1-C,66,66,120,80,190,390,1,306.23,Open Championships,Dublin,2015,paul mcclaren,08/08/2015,18,54
+Louise Kenna,425,F-Sen-C,72,72,140,72.5,157.5,370,1,361.13,Open Championships,Dublin,2015,louise kenna,08/08/2015,18,55
+Louise Millar,426,F-Sen-C,63,63,132.5,72.5,145,350,1,375.89,Open Championships,Dublin,2015,louise millar,08/08/2015,18,56
+Ciaran White,120,M-U23-C,66.4,74,110,75,162.5,347.5,3,271.51,Open Championships,Dublin,2015,ciaran white,08/08/2015,18,57
+Sylwia Majszyk,634,F-Sen-C,69.6,72,110,82.5,150,342.5,2,342.09,Open Championships,Dublin,2015,sylwia majszyk,08/08/2015,18,58
+Dermot O'Rourke,207,M-U18-C,57.8,59,110,80,147.5,337.5,1,298.02,Open Championships,Dublin,2015,dermot o'rourke,08/08/2015,18,59
+Stephen Duff,619,M-Sen-C,90.2,93,122.5,62.5,145,330,2,210.43,Open Championships,Dublin,2015,stephen duff,08/08/2015,18,60
+Aisling Judge,18,F-Sen-C,75.2,84,110,60,130,300,1,284.72,Open Championships,Dublin,2015,aisling judge,08/08/2015,18,61
+Anna Hourihane,52,F-U23-C,50.6,52,95,62.5,132.5,290,1,369.18,Open Championships,Dublin,2015,anna hourihane,08/08/2015,18,62
+Abigail Cronin,3,F-U23-C,59.2,63,100,65,125,290,1,326.7,Open Championships,Dublin,2015,abigail cronin,08/08/2015,18,63
+Rehana Maniar,538,F-M1-C,60.8,63,97.5,57.5,135,290,1,320.02,Open Championships,Dublin,2015,rehana maniar,08/08/2015,18,64
+Laura Walsh,400,F-Sen-C,50.6,52,105,57.5,122.5,285,1,362.82,Open Championships,Dublin,2015,laura walsh,08/08/2015,18,65
+Kathleen Scully,376,F-Sen-C,78,84,105,55,125,285,2,264.57,Open Championships,Dublin,2015,kathleen scully,08/08/2015,18,66
+Glen Purdy,279,M-Sen-C,60.8,66,75,70,140,285,2,240.17,Open Championships,Dublin,2015,glen purdy,08/08/2015,18,67
+Medb Murtagh,461,F-U23-C,54,57,97.5,60,122.5,280,1,338.97,Open Championships,Dublin,2015,medb murtagh,08/08/2015,18,68
+Jodie McLoughlin,347,F-Sen-C,56.4,57,92.5,52.5,132.5,277.5,1,324.69,Open Championships,Dublin,2015,jodie mcloughlin,08/08/2015,18,69
+Orla Ennis,503,F-Sen-C,75.4,84,105,45,127.5,277.5,3,262.93,Open Championships,Dublin,2015,orla ennis,08/08/2015,18,70
+Claire Kelly,123,F-U23-C,62.8,63,100,55,120,275,2,296.05,Open Championships,Dublin,2015,claire kelly,08/08/2015,18,71
+Amy Donoghue,34,F-U18-C,56.4,57,95,42.5,125,262.5,1,307.14,Open Championships,Dublin,2015,amy donoghue,08/08/2015,18,72
+Sinead Heffernan,609,F-Sen-C,61,63,92.5,57.5,112.5,262.5,2,288.95,Open Championships,Dublin,2015,sinead heffernan,08/08/2015,18,73
+Miriam Ward,479,F-U23-C,61.4,63,97.5,50,115,262.5,3,287.5,Open Championships,Dublin,2015,miriam ward,08/08/2015,18,74
+Bernice Flynn,73,F-Sen-C,67.2,72,85,57.5,120,262.5,3,268.77,Open Championships,Dublin,2015,bernice flynn,08/08/2015,18,75
+Jacinta Scully,300,F-M1-C,73.6,84,97.5,47.5,107.5,252.5,1,242.93,Open Championships,Dublin,2015,jacinta scully,08/08/2015,18,76
+Leanne Keane,403,F-Sen-C,62.8,63,92.5,47.5,105,245,3,263.75,Open Championships,Dublin,2015,leanne keane,08/08/2015,18,77
+Aibhlin Clabby,11,F-U18-C,55.6,57,80,50,90,220,2,260.31,Open Championships,Dublin,2015,aibhlin clabby,08/08/2015,18,78
+Claire Lyons,124,F-Sen-C,46,47,75,42.5,100,217.5,1,297.04,Open Championships,Dublin,2015,claire lyons,08/08/2015,18,79
+Claire McConnell,126,F-Sen-C,56.8,57,70,42.5,92.5,205,2,238.54,Open Championships,Dublin,2015,claire mcconnell,08/08/2015,18,80
+Eleanor Magan,226,F-Sen-C,62.8,63,50,30,77.5,157.5,4,169.56,Open Championships,Dublin,2015,eleanor magan,08/08/2015,18,81
+Tara Conlon,637,F-M2-C,61.4,63,35,35,80,150,1,164.28,Open Championships,Dublin,2015,tara conlon,08/08/2015,18,82
+Miranda Connolly,478,F-M1-C,115.8,84+,0,0,0,0,DQ,0,Open Championships,Dublin,2015,miranda connolly,08/08/2015,18,83
+Bryan McSpadden,81,M-Sen-C,92.2,93,215,145,230,590,1,372.17,Novice Open 2016,,2016,bryan mcspadden,23/01/2016,16,84
+Christopher Goodland,102,M-Sen-E,82,83,195,140,252.5,587.5,1,395.01,Novice Open 2016,,2016,christopher goodland,23/01/2016,16,85
+Mark Comiskey,442,M-Sen-C,81.6,83,212.5,140,230,582.5,1,392.82,Novice Open 2016,,2016,mark comiskey,23/01/2016,16,86
+Nigel Chambers,496,M-Sen-C,95.8,105,210,112.5,250,572.5,1,354.78,Novice Open 2016,,2016,nigel chambers,23/01/2016,16,87
+Andrew Knox Shiels,45,M-Sen-C,88,93,185,125,250,560,2,361.7,Novice Open 2016,,2016,andrew knox shiels,23/01/2016,16,88
+Paul Keely,511,M-Sen-C,92.2,93,210,130,217.5,557.5,3,351.67,Novice Open 2016,,2016,paul keely,23/01/2016,16,89
+Cameron Higgs,84,M-U23-C,98.2,105,220,130,205,555,1,340.28,Novice Open 2016,,2016,cameron higgs,23/01/2016,16,90
+Oliver Smith,501,M-U23-C,103.6,105,200,140,210,550,2,330.24,Novice Open 2016,,2016,oliver smith,23/01/2016,16,91
+David Duncan,191,M-Sen-C,90.4,93,185,140,220,545,4,347.14,Novice Open 2016,,2016,david duncan,23/01/2016,16,92
+Luke Curran,432,M-Sen-C,92.2,93,200,125,220,545,5,343.78,Novice Open 2016,,2016,luke curran,23/01/2016,16,93
+Conor Fitzgerald,146,M-Sen-C,103.2,105,190,135,220,545,2,327.7,Novice Open 2016,,2016,conor fitzgerald,23/01/2016,16,94
+Ashwin Amersi,61,M-Sen-C,77.2,83,175,137.5,230,542.5,2,379.02,Novice Open 2016,,2016,ashwin amersi,23/01/2016,16,95
+Sam Stewart,561,M-Sen-C,82.6,83,187.5,135,215,537.5,3,359.81,Novice Open 2016,,2016,sam stewart,23/01/2016,16,96
+Sean Hickey,586,M-U23-C,112.4,120,200,120,215,535,1,312.84,Novice Open 2016,,2016,sean hickey,23/01/2016,16,97
+Mark Lynch,448,M-Sen-C,100.2,105,170,120,235,525,3,319.25,Novice Open 2016,,2016,mark lynch,23/01/2016,16,98
+Gerard Auld,275,M-Sen-C,81.2,83,182.5,127.5,205,515,4,348.34,Novice Open 2016,,2016,gerard auld,23/01/2016,16,99
+Tom Dargle,647,M-Sen-C,125,120+,175,110,230,515,2,293.47,Novice Open 2016,,2016,tom dargle,23/01/2016,16,100
+Darragh Hayes,178,M-Sen-C,92.4,93,180,117.5,215,512.5,6,322.94,Novice Open 2016,,2016,darragh hayes,23/01/2016,16,101
+Colm Duignan,140,M-Sen-C,92.6,93,180,115,207.5,502.5,7,316.31,Novice Open 2016,,2016,colm duignan,23/01/2016,16,102
+Darren Horgan,185,M-Sen-C,80.2,83,175,110,215,500,5,340.81,Novice Open 2016,,2016,darren horgan,23/01/2016,16,103
+Luke Cadwell,431,M-Sen-C,91,93,172.5,110,215,497.5,8,315.84,Novice Open 2016,,2016,luke cadwell,23/01/2016,16,104
+Stephen Hadden,620,M-Sen-C,101.4,105,205,117.5,175,497.5,4,301.13,Novice Open 2016,,2016,stephen hadden,23/01/2016,16,105
+Danny Lennon,174,M-Sen-C,80,83,170,115,205,490,6,334.52,Novice Open 2016,,2016,danny lennon,23/01/2016,16,106
+John Donovan,351,M-Sen-C,72.8,84,180,100,200,480,1,349.35,Novice Open 2016,,2016,john donovan,23/01/2016,16,107
+Bill Cullen,74,M-Sen-C,91,93,167.5,107.5,205,480,9,304.73,Novice Open 2016,,2016,bill cullen,23/01/2016,16,108
+Conor Kennedy,149,M-Sen-C,79.6,83,162.5,110,205,477.5,7,327.02,Novice Open 2016,,2016,conor kennedy,23/01/2016,16,109
+Chris Dowdall,100,M-Sen-C,90.4,93,165,120,190,475,10,302.56,Novice Open 2016,,2016,chris dowdall,23/01/2016,16,110
+Michael Parry-Jones,471,M-Sen-C,94.2,105,170,110,195,475,5,296.61,Novice Open 2016,,2016,michael parry-jones,23/01/2016,16,111
+Dave Harrington,188,M-Sen-C,89.2,93,160,115,195,470,11,301.42,Novice Open 2016,,2016,dave harrington,23/01/2016,16,112
+Bernard Doyle,71,M-M1-C,89,93,155,112.5,200,467.5,1,300.17,Novice Open 2016,,2016,bernard doyle,23/01/2016,16,113
+James Coogan,315,M-U23-C,71.2,72,157.5,102.5,190,450,1,332.92,Novice Open 2016,,2016,james coogan,23/01/2016,16,114
+Robbie Bennett,545,M-U23-C,71.4,72,140,95,200,435,2,321.15,Novice Open 2016,,2016,robbie bennett,23/01/2016,16,115
+Brendan Geraghty,76,M-Sen-C,87,93,165,90,180,435,12,282.7,Novice Open 2016,,2016,brendan geraghty,23/01/2016,16,116
+Jason Adam Ward,328,M-Sen-C,82.6,83,162.5,75,195,432.5,8,289.52,Novice Open 2016,,2016,jason adam ward,23/01/2016,16,117
+James Madden,321,M-Sen-C,63,66,150,105,175,430,1,351.16,Novice Open 2016,,2016,james madden,23/01/2016,16,118
+Jack Gallagher,306,M-Sen-C,81.6,83,145,80,205,430,9,289.98,Novice Open 2016,,2016,jack gallagher,23/01/2016,16,119
+Peter Elliott,525,M-Sen-C,82.8,83,145,85,185,415,10,277.41,Novice Open 2016,,2016,peter elliott,23/01/2016,16,120
+JP McGowan,364,M-Sen-C,72.8,84,155,82.5,172.5,410,2,298.4,Novice Open 2016,,2016,jp mcgowan,23/01/2016,16,121
+Stephen McKenna,624,M-U23-C,73.2,84,135,80,185,400,1,289.97,Novice Open 2016,,2016,stephen mckenna,23/01/2016,16,122
+Oisin Kelly,500,M-Sen-C,80.6,83,135,80,165,380,11,258.21,Novice Open 2016,,2016,oisin kelly,23/01/2016,16,123
+Shannon Pollock,598,F-Sen-C,72,72,142.5,67.5,167.5,377.5,1,368.46,Novice Open 2016,,2016,shannon pollock,23/01/2016,16,124
+Mark Daly,443,M-Sen-C,72,74,137.5,85,150,372.5,1,273.31,Novice Open 2016,,2016,mark daly,23/01/2016,16,125
+James Keogh,319,M-Sen-C,81.8,83,125,85,160,370,12,249.14,Novice Open 2016,,2016,james keogh,23/01/2016,16,126
+Conor Markey,151,M-Sen-C,107.6,120,125,77.5,167.5,370,1,219.27,Novice Open 2016,,2016,conor markey,23/01/2016,16,127
+James Lynch,313,M-Sen-C,81.6,83,115,82.5,150,347.5,13,234.34,Novice Open 2016,,2016,james lynch,23/01/2016,16,128
+Aisling Judge,18,F-Sen-C,77.2,80,125,62.5,155,342.5,1,319.89,Novice Open 2016,,2016,aisling judge,23/01/2016,16,129
+Leslie Hoare,408,F-Sen-C,79,84,110,70,152.5,332.5,1,306.4,Novice Open 2016,,2016,leslie hoare,23/01/2016,16,130
+Amy Nolan,37,F-Sen-C,60.8,63,102.5,60,145,307.5,1,339.34,Novice Open 2016,,2016,amy nolan,23/01/2016,16,131
+Lina O'Sullivan,412,F-Sen-C,61.2,63,110,60,137.5,307.5,2,337.63,Novice Open 2016,,2016,lina o'sullivan,23/01/2016,16,132
+Teanna Watts,640,F-Sen-C,79.4,84,110,57.5,140,307.5,2,282.56,Novice Open 2016,,2016,teanna watts,23/01/2016,16,133
+Ailish Marlow,13,F-Sen-C,96.4,84+,115,52.5,140,307.5,1,258.97,Novice Open 2016,,2016,ailish marlow,23/01/2016,16,134
+Eoin O Donoghue,240,M-Sen-C,71,74,117.5,65,125,307.5,2,227.97,Novice Open 2016,,2016,eoin o donoghue,23/01/2016,16,135
+Lauren Elder,401,F-Sen-C,62.2,63,100,47.5,150,297.5,3,322.62,Novice Open 2016,,2016,lauren elder,23/01/2016,16,136
+Carrie Carmichael,91,F-U23-C,70.8,72,100,42.5,150,292.5,1,288.74,Novice Open 2016,,2016,carrie carmichael,23/01/2016,16,137
+Aisling Stapleton,21,F-Sen-C,61.8,63,107.5,55,125,287.5,4,313.32,Novice Open 2016,,2016,aisling stapleton,23/01/2016,16,138
+Jill Gracey,341,F-Sen-C,66.6,72,105,45,135,285,2,293.71,Novice Open 2016,,2016,jill gracey,23/01/2016,16,139
+Aoife Daly,55,F-Sen-C,72,72,100,50,130,280,3,273.29,Novice Open 2016,,2016,aoife daly,23/01/2016,16,140
+Rebecca Bennett,533,F-U23-C,61.2,63,100,45,132.5,277.5,1,304.69,Novice Open 2016,,2016,rebecca bennett,23/01/2016,16,141
+Elaine Stone,224,F-Sen-C,77.6,84,90,65,122.5,277.5,3,258.39,Novice Open 2016,,2016,elaine stone,23/01/2016,16,142
+Christina Fox,101,F-Sen-C,53.2,57,77.5,55,140,272.5,1,333.75,Novice Open 2016,,2016,christina fox,23/01/2016,16,143
+Emily Mazilu,232,F-U23-C,55.8,57,100,45,122.5,267.5,1,315.63,Novice Open 2016,,2016,emily mazilu,23/01/2016,16,144
+Fiona Walshe,258,F-M1-C,69.6,72,95,47.5,125,267.5,1,267.18,Novice Open 2016,,2016,fiona walshe,23/01/2016,16,145
+Eric Killeen,243,M-Sen-C,64.2,66,92.5,75,100,267.5,2,214.95,Novice Open 2016,,2016,eric killeen,23/01/2016,16,146
+Gina Lumsden,278,F-U23-C,68.8,72,90,50,122.5,262.5,2,264.31,Novice Open 2016,,2016,gina lumsden,23/01/2016,16,147
+Joelle Fagan,349,F-Sen-C,80.8,84,82.5,55,125,262.5,4,238.88,Novice Open 2016,,2016,joelle fagan,23/01/2016,16,148
+Vita Chainauskaite,662,F-M1-C,62.4,63,75,55,130,260,1,281.26,Novice Open 2016,,2016,vita chainauskaite,23/01/2016,16,149
+Lorna Ward,422,F-Sen-C,71,72,92.5,40,120,252.5,4,248.77,Novice Open 2016,,2016,lorna ward,23/01/2016,16,150
+Colm McKeown,141,M-Sen-C,63,66,82.5,62.5,100,245,3,200.08,Novice Open 2016,,2016,colm mckeown,23/01/2016,16,151
+Laura Earley,396,F-Sen-C,68,72,85,45,105,235,5,238.59,Novice Open 2016,,2016,laura earley,23/01/2016,16,152
+Claire Caulfield,122,F-Sen-C,64.2,72,75,45,112.5,232.5,6,246.18,Novice Open 2016,,2016,claire caulfield,23/01/2016,16,153
+Erica Gaffney,245,F-Sen-C,48,52,77.5,50,100,227.5,1,301.31,Novice Open 2016,,2016,erica gaffney,23/01/2016,16,154
+Amy Hughes,36,F-Sen-C,81.6,84,75,45,105,225,5,203.67,Novice Open 2016,,2016,amy hughes,23/01/2016,16,155
+Ciaragh Kehoe,114,F-Sen-C,56.6,57,70,37.5,115,222.5,2,259.62,Novice Open 2016,,2016,ciaragh kehoe,23/01/2016,16,156
+Aisling McManus,20,F-Sen-C,46.6,47,75,45,95,215,1,290.93,Novice Open 2016,,2016,aisling mcmanus,23/01/2016,16,157
+Kate Sheehy,374,F-Sen-C,58.4,63,85,37.5,92.5,215,5,244.79,Novice Open 2016,,2016,kate sheehy,23/01/2016,16,158
+Jennifer Geary,335,F-Sen-C,61,63,82.5,37.5,90,210,6,231.16,Novice Open 2016,,2016,jennifer geary,23/01/2016,16,159
+Lynn Privett,433,F-Sen-C,57.2,63,77.5,40,80,197.5,7,228.55,Novice Open 2016,,2016,lynn privett,23/01/2016,16,160
+Aisling Kelly,19,F-U23-C,71.2,72,62.5,42.5,82.5,187.5,3,184.38,Novice Open 2016,,2016,aisling kelly,23/01/2016,16,161
+Tara Conlon,637,F-M2-C,61.6,63,42.5,37.5,85,165,1,180.26,Novice Open 2016,,2016,tara conlon,23/01/2016,16,162
+Alison May,30,F-Sen-C,54.8,57,55,35,60,150,3,179.51,Novice Open 2016,,2016,alison may,23/01/2016,16,163
+Liam Dinan,411,M-Sen-C,82.4,83,0,110,175,0,DQ,0,Novice Open 2016,,2016,liam dinan,23/01/2016,16,166
+Shane Manning,594,M-Sen-C,102.8,105,265,0,0,0,DQ,0,Novice Open 2016,,2016,shane manning,23/01/2016,16,164
+Sinead O'Connor,611,F-Sen-C,80.6,84,0,60,102.5,0,DQ,0,Novice Open 2016,,2016,sinead o'connor,23/01/2016,16,167
+Tony Deeney,651,M-Sen-C,78.2,83,170,95,0,0,DQ,0,Novice Open 2016,,2016,tony deeney,23/01/2016,16,165
+Michael Bruce,464,M-SEN-C,102.4,105,285,162.5,300,747.5,1,450.76,National Championships 2016,Limerick,2016,michael bruce,27/02/2016,12,168
+Erin Wagner,247,M-SEN-C,130,120+,270,180,290,740,1,418.54,National Championships 2016,Limerick,2016,erin wagner,27/02/2016,12,169
+Cillian Hurley,121,M-SEN-C,101.6,105,265,157.5,305,727.5,2,440.01,National Championships 2016,Limerick,2016,cillian hurley,27/02/2016,12,170
+Barry Pigott,66,M-SEN-C,92.6,93,250,195,277.5,722.5,1,454.8,National Championships 2016,Limerick,2016,barry pigott,27/02/2016,12,171
+Erin George Wagner,246,M-Sen-C,129.5,120+,275,180,262.5,717.5,1,406.1,National Championships 2016,Limerick,2016,erin george wagner,27/02/2016,12,172
+Rory Girvan,550,M-SEN-C,90.2,93,262.5,162.5,290,715,2,455.94,National Championships 2016,Limerick,2016,rory girvan,27/02/2016,12,173
+Arthur Lynch,60,M-SEN-C,90,93,240,170,300,710,3,453.26,National Championships 2016,Limerick,2016,arthur lynch,27/02/2016,12,174
+Sean Ryan,589,M-SEN-C,81.6,83,235,145,272.5,652.5,1,440.02,National Championships 2016,Limerick,2016,sean ryan,27/02/2016,12,175
+Mark Dowling,444,M-SEN-C,91.8,93,245,125,270,640,4,404.56,National Championships 2016,Limerick,2016,mark dowling,27/02/2016,12,176
+Sean Crowe,580,M-SEN-C,119.4,120,240,137.5,260,637.5,1,366.94,National Championships 2016,Limerick,2016,sean crowe,27/02/2016,12,177
+Connor Meyler,142,M-U23-C,113.6,120,225,147.5,252.5,625,1,364.37,National Championships 2016,Limerick,2016,connor meyler,27/02/2016,12,178
+Mark Comiskey,442,M-SEN-C,81,83,220,142.5,230,592.5,2,401.37,National Championships 2016,Limerick,2016,mark comiskey,27/02/2016,12,179
+Adam Keane,6,M-U23-C,82.4,83,230,117.5,235,582.5,1,390.5,National Championships 2016,Limerick,2016,adam keane,27/02/2016,12,180
+Andy Mooney,51,M-U23-G-E,92,93,215,132.5,225,572.5,G,361.51,National Championships 2016,Limerick,2016,andy mooney,27/02/2016,12,181
+Lorcan Everard,419,M-U23-C,74,74,215.5,120,220,555.5,1,399.58,National Championships 2016,Limerick,2016,lorcan everard,27/02/2016,12,182
+Dan Hurley,165,M-SEN-C,81.4,83,192.5,110,252.5,555,3,374.83,National Championships 2016,Limerick,2016,dan hurley,27/02/2016,12,183
+Ashwin Amersi,61,M-SEN-C,75.4,83,187.5,137.5,220,545,4,386.92,National Championships 2016,Limerick,2016,ashwin amersi,27/02/2016,12,184
+Oliver Smith,501,M-U23-C,103,105,190,135,215,540,1,324.92,National Championships 2016,Limerick,2016,oliver smith,27/02/2016,12,185
+Simon Standbridge,608,M-U23-C,91.4,93,210,105,220,535,1,338.91,National Championships 2016,Limerick,2016,simon standbridge,27/02/2016,12,186
+Deividas Barisas,206,M-SEN-C,64.6,66,180,110,217.5,507.5,1,405.66,National Championships 2016,Limerick,2016,deividas barisas,27/02/2016,12,187
+Louis Warren,424,M-SEN-C,69.6,74,165,115,215,495,1,372.58,National Championships 2016,Limerick,2016,louis warren,27/02/2016,12,188
+Daniel McAuley,168,M-U23-C,71.2,74,167.5,117.5,205,490,2,362.51,National Championships 2016,Limerick,2016,daniel mcauley,27/02/2016,12,189
+Bernard Doyle,71,M-M1-C,90,93,157.5,122.5,210,490,1,312.81,National Championships 2016,Limerick,2016,bernard doyle,27/02/2016,12,190
+Darren Fehilly,183,M-U23-C,76.2,83,185,90,200,475,2,334.79,National Championships 2016,Limerick,2016,darren fehilly,27/02/2016,12,191
+Noel Whelan,498,M-SEN-C,58.2,59,175,110,185,470,1,412.33,National Championships 2016,Limerick,2016,noel whelan,27/02/2016,12,192
+James Madden,321,M-SEN-C,63.4,66,155,105,180,440,2,357.37,National Championships 2016,Limerick,2016,james madden,27/02/2016,12,193
+Lauren Rooney,402,F-SEN-C,100.2,84+,147.5,75,167.5,390,1,324.52,National Championships 2016,Limerick,2016,lauren rooney,27/02/2016,12,194
+Shannon Pollock,598,F-SEN-C,75.6,84,147.5,67.5,172.5,387.5,1,366.55,National Championships 2016,Limerick,2016,shannon pollock,27/02/2016,12,195
+Jack Caldwell,303,M-U18-C,64.6,66,132.5,90,160,382.5,1,305.74,National Championships 2016,Limerick,2016,jack caldwell,27/02/2016,12,196
+Bronagh McPeake,80,F-SEN-C,63,63,140,67.5,170,377.5,1,405.42,National Championships 2016,Limerick,2016,bronagh mcpeake,27/02/2016,12,197
+Dermot O'Rourke,207,M-U18-C,58.2,59,135,82.5,160,377.5,1,331.18,National Championships 2016,Limerick,2016,dermot o'rourke,27/02/2016,12,198
+Louise Kenna,425,F-SEN-C,71.6,72,142.5,72.5,160,375,1,367.38,National Championships 2016,Limerick,2016,louise kenna,27/02/2016,12,199
+Gabrielle Ervine,261,F-SEN-C,61.2,63,132.5,75,165,372.5,2,409,National Championships 2016,Limerick,2016,gabrielle ervine,27/02/2016,12,200
+Louise Millar,426,F-SEN-C,62.6,63,142.5,72.5,157.5,372.5,3,401.99,National Championships 2016,Limerick,2016,louise millar,27/02/2016,12,201
+Leslie Hoare,408,F-SEN-C,79.6,84,120,72.5,165,357.5,2,328.03,National Championships 2016,Limerick,2016,leslie hoare,27/02/2016,12,202
+Hazel Hu,288,F-SEN-C,49.8,52,120,67.5,145,332.5,1,428.44,National Championships 2016,Limerick,2016,hazel hu,27/02/2016,12,203
+Linh Nguyen,416,F-SEN-C,60,63,132.5,60,137.5,330,4,367.91,National Championships 2016,Limerick,2016,linh nguyen,27/02/2016,12,204
+Teanna Watts,640,F-SEN-C,79.4,84,115,57.5,150,322.5,3,296.34,National Championships 2016,Limerick,2016,teanna watts,27/02/2016,12,205
+Amy Nolan,37,F-SEN-C,61.8,63,102.5,60,150,312.5,5,340.56,National Championships 2016,Limerick,2016,amy nolan,27/02/2016,12,206
+Anna Hourihane,52,F-U23-C,50.4,52,107.5,67.5,135,310,1,395.84,National Championships 2016,Limerick,2016,anna hourihane,27/02/2016,12,207
+Lina O'Sullivan,412,F-SEN-C,60.2,63,115,57.5,137.5,310,6,344.73,National Championships 2016,Limerick,2016,lina o'sullivan,27/02/2016,12,208
+Lauren Elder,401,F-SEN-C,61.2,63,100,50,155,305,7,334.88,National Championships 2016,Limerick,2016,lauren elder,27/02/2016,12,209
+Kathleen Scully,376,F-SEN-C,79.6,84,115,55,130,300,4,275.27,National Championships 2016,Limerick,2016,kathleen scully,27/02/2016,12,210
+Rebecca Bennett,533,F-U23-C,60.8,63,110,50,135,295,1,325.54,National Championships 2016,Limerick,2016,rebecca bennett,27/02/2016,12,211
+Aisling Stapleton,21,F-SEN-C,61.2,63,112.5,57.5,125,295,8,323.9,National Championships 2016,Limerick,2016,aisling stapleton,27/02/2016,12,212
+Elaine Stone,224,F-SEN-C,75.8,84,95,65,125,285,5,269.15,National Championships 2016,Limerick,2016,elaine stone,27/02/2016,12,213
+Keira Hillary,378,F-SEN-C,53.4,57,95,52.5,135,282.5,1,344.99,National Championships 2016,Limerick,2016,keira hillary,27/02/2016,12,214
+Abigail Cronin,3,F-U23-C,61,63,100,60,122.5,282.5,2,310.96,National Championships 2016,Limerick,2016,abigail cronin,27/02/2016,12,215
+Amy Donoghue,34,F-U23-C,56.6,57,100,47.5,130,277.5,1,323.79,National Championships 2016,Limerick,2016,amy donoghue,27/02/2016,12,216
+Vita Chainauskaite,662,F-SEN-C,62.6,63,80,57.5,130,267.5,9,288.67,National Championships 2016,Limerick,2016,vita chainauskaite,27/02/2016,12,217
+Bernice Flynn,73,F-SEN-C,69.2,72,90,62.5,115,267.5,2,268.25,National Championships 2016,Limerick,2016,bernice flynn,27/02/2016,12,218
+Erica Gaffney,245,F-SEN-C,47.4,52,82.5,55,102.5,240,2,320.8,National Championships 2016,Limerick,2016,erica gaffney,27/02/2016,12,219
+Aibhlin Clabby,11,F-U18-C,0,0,0,0,0,0,NS,0,National Championships 2016,Limerick,2016,aibhlin clabby,27/02/2016,12,226
+Aisling McManus,20,F-SEN-C,0,0,0,0,0,0,NS,0,National Championships 2016,Limerick,2016,aisling mcmanus,27/02/2016,12,225
+Andrew Richardson,47,M-U23-C,103.6,105,230,0,0,0,DQ,0,National Championships 2016,Limerick,2016,andrew richardson,27/02/2016,12,220
+Claire Kelly,123,F-U23-G,64.4,72,97.5,0,0,0,DQ,0,National Championships 2016,Limerick,2016,claire kelly,27/02/2016,12,222
+Claire McConnell,126,F-SEN-C,56.2,57,75,45,0,0,DQ,0,National Championships 2016,Limerick,2016,claire mcconnell,27/02/2016,12,223
+Paul McLaren,515,M-M1-C,65.6,66,150,0,0,0,DQ,0,National Championships 2016,Limerick,2016,paul mclaren,27/02/2016,12,221
+Sinead Heffernan,609,F-SEN-C,0,0,0,0,0,0,NS,0,National Championships 2016,Limerick,2016,sinead heffernan,27/02/2016,12,224
+James Hanley,317,M-O,92.8,93,240,160,272.5,672.5,1,422.89,ABS Club Championship 2016,Dublin,2016,james hanley,02/04/2016,2,830
+Noel Whelan,498,M-O,63.6,66,192.5,125.5,202.5,520.5,1,421.61,ABS Club Championship 2016,Dublin,2016,noel whelan,03/04/2016,2,836
+Scott Dean,574,M-O,91.8,93,232.5,120,247.5,600,2,379.28,ABS Club Championship 2016,Dublin,2016,scott dean,04/04/2016,2,831
+Lukasz Kalinski,430,M-O,73,74,167.5,112.5,207.5,487.5,1,354.1,ABS Club Championship 2016,Dublin,2016,lukasz kalinski,05/04/2016,2,839
+Thomas Donoghue,643,M-O,73.1,74,162.5,110,215,487.5,2,353.75,ABS Club Championship 2016,Dublin,2016,thomas donoghue,06/04/2016,2,840
+Aisling Judge,18,F-O,77.2,84,137.5,67.5,170,375,1,350.25,ABS Club Championship 2016,Dublin,2016,aisling judge,07/04/2016,2,849
+Ryan Ging,555,M-O,88.9,93,210,120,215,545,3,350.13,ABS Club Championship 2016,Dublin,2016,ryan ging,08/04/2016,2,833
+Ben Harrison,68,M-O,117.1,120,220,155,220,595,1,344.11,ABS Club Championship 2016,Dublin,2016,ben harrison,09/04/2016,2,832
+Daniel Mcalpaca,167,M-O,92.7,93,187.5,112.5,240,540,4,339.74,ABS Club Championship 2016,Dublin,2016,daniel mcalpaca,10/04/2016,2,834
+Bernard O'Reilly,72,M-O,79.5,83,162.5,122.5,202.5,487.5,1,334.14,ABS Club Championship 2016,Dublin,2016,bernard o'reilly,11/04/2016,2,841
+Jack Ryan,308,M-O,86.9,93,177.5,102.5,220,500,5,325.15,ABS Club Championship 2016,Dublin,2016,jack ryan,12/04/2016,2,837
+Andrew McCartney,46,M-O,100.4,105,200,112.5,217.5,530,1,322.04,ABS Club Championship 2016,Dublin,2016,andrew mccartney,13/04/2016,2,835
+William Kennedy,668,M-O,90.3,93,195,105,200,500,6,318.66,ABS Club Championship 2016,Dublin,2016,william kennedy,14/04/2016,2,838
+Cian Slevin,111,M-O,80.8,83,185,102.5,180,467.5,2,317.18,ABS Club Championship 2016,Dublin,2016,cian slevin,15/04/2016,2,844
+Nicola Corcoran,491,F-O,62.8,63,105,57.5,130,292.5,1,314.89,ABS Club Championship 2016,Dublin,2016,nicola corcoran,16/04/2016,2,857
+Karen McCormack,367,F-O,71.4,72,125,60,130,315,1,309.18,ABS Club Championship 2016,Dublin,2016,karen mccormack,17/04/2016,2,853
+Simon Kealy,606,M-O,91,93,157.5,100,227.5,485,7,307.91,ABS Club Championship 2016,Dublin,2016,simon kealy,18/04/2016,2,842
+Aisling McManus,20,F-O,46.8,47,85,47.5,92.5,225,1,303.53,ABS Club Championship 2016,Dublin,2016,aisling mcmanus,19/04/2016,2,869
+Ciaran Lowe,116,M-O,92.2,93,175,110,195,480,8,302.78,ABS Club Championship 2016,Dublin,2016,ciaran lowe,20/04/2016,2,843
+Gina Lumsden,278,F-O,71.4,72,115,52.5,140,307.5,2,301.82,ABS Club Championship 2016,Dublin,2016,gina lumsden,21/04/2016,2,855
+Jean Meehan,332,F-O,62.4,63,97.5,50,125,272.5,2,294.79,ABS Club Championship 2016,Dublin,2016,jean meehan,22/04/2016,2,859
+Karen Keatinge,366,F-O,56.4,57,80,52.5,117.5,250,1,292.51,ABS Club Championship 2016,Dublin,2016,karen keatinge,23/04/2016,2,862
+Sean Dowling,582,M-O,73.2,74,147.5,80,170,397.5,3,288.16,ABS Club Championship 2016,Dublin,2016,sean dowling,24/04/2016,2,848
+Rourke Byrne,551,M-O,91.6,93,152.5,95,205,452.5,9,286.34,ABS Club Championship 2016,Dublin,2016,rourke byrne,25/04/2016,2,845
+Jennifer Geary,335,F-O,68.3,72,107.5,50,120,277.5,3,280.85,ABS Club Championship 2016,Dublin,2016,jennifer geary,26/04/2016,2,858
+Pearl Mackey,523,F-O,61.4,63,90,47.5,117.5,255,3,279.28,ABS Club Championship 2016,Dublin,2016,pearl mackey,27/04/2016,2,861
+Steve Duff,625,M-O,88.4,93,155,85,190,430,10,277.07,ABS Club Championship 2016,Dublin,2016,steve duff,28/04/2016,2,846
+Emma Moore,236,F-O,71.4,72,85,47.5,140,272.5,4,267.46,ABS Club Championship 2016,Dublin,2016,emma moore,29/04/2016,2,860
+Donna Ivie,213,F-O,104.6,84+,117.5,70,137.5,325,1,267.32,ABS Club Championship 2016,Dublin,2016,donna ivie,30/04/2016,2,850
+Karen McDonnell,368,F-O,56.3,57,80,42.5,105,227.5,2,266.56,ABS Club Championship 2016,Dublin,2016,karen mcdonnell,01/05/2016,2,867
+Clodagh Hunt Cecil,134,F-O,97.6,84+,115,62.5,140,317.5,2,266.32,ABS Club Championship 2016,Dublin,2016,clodagh hunt cecil,02/05/2016,2,852
+Caroline Cunniffe,89,F-O,55.8,57,77.5,42.5,105,225,3,265.48,ABS Club Championship 2016,Dublin,2016,caroline cunniffe,03/05/2016,2,870
+James Keogh,319,M-O,87.6,93,145,90,170,405,11,262.23,ABS Club Championship 2016,Dublin,2016,james keogh,04/05/2016,2,847
+Susan McDonald,630,F-O,98.5,84+,105,75,130,310,3,259.28,ABS Club Championship 2016,Dublin,2016,susan mcdonald,05/05/2016,2,854
+Tracey Matthews,655,F-O,59.8,63,82.5,42.5,105,230,4,257.09,ABS Club Championship 2016,Dublin,2016,tracey matthews,06/05/2016,2,866
+Yvonne Osan,670,F-O,91.9,84+,110,50,140,300,4,257.05,ABS Club Championship 2016,Dublin,2016,yvonne osan,07/05/2016,2,856
+Claire McConnell,126,F-O,56.6,57,72.5,45,100,217.5,4,253.78,ABS Club Championship 2016,Dublin,2016,claire mcconnell,08/05/2016,2,872
+Hannah Stephenson,287,F-O,62.7,63,85,42.5,100,227.5,5,245.21,ABS Club Championship 2016,Dublin,2016,hannah stephenson,09/05/2016,2,868
+Elaine Clarke,222,F-O,68.5,72,85,42.5,112.5,240,6,242.4,ABS Club Championship 2016,Dublin,2016,elaine clarke,10/05/2016,2,864
+Clare Duffy,127,F-O,70.7,72,75,55,115,245,5,242.08,ABS Club Championship 2016,Dublin,2016,clare duffy,11/05/2016,2,863
+Anna Marie O'Donoghue,53,F-O,70.9,72,82.5,42.5,115,240,7,236.69,ABS Club Championship 2016,Dublin,2016,anna marie o'donoghue,12/05/2016,2,865
+Holly O'Reilly,291,F-O,61.7,63,70,45,100,215,6,234.6,ABS Club Championship 2016,Dublin,2016,holly o'reilly,13/05/2016,2,873
+Sue Valente,629,F-G,64,72,75,42.5,102.5,220,G,233.48,ABS Club Championship 2016,Dublin,2016,sue valente,14/05/2016,2,871
+Stuart Brown,628,M-O,73.4,74,112.5,77.5,130,320,4,231.52,ABS Club Championship 2016,Dublin,2016,stuart brown,15/05/2016,2,851
+Gemma Davey,274,F-O,52,52,0,45,107.5,0,DQ,0,ABS Club Championship 2016,Dublin,2016,gemma davey,16/05/2016,2,875
+John Donovan,351,M-G,73.8,74,185,0,225,0,DQ,0,ABS Club Championship 2016,Dublin,2016,john donovan,17/05/2016,2,874
+Michael Bruce,464,M-O,102.4,105,275,162.5,295,732.5,14,441.7,World Classic Championships 2016,Killeen,2016,michael bruce,19/06/2016,23,227
+Mark Murphy,449,M-Sen-C,102,105,250,185,280,715,1,431.8,Boyneside Regional Championships,Drogheda,2016,mark murphy,19/06/2016,4,228
+Arthur Lynch,60,M-O,90.62,93,245,167.5,297.5,705,9,448.52,World Classic Championships 2016,Killeen,2016,arthur lynch,19/06/2016,23,229
+Shane Manning,594,M-Sen-C,104.8,105,260,155,290,705,2,421.56,Boyneside Regional Championships,Drogheda,2016,shane manning,19/06/2016,4,230
+Dean Salmon,205,M-U23-C,98.2,105,220,185,250,655,1,401.6,Boyneside Regional Championships,Drogheda,2016,dean salmon,19/06/2016,4,231
+Andrew Richardson,47,M-O,103.2,105,240,135,255,630,19,378.82,World Classic Championships 2016,Killeen,2016,andrew richardson,19/06/2016,23,232
+Adam Keane,6,M-JR,82,83,235,122.5,245,602.5,11,405.12,World Classic Championships 2016,Killeen,2016,adam keane,19/06/2016,23,233
+Lorcan Everard,419,M-JR,73.08,74,215,112.5,237.5,565,14,410.08,World Classic Championships 2016,Killeen,2016,lorcan everard,19/06/2016,23,234
+Shane Corbett,592,M-u18-C,81.8,83,202.5,122.5,230,555,1,373.71,Boyneside Regional Championships,Drogheda,2016,shane corbett,19/06/2016,4,235
+Nigel Pearson,497,M-Sen-C,91,93,200,115,240,555,1,352.35,Boyneside Regional Championships,Drogheda,2016,nigel pearson,19/06/2016,4,236
+Ashwin Amersi,61,M-Sen-C,75.8,83,190,130,232.5,552.5,1,390.82,Boyneside Regional Championships,Drogheda,2016,ashwin amersi,19/06/2016,4,237
+David McQuillan,197,M-Sen-C,65.8,66,195,125,220,540,1,425.07,Boyneside Regional Championships,Drogheda,2016,david mcquillan,19/06/2016,4,238
+James Black,314,M-Sen-C,98,105,190,122.5,220,532.5,3,326.77,Boyneside Regional Championships,Drogheda,2016,james black,19/06/2016,4,239
+Dave Looney,189,M-Sen-C,103,105,202.5,92.5,235,530,4,318.91,Boyneside Regional Championships,Drogheda,2016,dave looney,19/06/2016,4,240
+Gary McGivern,266,M-Sen-C,72.8,74,192.5,115,220,527.5,1,383.92,Boyneside Regional Championships,Drogheda,2016,gary mcgivern,19/06/2016,4,241
+Ben Howlett,69,M-U18-C,116.6,120,180,130,210,520,1,301.06,Boyneside Regional Championships,Drogheda,2016,ben howlett,19/06/2016,4,242
+Philip Bridgeman,528,M-U23-C,99.4,105,180,120,217.5,517.5,2,315.71,Boyneside Regional Championships,Drogheda,2016,philip bridgeman,19/06/2016,4,243
+Tony Deeney,651,M-Sen-C,79.8,83,177.5,95,240,512.5,2,350.44,Boyneside Regional Championships,Drogheda,2016,tony deeney,19/06/2016,4,244
+Cian Desmond,106,M-Sen-C,82.2,83,165,135,192.5,492.5,3,330.65,Boyneside Regional Championships,Drogheda,2016,cian desmond,19/06/2016,4,245
+Sean Hogan,587,M-U23-C,98,105,172.5,115,205,492.5,3,302.22,Boyneside Regional Championships,Drogheda,2016,sean hogan,19/06/2016,4,246
+Michael Parry-Jones,471,M-Sen-C,95.4,105,175,115,200,490,5,304.22,Boyneside Regional Championships,Drogheda,2016,michael parry-jones,19/06/2016,4,247
+Noel Whelan,498,M-O,58.46,59,175,112.5,192.5,480,8,419.33,World Classic Championships 2016,Killeen,2016,noel whelan,19/06/2016,23,248
+Cian Cunningham,104,M-U18-C,79.2,83,150,110,212.5,472.5,2,324.64,Boyneside Regional Championships,Drogheda,2016,cian cunningham,19/06/2016,4,249
+Paul McLaren,515,M-Sen-C,64.8,66,155,80,217.5,452.5,2,360.76,Boyneside Regional Championships,Drogheda,2016,paul mclaren,19/06/2016,4,250
+Shane McCarthy,595,M-U18-C,93,93,182.5,85,177.5,445,1,279.54,Boyneside Regional Championships,Drogheda,2016,shane mccarthy,19/06/2016,4,251
+Peter Elliott,525,M-M1-C,80.6,83,155,85,200,440,1,298.98,Boyneside Regional Championships,Drogheda,2016,peter elliott,19/06/2016,4,252
+Mark Daly,443,M-Sen-C,72.8,74,155,95,180,430,2,312.96,Boyneside Regional Championships,Drogheda,2016,mark daly,19/06/2016,4,253
+JP McGowan,364,M-Sen-C,72.8,74,145,82.5,182.5,410,3,298.4,Boyneside Regional Championships,Drogheda,2016,jp mcgowan,19/06/2016,4,254
+Steve Duff,625,M-Sen-C,90.4,93,157.5,75,170,402.5,2,256.38,Boyneside Regional Championships,Drogheda,2016,steve duff,19/06/2016,4,255
+Louise Kenna,425,F-O,71,72,150,77.5,172.5,400,7,394.08,World Classic Championships 2016,Killeen,2016,louise kenna,19/06/2016,23,256
+Dermot O'Rourke,207,M-SJR,57.5,59,142.5,85,165,392.5,6,347.17,World Classic Championships 2016,Killeen,2016,dermot o'rourke,19/06/2016,23,257
+Bronagh McPeake,80,F-O,62.44,63,152.5,62.5,170,385,12,416.3,World Classic Championships 2016,Killeen,2016,bronagh mcpeake,19/06/2016,23,258
+Shannon Pollock,598,F-O,71.7,72,150,70,165,385,10,376.84,World Classic Championships 2016,Killeen,2016,shannon pollock,19/06/2016,23,259
+Eamon Lovett,219,M-Sen-C,79,83,132.5,102.5,140,375,4,258.07,Boyneside Regional Championships,Drogheda,2016,eamon lovett,19/06/2016,4,260
+Louise Millar,426,F-O,62.7,63,142.5,80,145,367.5,14,396.13,World Classic Championships 2016,Killeen,2016,louise millar,19/06/2016,23,261
+Aisling Judge,18,F-Sen-C,78.4,84,135,65,167.5,367.5,1,340.15,Boyneside Regional Championships,Drogheda,2016,aisling judge,19/06/2016,4,262
+Lauren Rooney,402,F-O,85.78,84+,135,75,155,365,12,322.19,World Classic Championships 2016,Killeen,2016,lauren rooney,19/06/2016,23,263
+Hazel Hu,288,F-O,51.22,52,125,70,152.5,347.5,6,438.27,World Classic Championships 2016,Killeen,2016,hazel hu,19/06/2016,23,264
+Suzanne Gray,632,F-U23-C,70.6,72,122.5,67.5,152.5,342.5,1,338.75,Boyneside Regional Championships,Drogheda,2016,suzanne gray,19/06/2016,4,265
+Medb Murtagh,461,F-Sen-C,53.6,57,120,65,140,325,1,395.73,Boyneside Regional Championships,Drogheda,2016,medb murtagh,19/06/2016,4,266
+Graham Temple,283,M-U23-C,86.8,93,102.5,95,125,322.5,1,209.85,Boyneside Regional Championships,Drogheda,2016,graham temple,19/06/2016,4,267
+Anna Hourihane,52,F-JR,50.3,52,110,70,140,320,7,409.22,World Classic Championships 2016,Killeen,2016,anna hourihane,19/06/2016,23,268
+James Farrell,316,M-Sen-C,81.4,83,102.5,77.5,140,320,5,216.12,Boyneside Regional Championships,Drogheda,2016,james farrell,19/06/2016,4,269
+Aoife O'Sullivan,57,F-U23-C,62.4,63,117.5,52.5,140,310,1,335.35,Boyneside Regional Championships,Drogheda,2016,aoife o'sullivan,19/06/2016,4,270
+Laura Walsh,400,F-Sen-G,52.8,57,112.5,65,130,307.5,G,378.83,Boyneside Regional Championships,Drogheda,2016,laura walsh,19/06/2016,4,271
+Keira Hillary,378,F-Sen-C,52.8,57,100,55,140,295,2,363.43,Boyneside Regional Championships,Drogheda,2016,keira hillary,19/06/2016,4,272
+Jill Gracey,341,F-Sen-C,66.4,72,105,50,140,295,1,304.68,Boyneside Regional Championships,Drogheda,2016,jill gracey,19/06/2016,4,273
+Amy Donoghue,34,F-JR,56.08,57,100,52.5,140,292.5,11,343.77,World Classic Championships 2016,Killeen,2016,amy donoghue,19/06/2016,23,274
+Emily Mazilu,232,F-U23-C,56.6,57,110,50,130,290,1,338.38,Boyneside Regional Championships,Drogheda,2016,emily mazilu,19/06/2016,4,275
+Gina Lumsden,278,F-U23-C,68.4,72,107.5,55,122.5,285,2,288.15,Boyneside Regional Championships,Drogheda,2016,gina lumsden,19/06/2016,4,276
+Joelle Fagan,349,F-Sen-C,80.4,84,90,55,140,285,2,260.06,Boyneside Regional Championships,Drogheda,2016,joelle fagan,19/06/2016,4,277
+Claire Caulfield,122,F-Sen-C,61.2,63,90,50,122.5,262.5,1,288.22,Boyneside Regional Championships,Drogheda,2016,claire caulfield,19/06/2016,4,278
+Laura Earley,396,F-Sen-C,67.6,72,100,50,110,260,2,265.08,Boyneside Regional Championships,Drogheda,2016,laura earley,19/06/2016,4,279
+Jennifer Geary,335,F-Sen-C,60.4,63,92.5,42.5,110,245,2,271.75,Boyneside Regional Championships,Drogheda,2016,jennifer geary,19/06/2016,4,280
+Amy Hughes,36,F-Sen-C,82.2,84,82.5,47.5,115,245,3,220.91,Boyneside Regional Championships,Drogheda,2016,amy hughes,19/06/2016,4,281
+Elysia Doody,229,F-Sen-C,51.8,52,80,45,115,240,1,300.08,Boyneside Regional Championships,Drogheda,2016,elysia doody,19/06/2016,4,282
+Sibeal Hurley,604,F-Sen-C,73.4,84,90,45,100,235,4,226.49,Boyneside Regional Championships,Drogheda,2016,sibeal hurley,19/06/2016,4,283
+Kate Sheehy,374,F-Sen-C,55.4,57,95,40,95,230,3,272.91,Boyneside Regional Championships,Drogheda,2016,kate sheehy,19/06/2016,4,284
+Linda Murphy,413,F-M1-C,103.4,84+,80,47.5,97.5,225,1,185.61,Boyneside Regional Championships,Drogheda,2016,linda murphy,19/06/2016,4,285
+Kayleigh McCoy,377,F-U23-C,46.6,47,70,42.5,110,222.5,1,301.08,Boyneside Regional Championships,Drogheda,2016,kayleigh mccoy,19/06/2016,4,286
+Cora O Carroll,157,F-Sen-C,67.4,72,77.5,40,102.5,220,3,224.78,Boyneside Regional Championships,Drogheda,2016,cora o carroll,19/06/2016,4,287
+Lynn Privett,433,F-Sen-C,56.2,57,80,45,80,205,4,240.53,Boyneside Regional Championships,Drogheda,2016,lynn privett,19/06/2016,4,288
+Alison May,30,F-Sen-C,55.6,57,75,42.5,80,197.5,5,233.69,Boyneside Regional Championships,Drogheda,2016,alison may,19/06/2016,4,289
+Laura Cooley,395,F-Sen-C,55.6,57,70,40,80,190,6,224.81,Boyneside Regional Championships,Drogheda,2016,laura cooley,19/06/2016,4,290
+Elaine Stone,224,F-Sen-C,71,72,97.5,67.5,0,0,DQ,0,Boyneside Regional Championships,Drogheda,2016,elaine stone,19/06/2016,4,291
+Rory Girvan,550,M-O,92.56,93,0,140,290,0,0,0,World Classic Championships 2016,Killeen,2016,rory girvan,19/06/2016,23,292
+Andrew Richardson,47,M-O,103.71,105,250,132.5,270,652.5,5,391.63,1st University Powerlifting World Cup 2016,Minsk,2016,andrew richardson,11/07/2016,0,293
+Suzanne Gray,632,F-O,69.63,72,122.5,70,155,347.5,4,347.88,1st University Powerlifting World Cup 2016,Minsk,2016,suzanne gray,11/07/2016,0,294
+Barry Pigott,66,M-O,92,93,262.5,195,287.5,745,1,470.44,Athlone Open,Athlone,2016,barry pigott,03/09/2016,3,295
+Andre Du Plessis,40,M-O,145,120+,255,167.5,277.5,700,1,389.17,Athlone Open,Athlone,2016,andre du plessis,03/09/2016,3,296
+Stephen Casey,617,M-O,91,93,230,145,290,665,2,422.18,Athlone Open,Athlone,2016,stephen casey,03/09/2016,3,297
+Marc Galligan,437,M-O,98.2,105,250,142.5,260,652.5,1,400.06,Athlone Open,Athlone,2016,marc galligan,03/09/2016,3,298
+Kenneth Nwaezeigwe,381,M-O,92,93,250,135,260,645,3,407.29,Athlone Open,Athlone,2016,kenneth nwaezeigwe,03/09/2016,3,299
+Sean Crowe,580,M-O,120,120,227.5,135,272.5,635,1,365.08,Athlone Open,Athlone,2016,sean crowe,03/09/2016,3,300
+John Maher,354,M-O,82.5,83,217.5,132.5,272.5,622.5,1,417.02,Athlone Open,Athlone,2016,john maher,03/09/2016,3,301
+Andy Mooney,51,M-E,100.8,105,225,165,230,620,1,376.14,Athlone Open,Athlone,2016,andy mooney,03/09/2016,3,302
+Stephen J. Davison,621,M-O,104.8,105,220,150,250,620,2,370.73,Athlone Open,Athlone,2016,stephen j. davison,03/09/2016,3,303
+Mark Comiskey,442,M-O,81,83,222.5,150,235,607.5,2,411.54,Athlone Open,Athlone,2016,mark comiskey,03/09/2016,3,304
+David Twomey,201,M-O,91.6,93,215,150,240,605,4,382.85,Athlone Open,Athlone,2016,david twomey,03/09/2016,3,305
+Ciaran O'Donoghue,119,M-O,116.6,120,215,130,250,595,2,344.48,Athlone Open,Athlone,2016,ciaran o'donoghue,03/09/2016,3,306
+Darragh Hayes,178,M-O,103.4,105,205,137.5,240,582.5,3,350,Athlone Open,Athlone,2016,darragh hayes,03/09/2016,3,307
+David O'Connor,200,M-O,103.6,105,220,122.5,240,582.5,4,349.75,Athlone Open,Athlone,2016,david o'connor,03/09/2016,3,308
+Shane Corbett,592,M-O,81.4,83,205,130,245,580,3,391.72,Athlone Open,Athlone,2016,shane corbett,03/09/2016,3,309
+Tochukwu Anachebe,646,M-O,90.6,93,210,130,230,570,5,362.67,Athlone Open,Athlone,2016,tochukwu anachebe,03/09/2016,3,310
+Tony Myler,652,M-O,91.8,93,215,127.5,227.5,570,6,360.31,Athlone Open,Athlone,2016,tony myler,03/09/2016,3,311
+Andrew Knox Shiels,45,M-O,92.8,93,190,135,240,565,7,355.29,Athlone Open,Athlone,2016,andrew knox shiels,03/09/2016,3,312
+Conor Fitzgerald,146,M-O,102.4,105,195,140,230,565,5,340.71,Athlone Open,Athlone,2016,conor fitzgerald,03/09/2016,3,313
+Gavin Dillon,271,M-O,80.2,83,190,132.5,232.5,555,4,378.3,Athlone Open,Athlone,2016,gavin dillon,03/09/2016,3,314
+Dan Hurley,165,M-O,82.2,83,187.5,115,242.5,545,5,365.9,Athlone Open,Athlone,2016,dan hurley,03/09/2016,3,315
+Michael Grace,467,M-O,92,93,192.5,117.5,235,545,8,344.14,Athlone Open,Athlone,2016,michael grace,03/09/2016,3,316
+Paul Keely,511,M-O,82.2,83,202.5,122.5,217.5,542.5,6,364.22,Athlone Open,Athlone,2016,paul keely,03/09/2016,3,317
+John O'Dwyer,355,M-O,129.5,120+,190,170,180,540,2,305.63,Athlone Open,Athlone,2016,john o'dwyer,03/09/2016,3,318
+Ashwin Amersi,61,M-O,73,74,180,127.5,225,532.5,1,386.79,Athlone Open,Athlone,2016,ashwin amersi,03/09/2016,3,319
+Simon Standbridge,608,M-O,82,83,205,110,217.5,532.5,7,358.03,Athlone Open,Athlone,2016,simon standbridge,03/09/2016,3,320
+Ethan Preston,249,M-O,92.4,93,182.5,132.5,215,530,9,333.97,Athlone Open,Athlone,2016,ethan preston,03/09/2016,3,321
+Stephen Cusack,618,M-O,91.4,93,187.5,110,230,527.5,10,334.16,Athlone Open,Athlone,2016,stephen cusack,03/09/2016,3,322
+Deividas Barisas,206,M-O,65.4,66,182.5,110,222.5,515,1,407.44,Athlone Open,Athlone,2016,deividas barisas,03/09/2016,3,323
+Philip Bridgeman,528,M-O,101.3,105,182.5,125,207.5,515,6,311.84,Athlone Open,Athlone,2016,philip bridgeman,03/09/2016,3,324
+Dave Looney,189,M-O,104.2,105,195,100,220,515,7,308.58,Athlone Open,Athlone,2016,dave looney,03/09/2016,3,325
+Jack Ryan,308,M-O,80.6,83,195,97.5,217.5,510,8,346.55,Athlone Open,Athlone,2016,jack ryan,03/09/2016,3,326
+Chris Dowdall,100,M-O,97.4,105,180,130,200,510,8,313.78,Athlone Open,Athlone,2016,chris dowdall,03/09/2016,3,327
+Louis Warren,424,M-O,72.8,74,175,115,215,505,2,367.54,Athlone Open,Athlone,2016,louis warren,03/09/2016,3,328
+Danny Lennon,174,M-O,74,74,175,110,212.5,497.5,3,357.86,Athlone Open,Athlone,2016,danny lennon,03/09/2016,3,329
+Ciaran Murphy,117,M-O,100.8,105,160,115,220,495,9,300.3,Athlone Open,Athlone,2016,ciaran murphy,03/09/2016,3,330
+Ben Doyle,67,M-O,90.4,93,167.5,125,200,492.5,11,313.7,Athlone Open,Athlone,2016,ben doyle,03/09/2016,3,331
+James Lynch,320,M-O,81.6,83,170,110,202.5,482.5,9,325.38,Athlone Open,Athlone,2016,james lynch,03/09/2016,3,332
+Cian Cunningham,104,M-O,80.2,83,162.5,112.5,205,480,10,327.18,Athlone Open,Athlone,2016,cian cunningham,03/09/2016,3,333
+Ethan Connor,248,M-O,73,74,177.5,100,200,477.5,4,346.84,Athlone Open,Athlone,2016,ethan connor,03/09/2016,3,334
+Paul McLaren,515,M-O,66,66,160,87.5,227.5,475,2,372.97,Athlone Open,Athlone,2016,paul mclaren,03/09/2016,3,335
+Damian Christie,162,M-O,90.4,93,160,107.5,207.5,475,12,302.56,Athlone Open,Athlone,2016,damian christie,03/09/2016,3,336
+Gary Bourke,264,M-O,90.4,93,165,110,200,475,13,302.56,Athlone Open,Athlone,2016,gary bourke,03/09/2016,3,337
+Conor Campbell,144,M-O,79.4,83,160,110,195,465,11,318.97,Athlone Open,Athlone,2016,conor campbell,03/09/2016,3,338
+Billy Ahern,75,M-O,89.8,93,147.5,107.5,207.5,462.5,15,295.59,Athlone Open,Athlone,2016,billy ahern,03/09/2016,3,340
+Sean Hogan,587,M-O,89.8,93,165,105,192.5,462.5,14,295.59,Athlone Open,Athlone,2016,sean hogan,03/09/2016,3,339
+Bernard O'Reilly,72,M-O,81.2,83,160,120,180,460,12,311.14,Athlone Open,Athlone,2016,bernard o'reilly,03/09/2016,3,341
+James Madden,321,M-O,63.8,66,150,112.5,190,452.5,3,365.54,Athlone Open,Athlone,2016,james madden,03/09/2016,3,342
+Ian Wafer,295,M-O,71.8,74,165,95,190,450,5,330.85,Athlone Open,Athlone,2016,ian wafer,03/09/2016,3,343
+Gareth Bowden,263,M-O,80.2,83,155,107.5,180,442.5,13,301.62,Athlone Open,Athlone,2016,gareth bowden,03/09/2016,3,344
+Gary Butler,265,M-O,77.2,83,150,90,190,430,14,300.42,Athlone Open,Athlone,2016,gary butler,03/09/2016,3,345
+Oisin Kelly,500,M-O,84.2,93,155,85,167.5,407.5,16,269.73,Athlone Open,Athlone,2016,oisin kelly,03/09/2016,3,346
+Dylan Potter,218,M-O,59,59,142.5,95,165,402.5,1,348.64,Athlone Open,Athlone,2016,dylan potter,03/09/2016,3,347
+Leslie Hoare,408,F-O,82.2,84,137.5,82.5,175,395,1,356.17,Athlone Open,Athlone,2016,leslie hoare,03/09/2016,3,348
+Ciaran Murray,118,M-O,62.2,66,142.5,77.5,172.5,392.5,4,324.13,Athlone Open,Athlone,2016,ciaran murray,03/09/2016,3,349
+Kevin Croughan,384,M-O,73,74,150,90,150,390,6,283.28,Athlone Open,Athlone,2016,kevin croughan,03/09/2016,3,350
+Will Vara,666,M-O,74,74,140,100,150,390,7,280.53,Athlone Open,Athlone,2016,will vara,03/09/2016,3,351
+Callum McCormack,82,M-O,71.8,74,145,77.5,160,382.5,8,281.22,Athlone Open,Athlone,2016,callum mccormack,03/09/2016,3,352
+Stephanie Gleeson,615,F-O,71,72,127.5,90,155,372.5,1,367,Athlone Open,Athlone,2016,stephanie gleeson,03/09/2016,3,353
+Teanna Watts,640,F-O,78.6,84,135,72.5,155,362.5,2,335.02,Athlone Open,Athlone,2016,teanna watts,03/09/2016,3,354
+Vanessa Vanderveen,661,F-O,79.4,84,130,72.5,157.5,360,3,330.8,Athlone Open,Athlone,2016,vanessa vanderveen,03/09/2016,3,355
+Lina O'Sullivan,412,F-O,59.6,63,125,67.5,147.5,340,1,381.03,Athlone Open,Athlone,2016,lina o'sullivan,03/09/2016,3,356
+Caolan McGlade,86,M-O,57.6,59,122.5,77.5,140,340,2,301.22,Athlone Open,Athlone,2016,caolan mcglade,03/09/2016,3,357
+Amy Nolan,37,F-O,67.6,72,107.5,65,155,327.5,2,333.9,Athlone Open,Athlone,2016,amy nolan,03/09/2016,3,358
+Emer McManus,230,F-O,51,52,115,65,135,315,1,398.6,Athlone Open,Athlone,2016,emer mcmanus,03/09/2016,3,359
+Ava Horrigan,63,F-O,61.8,63,100,55,160,315,2,343.28,Athlone Open,Athlone,2016,ava horrigan,03/09/2016,3,360
+Susan McDonald,630,F-O,101.4,84+,107.5,80,127.5,315,1,261.22,Athlone Open,Athlone,2016,susan mcdonald,03/09/2016,3,361
+Laura Walsh,400,F-O,50.4,52,115,67.5,130,312.5,2,399.03,Athlone Open,Athlone,2016,laura walsh,03/09/2016,3,362
+Fiona Walshe,258,F-O,71.4,72,110,57.5,140,307.5,3,301.82,Athlone Open,Athlone,2016,fiona walshe,03/09/2016,3,363
+Kathleen Scully,376,F-O,80.2,84,115,57.5,135,307.5,4,280.98,Athlone Open,Athlone,2016,kathleen scully,03/09/2016,3,364
+Aoife Daly,55,F-O,69.8,72,115,52.5,132.5,300,4,299.04,Athlone Open,Athlone,2016,aoife daly,03/09/2016,3,365
+Claire Kelly,123,F-O,62.4,63,107.5,60,127.5,295,3,319.13,Athlone Open,Athlone,2016,claire kelly,03/09/2016,3,366
+Eleanor McShortall,227,F-O,71.4,72,100,57.5,125,282.5,5,277.28,Athlone Open,Athlone,2016,eleanor mcshortall,03/09/2016,3,367
+Bernice Flynn,73,F-O,69.2,72,95,65,117.5,277.5,6,278.28,Athlone Open,Athlone,2016,bernice flynn,03/09/2016,3,368
+Sibeal Hurley,604,F-G,74.4,84,102.5,52.5,117.5,272.5,G,260.36,Athlone Open,Athlone,2016,sibeal hurley,03/09/2016,3,369
+Caroline Lynch,90,F-O,50.6,52,97.5,42.5,117.5,257.5,3,327.81,Athlone Open,Athlone,2016,caroline lynch,03/09/2016,3,370
+Joanne Fitzgerald,344,F-O,62.2,63,100,47.5,110,257.5,4,279.24,Athlone Open,Athlone,2016,joanne fitzgerald,03/09/2016,3,371
+Amy Hughes,36,F-O,80.2,84,77.5,47.5,120,245,5,223.87,Athlone Open,Athlone,2016,amy hughes,03/09/2016,3,372
+Kate Sheehy,374,F-O,56.4,57,92.5,45,100,237.5,1,277.89,Athlone Open,Athlone,2016,kate sheehy,03/09/2016,3,373
+Erica Gaffney,245,F-O,46.6,47,82.5,52.5,100,235,1,318,Athlone Open,Athlone,2016,erica gaffney,03/09/2016,3,374
+Lisa Carroll,417,F-G,57.2,63,77.5,47.5,105,230,G,266.16,Athlone Open,Athlone,2016,lisa carroll,03/09/2016,3,375
+Claire McConnell,126,F-O,55.8,57,75,47.5,95,217.5,2,256.63,Athlone Open,Athlone,2016,claire mcconnell,03/09/2016,3,376
+Aisling McManus,20,F-O,46.2,47,82.5,42.5,90,215,2,292.73,Athlone Open,Athlone,2016,aisling mcmanus,03/09/2016,3,377
+Tara Conlon,637,F-O,61.2,63,50,40,100,190,5,208.62,Athlone Open,Athlone,2016,tara conlon,03/09/2016,3,378
+Robert John McCurtin,546,M-O,70.6,74,137.5,0,160,0,DQ,0,Athlone Open,Athlone,2016,robert john mccurtin,03/09/2016,3,379
+Colin Power,136,M-O,107.8,120,250,170,285,705,1,417.54,RevFit Open,Dublin,2016,colin power,08/10/2016,20,380
+Mark Murphy,449,M-O,100.4,105,240,182.5,270,692.5,1,420.78,RevFit Open,Dublin,2016,mark murphy,08/10/2016,20,381
+Barry Kane,64,M-Z,95.4,105,230,150,260,640,G,397.35,RevFit Open,Dublin,2016,barry kane,08/10/2016,20,382
+Derrie Sutton,208,M-O,99.8,105,220,140,270,630,2,383.72,RevFit Open,Dublin,2016,derrie sutton,08/10/2016,20,383
+Paul O'Hare,516,M-O,98.4,105,225,125,250,600,3,367.56,RevFit Open,Dublin,2016,paul o'hare,08/10/2016,20,384
+Jackie Doherty,311,M-O,81.4,83,210,110,260,580,1,391.72,RevFit Open,Dublin,2016,jackie doherty,08/10/2016,20,385
+Scott Dean,574,M-O,82.4,83,220,115,240,575,2,385.48,RevFit Open,Dublin,2016,scott dean,08/10/2016,20,386
+James Hanley,317,M-O,97.6,105,205,140,230,575,4,353.46,RevFit Open,Dublin,2016,james hanley,08/10/2016,20,387
+Luke Curran,432,M-O,94,105,210,122.5,240,572.5,5,357.84,RevFit Open,Dublin,2016,luke curran,08/10/2016,20,388
+Ryan Ging,555,M-O,82.2,83,200,115,215,530,3,355.83,RevFit Open,Dublin,2016,ryan ging,08/10/2016,20,389
+Nathan Keenan,485,M-O,90.6,93,210,115,205,530,1,337.22,RevFit Open,Dublin,2016,nathan keenan,08/10/2016,20,390
+Sean Ferran,583,M-O,71.6,74,172.5,107.5,200,480,1,353.63,RevFit Open,Dublin,2016,sean ferran,08/10/2016,20,391
+Andrew Greer,44,M-O,82.6,83,170,110,200,480,4,321.32,RevFit Open,Dublin,2016,andrew greer,08/10/2016,20,392
+Thomas Donoghue,643,M-O,72,74,162.5,100,212.5,475,2,348.51,RevFit Open,Dublin,2016,thomas donoghue,08/10/2016,20,393
+Mark Howe,446,M-O,103.2,105,165,120,180,465,6,279.59,RevFit Open,Dublin,2016,mark howe,08/10/2016,20,394
+Conor Devilly,145,M-O,71.4,74,150,115,170,435,3,321.15,RevFit Open,Dublin,2016,conor devilly,08/10/2016,20,395
+Mark Ennis,445,M-O,81.6,83,147.5,105,182.5,435,5,293.35,RevFit Open,Dublin,2016,mark ennis,08/10/2016,20,396
+Barry O'Mahony,65,M-O,78.4,83,150,102.5,180,432.5,6,299.11,RevFit Open,Dublin,2016,barry o'mahony,08/10/2016,20,397
+Karl Howard,371,M-O,102.6,105,130,95,175,400,7,241.03,RevFit Open,Dublin,2016,karl howard,08/10/2016,20,398
+Karen Barry,365,F-O,71,72,145,80,165,390,1,384.25,RevFit Open,Dublin,2016,karen barry,08/10/2016,20,399
+Claire Mc Glynn,125,F-O,63,63,145,65,170,380,1,408.1,RevFit Open,Dublin,2016,claire mc glynn,08/10/2016,20,400
+James Keogh,319,M-O,88.2,93,135,90,155,380,2,245.15,RevFit Open,Dublin,2016,james keogh,08/10/2016,20,401
+Rob Parnell,544,M-O,88.4,93,147.5,80,152.5,380,3,244.85,RevFit Open,Dublin,2016,rob parnell,08/10/2016,20,402
+Clare Patterson,129,F-O,71.4,72,130,90,150,370,2,363.16,RevFit Open,Dublin,2016,clare patterson,08/10/2016,20,403
+Helen Twomey,290,F-O,70.8,72,110,70,180,360,3,355.37,RevFit Open,Dublin,2016,helen twomey,08/10/2016,20,404
+Sharon Lynch,600,F-O,71.8,72,110,67.5,170,347.5,4,339.8,RevFit Open,Dublin,2016,sharon lynch,08/10/2016,20,405
+Sarah Doyle,566,F-O,81.8,84,132.5,55,155,342.5,1,309.62,RevFit Open,Dublin,2016,sarah doyle,08/10/2016,20,406
+Alan Byrne,22,M-O,71.4,74,115,75,145,335,4,247.32,RevFit Open,Dublin,2016,alan byrne,08/10/2016,20,407
+Eric Killeen,243,M-O,71.4,74,117.5,87.5,122.5,327.5,5,241.78,RevFit Open,Dublin,2016,eric killeen,08/10/2016,20,408
+Lauren Elder,401,F-O,61.8,63,102.5,47.5,155,305,2,332.39,RevFit Open,Dublin,2016,lauren elder,08/10/2016,20,409
+Sarah Daly,565,F-O,82,84,100,57.5,140,297.5,2,268.6,RevFit Open,Dublin,2016,sarah daly,08/10/2016,20,410
+Sarah Flynn,567,F-O,55.6,57,105,50,140,295,1,349.05,RevFit Open,Dublin,2016,sarah flynn,08/10/2016,20,411
+Elaine Stone,224,F-O,71.6,72,107.5,67.5,120,295,5,289,RevFit Open,Dublin,2016,elaine stone,08/10/2016,20,412
+Sarah Scallan,572,F-O,62,63,100,60,127.5,287.5,3,312.54,RevFit Open,Dublin,2016,sarah scallan,08/10/2016,20,413
+Leanne Keane,403,F-O,66.6,72,100,57.5,125,282.5,6,291.13,RevFit Open,Dublin,2016,leanne keane,08/10/2016,20,414
+Linda O'Connor,414,F-O,68.2,72,95,60,125,280,7,283.68,RevFit Open,Dublin,2016,linda o'connor,08/10/2016,20,415
+Yvonne Osan,670,F-O,93.2,84+,100,45,135,280,1,238.63,RevFit Open,Dublin,2016,yvonne osan,08/10/2016,20,416
+Jennifer Geary,335,F-O,66,72,100,42.5,115,257.5,8,267.12,RevFit Open,Dublin,2016,jennifer geary,08/10/2016,20,417
+Rebekah Wilson,537,F-O,69.8,72,110,47.5,85,242.5,9,241.73,RevFit Open,Dublin,2016,rebekah wilson,08/10/2016,20,418
+Jen Dela Cruz,333,F-O,50.6,52,80,47.5,107.5,235,1,299.16,RevFit Open,Dublin,2016,jen dela cruz,08/10/2016,20,419
+Clare Duffy,127,F-O,67.8,72,70,50,115,235,10,239.09,RevFit Open,Dublin,2016,clare duffy,08/10/2016,20,420
+Shaoifra Ducker,599,F-O,56.2,57,72.5,40,100,212.5,2,249.33,RevFit Open,Dublin,2016,shaoifra ducker,08/10/2016,20,421
+Caroline Cunniffe,89,F-O,55.4,57,70,35,100,205,3,243.25,RevFit Open,Dublin,2016,caroline cunniffe,08/10/2016,20,422
+Laura Cooley,395,F-O,58.2,63,72.5,42.5,90,205,4,234.03,RevFit Open,Dublin,2016,laura cooley,08/10/2016,20,423
+Michelle Kickham,476,F-Z,52,52,55,30,85,170,G,211.93,RevFit Open,Dublin,2016,michelle kickham,08/10/2016,20,424
+Aisling Judge,18,F-O,77.4,84,135,0,170,0,DQ,0,RevFit Open,Dublin,2016,aisling judge,08/10/2016,20,425
+Ciaragh Kehoe,114,F-O,59,63,0,47.5,120,0,DQ,0,RevFit Open,Dublin,2016,ciaragh kehoe,08/10/2016,20,426
+Ian Murphy,294,M-D,82.4,83,0,0,225,225,1,150.84,RevFit Bench and Deadlift,Dublin,2016,ian murphy,09/10/2016,19,427
+Cian O'Connor,109,M-D,102.2,105,0,0,190,190,1,114.66,RevFit Bench and Deadlift,Dublin,2016,cian o'connor,09/10/2016,19,428
+Maeve Cummins,434,F-D,80.4,84,0,0,167.5,167.5,1,152.84,RevFit Bench and Deadlift,Dublin,2016,maeve cummins,09/10/2016,19,429
+Nicola Paviglianiti,492,F-D,56,57,0,0,152.5,152.5,1,179.43,RevFit Bench and Deadlift,Dublin,2016,nicola paviglianiti,09/10/2016,19,430
+Wendy Kavanagh,664,F-D,61.6,63,0,0,150,150,1,163.88,RevFit Bench and Deadlift,Dublin,2016,wendy kavanagh,09/10/2016,19,431
+Mary Brennan,455,F-D,59.8,63,0,0,140,140,2,156.49,RevFit Bench and Deadlift,Dublin,2016,mary brennan,09/10/2016,19,432
+Gavin Dillon,271,M-B,78.8,83,0,135.5,0,135.5,1,93.4,RevFit Bench and Deadlift,Dublin,2016,gavin dillon,09/10/2016,19,433
+Shelly Boyle,603,F-D,79.4,84,0,0,135,135,2,124.05,RevFit Bench and Deadlift,Dublin,2016,shelly boyle,09/10/2016,19,434
+Joelle Fagan,349,F-D,82.8,84,0,0,135,135,3,121.27,RevFit Bench and Deadlift,Dublin,2016,joelle fagan,09/10/2016,19,435
+Paul Taaffe,518,M-B,92.8,93,0,135,0,135,1,84.89,RevFit Bench and Deadlift,Dublin,2016,paul taaffe,09/10/2016,19,436
+Mairead O'Sullivan,436,F-D,80.8,84,0,0,130,130,4,118.3,RevFit Bench and Deadlift,Dublin,2016,mairead o'sullivan,09/10/2016,19,437
+Mary Mullins,457,F-D,82.8,84,0,0,130,130,5,116.78,RevFit Bench and Deadlift,Dublin,2016,mary mullins,09/10/2016,19,438
+Sinead Vallely,612,F-D,66.6,72,0,0,125,125,1,128.82,RevFit Bench and Deadlift,Dublin,2016,sinead vallely,09/10/2016,19,439
+Michelle Barron,475,F-D,71,72,0,0,125,125,2,123.16,RevFit Bench and Deadlift,Dublin,2016,michelle barron,09/10/2016,19,440
+Owen Slattery,504,M-B,73.2,74,0,125,0,125,1,90.62,RevFit Bench and Deadlift,Dublin,2016,owen slattery,09/10/2016,19,441
+Brid O'Sullivan,79,F-D,71,72,0,0,120,120,3,118.23,RevFit Bench and Deadlift,Dublin,2016,brid o'sullivan,09/10/2016,19,442
+Susan Quirke,631,F-D,83,84,0,0,120,120,6,107.66,RevFit Bench and Deadlift,Dublin,2016,susan quirke,09/10/2016,19,443
+Michelle Thompson,477,F-D,71.8,72,0,0,115,115,4,112.45,RevFit Bench and Deadlift,Dublin,2016,michelle thompson,09/10/2016,19,444
+Amaal Zaki,32,F-D,63,63,0,0,110,110,3,118.14,RevFit Bench and Deadlift,Dublin,2016,amaal zaki,09/10/2016,19,445
+Jennifer Twohig,338,F-D,65.6,72,0,0,110,110,5,114.62,RevFit Bench and Deadlift,Dublin,2016,jennifer twohig,09/10/2016,19,446
+Mark Lacey,447,M-B,90.2,93,0,107.5,0,107.5,2,68.55,RevFit Bench and Deadlift,Dublin,2016,mark lacey,09/10/2016,19,447
+Sean Behan,578,M-B,82.6,83,0,105,0,105,2,70.29,RevFit Bench and Deadlift,Dublin,2016,sean behan,09/10/2016,19,448
+Lucy Sherman,429,F-D,63.2,72,0,0,90,90,6,96.42,RevFit Bench and Deadlift,Dublin,2016,lucy sherman,09/10/2016,19,449
+Shane Cahill,591,M-B,70,74,0,90,0,90,2,67.44,RevFit Bench and Deadlift,Dublin,2016,shane cahill,09/10/2016,19,450
+Sylwia Majszyk,634,F-B,68.4,72,0,85,0,85,1,85.94,RevFit Bench and Deadlift,Dublin,2016,sylwia majszyk,09/10/2016,19,451
+Cian O'Connor,109,M-B,102.2,105,0,80,0,80,1,48.28,RevFit Bench and Deadlift,Dublin,2016,cian o'connor,09/10/2016,19,452
+Grainne Considine,284,F-B,78,84,0,65,0,65,1,60.34,RevFit Bench and Deadlift,Dublin,2016,grainne considine,09/10/2016,19,453
+Claire Caulfield,122,F-B,62.2,63,0,47.5,0,47.5,1,51.51,RevFit Bench and Deadlift,Dublin,2016,claire caulfield,09/10/2016,19,454
+Sinead Vallely,612,F-B,66.6,72,0,47.5,0,47.5,2,48.95,RevFit Bench and Deadlift,Dublin,2016,sinead vallely,09/10/2016,19,455
+Mary Brennan,455,F-B,59.8,63,0,45,0,45,2,50.3,RevFit Bench and Deadlift,Dublin,2016,mary brennan,09/10/2016,19,456
+Wendy Kavanagh,664,F-B,61.6,63,0,45,0,45,3,49.16,RevFit Bench and Deadlift,Dublin,2016,wendy kavanagh,09/10/2016,19,457
+Amaal Zaki,32,F-B,63,63,0,45,0,45,4,48.33,RevFit Bench and Deadlift,Dublin,2016,amaal zaki,09/10/2016,19,458
+Jennifer Twohig,338,F-B,65.6,72,0,40,0,40,3,41.68,RevFit Bench and Deadlift,Dublin,2016,jennifer twohig,09/10/2016,19,459
+Jennifer Higgins,336,F-B,67.2,72,0,40,0,40,4,40.96,RevFit Bench and Deadlift,Dublin,2016,jennifer higgins,09/10/2016,19,460
+Mary Mullins,457,F-B,82.8,84,0,40,0,40,2,35.93,RevFit Bench and Deadlift,Dublin,2016,mary mullins,09/10/2016,19,461
+Brid O'Sullivan,79,F-B,71,72,0,35,0,35,5,34.48,RevFit Bench and Deadlift,Dublin,2016,brid o'sullivan,09/10/2016,19,462
+Cliona Wrenne,130,F-B,59.6,63,0,30,0,30,5,33.62,RevFit Bench and Deadlift,Dublin,2016,cliona wrenne,09/10/2016,19,463
+Fergal Cox,254,M-B,78,83,0,0,0,0,DQ,0,RevFit Bench and Deadlift,Dublin,2016,fergal cox,09/10/2016,19,466
+Mairead O'Sullivan,436,F-B,80.8,84,0,0,0,0,DQ,0,RevFit Bench and Deadlift,Dublin,2016,mairead o'sullivan,09/10/2016,19,464
+Susan Quirke,631,F-B,83,84,0,0,0,0,DQ,0,RevFit Bench and Deadlift,Dublin,2016,susan quirke,09/10/2016,19,465
+Colin Wright,138,M-M1,116.8,120,295,170,320,785,1,454.29,IPF-NIPF All Irelands 2016,Belfast,2015,colin wright,26/11/2016,8,467
+Shane Manning,594,M-SR,118,120,280.5,162.5,295,738,1,426,IPF-NIPF All Irelands 2016,Belfast,2015,shane manning,26/11/2016,8,468
+Robert Newman,547,M-SR,135,120+,257.5,167.5,275,700,1,393.38,IPF-NIPF All Irelands 2016,Belfast,2015,robert newman,26/11/2016,8,469
+Arthur Lynch,60,M-SR,89.8,93,250,165,280,695,1,444.19,IPF-NIPF All Irelands 2016,Belfast,2015,arthur lynch,26/11/2016,8,470
+Stephen Casey,617,M-JR,91.4,93,235,145,300,680,1,430.77,IPF-NIPF All Irelands 2016,Belfast,2015,stephen casey,26/11/2016,8,471
+Sean Ryan,589,M-SR,82.8,83,237.5,145,280,662.5,1,442.85,IPF-NIPF All Irelands 2016,Belfast,2015,sean ryan,26/11/2016,8,472
+Andrew Barr,41,M-SR,79.8,83,225,150,265,640,2,437.62,IPF-NIPF All Irelands 2016,Belfast,2015,andrew barr,26/11/2016,8,473
+John Maher,354,M-SR,82.4,83,225,145,265,635,3,425.7,IPF-NIPF All Irelands 2016,Belfast,2015,john maher,26/11/2016,8,474
+Mark Comiskey,442,M-SR,82,83,225,152.5,242.5,620,4,416.86,IPF-NIPF All Irelands 2016,Belfast,2015,mark comiskey,26/11/2016,8,475
+Lorcan Everard,419,M-JR,77.8,83,220,125,242.5,587.5,1,408.36,IPF-NIPF All Irelands 2016,Belfast,2015,lorcan everard,26/11/2016,8,476
+Aaron Small,2,M-SR,104.6,105,212.5,130,240,582.5,1,348.54,IPF-NIPF All Irelands 2016,Belfast,2015,aaron small,26/11/2016,8,477
+Matthew Henry,459,M-JR,82.6,83,205,122.5,250,577.5,2,386.59,IPF-NIPF All Irelands 2016,Belfast,2015,matthew henry,26/11/2016,8,478
+Jonathan Cathcart,357,M-SR,107.4,120,192.5,152.5,225,570,2,338,IPF-NIPF All Irelands 2016,Belfast,2015,jonathan cathcart,26/11/2016,8,479
+Shayne Mone,602,M-SR,87.8,93,205,132.5,227.5,565,2,365.38,IPF-NIPF All Irelands 2016,Belfast,2015,shayne mone,26/11/2016,8,480
+Philip Barr,527,M-JR,73.2,74,210,140,210,560,1,405.96,IPF-NIPF All Irelands 2016,Belfast,2015,philip barr,26/11/2016,8,481
+Daniel Mowbray,170,M-JR,89.4,93,215,115,230,560,2,358.73,IPF-NIPF All Irelands 2016,Belfast,2015,daniel mowbray,26/11/2016,8,482
+Drew Lupton,216,M-SR,91.2,93,200,122.5,235,557.5,3,353.55,IPF-NIPF All Irelands 2016,Belfast,2015,drew lupton,26/11/2016,8,483
+Ashwin Amersi,61,M-G,74.6,83,195,130,230,555,G,396.95,IPF-NIPF All Irelands 2016,Belfast,2015,ashwin amersi,26/11/2016,8,484
+David McQuillan,197,M-SR,65.4,66,197.5,125,225,547.5,1,433.15,IPF-NIPF All Irelands 2016,Belfast,2015,david mcquillan,26/11/2016,8,485
+Tommy Burns,648,M-SR,71.2,74,205,120,217.5,542.5,1,401.35,IPF-NIPF All Irelands 2016,Belfast,2015,tommy burns,26/11/2016,8,486
+Paul Berry,509,M-SR,80.6,83,200,130,200,530,5,360.14,IPF-NIPF All Irelands 2016,Belfast,2015,paul berry,26/11/2016,8,487
+Deividas Barisas,206,M-SR,71,74,187.5,112.5,225,525,1,389.22,IPF-NIPF All Irelands 2016,Belfast,2015,deividas barisas,26/11/2016,8,488
+Jordan Konczak,362,M-SJ,81.2,83,197.5,117.5,210,525,1,355.11,IPF-NIPF All Irelands 2016,Belfast,2015,jordan konczak,26/11/2016,8,489
+Noel Whelan,498,M-SR,64.4,66,187.5,120,200,507.5,2,406.72,IPF-NIPF All Irelands 2016,Belfast,2015,noel whelan,26/11/2016,8,490
+Reuben Clarke,539,M-JR,72.4,74,162.5,140,200,502.5,2,367.19,IPF-NIPF All Irelands 2016,Belfast,2015,reuben clarke,26/11/2016,8,491
+Sean Ferran,583,M-JR,71,74,185,107.5,195,487.5,3,361.42,IPF-NIPF All Irelands 2016,Belfast,2015,sean ferran,26/11/2016,8,492
+Conor Gelston,147,M-SR,71,74,162.5,100,192.5,455,1,337.33,IPF-NIPF All Irelands 2016,Belfast,2015,conor gelston,26/11/2016,8,493
+Dermot O'Rourke,207,M-SJ,59,59,152.5,90,177.5,420,1,363.79,IPF-NIPF All Irelands 2016,Belfast,2015,dermot o'rourke,26/11/2016,8,494
+Louise Kenna,425,F-SR,71.8,72,150,80,177.5,407.5,1,398.47,IPF-NIPF All Irelands 2016,Belfast,2015,louise kenna,26/11/2016,8,495
+Bronagh McPeake,80,F-SR,62.6,63,153,75,172,400,1,431.66,IPF-NIPF All Irelands 2016,Belfast,2015,bronagh mcpeake,26/11/2016,8,496
+Carla Wright,87,F-SR,70.2,72,120,90,180,390,2,387.23,IPF-NIPF All Irelands 2016,Belfast,2015,carla wright,26/11/2016,8,497
+Vanessa Vanderveen,661,F-SR,75.6,84,145,77.5,157.5,380,1,359.46,IPF-NIPF All Irelands 2016,Belfast,2015,vanessa vanderveen,26/11/2016,8,498
+Lauren Rooney,402,F-SR,114,84+,137.5,80,150,367.5,1,296.66,IPF-NIPF All Irelands 2016,Belfast,2015,lauren rooney,26/11/2016,8,499
+Hazel Hu,288,F-SR,51.2,52,132.5,72.5,155,360,1,454.18,IPF-NIPF All Irelands 2016,Belfast,2015,hazel hu,26/11/2016,8,500
+Gabrielle Ervine,261,F-SR,62.8,63,135,77.5,145,357.5,2,384.87,IPF-NIPF All Irelands 2016,Belfast,2015,gabrielle ervine,26/11/2016,8,501
+Caolan McGlade,86,M-JR,58,59,132.5,82.5,140,355,1,312.46,IPF-NIPF All Irelands 2016,Belfast,2015,caolan mcglade,26/11/2016,8,502
+Cheryl Newberry,96,F-SR,70.4,72,120,60,160,340,3,336.93,IPF-NIPF All Irelands 2016,Belfast,2015,cheryl newberry,26/11/2016,8,503
+Jacqui Pope,312,F-M1,82.8,84,117.5,72.5,150,340,1,305.41,IPF-NIPF All Irelands 2016,Belfast,2015,jacqui pope,26/11/2016,8,504
+Anna Hourihane,52,F-JR,49.8,52,112.5,72.5,145,330,1,425.22,IPF-NIPF All Irelands 2016,Belfast,2015,anna hourihane,26/11/2016,8,505
+Alexandra Kapka,28,F-SR,71.4,72,115,60,150,325,4,318.99,IPF-NIPF All Irelands 2016,Belfast,2015,alexandra kapka,26/11/2016,8,506
+Lauren Elder,401,F-SR,61.8,63,107.5,50,160,317.5,3,346.01,IPF-NIPF All Irelands 2016,Belfast,2015,lauren elder,26/11/2016,8,507
+Chloe-Jade McDonald,97,F-SR,56.4,57,110,55,145,310,1,362.72,IPF-NIPF All Irelands 2016,Belfast,2015,chloe-jade mcdonald,26/11/2016,8,508
+Danielle Barr,171,F-SR,84,84,110,47.5,150,307.5,2,274.21,IPF-NIPF All Irelands 2016,Belfast,2015,danielle barr,26/11/2016,8,509
+Noreen McDermott,499,F-SR,55.4,57,85,60,130,275,2,326.31,IPF-NIPF All Irelands 2016,Belfast,2015,noreen mcdermott,26/11/2016,8,510
+Catherine Higgs,93,F-SR,102.8,84+,102.5,52.5,112.5,267.5,2,221.01,IPF-NIPF All Irelands 2016,Belfast,2015,catherine higgs,26/11/2016,8,511
+Sarah Patterson,571,F-SR,44.2,47,65,40,112.5,217.5,1,305.33,IPF-NIPF All Irelands 2016,Belfast,2015,sarah patterson,26/11/2016,8,512
+Aisling McManus,20,F-SR,46.4,47,82.5,45,90,217.5,2,295.22,IPF-NIPF All Irelands 2016,Belfast,2015,aisling mcmanus,26/11/2016,8,513
+Colin Power,136,M-O,113,120,267.5,177.5,292.5,737.5,1,430.59,Leinster Open 2017,Dublin,2017,colin power,21/01/2017,9,514
+James Hanley,317,M-O,99.4,105,240,160,270,670,1,408.74,Leinster Open 2017,Dublin,2017,james hanley,21/01/2017,9,515
+Derrie Sutton,208,M-O,103.4,105,225,150,270,645,2,387.55,Leinster Open 2017,Dublin,2017,derrie sutton,21/01/2017,9,516
+Seosamh O Griallais,590,M-O,108.2,120,220,142.5,260,622.5,2,368.24,Leinster Open 2017,Dublin,2017,seosamh o griallais,21/01/2017,9,517
+Scott Dean,574,M-O,91.4,93,230,125,262.5,617.5,1,391.17,Leinster Open 2017,Dublin,2017,scott dean,21/01/2017,9,518
+Graham Norton,282,M-O,89.2,93,215,145,255,615,2,394.42,Leinster Open 2017,Dublin,2017,graham norton,21/01/2017,9,519
+Luke Curran,432,M-O,94.6,105,210,140,247.5,597.5,3,372.38,Leinster Open 2017,Dublin,2017,luke curran,21/01/2017,9,520
+Cameron Higgs,84,M-O,102.4,105,240,142.5,215,597.5,4,360.3,Leinster Open 2017,Dublin,2017,cameron higgs,21/01/2017,9,521
+Jack Browne,302,M-O,91.2,93,192.5,130,262.5,585,3,370.99,Leinster Open 2017,Dublin,2017,jack browne,21/01/2017,9,522
+John Maguire,353,M-O,123.8,120+,190,160,232.5,582.5,1,332.6,Leinster Open 2017,Dublin,2017,john maguire,21/01/2017,9,523
+Nigel Pearson,497,M-O,95.6,105,207.5,115,242.5,565,5,350.45,Leinster Open 2017,Dublin,2017,nigel pearson,21/01/2017,9,524
+Jonathan Clarke,358,M-O,73,74,205,130,225,560,1,406.76,Leinster Open 2017,Dublin,2017,jonathan clarke,21/01/2017,9,525
+Fabrizio Marini,252,M-O,90.8,93,200,120,240,560,4,355.91,Leinster Open 2017,Dublin,2017,fabrizio marini,21/01/2017,9,526
+Sam Fischer,558,M-O,91.6,93,210,140,210,560,6,354.37,Leinster Open 2017,Dublin,2017,sam fischer,21/01/2017,9,528
+Steve Roche,626,M-O,91.6,93,220,100,240,560,5,354.37,Leinster Open 2017,Dublin,2017,steve roche,21/01/2017,9,527
+Daniel Mcalpaca,167,M-O,97.8,105,180,112.5,247.5,540,6,331.66,Leinster Open 2017,Dublin,2017,daniel mcalpaca,21/01/2017,9,529
+Paul Taaffe,518,M-O,101.8,105,180,140,200,520,7,314.27,Leinster Open 2017,Dublin,2017,paul taaffe,21/01/2017,9,530
+John Donovan,351,M-O,72.8,74,180,112.5,222.5,515,2,374.82,Leinster Open 2017,Dublin,2017,john donovan,21/01/2017,9,531
+Ben Doyle,67,M-O,91,93,175,125,210,510,7,323.78,Leinster Open 2017,Dublin,2017,ben doyle,21/01/2017,9,532
+Alexandru Plamadeala,29,M-O,83,83,190,112.5,205,507.5,1,338.76,Leinster Open 2017,Dublin,2017,alexandru plamadeala,21/01/2017,9,533
+Conor Devilly,145,M-O,72.4,74,175,125,205,505,3,369.02,Leinster Open 2017,Dublin,2017,conor devilly,21/01/2017,9,534
+Dan Rees,166,M-O,88.6,93,182.5,95,222.5,500,8,321.79,Leinster Open 2017,Dublin,2017,dan rees,21/01/2017,9,535
+Gary Bourke,264,M-O,90.6,93,175,115,210,500,9,318.13,Leinster Open 2017,Dublin,2017,gary bourke,21/01/2017,9,536
+Marcel Vandeweert,439,M-O,72.4,74,185,112.5,200,497.5,4,363.54,Leinster Open 2017,Dublin,2017,marcel vandeweert,21/01/2017,9,537
+Ian Wafer,295,M-O,82,83,180,105,210,495,2,332.82,Leinster Open 2017,Dublin,2017,ian wafer,21/01/2017,9,538
+Damian Christie,162,M-O,91.8,93,170,112.5,212.5,495,10,312.9,Leinster Open 2017,Dublin,2017,damian christie,21/01/2017,9,539
+Eoin Small,242,M-O,90.2,93,180,105,205,490,11,312.46,Leinster Open 2017,Dublin,2017,eoin small,21/01/2017,9,540
+Andrew Gallagher,43,M-O,82.8,83,170,137.5,180,487.5,3,325.87,Leinster Open 2017,Dublin,2017,andrew gallagher,21/01/2017,9,541
+Silvano Senn,605,M-O,92.2,93,160,110,215,485,12,305.94,Leinster Open 2017,Dublin,2017,silvano senn,21/01/2017,9,542
+Wesley Smyth,665,M-O,88.4,93,185,112.5,185,482.5,13,310.9,Leinster Open 2017,Dublin,2017,wesley smyth,21/01/2017,9,543
+Brian McIntyre,78,M-O,81.2,83,160,97.5,220,477.5,4,322.98,Leinster Open 2017,Dublin,2017,brian mcintyre,21/01/2017,9,544
+Conor Campbell,144,M-O,81.8,83,165,112.5,192.5,470,5,316.48,Leinster Open 2017,Dublin,2017,conor campbell,21/01/2017,9,545
+Mark Ennis,445,M-O,85,93,157.5,105,200,462.5,14,304.48,Leinster Open 2017,Dublin,2017,mark ennis,21/01/2017,9,546
+Ciaran Lowe,116,M-O,91.6,93,165,105,190,460,15,291.09,Leinster Open 2017,Dublin,2017,ciaran lowe,21/01/2017,9,547
+Barry O'Mahony,65,M-O,79.4,83,155,107.5,190,452.5,6,310.4,Leinster Open 2017,Dublin,2017,barry o'mahony,21/01/2017,9,548
+Adam Bennett,4,M-O,101.2,105,150,102.5,200,452.5,8,274.1,Leinster Open 2017,Dublin,2017,adam bennett,21/01/2017,9,549
+Gareth Bowden,263,M-O,82.4,83,157.5,105,185,447.5,7,300,Leinster Open 2017,Dublin,2017,gareth bowden,21/01/2017,9,550
+Cian Cusack,105,M-O,83,83,150,90,200,440,8,293.7,Leinster Open 2017,Dublin,2017,cian cusack,21/01/2017,9,551
+Karl Howard,371,M-O,103.4,105,140,100,200,440,9,264.37,Leinster Open 2017,Dublin,2017,karl howard,21/01/2017,9,552
+Cian Slevin,111,M-O,81.4,83,170,100,167.5,437.5,9,295.48,Leinster Open 2017,Dublin,2017,cian slevin,21/01/2017,9,553
+Jack Spencer,309,M-O,73.2,74,160,100,175,435,5,315.34,Leinster Open 2017,Dublin,2017,jack spencer,21/01/2017,9,554
+Rourke Byrne,551,M-O,89.2,93,155,95,185,435,16,278.98,Leinster Open 2017,Dublin,2017,rourke byrne,21/01/2017,9,555
+Conor O'Shea,155,M-O,119.6,120,160,87.5,182.5,430,3,247.41,Leinster Open 2017,Dublin,2017,conor o'shea,21/01/2017,9,556
+JP McGowan,364,M-O,72.6,74,150,87.5,190,427.5,6,311.76,Leinster Open 2017,Dublin,2017,jp mcgowan,21/01/2017,9,557
+Mark Daly,443,M-O,73.8,74,145,97.5,185,427.5,7,308.1,Leinster Open 2017,Dublin,2017,mark daly,21/01/2017,9,558
+Daryll Bailey,187,M-O,90.6,93,140,107.5,180,427.5,17,272,Leinster Open 2017,Dublin,2017,daryll bailey,21/01/2017,9,559
+Dylan Bryans,217,M-O,70.6,74,155,85,185,425,8,316.43,Leinster Open 2017,Dublin,2017,dylan bryans,21/01/2017,9,560
+Conor Markey,151,M-O,109,120,160,80,185,425,4,250.82,Leinster Open 2017,Dublin,2017,conor markey,21/01/2017,9,561
+Conor McEneaney,152,M-O,80.6,83,127.5,95,190,412.5,10,280.3,Leinster Open 2017,Dublin,2017,conor mceneaney,21/01/2017,9,562
+Stephen McCollum,623,M-O,81.6,83,130,87.5,195,412.5,11,278.17,Leinster Open 2017,Dublin,2017,stephen mccollum,21/01/2017,9,563
+Leslie Hoare,408,F-O,82,84,150,85,175,410,1,370.16,Leinster Open 2017,Dublin,2017,leslie hoare,21/01/2017,9,564
+Kevin Croughan,384,M-O,74,74,160,95,155,410,9,294.92,Leinster Open 2017,Dublin,2017,kevin croughan,21/01/2017,9,565
+Rob Parnell,544,M-O,91.8,93,150,90,170,410,18,259.17,Leinster Open 2017,Dublin,2017,rob parnell,21/01/2017,9,566
+Mark Nixon,450,M-O,92.6,93,140,80,190,410,19,258.09,Leinster Open 2017,Dublin,2017,mark nixon,21/01/2017,9,567
+Teanna Watts,640,F-O,80,84,147.5,77.5,160,385,2,352.28,Leinster Open 2017,Dublin,2017,teanna watts,21/01/2017,9,568
+John Abbey,350,M-O,80.6,83,130,85,165,380,12,258.21,Leinster Open 2017,Dublin,2017,john abbey,21/01/2017,9,569
+Sean Dowling,582,M-O,73.6,74,140,77.5,160,377.5,10,272.59,Leinster Open 2017,Dublin,2017,sean dowling,21/01/2017,9,570
+Gabrielle Ervine,261,F-O,62.6,63,132.5,77.5,160,370,1,399.29,Leinster Open 2017,Dublin,2017,gabrielle ervine,21/01/2017,9,571
+Sharon Lynch,600,F-O,71.8,72,125,72.5,170,367.5,1,359.36,Leinster Open 2017,Dublin,2017,sharon lynch,21/01/2017,9,572
+Emma Kiely,235,F-O,79.6,84,125,62.5,157.5,345,3,316.56,Leinster Open 2017,Dublin,2017,emma kiely,21/01/2017,9,573
+Paul Lowry,513,M-O,81.2,83,130,75,140,345,13,233.36,Leinster Open 2017,Dublin,2017,paul lowry,21/01/2017,9,574
+Sara Bauer,564,F-O,69,72,140,45,142.5,327.5,2,329.09,Leinster Open 2017,Dublin,2017,sara bauer,21/01/2017,9,575
+Graeme Butler,281,M-O,73.2,74,110,70,145,325,11,235.6,Leinster Open 2017,Dublin,2017,graeme butler,21/01/2017,9,576
+Ciaran Brennan,115,M-O,79.4,83,110,80,135,325,14,222.94,Leinster Open 2017,Dublin,2017,ciaran brennan,21/01/2017,9,577
+Susan McDonald,630,F-O,97.8,84+,107.5,80,135,322.5,1,270.33,Leinster Open 2017,Dublin,2017,susan mcdonald,21/01/2017,9,578
+Aoife O'Sullivan,57,F-O,62,63,115,55,150,320,2,347.87,Leinster Open 2017,Dublin,2017,aoife o'sullivan,21/01/2017,9,579
+Lorna O'Brien,421,F-G,74,84,117.5,62.5,140,320,G,306.8,Leinster Open 2017,Dublin,2017,lorna o'brien,21/01/2017,9,580
+Fiona Walshe,258,F-O,69.8,72,112.5,57.5,145,315,3,314,Leinster Open 2017,Dublin,2017,fiona walshe,21/01/2017,9,581
+Eloise Sheerin,228,F-O,78.2,84,110,65,137.5,312.5,4,289.67,Leinster Open 2017,Dublin,2017,eloise sheerin,21/01/2017,9,582
+Emily Brennan,231,F-O,71.6,72,115,55,140,310,4,303.7,Leinster Open 2017,Dublin,2017,emily brennan,21/01/2017,9,583
+Eleanor McShortall,227,F-O,68.4,72,105,67.5,127.5,300,5,303.31,Leinster Open 2017,Dublin,2017,eleanor mcshortall,21/01/2017,9,584
+Nicola Corcoran,491,F-O,63,63,102.5,57.5,135,295,3,316.82,Leinster Open 2017,Dublin,2017,nicola corcoran,21/01/2017,9,585
+Roisin Dowling,549,F-O,62.4,63,102.5,52.5,130,285,4,308.31,Leinster Open 2017,Dublin,2017,roisin dowling,21/01/2017,9,586
+Laura Earley,396,F-O,69,72,107.5,52.5,125,285,6,286.38,Leinster Open 2017,Dublin,2017,laura earley,21/01/2017,9,587
+Emily Mazilu,232,F-O,55.2,57,112.5,47.5,122.5,282.5,1,336.16,Leinster Open 2017,Dublin,2017,emily mazilu,21/01/2017,9,588
+Joanne Greene,346,F-O,71.6,72,110,57.5,115,282.5,7,276.76,Leinster Open 2017,Dublin,2017,joanne greene,21/01/2017,9,589
+Jacinta Scully,300,F-O,84.8,84+,112.5,52.5,115,280,2,248.52,Leinster Open 2017,Dublin,2017,jacinta scully,21/01/2017,9,590
+Claire Caulfield,122,F-O,62.4,63,95,47.5,132.5,275,5,297.49,Leinster Open 2017,Dublin,2017,claire caulfield,21/01/2017,9,591
+Laura Bray,394,F-G,85,84+,90,50,120,260,G,230.51,Leinster Open 2017,Dublin,2017,laura bray,21/01/2017,9,592
+Jen Dela Cruz,333,F-O,51.4,52,90,50,115,255,1,320.75,Leinster Open 2017,Dublin,2017,jen dela cruz,21/01/2017,9,593
+Amy O'Gara,38,F-O,67,72,80,45,125,250,8,256.52,Leinster Open 2017,Dublin,2017,amy o'gara,21/01/2017,9,594
+Clare Duffy,127,F-O,68.6,72,75,55,120,250,9,252.24,Leinster Open 2017,Dublin,2017,clare duffy,21/01/2017,9,595
+Leanne Patten,405,F-O,61.2,63,80,47.5,110,237.5,6,260.77,Leinster Open 2017,Dublin,2017,leanne patten,21/01/2017,9,596
+Gemma Davey,274,F-O,53.2,57,82.5,42.5,110,235,2,287.82,Leinster Open 2017,Dublin,2017,gemma davey,21/01/2017,9,597
+Karen Keatinge,366,F-O,56,57,77.5,45,110,232.5,3,273.56,Leinster Open 2017,Dublin,2017,karen keatinge,21/01/2017,9,598
+Ciara Murray,112,F-O,51.4,52,80,45,105,230,2,289.3,Leinster Open 2017,Dublin,2017,ciara murray,21/01/2017,9,599
+Pearl Mackey,523,F-O,61.4,63,85,40,105,230,7,251.9,Leinster Open 2017,Dublin,2017,pearl mackey,21/01/2017,9,600
+Ciara Reynolds,113,F-O,76.6,84,80,45,100,225,5,211.13,Leinster Open 2017,Dublin,2017,ciara reynolds,21/01/2017,9,601
+Fiona Glynn,257,F-O,63,63,80,45,97.5,222.5,8,238.96,Leinster Open 2017,Dublin,2017,fiona glynn,21/01/2017,9,602
+Caroline Cunniffe,89,F-O,56,57,75,40,105,220,4,258.85,Leinster Open 2017,Dublin,2017,caroline cunniffe,21/01/2017,9,603
+Gillian Lynch,277,F-O,61,63,72.5,47.5,100,220,9,242.16,Leinster Open 2017,Dublin,2017,gillian lynch,21/01/2017,9,604
+Shauna Maxwell,601,F-O,59.8,63,75,40,100,215,10,240.32,Leinster Open 2017,Dublin,2017,shauna maxwell,21/01/2017,9,605
+Tara Conlon,637,F-O,62,63,60,42.5,100,202.5,11,220.14,Leinster Open 2017,Dublin,2017,tara conlon,21/01/2017,9,606
+Kiara Privett,387,F-O,65.2,72,65,35,85,185,10,193.64,Leinster Open 2017,Dublin,2017,kiara privett,21/01/2017,9,607
+Rachel Knight,532,F-O,62.6,63,60,30,85,175,12,188.85,Leinster Open 2017,Dublin,2017,rachel knight,21/01/2017,9,608
+Ben Harrison,68,M-O,104.8,105,195,0,217.5,0,DQ,0,Leinster Open 2017,Dublin,2017,ben harrison,21/01/2017,9,609
+Simon Kealy,606,M-O,96,105,165,0,227.5,0,DQ,0,Leinster Open 2017,Dublin,2017,simon kealy,21/01/2017,9,610
+Fionn Hanratty,259,M-O,92.8,93,250,165,270,685,1,430.75,Munster Open 2017,Limerick,2017,fionn hanratty,04/02/2017,11,611
+Cillian Hurley,121,M-O,91.2,93,250,150,280,680,2,431.23,Munster Open 2017,Limerick,2017,cillian hurley,04/02/2017,11,612
+Jonathan Akagha,356,M-O,82,83,230,132.5,285,647.5,1,435.35,Munster Open 2017,Limerick,2017,jonathan akagha,04/02/2017,11,613
+Eoin O'Leary,241,M-O,126,120+,240,155,245,640,1,364.12,Munster Open 2017,Limerick,2017,eoin o'leary,04/02/2017,11,614
+William Clarke,667,M-O,80.2,83,245,150,242.5,637.5,2,434.54,Munster Open 2017,Limerick,2017,william clarke,04/02/2017,11,615
+Kieran Larkin,389,M-O,117,120,210,120,300,630,1,364.43,Munster Open 2017,Limerick,2017,kieran larkin,04/02/2017,11,616
+Gavin Denihan,270,M-O,91.8,93,227.5,142.5,255,625,3,395.08,Munster Open 2017,Limerick,2017,gavin denihan,04/02/2017,11,617
+David O'Connor,200,M-O,104,105,240,137.5,245,622.5,1,373.24,Munster Open 2017,Limerick,2017,david o'connor,04/02/2017,11,618
+Colin Eustace,135,M-O,84,93,225,125,270,620,4,410.95,Munster Open 2017,Limerick,2017,colin eustace,04/02/2017,11,619
+David Duncan,191,M-O,93,93,210,145,255,610,5,383.2,Munster Open 2017,Limerick,2017,david duncan,04/02/2017,11,620
+Dave Worrall,190,M-O,117,120,225,142.5,240,607.5,2,351.41,Munster Open 2017,Limerick,2017,dave worrall,04/02/2017,11,621
+Adam Santorelli,8,M-O,86.2,93,200,162.5,237.5,600,6,391.91,Munster Open 2017,Limerick,2017,adam santorelli,04/02/2017,11,622
+Shane Corbett,592,M-O,88.2,93,220,135,245,600,7,387.07,Munster Open 2017,Limerick,2017,shane corbett,04/02/2017,11,623
+Jason Fehily,329,M-O,118.2,120,225,120,245,590,3,340.43,Munster Open 2017,Limerick,2017,jason fehily,04/02/2017,11,624
+Darragh Hayes,178,M-O,100.8,105,200,137.5,245,582.5,2,353.39,Munster Open 2017,Limerick,2017,darragh hayes,04/02/2017,11,625
+Gavin Dillon,271,M-O,79.8,83,205,137.5,237.5,580,3,396.59,Munster Open 2017,Limerick,2017,gavin dillon,04/02/2017,11,626
+Simon Standbridge,608,M-O,90.6,93,220,120,230,570,8,362.67,Munster Open 2017,Limerick,2017,simon standbridge,04/02/2017,11,627
+Paul Keely,511,M-O,92,93,212.5,127.5,225,565,9,356.77,Munster Open 2017,Limerick,2017,paul keely,04/02/2017,11,628
+Jack Brady,301,M-O,73,74,202.5,127.5,230,560,1,406.76,Munster Open 2017,Limerick,2017,jack brady,04/02/2017,11,629
+Dan Hurley,165,M-O,83,83,200,112.5,247.5,560,4,373.8,Munster Open 2017,Limerick,2017,dan hurley,04/02/2017,11,630
+Darragh Mulcahy,180,M-O,82.4,83,190,135,232.5,557.5,5,373.74,Munster Open 2017,Limerick,2017,darragh mulcahy,04/02/2017,11,631
+Sean Hehir,585,M-O,82.4,83,182.5,140,232.5,555,6,372.07,Munster Open 2017,Limerick,2017,sean hehir,04/02/2017,11,632
+Muhammad Danyal,483,M-O,79.2,83,197.5,145,207.5,550,7,377.89,Munster Open 2017,Limerick,2017,muhammad danyal,04/02/2017,11,633
+Jack Thornton,310,M-O,89.2,93,190,120,240,550,10,352.73,Munster Open 2017,Limerick,2017,jack thornton,04/02/2017,11,634
+Philip Bridgeman,528,M-O,102.8,105,192.5,125,222.5,540,3,325.16,Munster Open 2017,Limerick,2017,philip bridgeman,04/02/2017,11,635
+Sean Hogan,587,M-O,103,105,195,125,212.5,532.5,4,320.41,Munster Open 2017,Limerick,2017,sean hogan,04/02/2017,11,636
+Danny Lennon,174,M-O,73.2,74,187.5,117.5,220,525,2,380.59,Munster Open 2017,Limerick,2017,danny lennon,04/02/2017,11,637
+Donnacha Cregan-Nolan,215,M-O,81,83,175,112.5,230,517.5,8,350.57,Munster Open 2017,Limerick,2017,donnacha cregan-nolan,04/02/2017,11,638
+Jack Cashman,305,M-O,82.6,83,165,122.5,225,512.5,9,343.08,Munster Open 2017,Limerick,2017,jack cashman,04/02/2017,11,639
+Luca Bartoloni,427,M-O,93,93,190,110,210,510,11,320.38,Munster Open 2017,Limerick,2017,luca bartoloni,04/02/2017,11,640
+James Lynch,320,M-O,82.4,83,177.5,112.5,217.5,507.5,10,340.22,Munster Open 2017,Limerick,2017,james lynch,04/02/2017,11,641
+Gar Benn,262,M-O,86,93,180,115,212.5,507.5,12,331.92,Munster Open 2017,Limerick,2017,gar benn,04/02/2017,11,642
+Elan Darcy,225,M-O,91.6,93,175,105,227.5,507.5,13,321.15,Munster Open 2017,Limerick,2017,elan darcy,04/02/2017,11,643
+Darren Bennett,181,M-O,89.6,93,180,95,230,505,14,323.12,Munster Open 2017,Limerick,2017,darren bennett,04/02/2017,11,644
+Tony Campion,650,M-O,82,83,175,102.5,215,492.5,11,331.14,Munster Open 2017,Limerick,2017,tony campion,04/02/2017,11,645
+Michael Kiely,468,M-O,82.4,83,162.5,115,215,492.5,12,330.17,Munster Open 2017,Limerick,2017,michael kiely,04/02/2017,11,646
+Eoin Jefferies,238,M-O,76.2,83,167.5,115,207.5,490,13,345.36,Munster Open 2017,Limerick,2017,eoin jefferies,04/02/2017,11,647
+Anatol Skiba,39,M-O,90.8,93,170,125,190,485,15,308.24,Munster Open 2017,Limerick,2017,anatol skiba,04/02/2017,11,648
+Calum MacLaren,83,M-G,79.8,83,160,92.5,222.5,475,G,324.8,Munster Open 2017,Limerick,2017,calum maclaren,04/02/2017,11,649
+Colin Reay,137,M-O,102,105,160,115,200,475,5,286.86,Munster Open 2017,Limerick,2017,colin reay,04/02/2017,11,650
+Ivan Ray Casinillo,298,M-O,71,74,160,97.5,207.5,465,3,344.74,Munster Open 2017,Limerick,2017,ivan ray casinillo,04/02/2017,11,651
+Gary O'Connor,267,M-O,90,93,165,105,185,455,16,290.47,Munster Open 2017,Limerick,2017,gary o'connor,04/02/2017,11,652
+Austin Keogh,62,M-O,89,93,160,92.5,195,447.5,17,287.33,Munster Open 2017,Limerick,2017,austin keogh,04/02/2017,11,653
+Eric Yeung,244,M-O,72.4,74,140,105,195,440,4,321.52,Munster Open 2017,Limerick,2017,eric yeung,04/02/2017,11,654
+Alexander Wilson-Flynn,27,M-O,91,93,170,100,170,440,18,279.34,Munster Open 2017,Limerick,2017,alexander wilson-flynn,04/02/2017,11,655
+Cian Linehan,107,M-O,82,83,135,92.5,192.5,420,14,282.39,Munster Open 2017,Limerick,2017,cian linehan,04/02/2017,11,656
+James Lynch,313,M-O,87.6,93,140,90,175,405,19,262.23,Munster Open 2017,Limerick,2017,james lynch,04/02/2017,11,657
+Stephanie Gleeson,615,F-O,71.4,72,140,95,165,400,1,392.61,Munster Open 2017,Limerick,2017,stephanie gleeson,04/02/2017,11,658
+Kevin McGrath,385,M-O,82.2,83,130,90,165,385,15,258.48,Munster Open 2017,Limerick,2017,kevin mcgrath,04/02/2017,11,659
+Helen Twomey,290,F-O,73.6,84,125,72.5,175,372.5,1,358.38,Munster Open 2017,Limerick,2017,helen twomey,04/02/2017,11,660
+Nicole Craig,494,F-O,81.8,84,110,60,170,340,2,307.36,Munster Open 2017,Limerick,2017,nicole craig,04/02/2017,11,661
+Aoife O'Leary,56,F-O,83.2,84,130,45,160,335,3,300.18,Munster Open 2017,Limerick,2017,aoife o'leary,04/02/2017,11,662
+Joe Scholefield,348,M-O,58.8,59,125,70,140,335,1,291.09,Munster Open 2017,Limerick,2017,joe scholefield,04/02/2017,11,663
+Abigail Cronin,3,F-O,62.2,63,110,70,150,330,1,357.86,Munster Open 2017,Limerick,2017,abigail cronin,04/02/2017,11,664
+Ava Horrigan,63,F-O,62.8,63,105,57.5,162.5,325,2,349.88,Munster Open 2017,Limerick,2017,ava horrigan,04/02/2017,11,665
+Shelly Boyle,603,F-O,79.6,84,120,57.5,142.5,320,4,293.62,Munster Open 2017,Limerick,2017,shelly boyle,04/02/2017,11,666
+Sarah Daly,565,F-O,82.4,84,110,55,140,305,5,274.66,Munster Open 2017,Limerick,2017,sarah daly,04/02/2017,11,667
+Amy Nolan,37,F-O,61.8,63,100,62.5,140,302.5,3,329.66,Munster Open 2017,Limerick,2017,amy nolan,04/02/2017,11,668
+Clodagh Hunt Cecil,134,F-O,98,84+,105,60,135,300,1,251.31,Munster Open 2017,Limerick,2017,clodagh hunt cecil,04/02/2017,11,669
+Sarah Flynn,567,F-O,55.2,57,112.5,50,135,297.5,1,354.01,Munster Open 2017,Limerick,2017,sarah flynn,04/02/2017,11,670
+Sarah Gardiner,568,F-G,101.2,84+,110,55,132.5,297.5,G,246.85,Munster Open 2017,Limerick,2017,sarah gardiner,04/02/2017,11,671
+Sarah Scallan,572,F-O,60.4,63,102.5,62.5,127.5,292.5,4,324.43,Munster Open 2017,Limerick,2017,sarah scallan,04/02/2017,11,672
+Laura Hanley,397,F-O,63,63,102.5,55,135,292.5,5,314.13,Munster Open 2017,Limerick,2017,laura hanley,04/02/2017,11,673
+Amy Hanley,35,F-O,57,57,100,52.5,125,277.5,2,322.01,Munster Open 2017,Limerick,2017,amy hanley,04/02/2017,11,674
+Sinead Heffernan,609,F-O,61.6,63,95,62.5,120,277.5,6,303.17,Munster Open 2017,Limerick,2017,sinead heffernan,04/02/2017,11,675
+Amaal Zaki,32,F-O,63,63,100,50,127.5,277.5,7,298.02,Munster Open 2017,Limerick,2017,amaal zaki,04/02/2017,11,676
+Dawn Murphy,203,F-O,62,63,95,42.5,137.5,275,8,298.95,Munster Open 2017,Limerick,2017,dawn murphy,04/02/2017,11,677
+Mairead O'Sullivan,436,F-O,80.8,84,102.5,40,132.5,275,6,250.25,Munster Open 2017,Limerick,2017,mairead o'sullivan,04/02/2017,11,678
+Eibhlin O'Regan,221,F-O,112,84+,100,47.5,112.5,260,2,210.61,Munster Open 2017,Limerick,2017,eibhlin o'regan,04/02/2017,11,679
+Mel Barry,463,F-G,67,72,90,37.5,125,252.5,G,259.09,Munster Open 2017,Limerick,2017,mel barry,04/02/2017,11,680
+Sinead Vallely,612,F-O,68.4,72,65,55,120,240,2,242.65,Munster Open 2017,Limerick,2017,sinead vallely,04/02/2017,11,681
+Kerrie Beckett,382,F-O,71.4,72,75,42.5,120,237.5,3,233.11,Munster Open 2017,Limerick,2017,kerrie beckett,04/02/2017,11,682
+Klara Moylan,392,F-O,52,52,75,45,115,235,1,292.96,Munster Open 2017,Limerick,2017,klara moylan,04/02/2017,11,683
+Lisa Carroll,417,F-O,55.8,57,82.5,45,107.5,235,3,277.28,Munster Open 2017,Limerick,2017,lisa carroll,04/02/2017,11,684
+Ruth Allen,552,F-O,62.8,63,80,40,115,235,9,252.99,Munster Open 2017,Limerick,2017,ruth allen,04/02/2017,11,685
+Kate Sheehy,374,F-O,56,57,100,37.5,95,232.5,4,273.56,Munster Open 2017,Limerick,2017,kate sheehy,04/02/2017,11,686
+Brid O'Sullivan,79,F-G,72.6,84,60,37.5,125,222.5,G,215.98,Munster Open 2017,Limerick,2017,brid o'sullivan,04/02/2017,11,687
+Greta Cronin,285,F-G,63.6,72,80,35,105,220,G,234.59,Munster Open 2017,Limerick,2017,greta cronin,04/02/2017,11,688
+Clare O'Donoghue,128,F-O,59.8,63,70,42.5,105,217.5,10,243.12,Munster Open 2017,Limerick,2017,clare o'donoghue,04/02/2017,11,689
+David Keane,195,M-O,49.2,53,80,37.5,95,212.5,1,221.29,Munster Open 2017,Limerick,2017,david keane,04/02/2017,11,690
+Patricia Leane,506,F-O,56.4,57,47.5,35,107.5,190,5,222.31,Munster Open 2017,Limerick,2017,patricia leane,04/02/2017,11,691
+Nicola Phelan,493,F-O,55.8,57,52.5,40,85,177.5,6,209.43,Munster Open 2017,Limerick,2017,nicola phelan,04/02/2017,11,692
+Steven Keane,627,M-O,43.6,53,62.5,32.5,80,175,2,209.61,Munster Open 2017,Limerick,2017,steven keane,04/02/2017,11,693
+Trisha O'Dowd,657,F-O,51.6,52,55,35,82.5,172.5,2,216.33,Munster Open 2017,Limerick,2017,trisha o'dowd,04/02/2017,11,694
+Aisling Fahy,17,F-O,100.4,84+,0,55,130,0,DQ,0,Munster Open 2017,Limerick,2017,aisling fahy,04/02/2017,11,696
+Darren Enright,182,M-O,74,74,170,0,207.5,0,DQ,0,Munster Open 2017,Limerick,2017,darren enright,04/02/2017,11,695
+Margaret Higgins,440,F-G,66.2,72,0,0,0,0,DQ,0,Munster Open 2017,Limerick,2017,margaret higgins,04/02/2017,11,697
+Ursula O'Sullivan,659,F-O,64.6,72,90,47.5,0,0,DQ,0,Munster Open 2017,Limerick,2017,ursula o'sullivan,04/02/2017,11,698
+Arthur Lynch,60,M-O,90.2,93,247.5,170,300,717.5,1,457.53,Ulster Open 2017,Belfast,2017,arthur lynch,25/02/2017,21,699
+Sean Crowe,580,M-O,134.5,120+,240,145,310,695,1,390.81,Ulster Open 2017,Belfast,2017,sean crowe,25/02/2017,21,700
+Andy Mooney,51,M-E,103.4,105,245,177.5,230,652.5,1,392.06,Ulster Open 2017,Belfast,2017,andy mooney,25/02/2017,21,701
+Dean Salmon,205,M-O,95,105,220,160,240,620,1,385.66,Ulster Open 2017,Belfast,2017,dean salmon,25/02/2017,21,702
+Paul O'Hare,516,M-O,105,105,220,130,252.5,602.5,2,360.03,Ulster Open 2017,Belfast,2017,paul o'hare,25/02/2017,21,703
+Ben Harrison,68,M-O,116.2,120,215,150,232.5,597.5,1,346.23,Ulster Open 2017,Belfast,2017,ben harrison,25/02/2017,21,704
+Daniel McHugh,169,M-O,99.6,105,205,127.5,250,582.5,3,355.07,Ulster Open 2017,Belfast,2017,daniel mchugh,25/02/2017,21,705
+Philip Barr,527,M-O,73.4,74,212.5,145,222.5,580,1,419.63,Ulster Open 2017,Belfast,2017,philip barr,25/02/2017,21,706
+Ian Benson,293,M-G,93.4,105,195,135,245,575,G,360.48,Ulster Open 2017,Belfast,2017,ian benson,25/02/2017,21,707
+Jonny Gardner,361,M-O,82.6,83,192.5,142.5,232.5,567.5,1,379.9,Ulster Open 2017,Belfast,2017,jonny gardner,25/02/2017,21,708
+Ryan Beatty,553,M-O,92.4,93,220,120,220,560,2,352.88,Ulster Open 2017,Belfast,2017,ryan beatty,25/02/2017,21,709
+James Rutledge,324,M-O,91.6,93,195,142.5,215,552.5,3,349.62,Ulster Open 2017,Belfast,2017,james rutledge,25/02/2017,21,710
+David Nolan,199,M-O,91.4,93,200,122.5,220,542.5,4,343.66,Ulster Open 2017,Belfast,2017,david nolan,25/02/2017,21,711
+Danny Lennon,174,M-O,73.2,74,187.5,120,222.5,530,2,384.21,Ulster Open 2017,Belfast,2017,danny lennon,25/02/2017,21,712
+Sam Mitchell,560,M-O,82,83,180,130,215,525,2,352.99,Ulster Open 2017,Belfast,2017,sam mitchell,25/02/2017,21,713
+Michael Parry-Jones,471,M-O,100.8,105,187.5,115,205,507.5,4,307.89,Ulster Open 2017,Belfast,2017,michael parry-jones,25/02/2017,21,714
+Louis Warren,424,M-O,71.6,74,177.5,117.5,210,505,3,372.05,Ulster Open 2017,Belfast,2017,louis warren,25/02/2017,21,715
+Sean Ferran,583,M-O,71.2,74,185,115,202.5,502.5,4,371.76,Ulster Open 2017,Belfast,2017,sean ferran,25/02/2017,21,716
+Daniel McAuley,168,M-O,72.2,74,180,120,202.5,502.5,5,367.94,Ulster Open 2017,Belfast,2017,daniel mcauley,25/02/2017,21,717
+Peter Lawrence,526,M-O,92.8,93,165,122.5,215,502.5,5,315.99,Ulster Open 2017,Belfast,2017,peter lawrence,25/02/2017,21,718
+Michael Worthington,473,M-O,101,105,167.5,122.5,210,500,5,303.1,Ulster Open 2017,Belfast,2017,michael worthington,25/02/2017,21,719
+Matthew Coppinger,458,M-O,114.8,120,167.5,122.5,202.5,492.5,2,286.3,Ulster Open 2017,Belfast,2017,matthew coppinger,25/02/2017,21,720
+Chris Clarke,98,M-O,72,74,167.5,100,205,472.5,6,346.68,Ulster Open 2017,Belfast,2017,chris clarke,25/02/2017,21,721
+James McSorley,322,M-O,72.8,74,162.5,97.5,190,450,7,327.51,Ulster Open 2017,Belfast,2017,james mcsorley,25/02/2017,21,722
+Thomas McKenna,644,M-O,82.2,83,150,110,190,450,3,302.12,Ulster Open 2017,Belfast,2017,thomas mckenna,25/02/2017,21,723
+Daryl Draper,186,M-O,91.6,93,160,100,190,450,6,284.76,Ulster Open 2017,Belfast,2017,daryl draper,25/02/2017,21,724
+Chris Dawson,99,M-O,100.6,105,140,95,200,435,6,264.11,Ulster Open 2017,Belfast,2017,chris dawson,25/02/2017,21,725
+Ciaran Murray,118,M-O,64.6,66,170,82.5,180,432.5,1,345.71,Ulster Open 2017,Belfast,2017,ciaran murray,25/02/2017,21,726
+Louise Millar,426,F-O,70.8,72,162.5,85,172.5,420,1,414.6,Ulster Open 2017,Belfast,2017,louise millar,25/02/2017,21,727
+Clare Patterson,129,F-O,71.6,72,132.5,100,155,387.5,2,379.62,Ulster Open 2017,Belfast,2017,clare patterson,25/02/2017,21,728
+Jonathan Connolly,359,M-O,55,59,125,95,160,380,1,352.13,Ulster Open 2017,Belfast,2017,jonathan connolly,25/02/2017,21,729
+Kevin Campbell,383,M-O,71.2,74,130,90,160,380,8,281.13,Ulster Open 2017,Belfast,2017,kevin campbell,25/02/2017,21,730
+Paul Treanor,519,M-O,81.2,83,132.5,85,160,377.5,4,255.34,Ulster Open 2017,Belfast,2017,paul treanor,25/02/2017,21,731
+Alison O'Reilly,31,F-O,80,84,135,75,140,350,1,320.25,Ulster Open 2017,Belfast,2017,alison o'reilly,25/02/2017,21,732
+Donna Cassley,211,F-O,96.8,84+,125,60,160,345,1,290.16,Ulster Open 2017,Belfast,2017,donna cassley,25/02/2017,21,733
+Carrie Carmichael,91,F-O,69,72,125,47.5,170,342.5,3,344.16,Ulster Open 2017,Belfast,2017,carrie carmichael,25/02/2017,21,734
+Linh Nguyen,416,F-O,62,63,135,62.5,135,332.5,1,361.46,Ulster Open 2017,Belfast,2017,linh nguyen,25/02/2017,21,735
+Kathleen Scully,376,F-O,83.4,84,125,60,140,325,2,290.86,Ulster Open 2017,Belfast,2017,kathleen scully,25/02/2017,21,736
+Rebekah Wilson,537,F-G,77.8,84,115,42.5,157.5,315,G,292.86,Ulster Open 2017,Belfast,2017,rebekah wilson,25/02/2017,21,737
+Katharine Teggarty,375,F-O,54.8,57,100,52.5,155,307.5,1,368,Ulster Open 2017,Belfast,2017,katharine teggarty,25/02/2017,21,738
+Sandra Hammersley,563,F-O,61.4,63,97.5,55,155,307.5,2,336.78,Ulster Open 2017,Belfast,2017,sandra hammersley,25/02/2017,21,739
+Heather Thompson,289,F-O,95,84+,125,57.5,125,307.5,2,260.27,Ulster Open 2017,Belfast,2017,heather thompson,25/02/2017,21,740
+Donna Ivie,213,F-O,102.8,84+,110,67.5,125,302.5,3,249.92,Ulster Open 2017,Belfast,2017,donna ivie,25/02/2017,21,741
+Aeilish McGovern,10,F-O,56.4,57,105,55,140,300,2,351.02,Ulster Open 2017,Belfast,2017,aeilish mcgovern,25/02/2017,21,742
+Karen McCormack,367,F-O,70,72,112.5,60,125,297.5,4,295.97,Ulster Open 2017,Belfast,2017,karen mccormack,25/02/2017,21,743
+Danielle Gault,172,F-O,69.2,72,100,60,130,290,5,290.81,Ulster Open 2017,Belfast,2017,danielle gault,25/02/2017,21,744
+Joanne Fitzgerald,344,F-O,62.4,63,110,47.5,117.5,275,3,297.49,Ulster Open 2017,Belfast,2017,joanne fitzgerald,25/02/2017,21,745
+Miranda Connolly,478,F-O,121.6,84+,90,80,100,270,4,215.4,Ulster Open 2017,Belfast,2017,miranda connolly,25/02/2017,21,746
+Tara Maguire,638,F-G,62.8,63,97.5,50,115,262.5,G,282.59,Ulster Open 2017,Belfast,2017,tara maguire,25/02/2017,21,747
+Pamela Boyle,505,F-O,66.6,72,85,40,130,255,6,262.79,Ulster Open 2017,Belfast,2017,pamela boyle,25/02/2017,21,748
+Tess Keeler,642,F-O,69.4,72,82.5,42.5,130,255,7,255.2,Ulster Open 2017,Belfast,2017,tess keeler,25/02/2017,21,749
+Emma Moore,236,F-O,71.8,72,85,45,125,255,8,249.35,Ulster Open 2017,Belfast,2017,emma moore,25/02/2017,21,750
+Catherine Higgs,93,F-O,106.4,84+,90,52.5,110,252.5,5,206.83,Ulster Open 2017,Belfast,2017,catherine higgs,25/02/2017,21,751
+Rebecca Hoban,534,F-O,65.4,72,85,55,105,245,9,255.87,Ulster Open 2017,Belfast,2017,rebecca hoban,25/02/2017,21,752
+Elaine Clarke,222,F-O,67.8,72,80,47.5,100,227.5,10,231.46,Ulster Open 2017,Belfast,2017,elaine clarke,25/02/2017,21,753
+Emma Keyes,234,F-O,62.2,63,80,40,100,220,4,238.58,Ulster Open 2017,Belfast,2017,emma keyes,25/02/2017,21,754
+Laura Cooley,395,F-O,58.2,63,80,45,92.5,217.5,5,248.3,Ulster Open 2017,Belfast,2017,laura cooley,25/02/2017,21,755
+Terri Knightley,641,F-O,66.8,72,75,42.5,100,217.5,11,223.66,Ulster Open 2017,Belfast,2017,terri knightley,25/02/2017,21,756
+Lorna Cooney,420,F-G,58.4,63,70,40,105,215,G,244.79,Ulster Open 2017,Belfast,2017,lorna cooney,25/02/2017,21,757
+Laura Swandel,399,F-O,51.8,52,60,45,105,210,1,262.57,Ulster Open 2017,Belfast,2017,laura swandel,25/02/2017,21,758
+Grace Kelly,280,F-O,60.4,63,102.5,60,0,0,DQ,0,Ulster Open 2017,Belfast,2017,grace kelly,25/02/2017,21,759
+Barry Pigott,66,M-O,92.44,93,262.6,200,282.5,745,5,469.35,European Classic Championships 2017,Thisted,2017,barry pigott,12/03/2017,6,760
+Kenneth Nwaezeigwe,381,M-JR,91.54,93,242.5,137.5,265,645,12,408.29,European Classic Championships 2017,Thisted,2017,kenneth nwaezeigwe,12/03/2017,6,761
+Adam Keane,6,M-O,82.34,83,247.5,130,262.5,640,16,429.25,European Classic Championships 2017,Thisted,2017,adam keane,12/03/2017,6,762
+Mark Comiskey,442,M-O,79.94,83,225,150,247.5,622.5,19,425.17,European Classic Championships 2017,Thisted,2017,mark comiskey,12/03/2017,6,763
+Shane Corbett,592,M-JR,90.1,93,220,132.5,260,612.5,14,390.14,European Classic Championships 2017,Thisted,2017,shane corbett,12/03/2017,6,764
+Lorcan Everard,419,M-JR,79.72,83,222.5,127.5,250,600,12,410.52,European Classic Championships 2017,Thisted,2017,lorcan everard,12/03/2017,6,765
+Jordan Konczak,362,M-JR,81.96,83,207.5,130,220,557.5,14,374.988,European Classic Championships 2017,Thisted,2017,jordan konczak,12/03/2017,6,766
+Dylan Potter,218,M-SJR,57.36,59,147.5,100,175,422.5,2,375.81,European Classic Championships 2017,Thisted,2017,dylan potter,12/03/2017,6,767
+Bronagh McPeake,80,F-O,62.1,63,157.5,77.5,180,415,6,450.61,European Classic Championships 2017,Thisted,2017,bronagh mcpeake,12/03/2017,6,768
+Shannon Pollock,598,F-O,71.06,72,155,75,170,400,6,393.88,European Classic Championships 2017,Thisted,2017,shannon pollock,12/03/2017,6,769
+Karen Barry,365,F-O,69.74,72,150,82.5,157.5,390,7,388.99,European Classic Championships 2017,Thisted,2017,karen barry,12/03/2017,6,770
+Lauren Rooney,402,F-O,116.1,84+,147.5,82.5,160,390,8,313.75,European Classic Championships 2017,Thisted,2017,lauren rooney,12/03/2017,6,771
+Claire Mc Glynn,125,F-O,62.76,63,142.5,67.5,160,370,7,398.53,European Classic Championships 2017,Thisted,2017,claire mc glynn,12/03/2017,6,772
+Aoife O'Sullivan,57,F-JR,62.36,63,122.5,60,157.5,340,7,376.98,European Classic Championships 2017,Thisted,2017,aoife o'sullivan,12/03/2017,6,773
+Suzanne Gray,632,F-JR,69.46,72,122.5,70,145,337.5,9,337.57,European Classic Championships 2017,Thisted,2017,suzanne gray,12/03/2017,6,774
+Laura Walsh,400,F-O,50.06,52,115,67.5,130,312.5,8,401.09,European Classic Championships 2017,Thisted,2017,laura walsh,12/03/2017,6,775
+Amy Donoghue,34,F-JR,56.1,57,107.5,52.5,142.5,302.5,8,355.44,European Classic Championships 2017,Thisted,2017,amy donoghue,12/03/2017,6,776
+Emily Mazilu,232,F-JR,54.36,57,112.5,52.5,127.5,292.5,9,352.86,European Classic Championships 2017,Thisted,2017,emily mazilu,12/03/2017,6,777
+Colin Eustace,135,M-O,85.8,93,220,132.5,280,632.5,1,414.21,University Championships 2017,Cork,2017,colin eustace,25/03/2017,22,778
+Tochukwu Anachebe,646,M-O,89.2,93,220,130,250,600,2,384.8,University Championships 2017,Cork,2017,tochukwu anachebe,25/03/2017,22,779
+Steve Roche,626,M-O,91.2,93,242.5,107.5,245,595,3,377.33,University Championships 2017,Cork,2017,steve roche,25/03/2017,22,780
+Sean Hickey,586,M-O,115.6,120,215,140,227.5,582.5,1,338,University Championships 2017,Cork,2017,sean hickey,25/03/2017,22,781
+Gavin Dillon,271,M-O,78.4,83,210,130,240,580,1,401.12,University Championships 2017,Cork,2017,gavin dillon,25/03/2017,22,782
+Brian Madden,77,M-O,91.4,93,190,117.5,255,562.5,4,356.33,University Championships 2017,Cork,2017,brian madden,25/03/2017,22,783
+Sean Greavy,584,M-O,101.8,105,195,135,230,560,1,338.44,University Championships 2017,Cork,2017,sean greavy,25/03/2017,22,784
+Billy Ahern,75,M-O,103.8,105,182.5,122.5,252.5,557.5,2,334.5,University Championships 2017,Cork,2017,billy ahern,25/03/2017,22,785
+Darren Horgan,185,M-O,80.6,83,187.5,122.5,240,550,2,373.73,University Championships 2017,Cork,2017,darren horgan,25/03/2017,22,786
+Jack Cashman,305,M-O,88.8,93,180,130,240,550,5,353.55,University Championships 2017,Cork,2017,jack cashman,25/03/2017,22,787
+Michael O'Shea,470,M-O,99.8,105,207.5,125,210,542.5,3,330.42,University Championships 2017,Cork,2017,michael o'shea,25/03/2017,22,788
+Conor Devilly,145,M-O,75,83,180,130,215,525,3,374.09,University Championships 2017,Cork,2017,conor devilly,25/03/2017,22,789
+Darren Enright,182,M-O,76.4,83,175,132.5,207.5,515,4,362.34,University Championships 2017,Cork,2017,darren enright,25/03/2017,22,790
+Eoin Jefferies,238,M-O,77.4,83,175,115,215,505,5,352.22,University Championships 2017,Cork,2017,eoin jefferies,25/03/2017,22,791
+Eoin Long,239,M-O,81.2,83,157.5,117.5,220,495,6,334.82,University Championships 2017,Cork,2017,eoin long,25/03/2017,22,792
+Shane O'Carroll,596,M-O,90.4,93,160,115,215,490,6,312.11,University Championships 2017,Cork,2017,shane o'carroll,25/03/2017,22,793
+Kieran Walsh,390,M-O,104.8,105,167.5,127.5,192.5,487.5,4,291.5,University Championships 2017,Cork,2017,kieran walsh,25/03/2017,22,794
+Bernard O'Reilly,72,M-O,78.8,83,162.5,120,200,482.5,7,332.59,University Championships 2017,Cork,2017,bernard o'reilly,25/03/2017,22,795
+Tadhg Devlin,635,M-O,78.6,83,165,105,207.5,477.5,8,329.69,University Championships 2017,Cork,2017,tadhg devlin,25/03/2017,22,796
+Gavin Hicks,272,M-O,80.8,83,172.5,102.5,195,470,9,318.88,University Championships 2017,Cork,2017,gavin hicks,25/03/2017,22,797
+Conor O'Driscoll,154,M-O,80.2,83,160,92.5,205,457.5,10,311.84,University Championships 2017,Cork,2017,conor o'driscoll,25/03/2017,22,798
+Adam Loughnane,7,M-O,72.2,74,155,95,205,455,1,333.16,University Championships 2017,Cork,2017,adam loughnane,25/03/2017,22,799
+Mark Swayne,452,M-O,73.6,74,162.5,107.5,185,455,2,328.55,University Championships 2017,Cork,2017,mark swayne,25/03/2017,22,800
+Richard Burke,540,M-O,71.4,74,160,115,175,450,3,332.22,University Championships 2017,Cork,2017,richard burke,25/03/2017,22,801
+Dylan Potter,218,M-O,61,66,150,106,187.5,443.5,1,372.63,University Championships 2017,Cork,2017,dylan potter,25/03/2017,22,802
+Paul Reddin,517,M-O,80.2,83,152.5,82.5,207.5,442.5,11,301.62,University Championships 2017,Cork,2017,paul reddin,25/03/2017,22,803
+Dara Lawler,175,M-O,85,93,142.5,87.5,200,430,7,283.09,University Championships 2017,Cork,2017,dara lawler,25/03/2017,22,804
+Kevin Croughan,384,M-O,73.8,74,155,95,170,420,4,302.69,University Championships 2017,Cork,2017,kevin croughan,25/03/2017,22,805
+Callum McCormack,82,M-O,72.4,74,162.5,82.5,172.5,417.5,5,305.08,University Championships 2017,Cork,2017,callum mccormack,25/03/2017,22,806
+Fergal O'Connor,255,M-O,71.4,74,150,80,185,415,6,306.38,University Championships 2017,Cork,2017,fergal o'connor,25/03/2017,22,807
+Thomas O'Rourke,645,M-O,77.4,83,140,85,175,400,12,278.98,University Championships 2017,Cork,2017,thomas o'rourke,25/03/2017,22,808
+Alan O'Doherty,24,M-O,72.6,74,130,82.5,185,397.5,7,289.88,University Championships 2017,Cork,2017,alan o'doherty,25/03/2017,22,809
+Gavin Bolger,268,M-O,115.6,120,145,82.5,170,397.5,2,230.65,University Championships 2017,Cork,2017,gavin bolger,25/03/2017,22,810
+Micheal Carroll,474,M-O,80.8,83,125,85,185,395,13,267.99,University Championships 2017,Cork,2017,micheal carroll,25/03/2017,22,811
+Ewan Mullane,251,M-O,65,66,137.5,90,155,382.5,2,304.16,University Championships 2017,Cork,2017,ewan mullane,25/03/2017,22,812
+Joe Scholefield,348,M-G,59.2,66,125,72.5,150,347.5,G,300.05,University Championships 2017,Cork,2017,joe scholefield,25/03/2017,22,813
+Aoife O'Sullivan,57,F-O,62.2,63,120,57.5,160,337.5,1,366,University Championships 2017,Cork,2017,aoife o'sullivan,25/03/2017,22,814
+Caoimhe Ryan,85,F-G,77.2,84,122.5,65,137.5,325,G,303.55,University Championships 2017,Cork,2017,caoimhe ryan,25/03/2017,22,815
+Freya Hammer,260,F-O,71,72,110,62.5,122.5,295,1,290.65,University Championships 2017,Cork,2017,freya hammer,25/03/2017,22,816
+Shannon Hooi,597,F-O,61.6,63,95,52.5,122.5,270,2,294.98,University Championships 2017,Cork,2017,shannon hooi,25/03/2017,22,817
+Mairead Murphy,435,F-O,51.6,52,90,42.5,125,257.5,1,322.93,University Championships 2017,Cork,2017,mairead murphy,25/03/2017,22,818
+Jean Kelly,331,F-O,55.6,57,87.5,42.5,120,250,1,295.81,University Championships 2017,Cork,2017,jean kelly,25/03/2017,22,819
+Klara Moylan,392,F-O,51.4,52,80,50,117.5,247.5,2,311.31,University Championships 2017,Cork,2017,klara moylan,25/03/2017,22,820
+Chere Duffy,95,F-O,56.4,57,72.5,52.5,120,245,2,286.66,University Championships 2017,Cork,2017,chere duffy,25/03/2017,22,821
+Lota Leinberga,423,F-O,60.4,63,95,50,100,245,3,271.75,University Championships 2017,Cork,2017,lota leinberga,25/03/2017,22,822
+Ainul Fatihah Mohd Sharir,16,F-O,50.4,52,67.5,55,110,232.5,3,296.88,University Championships 2017,Cork,2017,ainul fatihah mohd sharir,25/03/2017,22,823
+Isabel Brown,296,F-O,54.2,57,75,40,100,215,3,259.53,University Championships 2017,Cork,2017,isabel brown,25/03/2017,22,824
+Rachel Knight,532,F-O,61.8,63,62.5,40,87.5,190,4,207.06,University Championships 2017,Cork,2017,rachel knight,25/03/2017,22,825
+Sarah Walsh,573,F-G,54.8,57,70,35,82.5,187.5,G,224.39,University Championships 2017,Cork,2017,sarah walsh,25/03/2017,22,826
+Isabel Puente Lozano,297,F-O,61.2,63,60,37.5,87.5,185,5,203.13,University Championships 2017,Cork,2017,isabel puente lozano,25/03/2017,22,827
+Olivia Donohoe,502,F-O,53.2,57,52.5,27.5,77.5,157.5,4,192.9,University Championships 2017,Cork,2017,olivia donohoe,25/03/2017,22,828
+Aine McCarthy,15,F-O,71.2,72,25,35,70,130,2,127.84,University Championships 2017,Cork,2017,aine mccarthy,25/03/2017,22,829
+Eoin O'Leary,241,M-O,127.3,120+,250,160,255,665,1,377.59,May Open 2017,,2017,eoin o'leary,27/05/2017,10,876
+John Maher,354,M-O,82.7,83,235,145,277.5,657.5,1,439.83,May Open 2017,,2017,john maher,27/05/2017,10,877
+Mark Dowling,444,M-O,90.8,93,240,132.5,265,637.5,1,405.17,May Open 2017,,2017,mark dowling,27/05/2017,10,878
+Ian Benson,293,M-O,92.3,93,220,137.5,260,617.5,2,389.31,May Open 2017,,2017,ian benson,27/05/2017,10,879
+Darragh Hayes,178,M-O,110.8,120,215,140,260,615,1,361.13,May Open 2017,,2017,darragh hayes,27/05/2017,10,880
+Rob Burke,543,M-O,134.8,120+,230,132.5,250,612.5,2,344.29,May Open 2017,,2017,rob burke,27/05/2017,10,881
+Darragh Mulcahy,180,M-O,82.3,83,210,140,250,600,2,402.53,May Open 2017,,2017,darragh mulcahy,27/05/2017,10,882
+Dan Hurley,165,M-O,89.7,93,210,122.5,260,592.5,3,378.89,May Open 2017,,2017,dan hurley,27/05/2017,10,883
+Brian Madden,77,M-O,90.5,93,202.5,112.5,265,580,4,369.23,May Open 2017,,2017,brian madden,27/05/2017,10,884
+Jack Thornton,310,M-O,91.8,93,205,122.5,250,577.5,5,365.05,May Open 2017,,2017,jack thornton,27/05/2017,10,885
+Luke Curran,432,M-O,97,105,202.5,130,240,572.5,1,352.85,May Open 2017,,2017,luke curran,27/05/2017,10,886
+Stephen Manning,622,M-O,100.5,105,200,120,240,560,2,340.14,May Open 2017,,2017,stephen manning,27/05/2017,10,887
+Alan Flanagan,23,M-O,82.8,83,182.5,127.5,247.5,557.5,3,372.66,May Open 2017,,2017,alan flanagan,27/05/2017,10,888
+Michael Chisholm,465,M-O,112.5,120,185,147.5,220,552.5,2,322.99,May Open 2017,,2017,michael chisholm,27/05/2017,10,889
+Michael Grace,467,M-O,91.1,93,190,130,230,550,6,348.98,May Open 2017,,2017,michael grace,27/05/2017,10,890
+Ian Wafer,295,M-O,81.4,83,190,112.5,240,542.5,4,366.39,May Open 2017,,2017,ian wafer,27/05/2017,10,891
+Paul Taaffe,518,M-O,103.4,105,195,142.5,205,542.5,3,325.96,May Open 2017,,2017,paul taaffe,27/05/2017,10,892
+James Lynch,320,M-O,87.7,93,200,120,220,540,7,349.42,May Open 2017,,2017,james lynch,27/05/2017,10,893
+Richie Maher,542,M-O,87.4,93,185,117.5,235,537.5,8,348.45,May Open 2017,,2017,richie maher,27/05/2017,10,894
+Gary Bourke,264,M-O,92.7,93,185,120,220,525,9,330.31,May Open 2017,,2017,gary bourke,27/05/2017,10,895
+Eoin Jefferies,238,M-O,78.7,83,180,122.5,215,517.5,5,357.01,May Open 2017,,2017,eoin jefferies,27/05/2017,10,896
+Silvano Senn,605,M-O,92,93,165,112.5,222.5,500,10,315.73,May Open 2017,,2017,silvano senn,27/05/2017,10,897
+Brendan Geraghty,76,M-O,90.7,93,185,107.5,195,487.5,11,310,May Open 2017,,2017,brendan geraghty,27/05/2017,10,898
+Jason Finan,330,M-O,72.9,74,167.5,112.5,205,485,1,352.63,May Open 2017,,2017,jason finan,27/05/2017,10,899
+Damian Christie,162,M-O,90.9,93,172.5,117.5,195,485,12,308.07,May Open 2017,,2017,damian christie,27/05/2017,10,900
+Farzad Azizi,253,M-O,81.1,83,162.5,130,190,482.5,6,326.61,May Open 2017,,2017,farzad azizi,27/05/2017,10,901
+Brian McIntyre,78,M-O,80.7,83,160,95,222.5,477.5,7,324.22,May Open 2017,,2017,brian mcintyre,27/05/2017,10,902
+David Moran,198,M-O,99.1,105,160,102.5,212.5,475,4,290.14,May Open 2017,,2017,david moran,27/05/2017,10,903
+Colm Curley,139,M-O,71.9,74,180,90,200,470,2,345.2,May Open 2017,,2017,colm curley,27/05/2017,10,904
+Conor O'Shea,155,M-O,110.5,120,175,85,192.5,452.5,3,265.93,May Open 2017,,2017,conor o'shea,27/05/2017,10,905
+JP McGowan,364,M-O,72.6,74,160,90,200,450,3,328.17,May Open 2017,,2017,jp mcgowan,27/05/2017,10,906
+Robert Parnell,548,M-O,91.9,93,160,97.5,180,437.5,13,276.41,May Open 2017,,2017,robert parnell,27/05/2017,10,907
+Kevin McGrath,385,M-O,87.3,93,150,100,170,420,14,272.44,May Open 2017,,2017,kevin mcgrath,27/05/2017,10,908
+Jared O'Sullivan,327,M-O,71.6,74,135,107.5,152.5,395,4,291.01,May Open 2017,,2017,jared o'sullivan,27/05/2017,10,909
+Adrian Mullins,9,M-O,79.6,83,117.5,87.5,190,395,8,270.52,May Open 2017,,2017,adrian mullins,27/05/2017,10,910
+Ulick O'Sullivan,658,M-O,101.7,105,142.5,87.5,165,395,5,238.81,May Open 2017,,2017,ulick o'sullivan,27/05/2017,10,911
+Mark O'Sullivan,451,M-O,80.6,83,135,75,175,385,9,261.61,May Open 2017,,2017,mark o'sullivan,27/05/2017,10,912
+Eric Killeen,243,M-O,79.8,83,127.5,95,160,382.5,10,261.55,May Open 2017,,2017,eric killeen,27/05/2017,10,913
+Aoife O'Leary,56,F-O,83,84,150,50,180,380,1,340.92,May Open 2017,,2017,aoife o'leary,27/05/2017,10,914
+John Hayes,352,M-O,89,93,130,80,150,360,15,231.15,May Open 2017,,2017,john hayes,27/05/2017,10,915
+Jack Noone,307,M-O,72.8,74,127.5,75,147.5,350,5,254.73,May Open 2017,,2017,jack noone,27/05/2017,10,916
+Nicole Craig,494,F-O,82.2,84,120,62.5,162.5,345,2,311.08,May Open 2017,,2017,nicole craig,27/05/2017,10,917
+Heather Thompson,289,F-O,94.3,84+,130,62.5,135,327.5,1,277.92,May Open 2017,,2017,heather thompson,27/05/2017,10,918
+Tracey Kelly,654,F-O,101.2,84+,110,55,142.5,307.5,2,255.15,May Open 2017,,2017,tracey kelly,27/05/2017,10,919
+Miranda Connolly,478,F-O,121.1,84+,110,82.5,115,307.5,3,245.5,May Open 2017,,2017,miranda connolly,27/05/2017,10,920
+Laura Hanley,397,F-O,62.7,63,107.5,55,140,302.5,1,326.05,May Open 2017,,2017,laura hanley,27/05/2017,10,921
+James Moran,323,M-O,72.6,74,95,70,135,300,6,218.78,May Open 2017,,2017,james moran,27/05/2017,10,922
+Dawn Murphy O'Shea,204,F-O,61.7,63,112.5,45,140,297.5,2,324.62,May Open 2017,,2017,dawn murphy o'shea,27/05/2017,10,923
+Tara Maguire,638,F-O,61.8,63,115,57.5,125,297.5,3,324.21,May Open 2017,,2017,tara maguire,27/05/2017,10,924
+Mairead O'Sullivan,436,F-O,79.5,84,115,40,142.5,297.5,3,273.17,May Open 2017,,2017,mairead o'sullivan,27/05/2017,10,925
+Aisling Fahy,17,F-O,101.7,84+,100,60,135,295,4,244.44,May Open 2017,,2017,aisling fahy,27/05/2017,10,926
+Sarah Scallan,572,F-O,56.1,57,100,62.5,130,292.5,1,343.68,May Open 2017,,2017,sarah scallan,27/05/2017,10,927
+Eleanor McShortall,227,F-O,70,72,105,62.5,125,292.5,1,290.99,May Open 2017,,2017,eleanor mcshortall,27/05/2017,10,928
+Joanne Greene,346,F-O,70.9,72,105,60,125,290,2,285.99,May Open 2017,,2017,joanne greene,27/05/2017,10,929
+Amy Hughes,36,F-O,81.2,84,92.5,52.5,130,275,4,249.58,May Open 2017,,2017,amy hughes,27/05/2017,10,930
+Megan Dunlea O'Brien,462,F-G,94.5,84+,105,45,125,275,G,233.19,May Open 2017,,2017,megan dunlea o'brien,27/05/2017,10,931
+Sophie Renshaw,614,F-O,79.1,84,90,55,127.5,272.5,5,250.93,May Open 2017,,2017,sophie renshaw,27/05/2017,10,932
+Rachel Cassidy,530,F-O,69.6,72,90,47.5,130,267.5,3,267.18,May Open 2017,,2017,rachel cassidy,27/05/2017,10,933
+Amy O'Gara,38,F-O,70,72,87.5,50,127.5,265,4,263.63,May Open 2017,,2017,amy o'gara,27/05/2017,10,934
+Laura Bray,394,F-O,82.5,84,100,50,115,265,6,238.49,May Open 2017,,2017,laura bray,27/05/2017,10,935
+Joanne Gibbons,345,F-O,62.3,63,97.5,47.5,117.5,262.5,4,284.32,May Open 2017,,2017,joanne gibbons,27/05/2017,10,936
+Tracey Fitzmaurice,653,F-O,61.7,63,90,52.5,117.5,260,5,283.7,May Open 2017,,2017,tracey fitzmaurice,27/05/2017,10,937
+Sinead Vallely,612,F-O,68.8,72,75,55,127.5,257.5,5,259.27,May Open 2017,,2017,sinead vallely,27/05/2017,10,938
+Clare O'Donoghue,128,F-O,57,57,92.5,50,112.5,255,2,295.9,May Open 2017,,2017,clare o'donoghue,27/05/2017,10,939
+Eva Lomasney,250,F-O,63,63,85,47.5,115,247.5,6,265.8,May Open 2017,,2017,eva lomasney,27/05/2017,10,940
+Sarah Hayden,569,F-G,57.8,63,82.5,47.5,115,245,G,281.21,May Open 2017,,2017,sarah hayden,27/05/2017,10,941
+April Dardis,59,F-O,56.2,57,85,47.5,110,242.5,3,284.53,May Open 2017,,2017,april dardis,27/05/2017,10,942
+Lisa Towell,418,F-O,62.7,63,85,47.5,110,242.5,7,261.38,May Open 2017,,2017,lisa towell,27/05/2017,10,943
+Ciara Reynolds,113,F-O,71.2,72,87.5,50,105,242.5,6,238.47,May Open 2017,,2017,ciara reynolds,27/05/2017,10,944
+Emma Keyes,234,F-O,61.6,63,90,42.5,102.5,235,8,256.74,May Open 2017,,2017,emma keyes,27/05/2017,10,945
+Laura Cooley,395,F-O,58.3,63,77.5,50,95,222.5,9,253.67,May Open 2017,,2017,laura cooley,27/05/2017,10,946
+Cliona Wrenne,130,F-O,61.7,63,70,40,110,220,10,240.05,May Open 2017,,2017,cliona wrenne,27/05/2017,10,947
+Rebecca Kidney,535,F-O,74.2,84,75,35,110,220,7,210.56,May Open 2017,,2017,rebecca kidney,27/05/2017,10,948
+Urszula Pfister,660,F-O,83.9,84,70,50,100,220,8,196.3,May Open 2017,,2017,urszula pfister,27/05/2017,10,949
+Rachel Knight,532,F-O,62,63,75,45,97.5,217.5,11,236.45,May Open 2017,,2017,rachel knight,27/05/2017,10,950
+Nicola Cogley,490,F-G,75,84,77.5,45,92.5,215,G,204.39,May Open 2017,,2017,nicola cogley,27/05/2017,10,951
+Martina Hanniffy,454,F-O,53.4,57,77.5,37.5,90,205,4,250.34,May Open 2017,,2017,martina hanniffy,27/05/2017,10,952
+Amanda Dunlea,33,F-O,60.6,63,62.5,35,100,197.5,12,218.5,May Open 2017,,2017,amanda dunlea,27/05/2017,10,953
+Monika Laskowska,482,F-O,51.2,52,67.5,40,87.5,195,1,246.01,May Open 2017,,2017,monika laskowska,27/05/2017,10,954
+Elaine O'Sullivan,223,F-G,67.6,72,40,45,97.5,182.5,G,186.07,May Open 2017,,2017,elaine o'sullivan,27/05/2017,10,955
+Trisha O'Dowd,657,F-O,52,52,52.5,37.5,80,170,2,211.93,May Open 2017,,2017,trisha o'dowd,27/05/2017,10,956
+Arthur Lynch,60,M-O,91.51,93,255,177.5,302.5,735,11,465.33,5th World Classic Championships 2017,Minsk,2017,arthur lynch,15/06/2017,1,957
+Barry Kane,64,M-JR,100.97,105,250,175,277.5,702.5,11,425.93,5th World Classic Championships 2017,Minsk,2017,barry kane,15/06/2017,1,958
+Sean Ryan,589,M-O,82.37,83,237.5,155,282.5,675,16,452.72,5th World Classic Championships 2017,Minsk,2017,sean ryan,15/06/2017,1,959
+Kenneth Nwaezeigwe,381,M-JR,91.31,93,250,145,265,660,12,418.31,5th World Classic Championships 2017,Minsk,2017,kenneth nwaezeigwe,15/06/2017,1,960
+Colin Eustace,135,M-JR,84.73,93,235,135,282.5,652.5,13,430.32,5th World Classic Championships 2017,Minsk,2017,colin eustace,15/06/2017,1,961
+Adam Keane,6,M-O,82.7,83,250,130,270,650,23,434.79,5th World Classic Championships 2017,Minsk,2017,adam keane,15/06/2017,1,962
+William Clarke,667,M-JR,80.85,83,242.5,162.5,240,645,13,437.5,5th World Classic Championships 2017,Minsk,2017,william clarke,15/06/2017,1,963
+John O'Dwyer,355,M-M3,130.24,120+,212.5,167.5,217.5,597.5,3,337.83,5th World Classic Championships 2017,Minsk,2017,john o'dwyer,15/06/2017,1,964
+John Maguire,353,M-M3,123.07,120+,200,140,242.5,582.5,5,333.02,5th World Classic Championships 2017,Minsk,2017,john maguire,15/06/2017,1,965
+Michael Kiely,468,M-SJR,81.88,83,185,122.5,222.5,530,7,356.69,5th World Classic Championships 2017,Minsk,2017,michael kiely,15/06/2017,1,966
+Paul McLaren,515,M-M1,64.6,66,155,85,215,455,6,363.68,5th World Classic Championships 2017,Minsk,2017,paul mclaren,15/06/2017,1,967
+Dylan Potter,218,M-SJR,58.5,59,152.5,110,175,437.5,6,381.98,5th World Classic Championships 2017,Minsk,2017,dylan potter,15/06/2017,1,968
+Louise Millar,426,F-O,70.28,72,165,92.5,175,432.5,11,429.08,5th World Classic Championships 2017,Minsk,2017,louise millar,15/06/2017,1,969
+Leslie Hoare,408,F-O,82.56,84,145,90,182.5,417.5,8,375.58,5th World Classic Championships 2017,Minsk,2017,leslie hoare,15/06/2017,1,970
+Louise Kenna,425,F-O,71.58,72,142.5,85,167.5,395,17,387.06,5th World Classic Championships 2017,Minsk,2017,louise kenna,15/06/2017,1,971
+Gabrielle Ervine,261,F-O,62.45,63,137.5,87.5,165,390,9,421.63,5th World Classic Championships 2017,Minsk,2017,gabrielle ervine,15/06/2017,1,972
+Karen Barry,365,F-M2,70.31,72,145,85,160,390,2,386.8,5th World Classic Championships 2017,Minsk,2017,karen barry,15/06/2017,1,973
+Helen Twomey,290,F-M2,70.37,72,127.5,72.5,172.5,372.5,3,369.22,5th World Classic Championships 2017,Minsk,2017,helen twomey,15/06/2017,1,974
+Hazel Hu,288,F-O,50.91,52,135,77.5,155,367.5,6,465.66,5th World Classic Championships 2017,Minsk,2017,hazel hu,15/06/2017,1,975
+Abigail Cronin,3,F-JR,61.86,63,122.5,77.5,150,350,11,381.15,5th World Classic Championships 2017,Minsk,2017,abigail cronin,15/06/2017,1,976
+Suzanne Gray,632,F-JR,70.23,72,125,72.5,152.5,350,10,347.41,5th World Classic Championships 2017,Minsk,2017,suzanne gray,15/06/2017,1,977
+Anna Hourihane,52,F-JR,50.84,52,125,75,145,345,9,437.6,5th World Classic Championships 2017,Minsk,2017,anna hourihane,15/06/2017,1,978
+Carrie Carmichael,91,F-JR,67.37,72,130,55,160,345,11,352.59,5th World Classic Championships 2017,Minsk,2017,carrie carmichael,15/06/2017,1,979
+Aoife O'Sullivan,57,F-JR,62.05,63,120,60,162.5,342.5,13,372.09,5th World Classic Championships 2017,Minsk,2017,aoife o'sullivan,15/06/2017,1,980
+Barry Pigott,66,M-O,92.8,93,280,215,292.5,787.5,1,495.21,National Championships 2017,Belfast,2017,barry pigott,29/07/2017,13,981
+Arthur Lynch,60,M-O,91.6,93,257.5,180,307.5,745,2,471.44,National Championships 2017,Belfast,2017,arthur lynch,29/07/2017,13,982
+Colin Power,136,M-O,114.6,120,272.5,175,285,732.5,1,426.02,National Championships 2017,Belfast,2017,colin power,29/07/2017,13,983
+Sean Crowe,580,M-O,135.5,120+,250,150,318,718,1,403.26,National Championships 2017,Belfast,2017,sean crowe,29/07/2017,13,984
+Michael Bruce,464,M-O,103.6,105,270,165,270,705,1,423.3,National Championships 2017,Belfast,2017,michael bruce,29/07/2017,13,985
+Marc Galligan,437,M-O,99.2,105,265,157.5,275,697.5,2,425.87,National Championships 2017,Belfast,2017,marc galligan,29/07/2017,13,986
+Robert Newman,547,M-O,134.5,120+,260,167.5,265,692.5,2,389.4,National Championships 2017,Belfast,2017,robert newman,29/07/2017,13,987
+Stephen Casey,617,M-O,91.2,93,237.5,157.5,292.5,687.5,3,435.99,National Championships 2017,Belfast,2017,stephen casey,29/07/2017,13,988
+Eoin O'Leary,241,M-O,126,120+,260,160,265,685,3,389.72,National Championships 2017,Belfast,2017,eoin o'leary,29/07/2017,13,989
+James Hanley,317,M-O,101.2,105,250,162.5,267.5,680,3,411.9,National Championships 2017,Belfast,2017,james hanley,29/07/2017,13,990
+Kenneth Nwaezeigwe,381,M-O,93,93,252.5,147.5,272.5,672.5,4,422.46,National Championships 2017,Belfast,2017,kenneth nwaezeigwe,29/07/2017,13,991
+Adam Keane,6,M-O,83,83,255.5,132.5,275,663,1,442.55,National Championships 2017,Belfast,2017,adam keane,29/07/2017,13,992
+Derrie Sutton,208,M-O,101.4,105,230,150,275,655,4,396.46,National Championships 2017,Belfast,2017,derrie sutton,29/07/2017,13,993
+Kieran Larkin,389,M-O,119.8,120,207.5,130,310,647.5,2,372.41,National Championships 2017,Belfast,2017,kieran larkin,29/07/2017,13,994
+Colin Eustace,135,M-O,82.8,83,230,132.5,280,642.5,2,429.48,National Championships 2017,Belfast,2017,colin eustace,29/07/2017,13,995
+Scott Dean,574,M-O,91.6,93,240,130,265,635,5,401.83,National Championships 2017,Belfast,2017,scott dean,29/07/2017,13,996
+Dave Worrall,190,M-O,119,120,235,155,245,635,3,365.8,National Championships 2017,Belfast,2017,dave worrall,29/07/2017,13,997
+Graham Norton,282,M-O,91.2,93,222.5,145,260,627.5,6,397.94,National Championships 2017,Belfast,2017,graham norton,29/07/2017,13,998
+Mark Comiskey,442,M-O,82,83,227.5,150,247.5,625,3,420.23,National Championships 2017,Belfast,2017,mark comiskey,29/07/2017,13,999
+Matthew Henry,459,M-O,82.6,83,240,130,255,625,4,418.39,National Championships 2017,Belfast,2017,matthew henry,29/07/2017,13,1000
+Shane Corbett,592,M-O,90.2,93,227.5,135,262.5,625,7,398.55,National Championships 2017,Belfast,2017,shane corbett,29/07/2017,13,1001
+Stephen Cusack,618,M-O,92.2,93,220,135,270,625,8,394.25,National Championships 2017,Belfast,2017,stephen cusack,29/07/2017,13,1002
+Luke Curran,432,M-O,96.8,105,232.5,137.5,245,615,5,379.38,National Championships 2017,Belfast,2017,luke curran,29/07/2017,13,1003
+Daniel McHugh,169,M-O,100.8,105,220,145,245,610,6,370.07,National Championships 2017,Belfast,2017,daniel mchugh,29/07/2017,13,1004
+Simon Standbridge,608,M-O,92.8,93,230,127.5,242.5,600,9,377.3,National Championships 2017,Belfast,2017,simon standbridge,29/07/2017,13,1005
+Jonny Gardner,361,M-O,82.2,83,192.5,147.5,252.5,592.5,5,397.79,National Championships 2017,Belfast,2017,jonny gardner,29/07/2017,13,1006
+Adam Santorelli,8,M-O,82.6,83,195,163,230,588,6,393.62,National Championships 2017,Belfast,2017,adam santorelli,29/07/2017,13,1007
+Jackie Doherty,311,M-O,81,83,215,110,255,580,7,392.91,National Championships 2017,Belfast,2017,jackie doherty,29/07/2017,13,1008
+John O'Dwyer,355,M-O,134,120+,210,167.5,200,577.5,4,324.93,National Championships 2017,Belfast,2017,john o'dwyer,29/07/2017,13,1009
+Fabrizio Marini,252,M-O,91.4,93,205,125,242.5,572.5,10,362.67,National Championships 2017,Belfast,2017,fabrizio marini,29/07/2017,13,1010
+Jack Brady,301,M-O,73.6,74,202.5,127.5,237.5,567.5,1,409.79,National Championships 2017,Belfast,2017,jack brady,29/07/2017,13,1011
+David McQuillan,197,M-O,65.8,66,200,130,232.5,562.5,1,442.78,National Championships 2017,Belfast,2017,david mcquillan,29/07/2017,13,1012
+Deividas Barisas,206,M-O,73.4,74,200,120,235,555,2,401.54,National Championships 2017,Belfast,2017,deividas barisas,29/07/2017,13,1013
+Conor Devilly,145,M-O,72.4,74,190,125,232.5,547.5,3,400.07,National Championships 2017,Belfast,2017,conor devilly,29/07/2017,13,1014
+Danny Lennon,174,M-O,74,74,185,120,227.5,532.5,4,383.03,National Championships 2017,Belfast,2017,danny lennon,29/07/2017,13,1015
+Noel Whelan,498,M-O,65.2,66,195,126,210,531,2,421.17,National Championships 2017,Belfast,2017,noel whelan,29/07/2017,13,1016
+Sean Ferran,583,M-O,70.6,74,200,117.5,207.5,525,5,390.88,National Championships 2017,Belfast,2017,sean ferran,29/07/2017,13,1017
+Daniel McAuley,168,M-O,70.6,74,185,125,212.5,522.5,6,389.02,National Championships 2017,Belfast,2017,daniel mcauley,29/07/2017,13,1018
+John Donovan,351,M-O,74,74,175,115,222.5,512.5,7,368.65,National Championships 2017,Belfast,2017,john donovan,29/07/2017,13,1019
+Dylan Potter,218,M-O,65.6,66,165,120,182.5,467.5,3,368.92,National Championships 2017,Belfast,2017,dylan potter,29/07/2017,13,1020
+Paul McLaren,515,M-O,65.2,66,150,85,218,453,4,359.3,National Championships 2017,Belfast,2017,paul mclaren,29/07/2017,13,1021
+Ciaran Murray,118,M-O,62.2,66,160,85,185,430,5,355.1,National Championships 2017,Belfast,2017,ciaran murray,29/07/2017,13,1022
+Bronagh McPeake,80,F-O,62.4,63,160,82.5,185,427.5,1,462.46,National Championships 2017,Belfast,2017,bronagh mcpeake,29/07/2017,13,1023
+Louise Millar,426,F-O,71,72,165.5,95,165,425.5,1,419.22,National Championships 2017,Belfast,2017,louise millar,29/07/2017,13,1024
+Leslie Hoare,408,F-O,83.2,84,145,87.5,183,415.5,1,372.31,National Championships 2017,Belfast,2017,leslie hoare,29/07/2017,13,1025
+Shannon Pollock,598,F-O,71.6,72,160,77.5,172.5,410,2,401.67,National Championships 2017,Belfast,2017,shannon pollock,29/07/2017,13,1026
+Louise Kenna,425,F-O,71.8,72,152.5,82.5,172.5,407.5,3,398.47,National Championships 2017,Belfast,2017,louise kenna,29/07/2017,13,1027
+Stephanie Gleeson,615,F-O,70.8,72,147.5,90,167.5,405,4,399.79,National Championships 2017,Belfast,2017,stephanie gleeson,29/07/2017,13,1028
+Lauren Rooney,402,F-O,118.6,84+,160,85,160,405,1,324.54,National Championships 2017,Belfast,2017,lauren rooney,29/07/2017,13,1029
+Teanna Watts,640,F-O,80.4,84,152.5,75,165,392.5,2,358.15,National Championships 2017,Belfast,2017,teanna watts,29/07/2017,13,1030
+Aisling Judge,18,F-O,78.2,84,140,70,180,390,3,361.51,National Championships 2017,Belfast,2017,aisling judge,29/07/2017,13,1031
+Karen Barry,365,F-O,71,72,150.5,80,150,380.5,5,374.89,National Championships 2017,Belfast,2017,karen barry,29/07/2017,13,1032
+Helen Twomey,290,F-O,75.6,84,125,72.5,180,377.5,4,357.09,National Championships 2017,Belfast,2017,helen twomey,29/07/2017,13,1033
+Gabrielle Ervine,261,F-G,64.8,72,135,85,155,375,G,394.31,National Championships 2017,Belfast,2017,gabrielle ervine,29/07/2017,13,1034
+Aoife O'Leary,56,F-O,83.2,84,145,50,175,370,5,331.54,National Championships 2017,Belfast,2017,aoife o'leary,29/07/2017,13,1035
+Clare Patterson,129,F-O,71,72,135,100.5,132.5,368,6,362.57,National Championships 2017,Belfast,2017,clare patterson,29/07/2017,13,1036
+Hazel Hu,288,F-O,51,52,130,75,160,365,1,461.87,National Championships 2017,Belfast,2017,hazel hu,29/07/2017,13,1037
+Alison O'Reilly,31,F-O,76.2,84,140,77.5,147.5,365,6,343.6,National Championships 2017,Belfast,2017,alison o'reilly,29/07/2017,13,1038
+Donna Cassley,211,F-O,99,84+,140,62.5,162.5,365,2,304.81,National Championships 2017,Belfast,2017,donna cassley,29/07/2017,13,1039
+Sarah Doyle,566,F-O,82.2,84,142.5,57.5,162.5,362.5,7,326.86,National Championships 2017,Belfast,2017,sarah doyle,29/07/2017,13,1040
+Ava Horrigan,63,F-O,68.2,72,125,62.5,170,357.5,7,362.2,National Championships 2017,Belfast,2017,ava horrigan,29/07/2017,13,1041
+Anna Hourihane,52,F-O,51.4,52,125,77.5,150,352.5,2,443.39,National Championships 2017,Belfast,2017,anna hourihane,29/07/2017,13,1042
+Emma Kiely,235,F-O,81.4,84,130,57.5,165,352.5,8,319.5,National Championships 2017,Belfast,2017,emma kiely,29/07/2017,13,1043
+Sarah Gardiner,568,F-O,96.6,84+,130,70,145,345,3,290.35,National Championships 2017,Belfast,2017,sarah gardiner,29/07/2017,13,1044
+Susan McDonald,630,F-O,100,84+,115,83,140,338,4,281.41,National Championships 2017,Belfast,2017,susan mcdonald,29/07/2017,13,1045
+Alexandra Kapka,28,F-O,70.6,72,120,67.5,150,337.5,8,333.8,National Championships 2017,Belfast,2017,alexandra kapka,29/07/2017,13,1046
+Linh Nguyen,416,F-O,60.8,63,135,62.5,137.5,335,2,369.68,National Championships 2017,Belfast,2017,linh nguyen,29/07/2017,13,1047
+Nicole Craig,494,F-O,83.2,84,110,62.5,162.5,335,9,300.18,National Championships 2017,Belfast,2017,nicole craig,29/07/2017,13,1048
+Fiona Walshe,258,F-O,71.4,72,117.5,60,147.5,325,9,318.99,National Championships 2017,Belfast,2017,fiona walshe,29/07/2017,13,1049
+Chloe-Jade McDonald,97,F-O,54.8,57,115,57.5,150.5,323,1,386.55,National Championships 2017,Belfast,2017,chloe-jade mcdonald,29/07/2017,13,1050
+Laura Walsh,400,F-O,52.6,57,115,64,130,309,2,381.8,National Championships 2017,Belfast,2017,laura walsh,29/07/2017,13,1051
+Aeilish McGovern,10,F-O,56.8,57,110,55,142.5,307.5,3,357.81,National Championships 2017,Belfast,2017,aeilish mcgovern,29/07/2017,13,1052
+Sarah Flynn,567,F-O,55,57,110,50,145,305,4,363.97,National Championships 2017,Belfast,2017,sarah flynn,29/07/2017,13,1053
+Laura Hanley,397,F-O,62.8,63,110,55,140,305,3,328.35,National Championships 2017,Belfast,2017,laura hanley,29/07/2017,13,1054
+Danielle Gault,172,F-O,71.4,72,105,62.5,132.5,300,10,294.46,National Championships 2017,Belfast,2017,danielle gault,29/07/2017,13,1055
+Wendy Coalter,663,F-O,57,57,110,50,130,290,5,336.51,National Championships 2017,Belfast,2017,wendy coalter,29/07/2017,13,1056
+Sarah Scallan,572,F-O,56.6,57,95,62.5,130,287.5,6,335.46,National Championships 2017,Belfast,2017,sarah scallan,29/07/2017,13,1057
+Amy Hanley,35,F-O,56.8,57,100,52.5,120,272.5,7,317.08,National Championships 2017,Belfast,2017,amy hanley,29/07/2017,13,1058
+Jen Dela Cruz,333,F-O,51,52,95,55,120,270,3,341.66,National Championships 2017,Belfast,2017,jen dela cruz,29/07/2017,13,1059
+David Keane,195,M-O,49.8,59,92.5,47.5,115,255,1,262.05,National Championships 2017,Belfast,2017,david keane,29/07/2017,13,1060
+Caroline Cunniffe,89,F-O,56.6,57,77.5,45,107.5,230,8,268.37,National Championships 2017,Belfast,2017,caroline cunniffe,29/07/2017,13,1061
+Steven Keane,627,M-O,46,59,75,40,102.5,217.5,2,244.41,National Championships 2017,Belfast,2017,steven keane,29/07/2017,13,1062
+Jonathan Akagha,356,M-O,82.8,83,0,120,270,0,DQ,0,National Championships 2017,Belfast,2017,jonathan akagha,29/07/2017,13,1063
+Fionn Hanratty,259,M-O,92.5,93,260,175,280,715,1,450.31,September Open 2017,Dublin,2017,fionn hanratty,02/09/2017,21,1064
+Derrie Sutton,208,M-O,102.1,105,230,150,275,655,1,395.42,September Open 2017,Dublin,2017,derrie sutton,02/09/2017,21,1065
+Damian Nam,163,M-O,81.9,83,242.5,145,250,637.5,1,428.95,September Open 2017,Dublin,2017,damian nam,02/09/2017,21,1066
+Cameron Higgs,84,M-O,99.3,105,250,145,222.5,617.5,2,376.87,September Open 2017,Dublin,2017,cameron higgs,02/09/2017,21,1067
+Daniel McHugh,169,M-O,101.9,105,220,142.5,250,612.5,3,370.03,September Open 2017,Dublin,2017,daniel mchugh,02/09/2017,21,1068
+Darren Friel,184,M-O,98.7,105,180,110,260,550,4,336.51,September Open 2017,Dublin,2017,darren friel,02/09/2017,21,1069
+Benny Gilligan,70,M-O,81.1,83,190,122.5,230,542.5,2,367.22,September Open 2017,Dublin,2017,benny gilligan,02/09/2017,21,1070
+Simon O'Neill,607,M-O,81.7,83,190,120,215,525,3,353.78,September Open 2017,Dublin,2017,simon o'neill,02/09/2017,21,1071
+Alexander Wilson-Flynn,27,M-O,92.9,93,205,115,195,515,2,323.68,September Open 2017,Dublin,2017,alexander wilson-flynn,02/09/2017,21,1072
+Thomas Donoghue,643,M-O,73,74,175,120,215,510,1,370.44,September Open 2017,Dublin,2017,thomas donoghue,02/09/2017,21,1073
+Adam Glennon,5,M-O,112.9,120,195,107.5,190,492.5,1,287.62,September Open 2017,Dublin,2017,adam glennon,02/09/2017,21,1074
+Karoly Boviz,373,M-O,81.5,83,160,110,200,470,4,317.19,September Open 2017,Dublin,2017,karoly boviz,02/09/2017,21,1075
+Michael Moran,469,M-G,83.3,83,160,90,210,460,G,306.4,September Open 2017,Dublin,2017,michael moran,02/09/2017,21,1076
+Matthew Walsh,460,M-O,71.2,74,165,97.5,195,457.5,2,338.47,September Open 2017,Dublin,2017,matthew walsh,02/09/2017,21,1077
+Callum McCormack,82,M-O,77.2,83,170,90,182.5,442.5,5,309.16,September Open 2017,Dublin,2017,callum mccormack,02/09/2017,21,1078
+John Abbey,350,M-O,82.1,83,147.5,97.5,180,425,6,285.54,September Open 2017,Dublin,2017,john abbey,02/09/2017,21,1079
+James Lynch,313,M-O,86.1,93,155,95,170,420,3,274.51,September Open 2017,Dublin,2017,james lynch,02/09/2017,21,1080
+Caolan McGlade,86,M-O,58.7,59,137.5,87.5,137.5,362.5,1,315.48,September Open 2017,Dublin,2017,caolan mcglade,02/09/2017,21,1081
+Stuart Brown,628,M-O,73.1,74,122.5,72.5,165,360,3,261.23,September Open 2017,Dublin,2017,stuart brown,02/09/2017,21,1082
+Trevor Walshe,656,M-O,81.3,83,110,95,150,355,7,239.94,September Open 2017,Dublin,2017,trevor walshe,02/09/2017,21,1083
+Maeve Cummins,434,F-O,70.2,72,110,57.5,170,337.5,1,335.1,September Open 2017,Dublin,2017,maeve cummins,02/09/2017,21,1084
+Grace Kelly,280,F-O,60.8,63,110,60,155,325,1,358.65,September Open 2017,Dublin,2017,grace kelly,02/09/2017,21,1085
+Fidelma Gilligan,256,F-O,80.1,84,107.5,70,140,317.5,1,290.31,September Open 2017,Dublin,2017,fidelma gilligan,02/09/2017,21,1086
+Edel Larkin,220,F-O,80.9,84,120,55,140,315,2,286.46,September Open 2017,Dublin,2017,edel larkin,02/09/2017,21,1087
+Eleanor McShortall,227,F-O,70.7,72,117.5,65,130,312.5,2,308.78,September Open 2017,Dublin,2017,eleanor mcshortall,02/09/2017,21,1088
+Emily Walsh,233,F-O,53.9,57,112.5,55,130,297.5,1,360.67,September Open 2017,Dublin,2017,emily walsh,02/09/2017,21,1089
+Joanne Gibbons,345,F-O,68.5,72,105,55,130,290,3,292.9,September Open 2017,Dublin,2017,joanne gibbons,02/09/2017,21,1090
+Michael Whelan,472,M-O,137,120+,75,77.5,127.5,280,1,156.98,September Open 2017,Dublin,2017,michael whelan,02/09/2017,21,1091
+Catherine Higgs,93,F-O,112,84+,105,55,117.5,277.5,1,224.79,September Open 2017,Dublin,2017,catherine higgs,02/09/2017,21,1092
+Carol Lennon,88,F-O,62.3,63,105,45,122.5,272.5,2,295.15,September Open 2017,Dublin,2017,carol lennon,02/09/2017,21,1093
+Zita Maria McCabe,671,F-O,62.3,63,95,47.5,125,267.5,3,289.73,September Open 2017,Dublin,2017,zita maria mccabe,02/09/2017,21,1094
+April Dardis,59,F-O,56.7,57,95,52.5,100,247.5,2,288.39,September Open 2017,Dublin,2017,april dardis,02/09/2017,21,1095
+Kotchaphan Mai-On,393,F-O,47,47,75,52.5,102.5,230,1,309.33,September Open 2017,Dublin,2017,kotchaphan mai-on,02/09/2017,21,1096
+Martina Hanniffy,454,F-O,54.4,57,85,37.5,100,222.5,3,267.81,September Open 2017,Dublin,2017,martina hanniffy,02/09/2017,21,1097
+Craig Moore,161,M-O,102.3,105,165,0,180,0,DQ,0,September Open 2017,Dublin,2017,craig moore,02/09/2017,21,1098
+Rachel Curley,531,F-O,109.1,84+,0,50,120,0,DQ,0,September Open 2017,Dublin,2017,rachel curley,02/09/2017,21,1099
+Screamer Manuel,576,M-G,116.2,120,272.5,187.5,300,760,G,440.4,October Open 2017,Limerick,2017,screamer manuel,07/10/2017,17,1100
+William Clarke,667,M-O,81.8,83,250,165,260,675,1,454.52,October Open 2017,Limerick,2017,william clarke,07/10/2017,17,1101
+Donal O'Brien,210,M-O,111.8,120,260,160,252.5,672.5,1,393.85,October Open 2017,Limerick,2017,donal o'brien,07/10/2017,17,1102
+Shane Corbett,592,M-O,89.2,93,232.5,142.5,267.5,642.5,1,412.05,October Open 2017,Limerick,2017,shane corbett,07/10/2017,17,1103
+David Duncan,191,M-O,97.6,105,220,155,260,635,1,390.34,October Open 2017,Limerick,2017,david duncan,07/10/2017,17,1104
+Gavin Denihan,270,M-O,95.6,105,232.5,140,260,632.5,2,392.32,October Open 2017,Limerick,2017,gavin denihan,07/10/2017,17,1105
+Darragh Mulcahy,180,M-O,81.8,83,227.5,145,257.5,630,2,424.22,October Open 2017,Limerick,2017,darragh mulcahy,07/10/2017,17,1106
+David Gagnon,193,M-O,91.4,93,225,145,257.5,627.5,2,397.51,October Open 2017,Limerick,2017,david gagnon,07/10/2017,17,1107
+Billy Ahern,75,M-O,108.6,120,225,137.5,260,622.5,2,367.81,October Open 2017,Limerick,2017,billy ahern,07/10/2017,17,1108
+Jason Fehily,329,M-O,131.5,120+,230,127.5,250,607.5,1,342.9,October Open 2017,Limerick,2017,jason fehily,07/10/2017,17,1109
+Jonny Gardner,361,M-G,86.2,93,200,152.5,242.5,595,G,388.65,October Open 2017,Limerick,2017,jonny gardner,07/10/2017,17,1110
+Nigel Pearson,497,M-O,93,93,222.5,120,252.5,595,3,373.77,October Open 2017,Limerick,2017,nigel pearson,07/10/2017,17,1111
+Michael Kiely,468,M-O,89.4,93,217.5,132.5,242.5,592.5,4,379.55,October Open 2017,Limerick,2017,michael kiely,07/10/2017,17,1112
+Brian Madden,77,M-O,92.6,93,200,120,272.5,592.5,5,372.97,October Open 2017,Limerick,2017,brian madden,07/10/2017,17,1113
+Sean Hickey,586,M-O,104.4,105,222.5,132.5,232.5,587.5,3,351.77,October Open 2017,Limerick,2017,sean hickey,07/10/2017,17,1114
+Sean Brennan,579,M-O,103.2,105,225,117.5,240,582.5,4,350.24,October Open 2017,Limerick,2017,sean brennan,07/10/2017,17,1115
+David Nolan,199,M-O,91.8,93,210,127.5,235,572.5,6,361.89,October Open 2017,Limerick,2017,david nolan,07/10/2017,17,1116
+Daniel Mcalpaca,167,M-O,102.6,105,200,120,252.5,572.5,5,344.98,October Open 2017,Limerick,2017,daniel mcalpaca,07/10/2017,17,1117
+David Walsh,202,M-O,102,105,205,135,230,570,6,344.23,October Open 2017,Limerick,2017,david walsh,07/10/2017,17,1118
+Pearse Tohill,524,M-O,91.8,93,200,107.5,260,567.5,7,358.73,October Open 2017,Limerick,2017,pearse tohill,07/10/2017,17,1119
+Darren Horgan,185,M-O,81.6,83,185,125,250,560,3,377.64,October Open 2017,Limerick,2017,darren horgan,07/10/2017,17,1120
+Gar Benn,262,M-O,87.4,93,202.5,122.5,235,560,8,363.03,October Open 2017,Limerick,2017,gar benn,07/10/2017,17,1121
+Ryan Ging,555,M-O,82.8,83,205,125,225,555,4,370.99,October Open 2017,Limerick,2017,ryan ging,07/10/2017,17,1122
+Lee Clarke,407,M-O,73.6,74,197.5,130,222.5,550,1,397.15,October Open 2017,Limerick,2017,lee clarke,07/10/2017,17,1123
+Paul Keely,511,M-O,93,93,215,105,230,550,9,345.5,October Open 2017,Limerick,2017,paul keely,07/10/2017,17,1124
+Sean Hogan,587,M-O,101.8,105,195,135,220,550,7,332.4,October Open 2017,Limerick,2017,sean hogan,07/10/2017,17,1125
+Dan Hurley,165,M-O,82.8,83,185,120,235,540,5,360.97,October Open 2017,Limerick,2017,dan hurley,07/10/2017,17,1126
+Darren Enright,182,M-O,80.8,83,190,137.5,205,532.5,6,361.28,October Open 2017,Limerick,2017,darren enright,07/10/2017,17,1127
+Gary O'Connor,267,M-O,91.8,93,200,115,215,530,10,335.03,October Open 2017,Limerick,2017,gary o'connor,07/10/2017,17,1128
+Christopher Wilkinson,103,M-O,73.8,74,205,115,207.5,527.5,2,380.17,October Open 2017,Limerick,2017,christopher wilkinson,07/10/2017,17,1129
+Tony Campion,650,M-O,82.2,83,187.5,110,220,517.5,7,347.44,October Open 2017,Limerick,2017,tony campion,07/10/2017,17,1130
+Darragh Hynes,179,M-O,89.4,93,200,110,207.5,517.5,11,331.5,October Open 2017,Limerick,2017,darragh hynes,07/10/2017,17,1131
+Tommy Hourigan,649,M-O,72.8,74,177.5,115,222.5,515,3,374.82,October Open 2017,Limerick,2017,tommy hourigan,07/10/2017,17,1132
+Gavin Hicks,272,M-O,82.8,83,177.5,107.5,222.5,507.5,8,339.24,October Open 2017,Limerick,2017,gavin hicks,07/10/2017,17,1133
+Niall O'Donoghue,488,M-G,110,120,175,120,205,500,G,294.25,October Open 2017,Limerick,2017,niall o'donoghue,07/10/2017,17,1134
+David Moran,198,M-O,99.2,105,170,100,225,495,8,302.23,October Open 2017,Limerick,2017,david moran,07/10/2017,17,1135
+Conor O'Driscoll,154,M-O,81.8,83,172.5,102.5,212.5,487.5,9,328.26,October Open 2017,Limerick,2017,conor o'driscoll,07/10/2017,17,1136
+Thomas McKenna,644,M-O,81.6,83,167.5,117.5,200,485,10,327.07,October Open 2017,Limerick,2017,thomas mckenna,07/10/2017,17,1137
+James Coogan,315,M-O,70,74,175,100,207.5,482.5,4,361.58,October Open 2017,Limerick,2017,james coogan,07/10/2017,17,1138
+Mark Swayne,452,M-O,73,74,170,117.5,195,482.5,5,350.47,October Open 2017,Limerick,2017,mark swayne,07/10/2017,17,1139
+Adam Loughnane,7,M-O,72.2,74,160,102.5,215,477.5,6,349.63,October Open 2017,Limerick,2017,adam loughnane,07/10/2017,17,1140
+Mohaned Abujennah,481,M-O,63.2,66,160,100,205,465,1,378.7,October Open 2017,Limerick,2017,mohaned abujennah,07/10/2017,17,1141
+Donnacha Cregan,214,M-O,73.6,74,155,107.5,200,462.5,7,333.97,October Open 2017,Limerick,2017,donnacha cregan,07/10/2017,17,1142
+David Horgan,194,M-O,101.2,105,160,115,180,455,9,275.61,October Open 2017,Limerick,2017,david horgan,07/10/2017,17,1143
+Eric Yeung,244,M-O,72.4,74,145,112.5,195,452.5,8,330.66,October Open 2017,Limerick,2017,eric yeung,07/10/2017,17,1144
+Kevin McGrath,385,M-O,89.6,93,165,102.5,180,447.5,12,286.33,October Open 2017,Limerick,2017,kevin mcgrath,07/10/2017,17,1145
+Ewan Mullane,251,M-O,66,66,155,107.5,182.5,445,2,349.41,October Open 2017,Limerick,2017,ewan mullane,07/10/2017,17,1146
+Richard Burke,540,M-O,73.2,74,160,117.5,165,442.5,9,320.78,October Open 2017,Limerick,2017,richard burke,07/10/2017,17,1147
+Cian Linehan,107,M-O,91.2,93,145,92.5,200,437.5,13,277.45,October Open 2017,Limerick,2017,cian linehan,07/10/2017,17,1148
+Fergal O'Connor,255,M-O,71.2,74,165,82.5,187.5,435,10,321.82,October Open 2017,Limerick,2017,fergal o'connor,07/10/2017,17,1149
+Alex Cremins,25,M-O,65.6,66,147.5,92.5,192.5,432.5,3,341.3,October Open 2017,Limerick,2017,alex cremins,07/10/2017,17,1150
+Shane Halligan,593,M-O,82,83,160,90,175,425,11,285.75,October Open 2017,Limerick,2017,shane halligan,07/10/2017,17,1151
+Kevin Campbell,383,M-O,71.8,74,132.5,100,180,412.5,11,303.28,October Open 2017,Limerick,2017,kevin campbell,07/10/2017,17,1152
+Cian Murphy,108,M-O,73,74,125,90,185,400,12,290.54,October Open 2017,Limerick,2017,cian murphy,07/10/2017,17,1153
+James Kelly,318,M-O,73.2,74,147.5,77.5,175,400,13,289.97,October Open 2017,Limerick,2017,james kelly,07/10/2017,17,1154
+Eric Killeen,243,M-O,80.2,83,132.5,100,150,382.5,12,260.72,October Open 2017,Limerick,2017,eric killeen,07/10/2017,17,1155
+Jerry Quirke,339,M-O,73,74,132.5,70,170,372.5,14,270.57,October Open 2017,Limerick,2017,jerry quirke,07/10/2017,17,1156
+Clodagh Cecil,131,F-O,101.4,84+,132.5,67.5,155,355,1,294.4,October Open 2017,Limerick,2017,clodagh cecil,07/10/2017,17,1157
+Freya Hammer,260,F-O,78.2,84,135,72.5,145,352.5,1,326.75,October Open 2017,Limerick,2017,freya hammer,07/10/2017,17,1158
+Sarah Gardiner,568,F-O,99.8,84+,135,73,142.5,350.5,2,291.99,October Open 2017,Limerick,2017,sarah gardiner,07/10/2017,17,1159
+Siobhan Cotter,613,F-O,62.4,63,115,62.5,160,337.5,1,365.1,October Open 2017,Limerick,2017,siobhan cotter,07/10/2017,17,1160
+Heather Thompson,289,F-O,94.6,84+,132.5,67.5,137.5,337.5,3,286.08,October Open 2017,Limerick,2017,heather thompson,07/10/2017,17,1161
+Geina McGrath,273,F-O,56.38,57,115,67.5,150,332.5,1,389.15,October Open 2017,Limerick,2017,geina mcgrath,07/10/2017,17,1162
+Niamh Doyle,489,F-O,82,84,125,62.5,140,327.5,2,295.68,October Open 2017,Limerick,2017,niamh doyle,07/10/2017,17,1163
+Dawn Murphy,203,F-O,62.4,63,115,50,150,315,2,340.76,October Open 2017,Limerick,2017,dawn murphy,07/10/2017,17,1164
+Claire Kelly,123,F-O,65.6,72,115,65,132.5,312.5,1,325.63,October Open 2017,Limerick,2017,claire kelly,07/10/2017,17,1165
+Tracey Kelly,654,F-O,107.2,84+,112.5,55,135,302.5,4,247.35,October Open 2017,Limerick,2017,tracey kelly,07/10/2017,17,1166
+Aisling Stapleton,21,F-O,60.4,63,112.5,62.5,125,300,3,332.75,October Open 2017,Limerick,2017,aisling stapleton,07/10/2017,17,1167
+Mairead Murphy,435,F-O,51.6,52,105,50,135,290,1,363.68,October Open 2017,Limerick,2017,mairead murphy,07/10/2017,17,1168
+Jo Phelan,343,F-O,80.4,84,112.5,50,127.5,290,3,264.62,October Open 2017,Limerick,2017,jo phelan,07/10/2017,17,1169
+Megan Dunlea O'Brien,462,F-O,99,84+,110,47.5,130,287.5,5,240.09,October Open 2017,Limerick,2017,megan dunlea o'brien,07/10/2017,17,1170
+Rachel Cassidy,530,F-O,72.6,84,90,47.5,140,277.5,4,269.37,October Open 2017,Limerick,2017,rachel cassidy,07/10/2017,17,1171
+Sophie Renshaw,614,F-O,80.6,84,92.5,52.5,132.5,277.5,5,252.87,October Open 2017,Limerick,2017,sophie renshaw,07/10/2017,17,1172
+Leanne O'Sullivan,404,F-O,56.2,57,95,55,120,270,2,316.8,October Open 2017,Limerick,2017,leanne o'sullivan,07/10/2017,17,1173
+Leanne Quinn,406,F-O,61.8,63,100,47.5,120,267.5,4,291.52,October Open 2017,Limerick,2017,leanne quinn,07/10/2017,17,1174
+Chere Duffy,95,F-G,57.6,63,87.5,55,122.5,265,G,304.99,October Open 2017,Limerick,2017,chere duffy,07/10/2017,17,1175
+Eva Lomasney,250,F-O,61.2,63,90,50,122.5,262.5,5,288.22,October Open 2017,Limerick,2017,eva lomasney,07/10/2017,17,1176
+Fiona Glynn,257,F-O,67,72,97.5,50,115,262.5,2,269.35,October Open 2017,Limerick,2017,fiona glynn,07/10/2017,17,1177
+Clare Duffy,127,F-O,71.8,72,85,50,125,260,3,254.24,October Open 2017,Limerick,2017,clare duffy,07/10/2017,17,1178
+Gillian Duffy,276,F-O,55.4,57,92.5,50,115,257.5,3,305.55,October Open 2017,Limerick,2017,gillian duffy,07/10/2017,17,1179
+Lisa Towell,418,F-O,68.4,72,87.5,47.5,120,255,4,257.82,October Open 2017,Limerick,2017,lisa towell,07/10/2017,17,1180
+Gemma Davey,274,F-G,54.2,57,80,47.5,115,242.5,G,292.72,October Open 2017,Limerick,2017,gemma davey,07/10/2017,17,1181
+Jean Kelly,331,F-O,56.8,57,80,40,115,235,4,273.44,October Open 2017,Limerick,2017,jean kelly,07/10/2017,17,1182
+Amanda Dunlea,33,F-O,61.8,63,72.5,35,120,227.5,6,247.93,October Open 2017,Limerick,2017,amanda dunlea,07/10/2017,17,1183
+Sarah Jane Devaney,570,F-O,58.8,63,82.5,35,100,217.5,7,246.33,October Open 2017,Limerick,2017,sarah jane devaney,07/10/2017,17,1184
+Tatjana Udovicenko,639,F-O,66.6,72,70,40,100,210,5,216.42,October Open 2017,Limerick,2017,tatjana udovicenko,07/10/2017,17,1185
+Nicola Phelan,493,F-G,57.4,63,60,42.5,105,207.5,G,239.47,October Open 2017,Limerick,2017,nicola phelan,07/10/2017,17,1186
+Trisha O'Dowd,657,F-O,57,57,70,42.5,90,202.5,5,234.98,October Open 2017,Limerick,2017,trisha o'dowd,07/10/2017,17,1187
+Elaine O'Sullivan,223,F-O,69.2,72,57.5,47.5,92.5,197.5,6,198.05,October Open 2017,Limerick,2017,elaine o'sullivan,07/10/2017,17,1188
+Karina Flenik,370,F-O,51.2,52,65,37.5,87.5,190,2,239.71,October Open 2017,Limerick,2017,karina flenik,07/10/2017,17,1189
+Eoin Healy,237,M-O,77.8,83,130,100,0,0,DQ,0,October Open 2017,Limerick,2017,eoin healy,07/10/2017,17,1191
+Silvano Senn,605,M-O,92.6,93,175,0,230,0,DQ,0,October Open 2017,Limerick,2017,silvano senn,07/10/2017,17,1190
+Arthur Lynch,60,M-O,90,93,260,180,305,745,1,475.6,November Open 2017,Dublin,2017,arthur lynch,04/11/2017,15,1192
+Adam Keane,6,M-O,83,83,245,137.5,272.5,655,1,437.21,November Open 2017,Dublin,2017,adam keane,04/11/2017,15,1193
+Andrew Knox Shiels,45,M-O,100.6,105,200,155,282.5,637.5,1,387.06,November Open 2017,Dublin,2017,andrew knox shiels,04/11/2017,15,1194
+David Twomey,201,M-O,99.6,105,230,155,250,635,2,387.08,November Open 2017,Dublin,2017,david twomey,04/11/2017,15,1195
+Paul O'Hare,516,M-O,105.2,120,220,135,255,610,1,364.27,November Open 2017,Dublin,2017,paul o'hare,04/11/2017,15,1196
+Steve Roche,626,M-O,92.4,93,240,115,245,600,2,378.08,November Open 2017,Dublin,2017,steve roche,04/11/2017,15,1197
+Stephen Manning,622,M-O,98.4,105,205,122.5,255,582.5,3,356.84,November Open 2017,Dublin,2017,stephen manning,04/11/2017,15,1198
+Conor Devilly,145,M-O,72.8,74,200,140,237.5,577.5,1,420.31,November Open 2017,Dublin,2017,conor devilly,04/11/2017,15,1199
+Damien O'Neill,164,M-O,91,93,202.5,140,230,572.5,3,363.46,November Open 2017,Dublin,2017,damien o'neill,04/11/2017,15,1200
+Gary Bourke,264,M-O,101.8,105,205,132.5,235,572.5,4,346,November Open 2017,Dublin,2017,gary bourke,04/11/2017,15,1201
+Martin Reidy,453,M-O,72.2,74,180,120,270,570,2,417.36,November Open 2017,Dublin,2017,martin reidy,04/11/2017,15,1202
+Alan Flanagan,23,M-O,83,83,180,127.5,250,557.5,2,372.13,November Open 2017,Dublin,2017,alan flanagan,04/11/2017,15,1203
+Jack Ryan,308,M-O,87.8,93,200,105,227.5,532.5,4,344.36,November Open 2017,Dublin,2017,jack ryan,04/11/2017,15,1204
+Conor Somerville,156,M-O,126,120+,185,122.5,225,532.5,1,302.96,November Open 2017,Dublin,2017,conor somerville,04/11/2017,15,1205
+Damian Christie,162,M-O,101.6,105,187.5,127.5,215,530,5,320.55,November Open 2017,Dublin,2017,damian christie,04/11/2017,15,1206
+Adam Bennett,4,M-O,102.8,105,180,115,235,530,6,319.14,November Open 2017,Dublin,2017,adam bennett,04/11/2017,15,1207
+Louis Warren,424,M-G,76.2,74,185,122.5,220,527.5,G,371.79,November Open 2017,Dublin,2017,louis warren,04/11/2017,15,1208
+Matthew Coppinger,458,M-O,117,120,187.5,120,220,527.5,2,305.14,November Open 2017,Dublin,2017,matthew coppinger,04/11/2017,15,1209
+Ian Wafer,295,M-O,81.6,83,185,112.5,225,522.5,3,352.35,November Open 2017,Dublin,2017,ian wafer,04/11/2017,15,1210
+Eoin Small,242,M-O,88.2,93,195,110,217.5,522.5,5,337.08,November Open 2017,Dublin,2017,eoin small,04/11/2017,15,1211
+Dewi Harrison,209,M-O,80.4,83,170,115,230,515,4,350.49,November Open 2017,Dublin,2017,dewi harrison,04/11/2017,15,1212
+Sean Armstrong,577,M-O,102.6,105,172.5,127.5,205,505,7,304.3,November Open 2017,Dublin,2017,sean armstrong,04/11/2017,15,1213
+Andrew Greer,44,M-O,91.8,93,180,110,212.5,502.5,6,317.64,November Open 2017,Dublin,2017,andrew greer,04/11/2017,15,1214
+Ciaran Lowe,116,M-O,96.8,105,185,115,200,500,8,308.44,November Open 2017,Dublin,2017,ciaran lowe,04/11/2017,15,1215
+Paul McLaren,515,M-O,66,66,160,92.5,240,492.5,1,386.71,November Open 2017,Dublin,2017,paul mclaren,04/11/2017,15,1216
+Rourke Byrne,551,M-O,88.2,93,170,100,220,490,7,316.11,November Open 2017,Dublin,2017,rourke byrne,04/11/2017,15,1217
+David Keenan,196,M-O,81,83,170,105,210,485,5,328.55,November Open 2017,Dublin,2017,david keenan,04/11/2017,15,1218
+Brian McIntyre,78,M-O,82.4,83,170,102.5,212.5,485,6,325.14,November Open 2017,Dublin,2017,brian mcintyre,04/11/2017,15,1219
+Paul Kelly,512,M-O,91.6,93,187.5,112.5,185,485,8,306.91,November Open 2017,Dublin,2017,paul kelly,04/11/2017,15,1220
+Pearce Maloney,522,M-O,83,83,172.5,105,202.5,480,7,320.4,November Open 2017,Dublin,2017,pearce maloney,04/11/2017,15,1221
+Mark Ennis,445,M-O,83,83,170,110,195,475,8,317.06,November Open 2017,Dublin,2017,mark ennis,04/11/2017,15,1222
+Jack Callaghan,304,M-O,82.8,83,160,112.5,200,472.5,9,315.85,November Open 2017,Dublin,2017,jack callaghan,04/11/2017,15,1223
+Conor Markey,151,M-O,108.8,120,180,85,200,465,3,274.59,November Open 2017,Dublin,2017,conor markey,04/11/2017,15,1224
+Kilian Kirsch,391,M-O,90,93,160,95,205,460,9,293.66,November Open 2017,Dublin,2017,kilian kirsch,04/11/2017,15,1225
+Daryll Bailey,187,M-O,90.6,93,150,115,195,460,10,292.68,November Open 2017,Dublin,2017,daryll bailey,04/11/2017,15,1226
+Conor Gill,148,M-O,110.4,120,175,100,180,455,4,267.47,November Open 2017,Dublin,2017,conor gill,04/11/2017,15,1227
+Stephen McCollum,623,M-O,78.8,83,160,90,200,450,10,310.19,November Open 2017,Dublin,2017,stephen mccollum,04/11/2017,15,1228
+Patrick McLaughlin,508,M-O,112.6,120,142.5,112.5,190,445,5,260.08,November Open 2017,Dublin,2017,patrick mclaughlin,04/11/2017,15,1229
+Conor McEneaney,152,M-O,79.4,83,142.5,100,195,437.5,11,300.11,November Open 2017,Dublin,2017,conor mceneaney,04/11/2017,15,1230
+Craig Chandler,159,M-G,83.8,83,145,100,185,430,G,285.41,November Open 2017,Dublin,2017,craig chandler,04/11/2017,15,1231
+Patrick Clancy,507,M-G,94.4,105,157.5,90,167.5,415,G,258.89,November Open 2017,Dublin,2017,patrick clancy,04/11/2017,15,1232
+Sara Bauer,564,F-O,71,72,165,57.5,175,397.5,1,391.64,November Open 2017,Dublin,2017,sara bauer,04/11/2017,15,1233
+Sean Dowling,582,M-O,73.4,74,150,77.5,165,392.5,3,283.98,November Open 2017,Dublin,2017,sean dowling,04/11/2017,15,1234
+Helen Twomey,290,F-O,76.4,84,125,75,180,380,1,357.15,November Open 2017,Dublin,2017,helen twomey,04/11/2017,15,1235
+Stuart Brown,628,M-O,72.8,74,127.5,72.5,167.5,367.5,4,267.47,November Open 2017,Dublin,2017,stuart brown,04/11/2017,15,1236
+Paul Lowry,513,M-O,86.2,93,137.5,80,150,367.5,11,240.05,November Open 2017,Dublin,2017,paul lowry,04/11/2017,15,1237
+David Fanjkutic,192,M-O,88.8,93,127.5,97.5,142.5,367.5,12,236.24,November Open 2017,Dublin,2017,david fanjkutic,04/11/2017,15,1238
+Donna Ivie,213,F-O,109.6,84+,150,67.5,140,357.5,1,290.9,November Open 2017,Dublin,2017,donna ivie,04/11/2017,15,1239
+Anna Hourihane,52,F-O,51.4,52,125,75,152.5,352.5,1,443.39,November Open 2017,Dublin,2017,anna hourihane,04/11/2017,15,1240
+Maria Greenan,441,F-O,68.6,72,127.5,70,155,352.5,2,355.66,November Open 2017,Dublin,2017,maria greenan,04/11/2017,15,1241
+Moataz Abujennah,480,M-O,59.8,66,130,70,147.5,347.5,2,297.28,November Open 2017,Dublin,2017,moataz abujennah,04/11/2017,15,1242
+Hugh Murray,292,M-O,82.2,83,105,85,157.5,347.5,12,233.3,November Open 2017,Dublin,2017,hugh murray,04/11/2017,15,1243
+Jim Clarke,342,M-O,89.4,93,122.5,77.5,132.5,332.5,13,212.99,November Open 2017,Dublin,2017,jim clarke,04/11/2017,15,1244
+Danielle Goodland,173,F-O,68.8,72,122.5,57.5,150,330,3,332.27,November Open 2017,Dublin,2017,danielle goodland,04/11/2017,15,1245
+Sarah Daly,565,F-O,87,84+,120,60,150,330,2,289.38,November Open 2017,Dublin,2017,sarah daly,04/11/2017,15,1246
+Emily Brennan,231,F-O,72.4,84,120,60,145,325,2,316.05,November Open 2017,Dublin,2017,emily brennan,04/11/2017,15,1247
+Kathleen Scully,376,F-O,83.6,84,120,60,145,325,3,290.51,November Open 2017,Dublin,2017,kathleen scully,04/11/2017,15,1248
+Amy Nolan,37,F-O,62.4,63,105,67.5,145,317.5,1,343.47,November Open 2017,Dublin,2017,amy nolan,04/11/2017,15,1249
+Tara Maguire,638,F-O,62.2,63,122.5,62.5,130,315,2,341.6,November Open 2017,Dublin,2017,tara maguire,04/11/2017,15,1250
+Rebecca Mckeefry,536,F-O,108.6,84+,95,57.5,157.5,310,3,252.75,November Open 2017,Dublin,2017,rebecca mckeefry,04/11/2017,15,1251
+Tanya Fry,636,F-O,72,72,107.5,60,135,302.5,4,295.25,November Open 2017,Dublin,2017,tanya fry,04/11/2017,15,1252
+Rebecca Bennett,533,F-O,61.2,63,120,52.5,125,297.5,3,326.65,November Open 2017,Dublin,2017,rebecca bennett,04/11/2017,15,1253
+Claire Caulfield,122,F-O,60,63,102.5,55,137.5,295,4,328.89,November Open 2017,Dublin,2017,claire caulfield,04/11/2017,15,1254
+Amy Hughes,36,F-O,81.4,84,105,57.5,132.5,295,4,267.38,November Open 2017,Dublin,2017,amy hughes,04/11/2017,15,1255
+Linda O'Connor,414,F-O,71,72,105,60,127.5,292.5,5,288.18,November Open 2017,Dublin,2017,linda o'connor,04/11/2017,15,1256
+Karolina Malecka,372,F-O,62,63,110,57.5,120,287.5,5,312.54,November Open 2017,Dublin,2017,karolina malecka,04/11/2017,15,1257
+Sarah Scallan,572,F-O,57,57,95,60,130,285,1,330.71,November Open 2017,Dublin,2017,sarah scallan,04/11/2017,15,1258
+Jessica Henebry,340,F-O,71.2,72,100,55,130,285,6,280.26,November Open 2017,Dublin,2017,jessica henebry,04/11/2017,15,1259
+Pearl Mackey,523,F-O,59.8,63,100,50,125,275,6,307.39,November Open 2017,Dublin,2017,pearl mackey,04/11/2017,15,1260
+Anna Marie O'Donoghue,53,F-O,70.4,72,92.5,47.5,125,265,7,262.6,November Open 2017,Dublin,2017,anna marie o'donoghue,04/11/2017,15,1261
+Bernice Flynn,73,F-O,71,72,85,62.5,115,262.5,8,258.63,November Open 2017,Dublin,2017,bernice flynn,04/11/2017,15,1262
+Tracey Fitzmaurice,653,F-O,62.6,63,95,52.5,112.5,260,7,280.58,November Open 2017,Dublin,2017,tracey fitzmaurice,04/11/2017,15,1263
+Hannah Stephenson,287,F-O,70.6,72,97.5,45,112.5,255,9,252.2,November Open 2017,Dublin,2017,hannah stephenson,04/11/2017,15,1264
+Kotchaphan Mai-On,393,F-O,47,47,77.5,55,117.5,250,1,336.22,November Open 2017,Dublin,2017,kotchaphan mai-on,04/11/2017,15,1265
+Elaine Clarke,222,F-O,68.4,72,85,47.5,117.5,250,10,252.76,November Open 2017,Dublin,2017,elaine clarke,04/11/2017,15,1266
+Suzanne Valente,633,F-O,55.6,57,90,50,107.5,247.5,2,292.85,November Open 2017,Dublin,2017,suzanne valente,04/11/2017,15,1267
+Sarah Hayden,569,F-O,56.6,57,90,50,107.5,247.5,3,288.79,November Open 2017,Dublin,2017,sarah hayden,04/11/2017,15,1268
+Caroline Cunniffe,89,F-O,57,57,80,45.5,105,230.5,4,267.47,November Open 2017,Dublin,2017,caroline cunniffe,04/11/2017,15,1269
+Monika Laskowska,482,F-O,52,52,80,42.5,100,222.5,2,277.38,November Open 2017,Dublin,2017,monika laskowska,04/11/2017,15,1270
+Claire McConnell,126,F-O,60.2,63,80,47.5,92.5,220,8,244.64,November Open 2017,Dublin,2017,claire mcconnell,04/11/2017,15,1271
+Sandra Coyne,562,F-O,62.6,63,55,42.5,115,212.5,9,229.32,November Open 2017,Dublin,2017,sandra coyne,04/11/2017,15,1272
+Tracey Matthews,655,F-O,56.2,57,85,45,65,195,5,228.8,November Open 2017,Dublin,2017,tracey matthews,04/11/2017,15,1273
+Ann-Marie Gaynor,54,F-O,57,57,57.5,30,72.5,160,6,185.66,November Open 2017,Dublin,2017,ann-marie gaynor,04/11/2017,15,1274
+Alex Cristea,26,M-O,79.4,83,155,0,160,0,DQ,0,November Open 2017,Dublin,2017,alex cristea,04/11/2017,15,1277
+Ciara Reynolds,113,F-O,71.8,72,100,0,120,0,DQ,0,November Open 2017,Dublin,2017,ciara reynolds,04/11/2017,15,1276
+Ivan Ray Casinillo,298,M-O,65.6,66,145,0,200,0,DQ,0,November Open 2017,Dublin,2017,ivan ray casinillo,04/11/2017,15,1275
+Jennifer Nugent,337,F-O,71,72,0,42.5,95,0,DQ,0,November Open 2017,Dublin,2017,jennifer nugent,04/11/2017,15,1278
+Laura McCarthy,398,F-O,61.8,63,0,37.5,120,0,DQ,0,November Open 2017,Dublin,2017,laura mccarthy,04/11/2017,15,1279
+Barry Pigott,66,M-G,101.2,105,300,220,310,830,G,502.76,December Last Chance Open 2017,Limerick,2017,barry pigott,10/12/2017,5,1280
+Marc Keys,438,M-O,118.6,120,292.5,205,302.5,800,1,461.22,December Last Chance Open 2017,Limerick,2017,marc keys,10/12/2017,5,1281
+Pierre Shillingford,529,M-G,91.4,93,250,175,307.5,732.5,G,464.03,December Last Chance Open 2017,Limerick,2017,pierre shillingford,10/12/2017,5,1282
+Graham Norton,282,M-O,100.4,105,227.5,152.5,262.5,642.5,1,390.4,December Last Chance Open 2017,Limerick,2017,graham norton,10/12/2017,5,1283
+David Twomey,201,M-O,102,105,235,157.5,250,642.5,2,388.01,December Last Chance Open 2017,Limerick,2017,david twomey,10/12/2017,5,1284
+Ian Benson,293,M-O,97.6,105,225,145,265,635,3,390.34,December Last Chance Open 2017,Limerick,2017,ian benson,10/12/2017,5,1285
+Sean Cuddy,581,M-O,148,120+,240,125,265,630,1,349.24,December Last Chance Open 2017,Limerick,2017,sean cuddy,10/12/2017,5,1286
+Simon Standbridge,608,M-O,100,105,232.5,130,250,612.5,4,372.76,December Last Chance Open 2017,Limerick,2017,simon standbridge,10/12/2017,5,1287
+Jack Thornton,310,M-O,96.8,105,215,137.5,247.5,600,5,370.13,December Last Chance Open 2017,Limerick,2017,jack thornton,10/12/2017,5,1288
+Nigel Pearson,497,M-O,92.6,93,220,122.5,245,587.5,1,369.82,December Last Chance Open 2017,Limerick,2017,nigel pearson,10/12/2017,5,1289
+Sean Brennan,579,M-O,102.8,105,220,120,242.5,582.5,6,350.75,December Last Chance Open 2017,Limerick,2017,sean brennan,10/12/2017,5,1290
+Michael Grace,467,M-O,87,93,207.5,132.5,240,580,2,376.93,December Last Chance Open 2017,Limerick,2017,michael grace,10/12/2017,5,1291
+Darren Friel,184,M-O,92.2,93,190,107.5,262.5,560,3,353.24,December Last Chance Open 2017,Limerick,2017,darren friel,10/12/2017,5,1292
+Anatol Skiba,39,M-O,97.6,105,200,145,210,555,7,341.16,December Last Chance Open 2017,Limerick,2017,anatol skiba,10/12/2017,5,1293
+Jack Brady,301,M-O,73.2,74,195,127.5,230,552.5,1,400.52,December Last Chance Open 2017,Limerick,2017,jack brady,10/12/2017,5,1294
+Danny Lennon,174,M-O,73.4,74,192.5,120,232.5,545,2,394.31,December Last Chance Open 2017,Limerick,2017,danny lennon,10/12/2017,5,1295
+Lukasz Kalinski,430,M-O,74,74,190,125,230,545,3,392.03,December Last Chance Open 2017,Limerick,2017,lukasz kalinski,10/12/2017,5,1296
+John Donovan,351,M-G,75.8,83,187.5,120,230,537.5,G,380.2,December Last Chance Open 2017,Limerick,2017,john donovan,10/12/2017,5,1297
+Thomas Donoghue,643,M-O,72.4,74,175,120,220,515,4,376.33,December Last Chance Open 2017,Limerick,2017,thomas donoghue,10/12/2017,5,1298
+Jozef Murarik,363,M-O,108,120,170,130,200,500,2,295.95,December Last Chance Open 2017,Limerick,2017,jozef murarik,10/12/2017,5,1299
+Mohaned Abujennah,481,M-O,65.2,66,172.5,115,210,497.5,1,394.6,December Last Chance Open 2017,Limerick,2017,mohaned abujennah,10/12/2017,5,1300
+Michael Corcoran,466,M-O,96,105,187.5,100,210,497.5,8,308.01,December Last Chance Open 2017,Limerick,2017,michael corcoran,10/12/2017,5,1301
+Gavin Butler,269,M-O,79.6,83,160,95,225,480,1,328.74,December Last Chance Open 2017,Limerick,2017,gavin butler,10/12/2017,5,1302
+Keith Grainger,379,M-G,86.2,93,175,105,195,475,G,310.26,December Last Chance Open 2017,Limerick,2017,keith grainger,10/12/2017,5,1303
+Bronagh McPeake,80,F-G,64.8,72,170,87.5,190,447.5,G,470.55,December Last Chance Open 2017,Limerick,2017,bronagh mcpeake,10/12/2017,5,1304
+Neil Colfer,487,M-O,80.6,83,140,90,180,410,2,278.6,December Last Chance Open 2017,Limerick,2017,neil colfer,10/12/2017,5,1305
+Karen Barry,365,F-G,71.4,72,150,85.5,157.5,393,G,385.74,December Last Chance Open 2017,Limerick,2017,karen barry,10/12/2017,5,1306
+Trevor Walshe,656,M-O,81.6,83,130,100,155,385,3,259.63,December Last Chance Open 2017,Limerick,2017,trevor walshe,10/12/2017,5,1307
+Emma Kiely,235,F-O,82.6,84,135,65,175,375,1,337.28,December Last Chance Open 2017,Limerick,2017,emma kiely,10/12/2017,5,1308
+Ava Horrigan,63,F-G,65,72,135,62.5,175,372.5,G,390.79,December Last Chance Open 2017,Limerick,2017,ava horrigan,10/12/2017,5,1309
+Michael Whelan,472,M-O,143.5,120+,110,95,160,365,2,203.23,December Last Chance Open 2017,Limerick,2017,michael whelan,10/12/2017,5,1310
+Freya Hammer,260,F-O,77.8,84,130,77.5,150,357.5,2,332.38,December Last Chance Open 2017,Limerick,2017,freya hammer,10/12/2017,5,1311
+Eleanor McShortall,227,F-O,70.6,72,120,67.5,135,322.5,1,318.96,December Last Chance Open 2017,Limerick,2017,eleanor mcshortall,10/12/2017,5,1312
+Emily Walsh,233,F-O,54.2,57,120,65,135,320,1,386.27,December Last Chance Open 2017,Limerick,2017,emily walsh,10/12/2017,5,1313
+Sarah Flynn,567,F-O,55.6,57,115,52.5,145,312.5,2,369.76,December Last Chance Open 2017,Limerick,2017,sarah flynn,10/12/2017,5,1314
+Lota Leinberga,423,F-O,55.4,57,120,60,130,310,3,367.84,December Last Chance Open 2017,Limerick,2017,lota leinberga,10/12/2017,5,1315
+Joanne Greene,346,F-O,69.4,72,112.5,60,130,302.5,2,302.74,December Last Chance Open 2017,Limerick,2017,joanne greene,10/12/2017,5,1316
+Joanne Gibbons,345,F-O,70,72,107.5,50,125,282.5,3,281.04,December Last Chance Open 2017,Limerick,2017,joanne gibbons,10/12/2017,5,1317
+Aoife Williams,58,F-O,56.8,57,105,50,125,280,4,325.81,December Last Chance Open 2017,Limerick,2017,aoife williams,10/12/2017,5,1318
+Carol Lennon,88,F-O,61.6,63,107.5,47.5,125,280,1,305.9,December Last Chance Open 2017,Limerick,2017,carol lennon,10/12/2017,5,1319
+Jean Meehan,332,F-O,62.6,63,100,50,130,280,2,302.16,December Last Chance Open 2017,Limerick,2017,jean meehan,10/12/2017,5,1320
+Zita Maria McCabe,671,F-O,61,63,100,47.5,130,277.5,3,305.46,December Last Chance Open 2017,Limerick,2017,zita maria mccabe,10/12/2017,5,1321
+April Dardis,59,F-O,55.6,57,100,55,115,270,5,319.47,December Last Chance Open 2017,Limerick,2017,april dardis,10/12/2017,5,1322
+Karen Keatinge,366,F-O,55.8,57,92.5,60,117.5,270,6,318.58,December Last Chance Open 2017,Limerick,2017,karen keatinge,10/12/2017,5,1323
+Emma Keyes,234,F-O,65,72,95,47.5,120,262.5,4,275.39,December Last Chance Open 2017,Limerick,2017,emma keyes,10/12/2017,5,1324
+Catriona Fitzpatrick,94,F-O,60.4,63,85,47.5,125,257.5,4,285.61,December Last Chance Open 2017,Limerick,2017,catriona fitzpatrick,10/12/2017,5,1325
+Gemma Davey,274,F-O,56.6,57,82.5,50,112.5,245,7,285.87,December Last Chance Open 2017,Limerick,2017,gemma davey,10/12/2017,5,1326
+Paulina Pawlak,520,F-G,79.2,84,75,47.5,115,237.5,G,218.55,December Last Chance Open 2017,Limerick,2017,paulina pawlak,10/12/2017,5,1327
+Jenna McDonagh,334,F-O,79.2,84,75,47.5,110,232.5,3,213.94,December Last Chance Open 2017,Limerick,2017,jenna mcdonagh,10/12/2017,5,1328
+Martina Hanniffy,454,F-O,54.4,57,87.5,37.5,105,230,8,276.83,December Last Chance Open 2017,Limerick,2017,martina hanniffy,10/12/2017,5,1329
+Yvonne Kinahan,669,F-O,61.6,63,67.5,45,115,227.5,5,248.54,December Last Chance Open 2017,Limerick,2017,yvonne kinahan,10/12/2017,5,1330
+Erica Gaffney,245,F-O,45.8,47,70,45,92.5,207.5,1,284.25,December Last Chance Open 2017,Limerick,2017,erica gaffney,10/12/2017,5,1331
+Sinead McCarthy,610,F-O,55.4,57,60,47.5,100,207.5,9,246.22,December Last Chance Open 2017,Limerick,2017,sinead mccarthy,10/12/2017,5,1332
+Kevin Croughan,384,M-G,74,74,0,95,180,0,DQ,0,December Last Chance Open 2017,Limerick,2017,kevin croughan,10/12/2017,5,1333
+Barry Pigott,66,M-O,102.6,105,300,220,302.5,822.5,1,495.62,Nationals 2018,Dublin,2018,barry pigott,10/02/2018,14,1334
+Marc Keys,438,M-O,118.2,120,295,200,280,775,1,447.17,Nationals 2018,Dublin,2018,marc keys,10/02/2018,14,1335
+Colin Power,136,M-O,113.8,120,275,180,300,755,2,439.94,Nationals 2018,Dublin,2018,colin power,10/02/2018,14,1336
+Arthur Lynch,60,M-O,92,93,262.5,180,300,742.5,1,468.86,Nationals 2018,Dublin,2018,arthur lynch,10/02/2018,14,1337
+Fionn Hanratty,259,M-O,93,93,257.5,180,290,727.5,2,457.01,Nationals 2018,Dublin,2018,fionn hanratty,10/02/2018,14,1338
+Sean Crowe,580,M-O,140.5,120+,255,157.5,310,722.5,1,403.52,Nationals 2018,Dublin,2018,sean crowe,10/02/2018,14,1339
+Scott Dean,574,M-O,103,105,270,140,282.5,692.5,2,416.68,Nationals 2018,Dublin,2018,scott dean,10/02/2018,14,1340
+Sean Ryan,589,M-O,83,83,252.5,155,275,682.5,1,455.57,Nationals 2018,Dublin,2018,sean ryan,10/02/2018,14,1341
+Kenneth Nwaezeigwe,381,M-O,92.8,93,255,152.5,275,682.5,3,429.18,Nationals 2018,Dublin,2018,kenneth nwaezeigwe,10/02/2018,14,1342
+Stephen Casey,617,M-O,91.8,93,237.5,147.5,295,680,4,429.85,Nationals 2018,Dublin,2018,stephen casey,10/02/2018,14,1343
+Derrie Sutton,208,M-O,102.4,105,235,145,295,675,3,407.04,Nationals 2018,Dublin,2018,derrie sutton,10/02/2018,14,1344
+Scott Webb,575,M-O,82.8,83,245,150,275,670,2,447.87,Nationals 2018,Dublin,2018,scott webb,10/02/2018,14,1345
+Colin Eustace,135,M-O,87,93,245,135,290,670,5,435.42,Nationals 2018,Dublin,2018,colin eustace,10/02/2018,14,1346
+William Clarke,667,M-O,82,83,258,165,245,668,3,449.14,Nationals 2018,Dublin,2018,william clarke,10/02/2018,14,1347
+Eoin O'Leary,241,M-O,122,120+,240,165,260,665,2,380.9,Nationals 2018,Dublin,2018,eoin o'leary,10/02/2018,14,1348
+Sean Cuddy,581,M-O,150,120+,252.5,130,282.5,665,3,367.94,Nationals 2018,Dublin,2018,sean cuddy,10/02/2018,14,1349
+David O'Connor,200,M-O,103.2,105,250,145,265,660,4,396.84,Nationals 2018,Dublin,2018,david o'connor,10/02/2018,14,1350
+Adam Keane,6,M-O,82.6,83,252.5,140,265,657.5,4,440.14,Nationals 2018,Dublin,2018,adam keane,10/02/2018,14,1351
+Shane Corbett,592,M-O,89.8,93,237.5,145,275,657.5,6,420.22,Nationals 2018,Dublin,2018,shane corbett,10/02/2018,14,1352
+Seosamh O Griallais,590,M-O,117.4,120,235,165,257.5,657.5,3,380.01,Nationals 2018,Dublin,2018,seosamh o griallais,10/02/2018,14,1353
+Dave Worrall,190,M-O,118,120,240,160,250,650,4,375.2,Nationals 2018,Dublin,2018,dave worrall,10/02/2018,14,1354
+Mark Comiskey,442,M-O,81.6,83,232.5,155,260,647.5,5,436.65,Nationals 2018,Dublin,2018,mark comiskey,10/02/2018,14,1355
+Ian Benson,293,M-O,100,105,232.5,147.5,267.5,647.5,5,394.06,Nationals 2018,Dublin,2018,ian benson,10/02/2018,14,1356
+Graham Norton,282,M-O,102.2,105,232.5,150,265,647.5,6,390.74,Nationals 2018,Dublin,2018,graham norton,10/02/2018,14,1357
+Darragh Mulcahy,180,M-O,80.6,83,230,152.5,260,642.5,6,436.58,Nationals 2018,Dublin,2018,darragh mulcahy,10/02/2018,14,1358
+John Maher,354,M-O,82.8,83,230,140,272.5,642.5,7,429.48,Nationals 2018,Dublin,2018,john maher,10/02/2018,14,1359
+Billy Ahern,75,M-O,102.4,105,230,142.5,265,637.5,7,384.43,Nationals 2018,Dublin,2018,billy ahern,10/02/2018,14,1360
+Jason Fehily,329,M-O,137,120+,240,140,250,630,4,353.22,Nationals 2018,Dublin,2018,jason fehily,10/02/2018,14,1361
+David Twomey,201,M-O,101.4,105,230,155,240,625,8,378.3,Nationals 2018,Dublin,2018,david twomey,10/02/2018,14,1362
+Lorcan Everard,419,M-O,82.6,83,230,145,247.5,622.5,8,416.71,Nationals 2018,Dublin,2018,lorcan everard,10/02/2018,14,1363
+Luke Curran,432,M-O,99.6,105,230,130,242.5,602.5,9,367.27,Nationals 2018,Dublin,2018,luke curran,10/02/2018,14,1364
+Conor Devilly,145,M-O,72,74,205,145,240,590,1,432.89,Nationals 2018,Dublin,2018,conor devilly,10/02/2018,14,1365
+Philip Barr,527,M-O,71.8,74,216,145,222.5,583.5,2,429,Nationals 2018,Dublin,2018,philip barr,10/02/2018,14,1366
+Martin Reidy,453,M-O,72.4,74,190,117.5,265,572.5,3,418.34,Nationals 2018,Dublin,2018,martin reidy,10/02/2018,14,1367
+Lukasz Kalinski,430,M-O,73.2,74,190,120,237.5,547.5,4,396.9,Nationals 2018,Dublin,2018,lukasz kalinski,10/02/2018,14,1368
+Danny Lennon,174,M-O,74,74,190,122.5,227.5,540,5,388.43,Nationals 2018,Dublin,2018,danny lennon,10/02/2018,14,1369
+John O'Dwyer,355,M-O,134,120+,200,168,170,538,5,302.71,Nationals 2018,Dublin,2018,john o'dwyer,10/02/2018,14,1370
+Christopher Wilkinson,103,M-O,82.6,83,210,117.5,210,537.5,9,359.81,Nationals 2018,Dublin,2018,christopher wilkinson,10/02/2018,14,1371
+Dylan Potter,218,M-O,65.6,66,180.5,135,205,520.5,1,410.75,Nationals 2018,Dublin,2018,dylan potter,10/02/2018,14,1372
+Mohaned Abujennah,481,M-O,65.6,66,172.5,112.5,222.5,507.5,2,400.49,Nationals 2018,Dublin,2018,mohaned abujennah,10/02/2018,14,1373
+Ciaran Murray,118,M-O,65.2,66,172.5,95,200,467.5,3,370.8,Nationals 2018,Dublin,2018,ciaran murray,10/02/2018,14,1374
+Bronagh McPeake,80,F-O,65.6,72,173,87.5,200,460.5,1,479.85,Nationals 2018,Dublin,2018,bronagh mcpeake,10/02/2018,14,1375
+Alex Cremins,25,M-O,66,66,155,100,205,460,4,361.19,Nationals 2018,Dublin,2018,alex cremins,10/02/2018,14,1376
+Ewan Mullane,251,M-O,65.8,66,160,107.5,190,457.5,5,360.13,Nationals 2018,Dublin,2018,ewan mullane,10/02/2018,14,1377
+Louise Millar,426,F-O,72,72,170,103,167.5,440.5,2,429.95,Nationals 2018,Dublin,2018,louise millar,10/02/2018,14,1378
+Dermot O'Rourke,207,M-O,58.8,59,165,95,170,430,1,373.63,Nationals 2018,Dublin,2018,dermot o'rourke,10/02/2018,14,1379
+Lauren Rooney,402,F-O,123.6,84+,165,88,165,418,1,332.51,Nationals 2018,Dublin,2018,lauren rooney,10/02/2018,14,1380
+Shannon Pollock,598,F-O,71.6,72,155,80,177.5,412.5,3,404.12,Nationals 2018,Dublin,2018,shannon pollock,10/02/2018,14,1381
+Stephanie Gleeson,615,F-O,71.8,72,147.5,95,170,412.5,4,403.36,Nationals 2018,Dublin,2018,stephanie gleeson,10/02/2018,14,1382
+Teanna Watts,640,F-O,78.8,84,160,85,167.5,412.5,1,380.68,Nationals 2018,Dublin,2018,teanna watts,10/02/2018,14,1383
+Clare Patterson,129,F-O,71,72,147.5,105,157.5,410,5,403.95,Nationals 2018,Dublin,2018,clare patterson,10/02/2018,14,1384
+Jonathan Connolly,359,M-O,58.8,59,130,110,160,400,2,347.57,Nationals 2018,Dublin,2018,jonathan connolly,10/02/2018,14,1385
+Gabrielle Ervine,261,F-O,62.4,63,142.5,87.5,160,390,1,421.9,Nationals 2018,Dublin,2018,gabrielle ervine,10/02/2018,14,1386
+Helen Twomey,290,F-O,77,84,125,78,185,388,2,362.95,Nationals 2018,Dublin,2018,helen twomey,10/02/2018,14,1387
+Karen Barry,365,F-O,71,72,145,85.5,155,385.5,6,379.81,Nationals 2018,Dublin,2018,karen barry,10/02/2018,14,1388
+Sara Bauer,564,F-O,71.6,72,160,60,165,385,7,377.18,Nationals 2018,Dublin,2018,sara bauer,10/02/2018,14,1389
+Alison O'Reilly,31,F-O,78.6,84,140,82.5,157.5,380,3,351.2,Nationals 2018,Dublin,2018,alison o'reilly,10/02/2018,14,1390
+Ava Horrigan,63,F-O,68.2,72,140,62.5,175,377.5,8,382.46,Nationals 2018,Dublin,2018,ava horrigan,10/02/2018,14,1391
+Moataz Abujennah,480,M-O,58.4,59,140,82.5,155,377.5,3,330.12,Nationals 2018,Dublin,2018,moataz abujennah,10/02/2018,14,1392
+Emma Kiely,235,F-O,83.6,84,130,62.5,175,367.5,4,328.5,Nationals 2018,Dublin,2018,emma kiely,10/02/2018,14,1393
+Sarah Gardiner,568,F-O,97.2,84+,140.5,75.5,150,366,2,307.4,Nationals 2018,Dublin,2018,sarah gardiner,10/02/2018,14,1394
+Aoife O'Leary,56,F-O,84,84,150,55,160,365,5,325.49,Nationals 2018,Dublin,2018,aoife o'leary,10/02/2018,14,1395
+Caolan McGlade,86,M-O,58.8,59,137.5,87.5,137.5,362.5,4,314.98,Nationals 2018,Dublin,2018,caolan mcglade,10/02/2018,14,1396
+Donna Ivie,213,F-O,108.4,84+,145,70,145,360,3,293.63,Nationals 2018,Dublin,2018,donna ivie,10/02/2018,14,1397
+Chloe-Jade McDonald,97,F-O,55.2,57,122.5,67.5,163,353,1,420.05,Nationals 2018,Dublin,2018,chloe-jade mcdonald,10/02/2018,14,1398
+Anna Hourihane,52,F-O,53,57,124,75.5,152.5,352,2,432.38,Nationals 2018,Dublin,2018,anna hourihane,10/02/2018,14,1399
+Freya Hammer,260,F-O,77.2,84,130,81,140,351,6,327.83,Nationals 2018,Dublin,2018,freya hammer,10/02/2018,14,1400
+Hazel Hu,288,F-O,51.4,52,127.5,78,145,350.5,1,440.87,Nationals 2018,Dublin,2018,hazel hu,10/02/2018,14,1401
+Linh Nguyen,416,F-O,62.6,63,135,65,142.5,342.5,2,369.61,Nationals 2018,Dublin,2018,linh nguyen,10/02/2018,14,1402
+Geina McGrath,273,F-O,56.2,57,117.5,67.5,152.5,337.5,3,396,Nationals 2018,Dublin,2018,geina mcgrath,10/02/2018,14,1403
+Niamh Doyle,489,F-O,82,84,135,62.5,140,337.5,7,304.71,Nationals 2018,Dublin,2018,niamh doyle,10/02/2018,14,1404
+Sarah Daly,565,F-O,87.6,84+,122.5,62.5,152.5,337.5,4,295.04,Nationals 2018,Dublin,2018,sarah daly,10/02/2018,14,1405
+Aoife O'Sullivan,57,F-O,62.2,63,122.5,65,145,332.5,3,360.57,Nationals 2018,Dublin,2018,aoife o'sullivan,10/02/2018,14,1406
+Hannah McKee,286,F-O,134,84+,100,80,152.5,332.5,5,260.66,Nationals 2018,Dublin,2018,hannah mckee,10/02/2018,14,1407
+Medb Murtagh,461,F-O,55.2,57,123,67.5,140,330.5,4,393.28,Nationals 2018,Dublin,2018,medb murtagh,10/02/2018,14,1408
+Janine Martin,326,F-O,48.8,52,100,77.5,145,322.5,2,421.93,Nationals 2018,Dublin,2018,janine martin,10/02/2018,14,1409
+Aeilish McGovern,10,F-O,56.2,57,112.5,60,145,317.5,5,372.53,Nationals 2018,Dublin,2018,aeilish mcgovern,10/02/2018,14,1410
+Amy Nolan,37,F-O,60.2,63,102.5,67.5,147.5,317.5,4,353.07,Nationals 2018,Dublin,2018,amy nolan,10/02/2018,14,1411
+Emily Walsh,233,F-O,55.2,57,115,65,135,315,6,374.83,Nationals 2018,Dublin,2018,emily walsh,10/02/2018,14,1412
+Grace Kelly,280,F-O,59.6,63,100,62.5,150,312.5,5,350.21,Nationals 2018,Dublin,2018,grace kelly,10/02/2018,14,1413
+Sarah Scallan,572,F-O,56.8,57,100,65,135,300,7,349.08,Nationals 2018,Dublin,2018,sarah scallan,10/02/2018,14,1414
+Lota Leinberga,423,F-O,56.4,57,112.5,60,125,297.5,8,348.09,Nationals 2018,Dublin,2018,lota leinberga,10/02/2018,14,1415
+Kotchaphan Mai-On,393,F-O,46.6,47,80.5,60,120.5,261,1,353.18,Nationals 2018,Dublin,2018,kotchaphan mai-on,10/02/2018,14,1416
+Ainul Fatihah Mohd Sharir,16,F-O,50.2,52,82.5,52.5,125,260,3,333,Nationals 2018,Dublin,2018,ainul fatihah mohd sharir,10/02/2018,14,1417
+Aisling McManus,20,F-O,46.8,47,90,47.5,95,232.5,2,313.65,Nationals 2018,Dublin,2018,aisling mcmanus,10/02/2018,14,1418
+Clodagh Cecil,131,F-O,99.2,84+,140,,145,,DQ,,Nationals 2018,Dublin,2018,clodagh cecil,10/02/2018,14,1420
+Donal O'Brien,210,M-O,113.6,120,235,,,,DQ,,Nationals 2018,Dublin,2018,donal o'brien,10/02/2018,14,1419
+Daniel McHugh,169,M-O,100.6,105,230,140,250,620,1,376.43,March Open 2018,Sligo,2018,daniel mchugh,10/03/2018,24,1468
+Kevin Plamadeala,386,M-O,92.2,93,220,152.5,245,617.5,1,389.52,March Open 2018,Sligo,2018,kevin plamadeala,10/03/2018,24,1458
+Jonny Gardner,361,M-O,87.2,93,210,150,250,610,2,395.94,March Open 2018,Sligo,2018,jonny gardner,10/03/2018,24,1459
+Andrew McCartney,46,M-O,102.2,105,227.5,132.5,237.5,597.5,2,360.57,March Open 2018,Sligo,2018,andrew mccartney,10/03/2018,24,1469
+Daniel Mcalpaca,167,M-O,101.8,105,205,125,260,590,3,356.57,March Open 2018,Sligo,2018,daniel mcalpaca,10/03/2018,24,1470
+Conor Kennedy,150,M-O,91,93,217.5,132.5,237.5,587.5,3,372.98,March Open 2018,Sligo,2018,conor kennedy,10/03/2018,24,1460
+Pearse Tohill,524,M-O,91.2,93,205,107.5,272.5,585,4,370.99,March Open 2018,Sligo,2018,pearse tohill,10/03/2018,24,1461
+Richard Maher,541,M-O,87.8,93,190,122.5,240,552.5,5,357.29,March Open 2018,Sligo,2018,richard maher,10/03/2018,24,1462
+Ryan Finlay,554,M-O,70.6,74,202.5,127.5,217.5,547.5,1,407.64,March Open 2018,Sligo,2018,ryan finlay,10/03/2018,24,1442
+Liam Cannon,410,M-O,81.6,83,207.5,125,210,542.5,1,365.84,March Open 2018,Sligo,2018,liam cannon,10/03/2018,24,1448
+Andrew Roe,48,M-O,78.2,83,215,120,205,540,2,374.08,March Open 2018,Sligo,2018,andrew roe,10/03/2018,24,1449
+William Kennedy,668,M-O,92.8,93,205,110,215,530,6,333.28,March Open 2018,Sligo,2018,william kennedy,10/03/2018,24,1463
+Keith Richardson,380,M-O,96.2,105,200,120,205,525,4,324.74,March Open 2018,Sligo,2018,keith richardson,10/03/2018,24,1471
+Andrew Strickland,49,M-O,92.2,93,187.5,107.5,225,520,7,328.01,March Open 2018,Sligo,2018,andrew strickland,10/03/2018,24,1464
+Paul Hennessy,510,M-O,90.2,93,180,122.5,212.5,515,8,328.4,March Open 2018,Sligo,2018,paul hennessy,10/03/2018,24,1465
+Michael Corcoran,466,M-O,94.6,105,190,105,215,510,5,317.84,March Open 2018,Sligo,2018,michael corcoran,10/03/2018,24,1472
+Darragh Hanratty,177,M-O,81.8,83,185,112.5,205,502.5,3,338.36,March Open 2018,Sligo,2018,darragh hanratty,10/03/2018,24,1450
+Ryan Lee,557,M-O,72.4,74,172.5,107.5,215,495,2,361.71,March Open 2018,Sligo,2018,ryan lee,10/03/2018,24,1443
+Brian McIntyre,78,M-O,84.4,93,175,102.5,215,492.5,9,325.55,March Open 2018,Sligo,2018,brian mcintyre,10/03/2018,24,1466
+Ryan Gorevan,556,M-O,94.8,105,190,102.5,190,482.5,6,300.42,March Open 2018,Sligo,2018,ryan gorevan,10/03/2018,24,1473
+Andrew Blackwood,42,M-O,82,83,180,100,200,480,4,322.73,March Open 2018,Sligo,2018,andrew blackwood,10/03/2018,24,1451
+Aindriu Jenkinson,14,M-O,81.6,83,170,90,217.5,477.5,5,322.01,March Open 2018,Sligo,2018,aindriu jenkinson,10/03/2018,24,1452
+Conor Markey,151,M-O,113,120,185,87.5,200,472.5,1,275.87,March Open 2018,Sligo,2018,conor markey,10/03/2018,24,1475
+Eoin Healy,237,M-O,81.6,83,165,105,190,460,6,310.21,March Open 2018,Sligo,2018,eoin healy,10/03/2018,24,1453
+Patrick Clancy,507,M-O,99,105,177.5,100,180,457.5,7,279.56,March Open 2018,Sligo,2018,patrick clancy,10/03/2018,24,1474
+Cathal McLoughlin,92,M-O,90.8,93,150,112.5,182.5,445,10,282.82,March Open 2018,Sligo,2018,cathal mcloughlin,10/03/2018,24,1467
+Kevin Campbell,383,M-O,72.4,74,145,102.5,180,427.5,3,312.39,March Open 2018,Sligo,2018,kevin campbell,10/03/2018,24,1444
+Shane Halligan,593,M-O,83,83,150,100,175,425,7,283.69,March Open 2018,Sligo,2018,shane halligan,10/03/2018,24,1454
+Aaron Figuera,1,M-O,82.4,83,150,100,170,420,8,281.57,March Open 2018,Sligo,2018,aaron figuera,10/03/2018,24,1455
+Cian O'Shea,110,M-O,81.8,83,145,87.5,185,417.5,9,281.13,March Open 2018,Sligo,2018,cian o'shea,10/03/2018,24,1456
+James Kelly,318,M-O,72.8,74,155,82.5,177.5,415,4,302.04,March Open 2018,Sligo,2018,james kelly,10/03/2018,24,1445
+Conor Boyle,143,M-O,81.6,83,152.5,92.5,170,415,10,279.86,March Open 2018,Sligo,2018,conor boyle,10/03/2018,24,1457
+Craig McDermott,160,M-O,73.2,74,142.5,90,180,412.5,5,299.03,March Open 2018,Sligo,2018,craig mcdermott,10/03/2018,24,1446
+Aisling Judge,18,F-O,76,84,135,75,180,390,1,367.72,March Open 2018,Sligo,2018,aisling judge,10/03/2018,24,1434
+Levi Keavney,409,M-O,66.6,74,125,95,160,380,6,296.18,March Open 2018,Sligo,2018,levi keavney,10/03/2018,24,1447
+Maeve Cummins,434,F-O,69.6,72,120,62.5,177.5,360,1,359.57,March Open 2018,Sligo,2018,maeve cummins,10/03/2018,24,1425
+Lindsey McManus,415,F-O,101.8,84+,135,70,152.5,357.5,1,296.15,March Open 2018,Sligo,2018,lindsey mcmanus,10/03/2018,24,1438
+Aoife O'Sullivan,57,F-O,62.2,63,122.5,65,165,352.5,1,382.26,March Open 2018,Sligo,2018,aoife o'sullivan,10/03/2018,24,1423
+Susan McDonald,630,F-O,103.8,84+,115,85,135,335,2,276.08,March Open 2018,Sligo,2018,susan mcdonald,10/03/2018,24,1439
+Natalie Lyness,484,F-O,88.4,84+,115,70,145,330,3,287.33,March Open 2018,Sligo,2018,natalie lyness,10/03/2018,24,1440
+Rebekah Wilson,537,F-O,80,84,122.5,45,150,317.5,2,290.52,March Open 2018,Sligo,2018,rebekah wilson,10/03/2018,24,1435
+Karina Callinan,369,F-O,62,63,107.5,52.5,147.5,307.5,2,334.28,March Open 2018,Sligo,2018,karina callinan,10/03/2018,24,1424
+Lucille Rowan,428,F-O,70.8,72,107.5,45,135,287.5,2,283.8,March Open 2018,Sligo,2018,lucille rowan,10/03/2018,24,1426
+Jennifer Geary,335,F-O,68.4,72,110,50,125,285,3,288.15,March Open 2018,Sligo,2018,jennifer geary,10/03/2018,24,1427
+Corrina McConnell,158,F-O,70.2,72,90,61,125,276,4,274.04,March Open 2018,Sligo,2018,corrina mcconnell,10/03/2018,24,1428
+Anna Marie O'Donoghue,53,F-O,69.4,72,95,50,127.5,272.5,5,272.72,March Open 2018,Sligo,2018,anna marie o'donoghue,10/03/2018,24,1429
+Donna Flaherty,212,F-O,70.6,72,95,57.5,120,272.5,6,269.51,March Open 2018,Sligo,2018,donna flaherty,10/03/2018,24,1430
+Hannah Stephenson,287,F-O,71.6,72,102.5,52.5,112.5,267.5,7,262.06,March Open 2018,Sligo,2018,hannah stephenson,10/03/2018,23,1431
+Gemma Davey,274,F-O,55.2,57,87.5,50,115,252.5,1,300.46,March Open 2018,Sligo,2018,gemma davey,10/03/2018,23,1421
+Clodagh Greene,132,F-O,66.6,72,90,40,110,240,8,247.33,March Open 2018,Sligo,2018,clodagh greene,10/03/2018,23,1432
+Stephanie McTiernan,616,F-O,91.6,84+,65,52.5,110,227.5,4,195.18,March Open 2018,Sligo,2018,stephanie mctiernan,10/03/2018,23,1441
+Mary Looby,456,F-O,54,57,67.5,37.5,100,205,2,248.17,March Open 2018,Sligo,2018,mary looby,10/03/2018,23,1422
+Clodagh Higgins,133,F-O,82.6,84,50,65,85,200,3,179.88,March Open 2018,Sligo,2018,clodagh higgins,10/03/2018,23,1436
+Ailbhe O'Daly,12,F-O,71.8,72,,62.5,137.5,,DQ,,March Open 2018,Sligo,2018,ailbhe o'daly,10/03/2018,23,1433
+Jenna McDonagh,334,F-O,78.2,84,82.5,,117.5,,DQ,,March Open 2018,Sligo,2018,jenna mcdonagh,10/03/2018,23,1437

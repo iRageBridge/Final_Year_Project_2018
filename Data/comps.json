@@ -1,0 +1,172 @@
+{
+"comps":[
+      {
+        "comp": "1st University Powerlifting World Cup 2016",
+        "location": "Minsk",
+        "year": 2016,
+        "date": "11/07/2016",
+        "compId": 1
+      },
+      {
+        "comp": "5th World Classic Championships 2017",
+        "location": "Minsk",
+        "year": 2017,
+        "date": "15/06/2017",
+        "compId": 2
+      },
+      {
+        "comp": "ABS Club Championship 2016",
+        "location": "Dublin",
+        "year": 2016,
+        "date": "02/04/2016",
+        "compId": 3
+      },
+      {
+        "comp": "Athlone Open",
+        "location": "Athlone",
+        "year": 2016,
+        "date": "03/09/2016",
+        "compId": 4
+      },
+      {
+        "comp": "Boyneside Regional Championships",
+        "location": "Drogheda",
+        "year": 2016,
+        "date": "19/06/2016",
+        "compId": 5
+      },
+      {
+        "comp": "December Last Chance Open 2017",
+        "location": "Limerick",
+        "year": 2017,
+        "date": "10/12/2017",
+        "compId": 6
+      },
+      {
+        "comp": "European Classic Championships 2017",
+        "location": "Thisted",
+        "year": 2017,
+        "date": "12/03/2017",
+        "compId": 7
+      },
+      {
+        "comp": "Inaugural Comp",
+        "location": "Belfast",
+        "year": 2015,
+        "date": "30/05/2015",
+        "compId": 8
+      },
+      {
+        "comp": "IPF-NIPF All Irelands 2016",
+        "location": "Belfast",
+        "year": 2016,
+        "date": "26/11/2016",
+        "compId": 9
+      },
+      {
+        "comp": "Leinster Open 2017",
+        "location": "Dublin",
+        "year": 2017,
+        "date": "21/01/2017",
+        "compId": 10
+      },
+      {
+        "comp": "May Open 2017",
+        "location": "Limerick",
+        "year": 2017,
+        "date": "27/05/2017",
+        "compId": 11
+      },
+      {
+        "comp": "Munster Open 2017",
+        "location": "Limerick",
+        "year": 2017,
+        "date": "04/02/2017",
+        "compId": 12
+      },
+      {
+        "comp": "National Championships 2016",
+        "location": "Limerick",
+        "year": 2016,
+        "date": "27/02/2016",
+        "compId": 13
+      },
+      {
+        "comp": "National Championships 2017",
+        "location": "Belfast",
+        "year": 2017,
+        "date": "29/07/2017",
+        "compId": 14
+      },
+      {
+        "comp": "Nationals 2018",
+        "location": "Dublin",
+        "year": 2018,
+        "date": "10/02/2018",
+        "compId": 15
+      },
+      {
+        "comp": "November Open 2017",
+        "location": "Dublin",
+        "year": 2017,
+        "date": "04/11/2017",
+        "compId": 16
+      },
+      {
+        "comp": "Novice Open 2016",
+        "location": "Dublin",
+        "year": 2016,
+        "date": "23/01/2016",
+        "compId": 17
+      },
+      {
+        "comp": "October Open 2017",
+        "location": "Limerick",
+        "year": 2017,
+        "date": "07/10/2017",
+        "compId": 18
+      },
+      {
+        "comp": "Open Championships",
+        "location": "Dublin",
+        "year": 2015,
+        "date": "08/08/2015",
+        "compId": 19
+      },
+      {
+        "comp": "RevFit Bench and Deadlift",
+        "location": "Dublin",
+        "year": 2016,
+        "date": "09/10/2016",
+        "compId": 20
+      },
+      {
+        "comp": "RevFit Open",
+        "location": "Dublin",
+        "year": 2016,
+        "date": "08/10/2016",
+        "compId": 21
+      },
+      {
+        "comp": "September Open 2017",
+        "location": "Dublin",
+        "year": 2017,
+        "date": "02/09/2017",
+        "compId": 22
+      },
+      {
+        "comp": "University Championships 2017",
+        "location": "Cork",
+        "year": 2017,
+        "date": "25/03/2017",
+        "compId": 23
+      },
+      {
+        "comp": "March Open 2018",
+        "location": "Sligo",
+        "year": 2018,
+        "date": "10/03/2018",
+        "compId": 25  
+      }
+    ]
+}
